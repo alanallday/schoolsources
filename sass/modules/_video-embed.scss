@@ -1,0 +1,35 @@
+.block.video_embed {
+	.video-container {
+		@include text-container();
+	}
+
+	h2,	.star {
+		display: inline-block;
+		vertical-align:middle;
+		margin-bottom:0;
+	}
+
+	.star {
+		margin-top: 1em;
+		margin-bottom: 1em;
+		display: block;
+	}
+
+	@include bp('medium') {
+
+		.star {
+			display: inline-block;
+		}
+		.star.left {
+			margin-right: 1em;
+		}
+		.star.right {
+			margin-left: 1em;
+		}
+	}
+
+	header {
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+}

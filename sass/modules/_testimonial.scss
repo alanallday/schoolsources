@@ -1,0 +1,156 @@
+
+@mixin defineTestimonialColor($color1,$color2) {
+	background:$color2;
+	color:$color1;
+
+	svg #Star{
+		fill:$color1 !important;
+	}
+
+	.circle-thumb .profile-pic .picture{
+		border: 1px solid $color1 !important;
+	}
+
+	span.circles .circle{
+		border: 1px solid $color1 !important;
+	}
+
+	.profile-pic {
+		border: 1px solid $color1 !important;
+	}
+
+	p {
+		border-bottom: 1px solid rgba($color1,0.2);
+	}
+
+}
+
+.testimonial-container.block {
+	margin: 0 !important;
+}
+.block.testimonial {
+	margin: 0 !important;
+
+	.testimonial-inner {
+		padding: 1.5em 1em;
+
+		@include bp('medium') {
+			padding: 2em;
+		}
+
+		@include bp('large') {
+			padding: 3em;
+		}
+	}
+
+	figure {
+		margin-bottom: 1em;
+
+		@include bp('medium') {
+			margin-bottom: 2em;
+		}
+
+		@include bp('large') {
+			margin-bottom: 3em;
+		}
+	}
+
+	.pic {
+		width: 50%;
+		max-width: 250px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.profile-image {
+		width: 100%;
+	}
+
+	.stars {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.stars.left {
+		margin-right: 1em;
+		@include bp('small') {
+			margin-right: 1.5em;
+		}
+	}
+
+	.stars.right {
+		margin-left: 1em;
+		@include bp('small') {
+			margin-left: 1.5em;
+		}
+	}
+
+	figure {
+		text-align:center;
+	}
+
+	p {
+		position:relative;
+		padding-bottom:0.3rem;
+		margin-bottom:2em;
+	}
+
+	p[data-section="bio"]:after {
+		content: 'Name, Age, Location';
+	}
+
+	p[data-section="title"]:after {
+		content: 'Occupation';
+	}
+
+	p[data-section="class"]:after {
+		content: 'Favourite Class';
+	}
+
+	p[data-section="testimonial"]:after {
+		content: 'Testimonial';
+	}
+	p:after {
+	    display: block;
+	    position: absolute;
+	    top: 100%;
+	    text-transform: uppercase;
+	    @extend p.small;
+	    font-size: 0.5em;
+	    font-weight:bold;
+    	margin-top: 0.3rem;
+	}
+}
+
+.block.testimonial-container {
+	@include row();
+
+	.block{
+		@include colXS(12);
+		@include colM(6);
+
+		&:nth-child(4n+1){
+			@include defineTestimonialColor($darkred,$pink);
+		}
+
+		&:nth-child(4n+2){
+			@include defineTestimonialColor($pink,$darkred);
+		}
+		&:nth-child(4n+3){
+			@include defineTestimonialColor($camel,$darkblue);
+		}
+
+		&:nth-child(4n+4){
+			@include defineTestimonialColor($darkblue,$camel);
+		}
+		// &:nth-child(5n){
+		// 	@include defineTestimonialColor($lightblue,$orange);
+		// }
+		
+		// &:nth-child(6n){
+		// 	@include defineTestimonialColor($orange,$lightblue);
+		// }
+	}
+
+
+}	

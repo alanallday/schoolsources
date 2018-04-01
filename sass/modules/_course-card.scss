@@ -1,0 +1,87 @@
+.course-card {
+	@include colXS(12);
+	@include colM(6);
+	@include colLG(4);
+	position:relative;
+	margin-bottom: 2em;
+
+	&.design {
+		.inner-container {
+			background: $lightgreen;
+		}
+	}
+
+	&.finance {
+		.inner-container {
+			background: $lightpink;
+		}
+	}
+
+	&.entrepreneurship {
+		.inner-container {
+			background: $lightyellow;
+		}
+	}
+
+	&.creativity {
+		.inner-container {
+			background: $lightblue;
+		}
+	}
+
+	@include bp('medium') {
+		margin-bottom: 3em;
+	}
+
+	.inner-container {
+		border: 1px solid black;
+		background: white;
+		@include transition(all 0.3s ease-in-out);
+
+		&:hover {
+			// @include transform(translate3d(0,-0.2em,0));
+	    	-webkit-box-shadow: 3px 4px 28px 5px rgba(0,0,0,0.1);
+			-moz-box-shadow: 3px 4px 28px 5px rgba(0,0,0,0.1);
+			box-shadow: 3px 4px 28px 5px rgba(0,0,0,0.1);
+		}
+	}
+
+	.header {
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+	}
+
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	.author {
+		padding-bottom: 1.5em;
+		display: block; 
+	}
+	.category {
+	    padding-bottom: 1.5em;
+	    display: block;
+	    padding-top: 1.5em;
+	}
+
+	.image-container {
+		border-top:1px solid black;
+	}
+
+	.price-container {
+		@extend p;
+		border: 1px solid black;
+		position:absolute;
+		padding: 0.5em;
+		top:0.8rem;
+		right: 2rem;
+		font-size: 1.2em;
+	}
+}
+
+.course-card-container {
+	@include row();
+	@include max-container();
+}

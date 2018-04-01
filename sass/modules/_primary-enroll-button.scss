@@ -1,0 +1,42 @@
+#pricing-options {
+	padding-top: 2rem;
+}
+.block.checkout {
+	text-align: center;
+
+	.cta-container {
+		text-align:center;
+	}
+
+	h2 {
+		vertical-align: middle;
+		padding-bottom:0;
+	}
+
+	.star {
+		margin-top: 1.5em;
+		margin-bottom: 1.5em;
+		display: inline-block;
+		position:relative;
+	}
+
+	@include bp('medium') {
+		.star.left {
+			margin-right: 2em;
+		}
+		.star.right {
+			margin-left: 2em;
+		}
+	}
+
+	.star{
+		vertical-align: middle;
+		width: 24px;
+		height: auto;
+
+		@include bp('medium') {
+			width: 32px;
+			height: auto;
+		}
+	}
+}

@@ -1,0 +1,142 @@
+@mixin instructor() {
+	.block.instructor {
+		background: $lightgreen;
+		color: $black;
+	}
+}
+
+@mixin pageHeader($primary,$secondary) {
+	.page-header{
+		color: $primary;
+		background: $secondary;
+
+		svg polygon {
+			fill: $primary;
+		}
+		
+		.directory {
+			border: 1px solid $primary;
+			label {
+				border: 1px solid $primary;
+			}
+
+			.row .thumb .profile-pic {
+				border-color: rgba(0,0,0,0) !important;
+			}
+
+			.circle, .picture{
+				border-color:$primary !important;
+			}
+		}
+	}
+}
+
+@mixin globalHeader($primary, $secondary) {
+	nav.global {
+			background: $secondary !important;
+			color: $primary !important;
+
+		.right {
+			border-color: $primary !important;
+		}
+		.dropdown-menu {
+			background: $secondary !important;
+			border-color: $primary !important;
+		}
+		svg {
+			polygon,path {
+				fill: $primary !important;
+			}
+		}
+		.btn-primary {
+			background: $primary !important;
+			color: $secondary !important;
+			border-color: $primary !important;
+		}
+
+		.btn-secondary {
+			color: $primary !important;
+			border-color: $primary !important;
+		}
+	}
+}
+
+@mixin homeHeader($primary,$secondary)  {
+	.home-top-container {
+		color: $primary;
+		background: $secondary;
+		.box-with-border {
+			border: 1px solid $primary;
+		}
+		.btn-secondary {
+			border-color: $primary;
+		}		
+	}
+}
+@mixin courseHeader() {
+	.course-block.hero {
+		background: $lightgreen;
+		.spacer {
+			background: $lightgreen;
+		}
+		.header {
+			color: $black;
+		}
+		.value-props {
+			background: $black;
+			color: $lightgreen;
+		}
+
+		.video-container {
+		  border: 5px solid black;  
+		}
+		.value-props {
+			.videos-text-container {
+				border: 1px solid $lightgreen;
+			}
+
+			.learning-text-container {
+				background: $lightgreen;
+				color: $black;
+			}
+
+			.rectangle {
+				border: 1px solid $lightgreen;
+			}
+
+			h2.punchout {
+				color: $lightgreen;
+			}
+		}
+	}
+}
+@include courseHeader();
+@include instructor();
+
+.standard-page {
+	@include globalHeader($darkred,$lightblue);	
+	@include pageHeader($darkred,$lightblue);
+}
+
+.course-page {
+	@include globalHeader($black,$lightgreen);
+}
+
+.all-courses {
+	@include globalHeader(black,white);	
+	@include pageHeader(black,white);
+}
+.home-page {
+	@include globalHeader($darkred,$lightblue);
+	@include homeHeader($darkred,$lightblue);
+}
+
+.standard-page {
+	@include globalHeader($darkred,$lightblue);
+	@include homeHeader($darkred,$lightblue);	
+}
+
+.blog-page {
+	@include globalHeader(black,$lightblue);
+	@include pageHeader(black,$lightblue);
+}

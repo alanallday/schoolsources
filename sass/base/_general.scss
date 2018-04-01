@@ -1,0 +1,56 @@
+html,body {
+	width:100%;
+	font-family: 'Alte Haas Grotesk', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size:14px;
+	line-height:1.4em;
+	overflow-x:hidden;
+}
+
+::-moz-selection { background: $darkred; color: $lightblue; }
+::selection { background: $darkred; color: $lightblue; }
+
+* {
+	box-sizing: border-box;
+}
+img {
+	width: 100%;
+    display: block;
+}
+
+.block {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	z-index:10;
+	background: white;
+	@include bp('medium') {
+		margin-top: 4em;
+		margin-bottom: 4em;	
+	}
+	@include bp('large') {
+		margin-top: 6em;
+		margin-bottom: 6em;		
+	}
+}
+
+@include bp('medium') {
+	html,body {
+		font-size: 15px;
+	}
+}
+
+@include bp('large') {
+	html,body {
+		font-size: 16px;
+	}
+}
+
+.hidden {
+	display: none!important;
+    visibility: hidden!important;
+}
+@keyframes blinking {
+	// 0% {color: $darkred; text-shadow: none;}
+	100% {visibility: hidden;}
+}

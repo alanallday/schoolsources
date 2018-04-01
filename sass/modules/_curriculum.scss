@@ -1,0 +1,81 @@
+.block.curriculum {
+
+	.collapse {
+		display:none;
+
+		&.in {
+			display: block;
+		}
+	}
+	.lecture-start {
+		opacity: 0.1;
+	}
+	.course-section {
+		@include text-container();
+	}
+
+	ul li {
+		list-style: none;
+	}
+
+	a {
+		text-decoration:none;
+		color: inherit;
+		font-weight: normal;
+	}
+
+	.section-title {
+		background: black;
+		color: white;
+	    padding: 0.5em 1.5em;		
+	    text-transform:uppercase;
+	}
+
+	p {
+		font-size: 1em;
+
+		@include bp('small') {
+			font-size:1.25em;
+		}
+	}
+
+	.title {
+		padding-right: 10rem;
+	}
+
+	.time {
+		@extend p.small;
+		font-size: 0.6em;
+		padding-right:0.3em;
+	}
+
+	.right {
+	    display: inline-block;
+	    position: absolute;
+	    right: 1.2em;
+	    top: 50%;
+	    @include transform(translate3d(0,-50%,0));
+	}
+
+	ul {
+		width: 100%;
+		text-indent: 0;
+		margin-bottom:1em;
+		@include bp('medium') {
+			margin-bottom:2em;
+		}
+	}
+
+	li {
+		border: 1px solid black;
+		position: relative;
+		margin:0;
+		border-top: none;
+   		padding: 0.8em 1.2em;	
+   		@include transition(background,0.3s,ease-in-out);
+ 		background: none;
+   		&:hover {
+   			background:rgba(0,0,0,0.05);
+   		}
+	}
+}

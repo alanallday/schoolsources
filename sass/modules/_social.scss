@@ -1,0 +1,80 @@
+.socialmediaCTA {
+	text-align:center;
+	background: black;
+	padding: 3em 0;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	color: white;
+	h2.punchout {
+		font-size:4em;
+	}
+
+	// span.rectangles {
+	//     position: absolute;
+	//     height: 100%;
+	//     width: 100%;
+	//     top: 0;
+	//     left: 0;
+	// 	z-index:2;
+
+	// 	.rectangle-container:nth-child(1) {
+	// 		width: 95%;
+	// 		height: 95%;
+	// 		left:2.5%;
+	// 		top:2.5%;
+	// 		position:absolute;
+	// 	}
+
+	// 	.rectangle-container:nth-child(2) {
+	// 		width: 90%;
+	// 		height: 90%;
+	// 		left:5%;
+	// 		top:5%;
+	// 		position:absolute;
+	// 	}
+
+	// 	.rectangle-container:nth-child(3) {
+	// 		width: 85%;
+	// 		height: 85%;
+	// 		left:7.5%;
+	// 		top:7.5%;
+	// 		position:absolute;
+	// 	}
+
+	// 	.rectangle {
+	// 		width: 100%;
+	// 		height: 100%;
+	// 		border: 1px solid $black;
+	// 	}
+	// }
+
+	.outer-container {
+		@include max-container();
+		position: relative;
+	}
+
+	.text {
+		width: 80%;
+		margin: 0 auto;
+		padding: 4em 0;
+		z-index:3;
+	    position: relative;
+	}
+
+	.icons {
+		li {
+			display: inline;
+			list-style: none;
+			font-size: 1.5em;
+			margin: 0 0.5em;
+		}
+		a {
+			font-weight: normal;
+			@include transition(color 0.3s ease-in-out);
+
+			&:hover {
+				color: $darkred;
+			}
+		}
+	}
+}

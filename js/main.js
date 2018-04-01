@@ -1,0 +1,349 @@
+
+var loaded = false;
+
+ $(window).on('load', function () {
+	if (loaded == false) {
+		$('body').addClass('loaded');
+		loaded = true;
+	}
+});
+
+$(document).ready(function() {
+	$('.rich-text blockquote').addClass('stretched');
+	$(window).resize(function(){
+		sizeStretchedText();
+		featuredCoursesBlock();
+		courseHeader();
+	});
+	twoUp();
+	sizeStretchedText();
+	imageModule();
+	testimonialBlock();
+	couponCode();
+	featuredCoursesBlock();
+	courseHeader();
+	pageHeader();
+	alumniPage();
+	globalNav();
+	animateLines();
+	initSkrollr();
+
+	setTimeout(function() {
+		if (loaded == false) {
+			$('body').addClass('loaded');
+			loaded = true;
+		}
+	},2500);
+});
+
+function globalNav() {
+	$('nav.global .menu').click(function(){
+		$('nav.global').toggleClass('open');
+	});
+}
+function sizeStretchedText() {
+	$('.stretched').each(function() {
+		var padding = $(this).height()/4;
+		$(this).css({
+		'margin-top' : padding,
+		'margin-bottom' : padding
+		});
+	});
+};
+
+function twoUp() {
+	$('.two-up').wrapAll('<div class="row"/>');
+	$('.two-up').parent().parent().css({
+		'margin' : 0
+	});
+	$( ".two-up a" ).wrapInner( "<div class='btn-secondary'></div>");
+}
+function imageModule() {
+	$('.image-module').each(function() {
+		$(this).find('img').wrap( "<div class='image-container'></div>" );
+	});
+
+	$(".image-module img").each(function(){
+	    var $this = $(this);
+	    if ($this.width() > $this.height()) {
+	        $this.parent().parent().addClass("horizontal");
+	    }  else {
+	        $this.parent().parent().addClass("vertical");	    	
+	    }
+	});
+}
+
+function couponCode() {
+	$('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
+	$('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
+	$('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div2');
+	$('.coupon-marquee-container').width($('#div1').width());
+}
+function testimonialBlock() {
+	$( ".block.testimonial" ).wrapAll( "<div class='testimonial-container block' />");
+	$('.block.testimonial').each(function() {
+		var $name = $(this).find('p[data-section=bio]').html();
+		$name = $name.toString().split(',')[0];
+		var $URL = convertToSlug($name);
+		$(this).attr('id',$URL);
+	});
+}
+
+function initSkrollr() {
+	// $('.course-block.hero .video-container').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
+	// $('.course-block.hero .video-container').attr('data-0-bottom-top', 'transform: translate3d(0,-100%,0);');
+
+	$('.course-block.hero .videos').attr('data-0-top-bottom', 'transform: translate3d(0,50%,0);');
+	$('.course-block.hero .videos').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+
+	$('.course-block.hero .value-props').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
+	$('.course-block.hero .value-props').attr('data-0-bottom-top', 'transform: translate3d(0,30%,0);');
+
+	$('.course-block.hero .value-props .learning-text-container').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
+	$('.course-block.hero .value-props .learning-text-container').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+
+	$('.image-module.horizontal .text').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
+	$('.image-module.horizontal .text').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+
+	$('.image-module.horizontal .image-container').attr('data-0-top-bottom', 'transform: translate3d(0,-10%,0);');
+	$('.image-module.horizontal .image-container').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+
+	$('.instructor.block .pic').attr('data-0-top-bottom', 'transform: translate3d(0,-10%,0);');
+	$('.instructor.block .pic').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+
+	$('.blog-listing article:nth-child(4n+1) .text').attr('data-0-top-bottom', 'transform: translate3d(0,-15%,0);');
+	$('.blog-listing article:nth-child(4n+1) .text').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+
+	$('.blog-listing article:nth-child(4n+1) .img').attr('data-0-top-bottom', 'transform: translate3d(0,5%,0);');
+	$('.blog-listing article:nth-child(4n+1) .img').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+
+	// $('.article-header-container .img').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
+	// $('.article-header-container .img').attr('data-0-bottom-top', 'transform: translate3d(0,15%,0);');
+
+	$('.article-header-container .text').attr('data-0-top-bottom', 'transform: translate3d(0,0em,0);');
+	$('.article-header-container .text').attr('data-0-bottom-top', 'transform: translate3d(0,3em,0);');
+
+	// $('.block').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
+	// $('.block').attr('data-0-bottom-top', 'transform: translate3d(0,5%,0);');
+
+	// initialize skrollr if the window width is large enough
+	if ($(window).width() > 767) {
+		skrollr.init({forceHeight: false});
+	}
+	// disable skrollr if the window is resized below 768px wide
+	$(window).on('resize', function () {
+		if ($(window).width() <= 767) {
+		  skrollr.init().destroy(); // skrollr.init() returns the singleton created above
+		}
+	});
+}
+
+function courseHeader() {
+	if ($('.course-block.hero').length > 0) {
+		var $navHeight = $('nav.global').outerHeight();
+		var $headerHeight = $('.course-block.hero .header').outerHeight();
+		var $headerHeightInner = $('.course-block.hero .header').height();
+
+		$(window).on('scroll',function() {
+			var $headerHeight = $('.course-block.hero .header').outerHeight();
+			var $threshhold = $('.course-block.hero .value-props').offset().top + $('.course-block.hero .value-props').height(); 
+			console.log($(window).scrollTop() + $headerHeight);
+			console.log($threshhold);
+			if ($(window).scrollTop() + $headerHeight > $threshhold) {
+				$('.course-block.hero .header').hide();
+			} else {
+				$('.course-block.hero .header').show();
+
+			}
+	 	});
+		var $paddingBottom = $('.course-block.hero .video-container').height() / 2;
+		$paddingBottom = $paddingBottom + 'px';
+		// $('.course-block.hero .header').css({
+		// 	'padding-bottom' : $paddingBottom
+		// });
+		// $('.course-block.hero .value-props').css({
+		// 	'margin-top': '-' + $paddingBottom
+		// })
+
+		$('.course-block.hero .header').css({
+			'padding-top':  $navHeight
+		});
+
+		$('.course-block.hero .spacer').css({
+			'padding-top':  $headerHeightInner
+		});
+
+		$('.course-block.hero a').click(function(e) {
+			e.preventDefault();
+			var $link = $(this).attr('href');
+			$("html, body").animate({ scrollTop: $($link).offset().top - 100}, 1000);
+		});
+	}
+}
+
+function pageHeader() {
+	if ($('body').hasClass('standard-page')) {
+		$('.page-description').insertBefore ('.page-header .directory');
+	}
+}
+
+function alumniPage() {
+	if ($('body').hasClass('alumni-page')) {
+		var $testimonialPicArray = [];
+		var $testimonialNameArray = [];
+		var $testimonialURLArray = [];
+		var i = 0;
+		$('.testimonial.block').each(function(){
+			var $name = $(this).find('p[data-section=bio]').html();
+			$name = $name.toString().split(',')[0];
+			var $URL = convertToSlug($name);
+			$name = getInitials($name);
+			$name = $name.split('').join('.'); 
+			var $pic = $(this).find('.profile-pic img').attr('src');
+			$testimonialNameArray[i] = $name;
+			$testimonialPicArray[i] = $pic;
+			$testimonialURLArray[i] = $URL;
+			i++;
+		});
+		console.log($testimonialURLArray);
+		for ($i = 0; $i< $testimonialNameArray.length; $i++) {
+			var profilePic = '<div class="pic"><div class="circle-thumb"><span class="circles"><div class="circle-container"><div class="circle"></div></div><div class="circle-container"><div class="circle"></div></div><div class="circle-container"><div class="circle"></div></div></span><div class="profile-pic"><div class="picture-container"><div class="picture"><img src="' + $testimonialPicArray[$i] + '"/></div></div></div></div></div>';
+			var string = '<div class="thumb">'+ '<a href="#' + $testimonialURLArray[$i] + '">' + profilePic + '<div class="description">' + $testimonialNameArray[$i] + '</div>' + '</a></div>';
+			$('.page-header .directory .row').append(string);
+		}
+	}
+}
+
+function featuredCoursesBlock() {
+	var $counter = 0;
+	var $width = $('.block.featured-courses .page .sidebar').width();
+	var $transformFirstChild;
+	$('.all-courses footer#global .block.featured-courses').remove();
+	$('.block.featured-courses .page').each(function() {
+		var $transformValue = $width * $counter;
+		var $newTransformVal = $(this).width() - $transformValue - $width;
+		$(this).attr('transform-normal','-' + $transformValue);
+		$(this).attr('transform-shifted', $newTransformVal);
+
+		var $transformProperty= 'translate3d(-' + $transformValue + 'px,0,0)';
+		$(this).css({
+			'transform': $transformProperty,
+			'-webkit-transform': $transformProperty,
+			'-ms-transform' : $transformProperty		
+		});
+		$counter = $counter + 1;
+
+		$transformFirstChild = $transformValue/2 + 'px';
+	});
+
+	$('.block.featured-courses .page:nth-child(1)').addClass('active');
+
+	$('.block.featured-courses .page').on('click', function(){
+		if ($(this).hasClass('active') == false) {
+			$('.mouse-tooltip.active').removeClass('active');	
+			$('.block.featured-courses .page.active').removeClass('active');
+			$(this).addClass('active');
+			var $transformValue = $(this).attr('transform-normal');
+			var $transformProperty = 'translate3d(' + $transformValue + 'px,0,0)';
+			$(this).css({
+				'transform': $transformProperty,
+				'-webkit-transform': $transformProperty,
+				'-ms-transform' : $transformProperty,
+			});
+
+			$('.page.active').nextAll().each(function() {
+				var $transformValue = $(this).attr('transform-normal');
+				var $transformProperty = 'translate3d(' + $transformValue + 'px,0,0)';
+				$(this).css({
+					'transform': $transformProperty,
+					'-webkit-transform': $transformProperty,
+					'-ms-transform' : $transformProperty
+				});
+			});
+
+			$('.page.active').prevAll().each(function() {
+				var $transformValue = $(this).attr('transform-shifted');
+				var $transformProperty = 'translate3d(' + $transformValue + 'px,0,0)';
+				$(this).css({
+					'transform': $transformProperty,
+					'-webkit-transform': $transformProperty,
+					'-ms-transform' : $transformProperty
+				});
+			});
+		}
+	});
+
+	$('.block.featured-courses .page').on('mouseenter',function(e){
+		if ($(this).hasClass('active') == false) {
+			var nthSelector = $(this).index() + 1;
+			var toolTipSelector = '.mouse-tooltip:nth-child('+ nthSelector +')';
+			if ($(toolTipSelector).hasClass('active') == false) {
+				$(toolTipSelector).addClass('active');
+			}
+		}
+	});
+
+	$('.block.featured-courses .page').on('mouseleave',function(e){
+		if ($(this).hasClass('active') == false) {
+			var nthSelector = $(this).index() + 1;
+			var toolTipSelector = '.mouse-tooltip:nth-child('+ nthSelector +')';
+			$(toolTipSelector).removeClass('active');
+		}
+	});
+
+	$('.block.featured-courses .page').mousemove(function(e){
+		if ($(this).hasClass('active') == false) {
+			var divPos = {};
+			var nthSelector = $(this).index() + 1;
+			var offset = $(this).offset();
+			    divPos = {
+			        left: e.pageX - offset.left + 10,
+			        top: e.pageY - offset.top + 10
+			    };
+
+			var toolTipSelector = '.mouse-tooltip:nth-child('+ nthSelector +')';
+
+			// $(toolTipSelector).addClass('current');
+			$(toolTipSelector).css({
+				top: divPos.top + offset.top,
+				left: divPos.left + offset.left
+			});
+		} else {
+			$('.mouse-tooltip.active').removeClass('active');	
+		}
+		// $(toolTipSelector).addClass('active');
+	});
+
+	$('.block.featured-courses .page').css({
+		'margin-left' : $transformFirstChild
+	});
+
+	var $marginTopValue = $counter + 'em';
+
+	$('.block.featured-courses .course-page-container').css({
+		'margin-top': $marginTopValue
+	});
+}
+
+function convertToSlug(Text)
+{
+    return Text
+        .toLowerCase()
+        .replace(/ /g,'-')
+        .replace(/[^\w-]+/g,'')
+        ;
+}
+
+var animateLines = function() {
+
+};
+
+var getInitials = function (string) {
+    var names = string.split(' '),
+        initials = names[0].substring(0, 1).toUpperCase();
+    
+    if (names.length > 1) {
+        initials += names[names.length - 1].substring(0, 1).toUpperCase();
+    }
+    return initials;
+};

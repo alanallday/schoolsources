@@ -1,0 +1,244 @@
+nav.global {
+
+	.logo {
+		margin-right: 1em;
+	}
+
+	li {
+		display: block;
+		@include bp('small') {
+			display: inline-block;
+		}
+ 	}
+
+
+	.navigation {
+    	padding-top: 1rem;
+		li {
+			list-style: none;
+			margin-right: 2em;
+			font-weight: bold;
+
+			&:last-child {
+				margin-right: 0 !important;
+			}
+		}
+		@include bp('small') {
+			padding-top:0;
+		}
+	}
+}
+
+body nav.global {
+	padding-top:1em;
+	padding-bottom: 1em;
+	position:relative;
+	z-index: 999;
+	@include transition(all 0.2s ease-in-out 0.4s);
+
+	svg {
+		polygon,path {
+			@include transition(all 0.2s ease-in-out 0.4s);
+		}
+	}
+
+	a {
+		cursor: pointer;
+	}
+	> .row {
+		@include max-container();
+		@extend .middle-xs;
+	}
+	.logo {
+		@include colXS(12);
+		position: relative;
+		width: 100%;
+		svg {
+			width: 96px;
+		}
+		@include bp('small') {
+			width: 124px;
+			box-sizing: border-box;
+			-ms-flex: 0 0 auto;
+			-webkit-box-flex: 0;
+			flex: 0 0 auto;
+			padding-right: 1rem;
+			padding-left: 1rem;
+			max-width: 100%;
+			svg {
+				// width: 100%;
+			}
+		}
+
+		.menu {
+			right: 1em;
+			position:absolute;
+			font-weight: bold;
+			top:50%;
+			@include transform(translate3d(0,-50%,0));
+			display: block;
+			cursor: pointer;
+			@include bp('small') {
+				display: none;
+			}
+		}
+	}
+
+	&.open {
+		color: white !important;
+		background: black !important;
+		@include transition(all 0.2s ease-in-out);
+		
+		svg {
+			polygon,path {
+				@include transition(all 0.2s ease-in-out);
+				fill: white !important;
+			}
+		}
+
+	    .btn-primary {
+	    	background: white !important;
+	    	color: black !important;
+	    	border-color: white !important;
+	    }
+
+	    .btn-secondary {
+	    	color: white !important;
+	    	border-color: white !important;
+	    }
+
+		.navigation-container {
+	    	@include transform(scale(1,1));
+	    	@include transition(transform 0.4s ease-in-out 0.2s);
+	    }
+
+	}
+
+	.navigation-container {
+		@include generalColXS();
+	    width: 100%;
+	    padding: 0;
+	    position:absolute;
+	    top:100%;
+	    @include transform(scale(1,0));
+	    -webkit-transform-origin: top left;
+	    transform-origin: top left;
+	    -webkit-animation-fill-mode: forwards;
+	    animation-fill-mode: forwards;	
+	    @include transition(transform 0.4s ease-in-out);    
+
+	    .row {
+	    	background: black !important;
+	    	color: white !important;
+	    }
+
+		@include bp('small') {
+			box-sizing: border-box;
+			-ms-flex: 0 0 auto;
+			-webkit-box-flex: 0;
+			flex: 0 0 auto;
+			padding-right: 1rem;
+			padding-left: 1rem;
+			max-width: 100%;
+			flex-grow: 1;
+			width: unset;
+			position:relative;
+			top: unset;
+		    @include transform(none);    
+		    @include transition(none);
+
+			.row {
+				background: none !important;
+			    color: inherit !important;
+			}
+		}
+
+		> .row {
+			@extend .middle-xs;
+		}
+
+		.navigation {
+		    box-sizing: border-box;
+		    -ms-flex: 0 0 auto;
+		    -webkit-box-flex: 0;
+		    flex: 0 0 auto;
+		    padding-right: 1rem;
+    		padding-left: 2.5rem; 
+    		@include bp('small') {
+    			padding-left: 1rem;
+       			padding-top: 0;
+		    	padding-bottom: 0;	
+    		}
+
+		    li {
+		    	margin-bottom:0.5em;
+		    }	
+		}
+	}
+
+	.dropdown {
+		display: none;
+		@include bp('small') {
+			display: inline-block;
+		}
+	}
+
+	.dropdown-items-for-mobile {
+		@include bp('small') {
+			display: none;
+		}
+	}
+	.right  {
+		@include colXS(12);
+		padding-top: 1em;
+		padding-bottom: 1em;
+		// border-top:1px solid black;
+		// border-bottom: 1px solid black;
+	    padding-left: 2.5rem;
+	    padding-right: 2.5rem;
+		li {
+			width: 48%;
+			display: inline-block;
+
+			.btn-primary,.btn-secondary {
+    			text-align: center;
+			    width: 100%;
+			}
+		}
+		@include bp('small') {
+			@include generalColXS();
+			padding-top: 0;
+			padding-bottom: 0;
+			border-top: none;
+			border-bottom: none;
+			padding-left:1rem;
+			padding-right:1rem;
+
+			li {
+				width: auto;
+
+				.btn-primary,.btn-secondary {
+	    			text-align: auto;
+				    width: auto;
+				}
+			}	
+		}	
+
+		font-weight: bold;
+		margin-left: auto;
+
+		li {
+			list-style:none;
+			margin-right: 0.5em;
+			&:last-child {
+				margin-right: 0 !important;
+			}
+		}
+	}
+
+	@include bp('medium') {
+		padding-top: 2em;
+		padding-bottom: 2em;
+
+	}
+}

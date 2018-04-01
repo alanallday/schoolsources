@@ -1,0 +1,16 @@
+body.all-courses {
+	footer#global {
+		border: none;
+		.featured-courses.block {
+			display: none;
+		}
+	}
+
+	.featured-courses.block {
+		margin-top: 0;
+		background: white;
+		.btn-secondary.btn-hg {
+			display: none;
+		}
+	}
+}

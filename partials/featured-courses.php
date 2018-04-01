@@ -1,0 +1,189 @@
+<div class="featured-courses block">
+	<label>Featured Courses</label>
+	<span class="tooltips">
+		<div class="mouse-tooltip">
+			How to be a freelancer in the new age 
+		</div>
+		<div class="mouse-tooltip">
+			How to be a freelancer in the new age
+		</div>
+		<div class="mouse-tooltip">
+			How to be a freelancer in the new age
+		</div>
+		<div class="mouse-tooltip">
+			How to be a freelancer in the new age
+		</div>
+	</span>
+	<div class="course-page-container">
+		<div class="page">
+			<div class="page-container">
+				<div class="sidebar">
+					<div class="category-container"><span class="category">Freelancing</span></div>
+					<div class="name-container"><span class="name">Dani Roche</span></div>
+				</div>
+				<div class="body">
+					<div class="text">
+						<div class="title">
+							<h2>How to be a freelancer in the new age</h2>
+						</div>
+						<div class="paragraph">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="cta">
+								<div class="btn-primary">
+									Learn More
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="image-shape">
+						<div class="image-container">
+							<img src="images/test-image.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page-container">
+				<div class="sidebar">
+					<div class="category-container"><span class="category">Freelancing</span></div>
+					<div class="name-container"><span class="name">Dani Roche</span></div>
+				</div>
+				<div class="body">
+					<div class="text">
+						<div class="title">
+							<h2>How to be a freelancer in the new age</h2>
+						</div>
+						<div class="paragraph">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="cta">
+								<div class="btn-primary">
+									Learn More
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="image-shape">
+						<div class="image-container">
+							<img src="images/test-image.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page-container">
+				<div class="sidebar">
+					<div class="category-container"><span class="category">Freelancing</span></div>
+					<div class="name-container"><span class="name">Dani Roche</span></div>
+				</div>
+				<div class="body">
+					<div class="text">
+						<div class="title">
+							<h2>How to be a freelancer in the new age</h2>
+						</div>
+						<div class="paragraph">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="cta">
+								<div class="btn-primary">
+									Learn More
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="image-shape">
+						<div class="image-container">
+							<img src="images/test-image.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="page">
+			<div class="page-container">
+				<div class="sidebar">
+					<div class="category-container"><span class="category">Freelancing</span></div>
+					<div class="name-container"><span class="name">Dani Roche</span></div>
+				</div>
+				<div class="body">
+					<div class="text">
+						<div class="title">
+							<h2>How to be a freelancer in the new age</h2>
+						</div>
+						<div class="paragraph">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							<div class="cta">
+								<div class="btn-primary">
+									Learn More
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="image-shape">
+						<div class="image-container">
+							<img src="images/test-image.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="course-card-container">
+		<div class="course-card">
+			<div class="inner-container">
+				<a href="#">
+				<div class="header">
+					<span class="category">Entrepreneur</span>
+					<h2>How to start a successful career</h2>
+					<span class="author">Rumi Neely</span>
+				</div>
+				<div class="image-container">
+					<img src="images/test-image.jpg"/>
+				</div>
+				<div class="price-container">
+					$99
+				</div>
+				</a>
+			</div>
+		</div>
+		<div class="course-card">
+			<div class="inner-container">
+				<a href="#">
+				<div class="header">
+					<span class="category">Entrepreneur</span>
+					<h2>How to start a successful career</h2>
+					<span class="author">Rumi Neely</span>
+				</div>
+				<div class="image-container">
+					<img src="images/test-image.jpg"/>
+				</div>
+				<div class="price-container">
+					$99
+				</div>
+				</a>
+			</div>
+		</div>
+		<div class="course-card">
+			<div class="inner-container">
+				<a href="#">
+				<div class="header">
+					<span class="category">Entrepreneur</span>
+					<h2>How to start a successful career</h2>
+					<span class="author">Rumi Neely</span>
+				</div>
+				<div class="image-container">
+					<img src="images/test-image.jpg"/>
+				</div>
+				<div class="price-container">
+					$99
+				</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="main-cta">
+		<div class="btn-secondary btn-hg">
+			See all courses
+		</div>
+	</div>
+</div>

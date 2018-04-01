@@ -1,0 +1,78 @@
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+
+@mixin oval() {
+	width: 100%;
+	padding-bottom: 78%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 1px solid black;
+	position:relative;
+}
+
+@mixin max-container(){
+	max-width: 1200px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;	
+
+	@include bp('medium') {
+		width: 90%;
+	}
+	@include bp('large') {
+		width: 85%;
+	}
+}
+
+@mixin text-container(){
+	max-width: 960px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+
+	@include bp('medium') {
+		width: 55%;
+	}
+	// @include bp('large') {
+	// 	width: 60%;
+	// }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+@mixin bp($value) {
+
+	@if $value == 'small' {
+	  @media screen and (min-width: 768px) {
+	    @content;
+	  }
+	}
+
+	@if $value == 'medium' {
+	  @media screen and (min-width: 960px) {
+	    @content;
+	  }
+	}
+
+	@if $value == 'large' {
+	  @media screen and (min-width: 1024px) {
+	    @content;
+	  }
+	}
+}
+
+@mixin transform($x) {
+  -webkit-transform: $x;
+     -moz-transform: $x;
+       -o-transform: $x;
+          transform: $x;
+}

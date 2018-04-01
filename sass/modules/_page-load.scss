@@ -1,0 +1,99 @@
+body {
+	opacity: 0;
+	@include transition(opacity 0.3s ease-in-out);
+}
+body.loaded {
+	opacity:1;
+	// .block {
+	// 	@extend .fadeIn; 
+	// 	@extend .animated;
+	// }
+	.page-header {
+		// h1 {
+		// 	@extend .fadeInUp; 
+		// 	@extend .animated;	
+		// }
+
+		p {
+			@extend .fadeInUp; 
+			@extend .animated;
+			-webkit-animation-delay: 0.3s;
+			animation-delay: 0.3s;				
+		}
+
+		.directory {
+			@extend .fadeIn; 
+			@extend .animated;	
+			-webkit-animation-delay: 0.6s;
+			animation-delay: 0.6s;	
+		}
+	}
+	.home-top-container {
+		.left {
+			@extend .fadeInUp; 
+			@extend .animated;
+			-webkit-animation-delay: 0.3s;
+			animation-delay: 0.3s;			
+
+			p {
+				@extend .fadeInUp; 
+				@extend .animated;
+				-webkit-animation-delay: 0.6s;
+				animation-delay: 0.6s;	
+			}
+		}
+
+		.right {
+			@extend .fadeInUp; 
+			@extend .animated;	
+			-webkit-animation-delay: 1s;
+			animation-delay: 1s;			
+		}
+	}
+	h2.punchout {
+		@extend .pulse; 
+		@extend .animated;	
+		@extend .infinite;			
+	}
+
+	nav.global .row {
+		@extend .fadeInDown; 
+		@extend .animated;		
+	}
+
+	.block.hero {
+		.author {
+			@extend .fadeInUp; 
+			@extend .animated;
+		}
+
+		h1 {
+			@extend .fadeInUp; 
+			@extend .animated;
+			-webkit-animation-delay: 0.3s;
+			animation-delay: 0.3s;
+		}
+
+		.description {
+			@extend .fadeInUp; 
+			@extend .animated;
+			-webkit-animation-delay: 0.6s;
+			animation-delay: 0.6s;			
+		}
+
+		.btn-secondary {
+			@extend .fadeInUpBig; 
+			@extend .animated;
+			-webkit-animation-delay: 0.9s;
+			animation-delay: 0.9s;				
+		}
+
+		.play-button {
+			// // @extend .flash; 
+			// @extend .animated;	
+			// @extend .infinite;	
+		}
+
+		
+	}
+}
