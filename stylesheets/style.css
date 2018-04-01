@@ -7276,19 +7276,29 @@ footer#global {
     text-align: left;
     max-width: 200px;
     margin-top: 0;
+    font-size: 0.8em;
   }
 }
-/* line 108, ../sass/modules/_footer.scss */
+@media screen and (min-width: 960px) {
+  /* line 98, ../sass/modules/_footer.scss */
+  #global-footer .menu {
+    text-align: left;
+    max-width: 300px;
+    margin-top: 0;
+    font-size: 1em;
+  }
+}
+/* line 116, ../sass/modules/_footer.scss */
 #global-footer .menu ul {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 108, ../sass/modules/_footer.scss */
+  /* line 116, ../sass/modules/_footer.scss */
   #global-footer .menu ul {
     padding-right: 2em;
   }
 }
-/* line 115, ../sass/modules/_footer.scss */
+/* line 123, ../sass/modules/_footer.scss */
 #global-footer .menu ul li {
   list-style: none;
   margin-bottom: 0.5em;
@@ -7881,13 +7891,24 @@ a {
   color: inherit;
 }
 
-/* line 10, ../sass/modules/_elements.scss */
+/* line 11, ../sass/modules/_elements.scss */
+#global-footer .dropdown-menu a {
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle {
-  min-width: 75px;
+  min-width: 65px;
   display: block;
   border-bottom: none;
 }
-/* line 14, ../sass/modules/_elements.scss */
+/* line 23, ../sass/modules/_elements.scss */
+.open-my-profile-dropdown.dropdown-toggle .dropdown-menu {
+  font-size: 0.8em;
+}
+/* line 27, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle .circle {
   width: 100%;
   padding-bottom: 78%;
@@ -7898,7 +7919,7 @@ a {
   position: relative;
   overflow: hidden;
 }
-/* line 17, ../sass/modules/_elements.scss */
+/* line 30, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle .circle img {
   top: 0;
   left: 0;
@@ -7907,12 +7928,12 @@ a {
   position: absolute;
 }
 
-/* line 26, ../sass/modules/_elements.scss */
+/* line 39, ../sass/modules/_elements.scss */
 .dropdown, .btn-group {
   position: relative;
   cursor: pointer;
 }
-/* line 29, ../sass/modules/_elements.scss */
+/* line 42, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu, .btn-group .dropdown-menu {
   margin-top: 0;
   border-top-left-radius: 0;
@@ -7936,22 +7957,22 @@ a {
   -webkit-transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
-/* line 47, ../sass/modules/_elements.scss */
+/* line 60, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu li, .btn-group .dropdown-menu li {
   margin: 0 !important;
   padding-bottom: 0.5em;
   display: block !important;
 }
-/* line 51, ../sass/modules/_elements.scss */
+/* line 64, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu li:last-child, .btn-group .dropdown-menu li:last-child {
   padding-bottom: 0;
 }
-/* line 56, ../sass/modules/_elements.scss */
+/* line 69, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu a, .btn-group .dropdown-menu a {
   text-decoration: none;
   font-weight: bold;
 }
-/* line 63, ../sass/modules/_elements.scss */
+/* line 76, ../sass/modules/_elements.scss */
 .dropdown.open .dropdown-menu, .btn-group.open .dropdown-menu {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -7959,7 +7980,7 @@ a {
   transform: scale(1, 1);
 }
 
-/* line 69, ../sass/modules/_elements.scss */
+/* line 82, ../sass/modules/_elements.scss */
 .dropdown-toggle {
   border: none;
   padding: 0;
@@ -7968,17 +7989,17 @@ a {
   min-width: 200px;
   text-align: left;
 }
-/* line 77, ../sass/modules/_elements.scss */
+/* line 90, ../sass/modules/_elements.scss */
 .dropdown-toggle:hover {
   background: none;
 }
 
-/* line 82, ../sass/modules/_elements.scss */
+/* line 95, ../sass/modules/_elements.scss */
 button:focus {
   outline: none;
 }
 
-/* line 86, ../sass/modules/_elements.scss */
+/* line 99, ../sass/modules/_elements.scss */
 .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0;
@@ -7996,78 +8017,78 @@ button:focus {
   top: 50%;
 }
 
-/* line 103, ../sass/modules/_elements.scss */
+/* line 116, ../sass/modules/_elements.scss */
 .course-filters {
   text-align: center;
 }
-/* line 106, ../sass/modules/_elements.scss */
+/* line 119, ../sass/modules/_elements.scss */
 .course-filters:nth-child(1) {
   margin-bottom: 0;
 }
 
-/* line 111, ../sass/modules/_elements.scss */
+/* line 124, ../sass/modules/_elements.scss */
 .filter-label {
   font-weight: bold;
   font-size: 0.8em;
 }
 
-/* line 116, ../sass/modules/_elements.scss */
+/* line 129, ../sass/modules/_elements.scss */
 .course-filter {
   display: inline-block;
   margin: 1.5em 1em;
   text-align: left;
 }
 
-/* line 123, ../sass/modules/_elements.scss */
+/* line 136, ../sass/modules/_elements.scss */
 .strike-through-price {
   text-decoration: line-through;
   font-weight: normal;
 }
 
-/* line 127, ../sass/modules/_elements.scss */
+/* line 140, ../sass/modules/_elements.scss */
 .play-button {
   width: 48px;
   margin: 0 auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 127, ../sass/modules/_elements.scss */
+  /* line 140, ../sass/modules/_elements.scss */
   .play-button {
     width: 64px;
   }
 }
-/* line 133, ../sass/modules/_elements.scss */
+/* line 146, ../sass/modules/_elements.scss */
 .play-button svg {
   width: 100%;
   height: auto;
 }
 
-/* line 139, ../sass/modules/_elements.scss */
+/* line 152, ../sass/modules/_elements.scss */
 .featured-courses .image-container, .course-card .image-container {
   width: 100%;
   padding-bottom: 112.5%;
   position: relative;
   overflow: hidden;
 }
-/* line 144, ../sass/modules/_elements.scss */
+/* line 157, ../sass/modules/_elements.scss */
 .featured-courses .image-container img, .course-card .image-container img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 151, ../sass/modules/_elements.scss */
+/* line 164, ../sass/modules/_elements.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 155, ../sass/modules/_elements.scss */
+/* line 168, ../sass/modules/_elements.scss */
 .wistia_responsive_padding {
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
 }
 
-/* line 161, ../sass/modules/_elements.scss */
+/* line 174, ../sass/modules/_elements.scss */
 .downward-arrow {
   background: url("../images/downwardarrow.svg") center center no-repeat;
   background-size: 100%;
@@ -8079,12 +8100,12 @@ button:focus {
   position: relative;
   display: inline-block;
 }
-/* line 171, ../sass/modules/_elements.scss */
+/* line 184, ../sass/modules/_elements.scss */
 .downward-arrow:hover {
   animation: bounce 0.4s infinite;
 }
 @media screen and (min-width: 960px) {
-  /* line 161, ../sass/modules/_elements.scss */
+  /* line 174, ../sass/modules/_elements.scss */
   .downward-arrow {
     width: 70px;
     padding-bottom: 35px;
@@ -8105,11 +8126,11 @@ button:focus {
     transform: translateY("2px");
   }
 }
-/* line 190, ../sass/modules/_elements.scss */
+/* line 203, ../sass/modules/_elements.scss */
 .circle-thumb {
   position: relative;
 }
-/* line 192, ../sass/modules/_elements.scss */
+/* line 205, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic {
   width: 100%;
   padding-bottom: 78%;
@@ -8119,14 +8140,14 @@ button:focus {
   border: 1px solid black;
   position: relative;
 }
-/* line 195, ../sass/modules/_elements.scss */
+/* line 208, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture-container {
   position: absolute;
   width: 80%;
   left: 10%;
   top: 10%;
 }
-/* line 201, ../sass/modules/_elements.scss */
+/* line 214, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture {
   width: 100%;
   padding-bottom: 78%;
@@ -8138,7 +8159,7 @@ button:focus {
   overflow: hidden;
   z-index: 1;
 }
-/* line 207, ../sass/modules/_elements.scss */
+/* line 220, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic img {
   position: absolute;
   top: 0;
@@ -8146,7 +8167,7 @@ button:focus {
   width: 100%;
   height: auto;
 }
-/* line 216, ../sass/modules/_elements.scss */
+/* line 229, ../sass/modules/_elements.scss */
 .circle-thumb span.circles {
   position: absolute;
   height: 100%;
@@ -8154,28 +8175,28 @@ button:focus {
   top: 0;
   left: 0;
 }
-/* line 222, ../sass/modules/_elements.scss */
+/* line 235, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(1) {
   width: 95%;
   left: 2.5%;
   top: 2.5%;
   position: absolute;
 }
-/* line 229, ../sass/modules/_elements.scss */
+/* line 242, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(2) {
   width: 90%;
   left: 5%;
   top: 5%;
   position: absolute;
 }
-/* line 236, ../sass/modules/_elements.scss */
+/* line 249, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(3) {
   width: 85%;
   left: 7.5%;
   top: 7.5%;
   position: absolute;
 }
-/* line 242, ../sass/modules/_elements.scss */
+/* line 255, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle {
   width: 100%;
   padding-bottom: 78%;

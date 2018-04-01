@@ -19,7 +19,7 @@ footer#global {
 
 	.cta {
 		font-weight: bold;
-		
+
 		li {
 			display: inline-block;
 		    list-style-type: none;
@@ -104,6 +104,14 @@ footer#global {
 			text-align:left;
 			max-width: 200px;
 			margin-top:0;
+			font-size: 0.8em;
+		}
+
+		@include bp('medium') {
+			text-align:left;
+			max-width: 300px;
+			margin-top:0;
+			font-size: 1em;
 		}
 		ul {
 			width: 100%;
