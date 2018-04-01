@@ -7,9 +7,10 @@ a {
 	color: inherit;
 }
 
-.open-my-profile-dropdown {
-	max-width: 75px;
-
+.open-my-profile-dropdown.dropdown-toggle {
+	min-width: 75px;
+	display: block;
+	border-bottom:none;
 	.circle {
 		@include oval();
 		overflow:hidden;

@@ -19,6 +19,11 @@ footer#global {
 
 	.cta {
 		font-weight: bold;
+		
+		li {
+			display: inline-block;
+		    list-style-type: none;
+		}
 	}
 	.teritiary {
 		text-align:center;
