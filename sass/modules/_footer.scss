@@ -3,6 +3,17 @@ footer#global {
 }
 
 #global-footer {
+
+	.dropdown-menu {
+		text-align:left;
+	}
+	.dropdown-menu a {
+		color: black;
+		font-weight: bold;
+	}
+}
+
+#global-footer {
 	background: black;
 	color: white;
 	padding-bottom:3em;
@@ -108,9 +119,7 @@ footer#global {
 		}
 
 		@include bp('medium') {
-			text-align:left;
-			max-width: 300px;
-			margin-top:0;
+			max-width: 220px;
 			font-size: 1em;
 		}
 		ul {

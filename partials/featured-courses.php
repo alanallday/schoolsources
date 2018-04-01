@@ -111,6 +111,7 @@
 							<h2>How to be a freelancer in the new age</h2>
 						</div>
 						<div class="paragraph">
+							<h3>$99</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 							<div class="cta">
 								<div class="btn-primary">
@@ -122,6 +123,11 @@
 					<div class="image-shape">
 						<div class="image-container">
 							<img src="images/test-image.jpg" />
+						</div>
+						<div class="author-image">
+							<div class="circle">
+								<img src="images/test-image.jpg" />
+							</div>
 						</div>
 					</div>
 				</div>

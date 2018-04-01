@@ -21,6 +21,24 @@ footer#global {
 .featured-courses.block {
 	background: $black;
 
+	.author-image {
+		width: 56px;
+		position:absolute;
+		bottom:1em;
+		right: 1em;
+
+		.circle {
+			@include oval();
+			overflow: hidden;
+			img {
+				position:absolute;
+				top:0;
+				left:0;
+				width: 100%;
+				height: auto;
+			}
+		}
+	}
 	label {
 		border-color: $white;
 		color: $white;
@@ -153,7 +171,7 @@ footer#global {
 				width: 45%;
 			}
 
-			.btn-primary,p {
+			.btn-primary,p,h3 {
 				margin-left:1.5em;
 			}
 		}
