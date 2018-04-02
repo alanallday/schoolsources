@@ -39,7 +39,7 @@ a {
 	    top:110%;
 	    width: 200px;
 	    @extend p.small;
-	    background: $lightgreen;
+	    background: white;
 	    border: 1px solid black;
 	    padding: 0.5em;
 	    @include transform(scale(1,0));

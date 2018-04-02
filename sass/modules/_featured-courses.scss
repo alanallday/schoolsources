@@ -16,11 +16,12 @@
 
 footer#global {
 	background: $black;
+	.featured-courses.block {
+		background: $black;
+	}
 }
 
 .featured-courses.block {
-	background: $black;
-
 	.author-image {
 		width: 56px;
 		position:absolute;

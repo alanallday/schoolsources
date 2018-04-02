@@ -126,7 +126,7 @@
 	@include globalHeader(black,white);	
 	@include pageHeader(black,white);
 }
-.home-page {
+.home {
 	@include globalHeader($darkred,$lightblue);
 	@include homeHeader($darkred,$lightblue);
 }
