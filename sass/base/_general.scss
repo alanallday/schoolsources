@@ -13,20 +13,20 @@ html,body {
 	background: black;
 	position: fixed;
 	}
+	
 	#left, #right {
 		top: 0; bottom: 0;
 		width: 2px;
-		}
+	}
 		#left { left: 0; }
 		#right { right: 0; }
-		
+	
 	#top, #bottom {
 		left: 0; right: 0;
 		height: 2px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
 	}
+	#top { top: 0; }
+	#bottom { bottom: 0; }
 }
 ::-moz-selection { background: $darkred; color: $lightblue; }
 ::selection { background: $darkred; color: $lightblue; }

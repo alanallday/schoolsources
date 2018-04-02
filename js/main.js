@@ -27,7 +27,7 @@ $(document).ready(function() {
 	globalNav();
 	animateLines();
 	initSkrollr();
-
+	addBodyClass();
 	setTimeout(function() {
 		if (loaded == false) {
 			$('body').addClass('loaded');
@@ -36,6 +36,11 @@ $(document).ready(function() {
 	},2500);
 });
 
+function addBodyClass() {
+	if($('.page-header h1').text() == 'All Courses') {
+		$('body').addClass('all-courses');
+	}
+}
 function globalNav() {
 	$('nav.global .menu').click(function(){
 		$('nav.global').toggleClass('open');
