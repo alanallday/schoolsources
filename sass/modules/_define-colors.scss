@@ -12,6 +12,7 @@
 
 		.btn-primary {
 			background: $primary;
+			border: 1px solid $primary;
 		}
 		svg polygon {
 			fill: $primary;
@@ -77,9 +78,10 @@
 		.btn-secondary {
 			border-color: $primary;
 		}		
-		
+
 		.btn-primary {
 			background: $primary;
+			border: 1px solid $primary;
 		}
 	}
 }
