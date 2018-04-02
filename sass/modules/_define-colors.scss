@@ -10,6 +10,9 @@
 		color: $primary;
 		background: $secondary;
 
+		.btn-primary {
+			background: $primary;
+		}
 		svg polygon {
 			fill: $primary;
 		}
@@ -36,6 +39,9 @@
 			background: $secondary !important;
 			color: $primary !important;
 
+		.open-my-profile-dropdown.dropdown-toggle .circle {
+			border-color: $primary !important;
+		}
 		.right {
 			border-color: $primary !important;
 		}

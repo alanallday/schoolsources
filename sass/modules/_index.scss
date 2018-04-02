@@ -2,6 +2,10 @@
 	color: $darkred;
 }
 
+.course-block.block.homepage_hero {
+	margin: 0 !important;
+}
+
 @keyframes punchout {
 	// 0% {color: $darkred; text-shadow: none;}
 	100% {text-shadow: -1px 0 $darkred, 0 1px $darkred, 1px 0 $darkred, 0 -1px $darkred;
