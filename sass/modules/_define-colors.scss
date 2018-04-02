@@ -77,6 +77,10 @@
 		.btn-secondary {
 			border-color: $primary;
 		}		
+		
+		.btn-primary {
+			background: $primary;
+		}
 	}
 }
 @mixin courseHeader() {
