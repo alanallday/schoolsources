@@ -7,14 +7,14 @@ a {
 	color: inherit;
 }
 
+.open-my-profile-dropdown.dropdown-toggle + .dropdown-menu {
+	font-size: 0.8em;
+}
+
 .open-my-profile-dropdown.dropdown-toggle {
 	min-width: 65px;
 	display: block;
 	border-bottom:none;
-
-	.dropdown-menu {
-		font-size: 0.8em;
-	}
 
 	.circle {
 		@include oval();

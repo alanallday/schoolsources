@@ -187,6 +187,7 @@ footer#global {
 		    position: absolute;
 		    @include transform(translate3d(0,-50%,0));
 		    z-index:2;
+		    width:100%;
 		}
 
 		.btn-primary {

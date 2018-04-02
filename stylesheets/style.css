@@ -6538,12 +6538,13 @@ footer#global {
   -o-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
   z-index: 2;
+  width: 100%;
 }
-/* line 192, ../sass/modules/_featured-courses.scss */
+/* line 193, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .btn-primary {
   margin-top: 0.5rem;
 }
-/* line 196, ../sass/modules/_featured-courses.scss */
+/* line 197, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .image-shape {
   position: absolute;
   width: 45%;
@@ -6555,7 +6556,7 @@ footer#global {
   top: 50%;
   z-index: 1;
 }
-/* line 204, ../sass/modules/_featured-courses.scss */
+/* line 205, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page {
   position: relative;
   width: 100%;
@@ -6567,14 +6568,14 @@ footer#global {
   -moz-box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 215, ../sass/modules/_featured-courses.scss */
+/* line 216, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page.active {
   -webkit-box-shadow: 3px 4px 28px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 3px 4px 28px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 3px 4px 28px 2px rgba(0, 0, 0, 0.4);
   border-color: black;
 }
-/* line 222, ../sass/modules/_featured-courses.scss */
+/* line 223, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page .page-container {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -7926,16 +7927,17 @@ a {
 }
 
 /* line 10, ../sass/modules/_elements.scss */
+.open-my-profile-dropdown.dropdown-toggle + .dropdown-menu {
+  font-size: 0.8em;
+}
+
+/* line 13, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle {
   min-width: 65px;
   display: block;
   border-bottom: none;
 }
-/* line 15, ../sass/modules/_elements.scss */
-.open-my-profile-dropdown.dropdown-toggle .dropdown-menu {
-  font-size: 0.8em;
-}
-/* line 19, ../sass/modules/_elements.scss */
+/* line 18, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle .circle {
   width: 100%;
   padding-bottom: 78%;
@@ -7946,7 +7948,7 @@ a {
   position: relative;
   overflow: hidden;
 }
-/* line 22, ../sass/modules/_elements.scss */
+/* line 21, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle .circle img {
   top: 0;
   left: 0;
@@ -7955,12 +7957,12 @@ a {
   position: absolute;
 }
 
-/* line 31, ../sass/modules/_elements.scss */
+/* line 30, ../sass/modules/_elements.scss */
 .dropdown, .btn-group {
   position: relative;
   cursor: pointer;
 }
-/* line 34, ../sass/modules/_elements.scss */
+/* line 33, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu, .btn-group .dropdown-menu {
   margin-top: 0;
   border-top-left-radius: 0;
@@ -7984,22 +7986,22 @@ a {
   -webkit-transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
-/* line 52, ../sass/modules/_elements.scss */
+/* line 51, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu li, .btn-group .dropdown-menu li {
   margin: 0 !important;
   padding-bottom: 0.5em;
   display: block !important;
 }
-/* line 56, ../sass/modules/_elements.scss */
+/* line 55, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu li:last-child, .btn-group .dropdown-menu li:last-child {
   padding-bottom: 0;
 }
-/* line 61, ../sass/modules/_elements.scss */
+/* line 60, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu a, .btn-group .dropdown-menu a {
   text-decoration: none;
   font-weight: bold;
 }
-/* line 68, ../sass/modules/_elements.scss */
+/* line 67, ../sass/modules/_elements.scss */
 .dropdown.open .dropdown-menu, .btn-group.open .dropdown-menu {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -8007,7 +8009,7 @@ a {
   transform: scale(1, 1);
 }
 
-/* line 74, ../sass/modules/_elements.scss */
+/* line 73, ../sass/modules/_elements.scss */
 .dropdown-toggle {
   border: none;
   padding: 0;
@@ -8016,17 +8018,17 @@ a {
   min-width: 200px;
   text-align: left;
 }
-/* line 82, ../sass/modules/_elements.scss */
+/* line 81, ../sass/modules/_elements.scss */
 .dropdown-toggle:hover {
   background: none;
 }
 
-/* line 87, ../sass/modules/_elements.scss */
+/* line 86, ../sass/modules/_elements.scss */
 button:focus {
   outline: none;
 }
 
-/* line 91, ../sass/modules/_elements.scss */
+/* line 90, ../sass/modules/_elements.scss */
 .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0;
@@ -8044,78 +8046,78 @@ button:focus {
   top: 50%;
 }
 
-/* line 108, ../sass/modules/_elements.scss */
+/* line 107, ../sass/modules/_elements.scss */
 .course-filters {
   text-align: center;
 }
-/* line 111, ../sass/modules/_elements.scss */
+/* line 110, ../sass/modules/_elements.scss */
 .course-filters:nth-child(1) {
   margin-bottom: 0;
 }
 
-/* line 116, ../sass/modules/_elements.scss */
+/* line 115, ../sass/modules/_elements.scss */
 .filter-label {
   font-weight: bold;
   font-size: 0.8em;
 }
 
-/* line 121, ../sass/modules/_elements.scss */
+/* line 120, ../sass/modules/_elements.scss */
 .course-filter {
   display: inline-block;
   margin: 1.5em 1em;
   text-align: left;
 }
 
-/* line 128, ../sass/modules/_elements.scss */
+/* line 127, ../sass/modules/_elements.scss */
 .strike-through-price {
   text-decoration: line-through;
   font-weight: normal;
 }
 
-/* line 132, ../sass/modules/_elements.scss */
+/* line 131, ../sass/modules/_elements.scss */
 .play-button {
   width: 48px;
   margin: 0 auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 132, ../sass/modules/_elements.scss */
+  /* line 131, ../sass/modules/_elements.scss */
   .play-button {
     width: 64px;
   }
 }
-/* line 138, ../sass/modules/_elements.scss */
+/* line 137, ../sass/modules/_elements.scss */
 .play-button svg {
   width: 100%;
   height: auto;
 }
 
-/* line 144, ../sass/modules/_elements.scss */
+/* line 143, ../sass/modules/_elements.scss */
 .featured-courses .image-container, .course-card .image-container {
   width: 100%;
   padding-bottom: 112.5%;
   position: relative;
   overflow: hidden;
 }
-/* line 149, ../sass/modules/_elements.scss */
+/* line 148, ../sass/modules/_elements.scss */
 .featured-courses .image-container img, .course-card .image-container img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 156, ../sass/modules/_elements.scss */
+/* line 155, ../sass/modules/_elements.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 160, ../sass/modules/_elements.scss */
+/* line 159, ../sass/modules/_elements.scss */
 .wistia_responsive_padding {
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
 }
 
-/* line 166, ../sass/modules/_elements.scss */
+/* line 165, ../sass/modules/_elements.scss */
 .downward-arrow {
   background: url("../images/downwardarrow.svg") center center no-repeat;
   background-size: 100%;
@@ -8127,12 +8129,12 @@ button:focus {
   position: relative;
   display: inline-block;
 }
-/* line 176, ../sass/modules/_elements.scss */
+/* line 175, ../sass/modules/_elements.scss */
 .downward-arrow:hover {
   animation: bounce 0.4s infinite;
 }
 @media screen and (min-width: 960px) {
-  /* line 166, ../sass/modules/_elements.scss */
+  /* line 165, ../sass/modules/_elements.scss */
   .downward-arrow {
     width: 70px;
     padding-bottom: 35px;
@@ -8153,11 +8155,11 @@ button:focus {
     transform: translateY("2px");
   }
 }
-/* line 195, ../sass/modules/_elements.scss */
+/* line 194, ../sass/modules/_elements.scss */
 .circle-thumb {
   position: relative;
 }
-/* line 197, ../sass/modules/_elements.scss */
+/* line 196, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic {
   width: 100%;
   padding-bottom: 78%;
@@ -8167,14 +8169,14 @@ button:focus {
   border: 1px solid black;
   position: relative;
 }
-/* line 200, ../sass/modules/_elements.scss */
+/* line 199, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture-container {
   position: absolute;
   width: 80%;
   left: 10%;
   top: 10%;
 }
-/* line 206, ../sass/modules/_elements.scss */
+/* line 205, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture {
   width: 100%;
   padding-bottom: 78%;
@@ -8186,7 +8188,7 @@ button:focus {
   overflow: hidden;
   z-index: 1;
 }
-/* line 212, ../sass/modules/_elements.scss */
+/* line 211, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic img {
   position: absolute;
   top: 0;
@@ -8194,7 +8196,7 @@ button:focus {
   width: 100%;
   height: auto;
 }
-/* line 221, ../sass/modules/_elements.scss */
+/* line 220, ../sass/modules/_elements.scss */
 .circle-thumb span.circles {
   position: absolute;
   height: 100%;
@@ -8202,28 +8204,28 @@ button:focus {
   top: 0;
   left: 0;
 }
-/* line 227, ../sass/modules/_elements.scss */
+/* line 226, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(1) {
   width: 95%;
   left: 2.5%;
   top: 2.5%;
   position: absolute;
 }
-/* line 234, ../sass/modules/_elements.scss */
+/* line 233, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(2) {
   width: 90%;
   left: 5%;
   top: 5%;
   position: absolute;
 }
-/* line 241, ../sass/modules/_elements.scss */
+/* line 240, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(3) {
   width: 85%;
   left: 7.5%;
   top: 7.5%;
   position: absolute;
 }
-/* line 247, ../sass/modules/_elements.scss */
+/* line 246, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle {
   width: 100%;
   padding-bottom: 78%;
