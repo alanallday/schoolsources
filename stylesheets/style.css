@@ -6521,7 +6521,7 @@ footer#global {
 }
 /* line 174, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .body .btn-primary, .featured-courses.block .course-page-container .body p, .featured-courses.block .course-page-container .body ul, .featured-courses.block .course-page-container .body ol, .featured-courses.block .course-page-container .body .box-with-border .description, .box-with-border .featured-courses.block .course-page-container .body .description, .featured-courses.block .course-page-container .body .block.faq .faq-answer, .block.faq .featured-courses.block .course-page-container .body .faq-answer, .featured-courses.block .course-page-container .body .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .featured-courses.block .course-page-container .body .coupon-invalid-text, .featured-courses.block .course-page-container .body .course-card .price-container, .course-card .featured-courses.block .course-page-container .body .price-container, .featured-courses.block .course-page-container .body .standard-page .page-header .directory a, .standard-page .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .all-courses .page-header .directory a, .all-courses .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .dropdown-toggle, .featured-courses.block .course-page-container .body h3, .featured-courses.block .course-page-container .body .block.faq .faq-question, .block.faq .featured-courses.block .course-page-container .body .faq-question {
-  margin-left: 1.5em;
+  margin-left: 1.5rem;
 }
 /* line 179, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container h2, .featured-courses.block .course-page-container .box-with-border .description .title, .box-with-border .description .featured-courses.block .course-page-container .title, .featured-courses.block .course-page-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .featured-courses.block .course-page-container .coupon-code-applied {
@@ -7318,7 +7318,7 @@ footer#global {
 @media screen and (min-width: 960px) {
   /* line 109, ../sass/modules/_footer.scss */
   #global-footer .menu {
-    max-width: 220px;
+    max-width: 240px;
     font-size: 1em;
   }
 }
