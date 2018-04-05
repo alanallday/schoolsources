@@ -41,7 +41,7 @@ function addBodyClass() {
 	if($('.page-header h1').text() == 'All Courses') {
 		$('body').addClass('all-courses');
 	}
-	else if($('body').attr('data-pageName') == 'alumni') {
+	else if($('body').attr('data-pagename') == 'Alumni') {
 		$('body').addClass('alumni-page');
 		$('body').addClass('alumni');
 	} else {
