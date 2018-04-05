@@ -8,6 +8,12 @@ var loaded = false;
 	}
 });
 
+setTimeout(function() {
+	if (loaded == false) {
+		$('body').addClass('loaded');
+		loaded = true;
+	}
+},2500);
 $(document).ready(function() {
 	$('.rich-text blockquote').addClass('stretched');
 	$(window).resize(function(){
@@ -15,6 +21,7 @@ $(document).ready(function() {
 		featuredCoursesBlock();
 		courseHeader();
 	});
+	addBodyClass();
 	twoUp();
 	sizeStretchedText();
 	imageModule();
@@ -27,18 +34,31 @@ $(document).ready(function() {
 	globalNav();
 	animateLines();
 	initSkrollr();
-	addBodyClass();
-	setTimeout(function() {
-		if (loaded == false) {
-			$('body').addClass('loaded');
-			loaded = true;
-		}
-	},2500);
+	addPageHeader();
 });
 
 function addBodyClass() {
 	if($('.page-header h1').text() == 'All Courses') {
 		$('body').addClass('all-courses');
+	}
+	else if($('body').attr('data-pageName') == 'alumni') {
+		$('body').addClass('alumni-page');
+		$('body').addClass('alumni');
+	} else {
+		$('body').addClass('standard-page');		
+	}
+}
+
+function addPageHeader() {
+	if ($('body').hasClass('standard-page')) {
+		if($('.page-header').length > 0) {
+
+		} else {
+			//add page
+			var $pageTitle = $('body').attr('data-pageName');
+			var $html ='<div class="page-header"><div class="headline"><span class="star"><svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Free-Resources---Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-329.000000, -2832.000000)"><polygon id="Star" fill="#000000" points="339.5 2848.58359 333.010643 2852 334.25 2844.76393 329 2839.63932 336.255322 2838.58359 339.5 2832 342.744678 2838.58359 350 2839.63932 344.75 2844.76393 345.989357 2852"></polygon></g></svg></span><h1 class="serif stretched">' + $pageTitle + '<h1 class="serif stretched">Alumni</h1><span class="star"><svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Free-Resources---Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-329.000000, -2832.000000)"><polygon id="Star" fill="#000000" points="339.5 2848.58359 333.010643 2852 334.25 2844.76393 329 2839.63932 336.255322 2838.58359 339.5 2832 342.744678 2838.58359 350 2839.63932 344.75 2844.76393 345.989357 2852"></polygon></g></svg></span></div></div>' 	
+			$('.blocks-page.blocks-page-rich_text').insertBefore($html);
+		}
 	}
 }
 function globalNav() {
@@ -87,7 +107,14 @@ function couponCode() {
 function testimonialBlock() {
 	$( ".block.testimonial" ).wrapAll( "<div class='testimonial-container block' />");
 	$('.block.testimonial').each(function() {
-		var $name = $(this).find('p[data-section=bio]').html();
+		if ($(this).find('p[data-section=bio]').length > 0) {
+		} else {	
+			$(this).find('.text p:nth-child(1)').attr('data-section','bio');
+			$(this).find('.text p:nth-child(2)').attr('data-section','title');
+			$(this).find('.text p:nth-child(3)').attr('data-section','class');				
+			$(this).find('.text p:nth-child(4)').attr('data-section','testimonial');								
+		}
+		var $name = $(this).find('p:nth-child(1)').html();
 		$name = $name.toString().split(',')[0];
 		var $URL = convertToSlug($name);
 		$(this).attr('id',$URL);
@@ -193,13 +220,15 @@ function pageHeader() {
 }
 
 function alumniPage() {
-	if ($('body').hasClass('alumni-page')) {
+	if ($('body').hasClass('alumni-page') || $('body').hasClass('alumni') ) {
 		var $testimonialPicArray = [];
 		var $testimonialNameArray = [];
 		var $testimonialURLArray = [];
 		var i = 0;
+		$('.page-description').detach().insertAfter('.page-header .headline');
+
 		$('.testimonial.block').each(function(){
-			var $name = $(this).find('p[data-section=bio]').html();
+			var $name = $(this).find('p:nth-child(1)').html();
 			$name = $name.toString().split(',')[0];
 			var $URL = convertToSlug($name);
 			$name = getInitials($name);
@@ -210,7 +239,9 @@ function alumniPage() {
 			$testimonialURLArray[i] = $URL;
 			i++;
 		});
-		console.log($testimonialURLArray);
+
+		$('.page-header').append('<div class="directory"><label>Directory</label><div class="max-container"><div class="row"></div></div></div>');
+
 		for ($i = 0; $i< $testimonialNameArray.length; $i++) {
 			var profilePic = '<div class="pic"><div class="circle-thumb"><span class="circles"><div class="circle-container"><div class="circle"></div></div><div class="circle-container"><div class="circle"></div></div><div class="circle-container"><div class="circle"></div></div></span><div class="profile-pic"><div class="picture-container"><div class="picture"><img src="' + $testimonialPicArray[$i] + '"/></div></div></div></div></div>';
 			var string = '<div class="thumb">'+ '<a href="#' + $testimonialURLArray[$i] + '">' + profilePic + '<div class="description">' + $testimonialNameArray[$i] + '</div>' + '</a></div>';

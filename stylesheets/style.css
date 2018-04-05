@@ -7561,11 +7561,16 @@ body.all-courses footer#global .featured-courses.block {
   display: none;
 }
 /* line 9, ../sass/modules/_all-courses.scss */
+body.all-courses .course-listings .filter-title {
+  text-align: center;
+  margin: 2em 0;
+}
+/* line 15, ../sass/modules/_all-courses.scss */
 body.all-courses .featured-courses.block {
   margin-top: 0;
   background: white;
 }
-/* line 12, ../sass/modules/_all-courses.scss */
+/* line 18, ../sass/modules/_all-courses.scss */
 body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   display: none;
 }

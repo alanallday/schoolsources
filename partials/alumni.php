@@ -22,13 +22,6 @@
 			</svg>
 		</span>	
 	</div>
-	<div class="directory">
-		<label>Directory</label>
-		<div class="max-container">
-			<div class="row">
-			</div>
-		</div>
-	</div>
 </div>
 <!-- Custom Liquid Text -->
 <div class="page-description">
