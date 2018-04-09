@@ -1145,64 +1145,72 @@ html, body {
   overflow-x: hidden;
 }
 
-/* line 12, ../sass/base/_general.scss */
-.page-borders #top, .page-borders #bottom, .page-borders #left, .page-borders #right {
-  background: black;
-  position: fixed;
-}
-/* line 17, ../sass/base/_general.scss */
-.page-borders #left, .page-borders #right {
-  top: 0;
-  bottom: 0;
-  width: 2px;
-}
-/* line 21, ../sass/base/_general.scss */
-.page-borders #left {
-  left: 0;
-}
-/* line 22, ../sass/base/_general.scss */
-.page-borders #right {
-  right: 0;
-}
-/* line 24, ../sass/base/_general.scss */
-.page-borders #top, .page-borders #bottom {
-  left: 0;
-  right: 0;
-  height: 2px;
-}
-/* line 28, ../sass/base/_general.scss */
-.page-borders #top {
-  top: 0;
-}
-/* line 29, ../sass/base/_general.scss */
-.page-borders #bottom {
-  bottom: 0;
+/* line 11, ../sass/base/_general.scss */
+body {
+  padding-bottom: 0 !important;
 }
 
-/* line 31, ../sass/base/_general.scss */
+@media screen and (min-width: 768px) {
+  /* line 17, ../sass/base/_general.scss */
+  .page-borders #top, .page-borders #bottom, .page-borders #left, .page-borders #right {
+    background: black;
+    position: fixed;
+    z-index: 99;
+  }
+  /* line 23, ../sass/base/_general.scss */
+  .page-borders #left, .page-borders #right {
+    top: 0;
+    bottom: 0;
+    width: 8px;
+  }
+  /* line 27, ../sass/base/_general.scss */
+  .page-borders #left {
+    left: 0;
+  }
+  /* line 28, ../sass/base/_general.scss */
+  .page-borders #right {
+    right: 0;
+  }
+  /* line 30, ../sass/base/_general.scss */
+  .page-borders #top, .page-borders #bottom {
+    left: 0;
+    right: 0;
+    height: 8px;
+  }
+  /* line 34, ../sass/base/_general.scss */
+  .page-borders #top {
+    top: 0;
+  }
+  /* line 35, ../sass/base/_general.scss */
+  .page-borders #bottom {
+    bottom: 0;
+  }
+}
+
+/* line 39, ../sass/base/_general.scss */
 ::-moz-selection {
   background: #AD2602;
   color: #D8E2EA;
 }
 
-/* line 32, ../sass/base/_general.scss */
+/* line 40, ../sass/base/_general.scss */
 ::selection {
   background: #AD2602;
   color: #D8E2EA;
 }
 
-/* line 34, ../sass/base/_general.scss */
+/* line 42, ../sass/base/_general.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 37, ../sass/base/_general.scss */
+/* line 45, ../sass/base/_general.scss */
 img {
   width: 100%;
   display: block;
 }
 
-/* line 42, ../sass/base/_general.scss */
+/* line 50, ../sass/base/_general.scss */
 .block {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -1210,14 +1218,14 @@ img {
   background: white;
 }
 @media screen and (min-width: 960px) {
-  /* line 42, ../sass/base/_general.scss */
+  /* line 50, ../sass/base/_general.scss */
   .block {
     margin-top: 4em;
     margin-bottom: 4em;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 42, ../sass/base/_general.scss */
+  /* line 50, ../sass/base/_general.scss */
   .block {
     margin-top: 6em;
     margin-bottom: 6em;
@@ -1225,18 +1233,18 @@ img {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 58, ../sass/base/_general.scss */
+  /* line 66, ../sass/base/_general.scss */
   html, body {
     font-size: 15px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 64, ../sass/base/_general.scss */
+  /* line 72, ../sass/base/_general.scss */
   html, body {
     font-size: 16px;
   }
 }
-/* line 69, ../sass/base/_general.scss */
+/* line 77, ../sass/base/_general.scss */
 .hidden {
   display: none !important;
   visibility: hidden !important;
@@ -7560,17 +7568,17 @@ body.all-courses footer#global {
 body.all-courses footer#global .featured-courses.block {
   display: none;
 }
-/* line 9, ../sass/modules/_all-courses.scss */
+/* line 10, ../sass/modules/_all-courses.scss */
 body.all-courses .course-listings .filter-title {
   text-align: center;
   margin: 2em 0;
 }
-/* line 15, ../sass/modules/_all-courses.scss */
+/* line 16, ../sass/modules/_all-courses.scss */
 body.all-courses .featured-courses.block {
   margin-top: 0;
   background: white;
 }
-/* line 18, ../sass/modules/_all-courses.scss */
+/* line 19, ../sass/modules/_all-courses.scss */
 body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   display: none;
 }

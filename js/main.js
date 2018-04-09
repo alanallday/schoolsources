@@ -81,6 +81,7 @@ function twoUp() {
 	$('.two-up').parent().parent().css({
 		'margin' : 0
 	});
+	console.log('testTwoUp');
 	$( ".two-up a" ).wrapInner( "<div class='btn-secondary'></div>");
 }
 function imageModule() {

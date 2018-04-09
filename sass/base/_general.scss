@@ -8,25 +8,34 @@ html,body {
 	overflow-x:hidden;
 }
 
+body {
+	padding-bottom: 0 !important;
+}
+
 .page-borders {
-	#top, #bottom, #left, #right {
-	background: black;
-	position: fixed;
+
+	@include bp('small') {
+		#top, #bottom, #left, #right {
+		background: black;
+		position: fixed;
+		z-index:99;
+		}
+		
+		#left, #right {
+			top: 0; bottom: 0;
+			width: 8px;
+		}
+			#left { left: 0; }
+			#right { right: 0; }
+		
+		#top, #bottom {
+			left: 0; right: 0;
+			height: 8px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
 	}
-	
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 2px;
-	}
-		#left { left: 0; }
-		#right { right: 0; }
-	
-	#top, #bottom {
-		left: 0; right: 0;
-		height: 2px;
-	}
-	#top { top: 0; }
-	#bottom { bottom: 0; }
+
 }
 ::-moz-selection { background: $darkred; color: $lightblue; }
 ::selection { background: $darkred; color: $lightblue; }
