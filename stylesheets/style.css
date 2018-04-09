@@ -1151,66 +1151,66 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 17, ../sass/base/_general.scss */
+  /* line 18, ../sass/base/_general.scss */
   .page-borders #top, .page-borders #bottom, .page-borders #left, .page-borders #right {
     background: black;
     position: fixed;
     z-index: 99;
   }
-  /* line 23, ../sass/base/_general.scss */
+  /* line 24, ../sass/base/_general.scss */
   .page-borders #left, .page-borders #right {
     top: 0;
     bottom: 0;
     width: 8px;
   }
-  /* line 27, ../sass/base/_general.scss */
+  /* line 28, ../sass/base/_general.scss */
   .page-borders #left {
     left: 0;
   }
-  /* line 28, ../sass/base/_general.scss */
+  /* line 29, ../sass/base/_general.scss */
   .page-borders #right {
     right: 0;
   }
-  /* line 30, ../sass/base/_general.scss */
+  /* line 31, ../sass/base/_general.scss */
   .page-borders #top, .page-borders #bottom {
     left: 0;
     right: 0;
     height: 8px;
   }
-  /* line 34, ../sass/base/_general.scss */
+  /* line 35, ../sass/base/_general.scss */
   .page-borders #top {
     top: 0;
   }
-  /* line 35, ../sass/base/_general.scss */
+  /* line 36, ../sass/base/_general.scss */
   .page-borders #bottom {
     bottom: 0;
   }
 }
 
-/* line 39, ../sass/base/_general.scss */
+/* line 40, ../sass/base/_general.scss */
 ::-moz-selection {
   background: #AD2602;
   color: #D8E2EA;
 }
 
-/* line 40, ../sass/base/_general.scss */
+/* line 41, ../sass/base/_general.scss */
 ::selection {
   background: #AD2602;
   color: #D8E2EA;
 }
 
-/* line 42, ../sass/base/_general.scss */
+/* line 43, ../sass/base/_general.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 45, ../sass/base/_general.scss */
+/* line 46, ../sass/base/_general.scss */
 img {
   width: 100%;
   display: block;
 }
 
-/* line 50, ../sass/base/_general.scss */
+/* line 51, ../sass/base/_general.scss */
 .block {
   margin-top: 2em;
   margin-bottom: 2em;
@@ -1218,14 +1218,14 @@ img {
   background: white;
 }
 @media screen and (min-width: 960px) {
-  /* line 50, ../sass/base/_general.scss */
+  /* line 51, ../sass/base/_general.scss */
   .block {
     margin-top: 4em;
     margin-bottom: 4em;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 50, ../sass/base/_general.scss */
+  /* line 51, ../sass/base/_general.scss */
   .block {
     margin-top: 6em;
     margin-bottom: 6em;
@@ -1233,18 +1233,18 @@ img {
 }
 
 @media screen and (min-width: 960px) {
-  /* line 66, ../sass/base/_general.scss */
+  /* line 67, ../sass/base/_general.scss */
   html, body {
     font-size: 15px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 72, ../sass/base/_general.scss */
+  /* line 73, ../sass/base/_general.scss */
   html, body {
     font-size: 16px;
   }
 }
-/* line 77, ../sass/base/_general.scss */
+/* line 78, ../sass/base/_general.scss */
 .hidden {
   display: none !important;
   visibility: hidden !important;
@@ -4770,12 +4770,13 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
 /* line 45, ../sass/modules/_index.scss */
 .home-top-container h2, .home-top-container .box-with-border .description .title, .box-with-border .description .home-top-container .title, .home-top-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .home-top-container .coupon-code-applied {
   padding: 0;
+  padding-bottom: 1rem;
 }
-/* line 49, ../sass/modules/_index.scss */
+/* line 50, ../sass/modules/_index.scss */
 .home-top-container img {
   margin-bottom: 1em;
 }
-/* line 52, ../sass/modules/_index.scss */
+/* line 53, ../sass/modules/_index.scss */
 .home-top-container .row {
   max-width: 1200px;
   width: 95%;
@@ -4783,18 +4784,18 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 52, ../sass/modules/_index.scss */
+  /* line 53, ../sass/modules/_index.scss */
   .home-top-container .row {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 52, ../sass/modules/_index.scss */
+  /* line 53, ../sass/modules/_index.scss */
   .home-top-container .row {
     width: 85%;
   }
 }
-/* line 56, ../sass/modules/_index.scss */
+/* line 57, ../sass/modules/_index.scss */
 .home-top-container .left {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -4807,7 +4808,7 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 56, ../sass/modules/_index.scss */
+  /* line 57, ../sass/modules/_index.scss */
   .home-top-container .left {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -4820,11 +4821,11 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
     max-width: 54.16667%;
   }
 }
-/* line 60, ../sass/modules/_index.scss */
+/* line 61, ../sass/modules/_index.scss */
 .home-top-container .left p, .home-top-container .left ul, .home-top-container .left ol, .home-top-container .left .box-with-border .description, .box-with-border .home-top-container .left .description, .home-top-container .left .block.faq .faq-answer, .block.faq .home-top-container .left .faq-answer, .home-top-container .left .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .home-top-container .left .coupon-invalid-text, .home-top-container .left .course-card .price-container, .course-card .home-top-container .left .price-container, .home-top-container .left .standard-page .page-header .directory a, .standard-page .page-header .directory .home-top-container .left a, .home-top-container .left .all-courses .page-header .directory a, .all-courses .page-header .directory .home-top-container .left a, .home-top-container .left .dropdown-toggle {
   margin-top: 1em;
 }
-/* line 67, ../sass/modules/_index.scss */
+/* line 68, ../sass/modules/_index.scss */
 .home-top-container .right {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -4838,7 +4839,7 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
   margin-top: 2em;
 }
 @media only screen and (min-width: 960px) {
-  /* line 67, ../sass/modules/_index.scss */
+  /* line 68, ../sass/modules/_index.scss */
   .home-top-container .right {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -4852,7 +4853,7 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 67, ../sass/modules/_index.scss */
+  /* line 68, ../sass/modules/_index.scss */
   .home-top-container .right {
     display: block;
     margin-top: 0;
@@ -4863,7 +4864,7 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
   .home-top-container {
     padding: 0 0 4em;
   }
-  /* line 80, ../sass/modules/_index.scss */
+  /* line 81, ../sass/modules/_index.scss */
   .home-top-container .box-with-border {
     margin-left: 3em;
   }
@@ -4873,7 +4874,7 @@ h2.punchout, .box-with-border .description .punchout.title, .coupon_banner.block
   .home-top-container {
     padding: 1em 0 5em;
   }
-  /* line 87, ../sass/modules/_index.scss */
+  /* line 88, ../sass/modules/_index.scss */
   .home-top-container .box-with-border {
     margin-left: 4em;
   }

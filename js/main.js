@@ -255,8 +255,13 @@ function featuredCoursesBlock() {
 	var $counter = 0;
 	var $width = $('.block.featured-courses .page .sidebar').width();
 	var $transformFirstChild;
+	var length = $('.block.featured-courses .page').length;
+	console.log(length);
 	$('.all-courses footer#global .block.featured-courses').remove();
 	$('.block.featured-courses .page').each(function() {
+		if ($counter > length) {
+			$counter = $counter - length;
+		};
 		var $transformValue = $width * $counter;
 		var $newTransformVal = $(this).width() - $transformValue - $width;
 		$(this).attr('transform-normal','-' + $transformValue);
