@@ -13,6 +13,8 @@ body {
 }
 
 .page-borders {
+    z-index: 999;
+    position: relative;
 
 	@include bp('small') {
 		#top, #bottom, #left, #right {
