@@ -14,6 +14,8 @@ setTimeout(function() {
 		loaded = true;
 	}
 },2500);
+
+
 $(document).ready(function() {
 	$('.rich-text blockquote').addClass('stretched');
 	$(window).resize(function(){
@@ -44,7 +46,11 @@ function addBodyClass() {
 	else if($('body').attr('data-pagename') == 'Alumni') {
 		$('body').addClass('alumni-page');
 		$('body').addClass('alumni');
-	} else {
+	} 
+	else if ($('body').hasClass('course-page')) {
+		
+	}
+	else {
 		$('body').addClass('standard-page');		
 	}
 }
@@ -176,12 +182,14 @@ function courseHeader() {
 		var $navHeight = $('nav.global').outerHeight();
 		var $headerHeight = $('.course-block.hero .header').outerHeight();
 		var $headerHeightInner = $('.course-block.hero .header').height();
+		var $numberofCourses = $('.block.curriculum .fa-youtube-play').length;
+
+		$('.course-block.hero .value-props h2 .number-of-videos').html($numberofCourses);
 
 		$(window).on('scroll',function() {
 			var $headerHeight = $('.course-block.hero .header').outerHeight();
 			var $threshhold = $('.course-block.hero .value-props').offset().top + $('.course-block.hero .value-props').height(); 
 			console.log($(window).scrollTop() + $headerHeight);
-			console.log($threshhold);
 			if ($(window).scrollTop() + $headerHeight > $threshhold) {
 				$('.course-block.hero .header').hide();
 			} else {
@@ -252,31 +260,47 @@ function alumniPage() {
 }
 
 function featuredCoursesBlock() {
-	var $counter = 0;
 	var $width = $('.block.featured-courses .page .sidebar').width();
 	var $transformFirstChild;
-	var length = $('.block.featured-courses .page').length;
-	console.log(length);
 	$('.all-courses footer#global .block.featured-courses').remove();
-	$('.block.featured-courses .page').each(function() {
-		if ($counter > length) {
-			$counter = $counter - length;
-		};
-		var $transformValue = $width * $counter;
-		var $newTransformVal = $(this).width() - $transformValue - $width;
-		$(this).attr('transform-normal','-' + $transformValue);
-		$(this).attr('transform-shifted', $newTransformVal);
 
-		var $transformProperty= 'translate3d(-' + $transformValue + 'px,0,0)';
-		$(this).css({
-			'transform': $transformProperty,
-			'-webkit-transform': $transformProperty,
-			'-ms-transform' : $transformProperty		
-		});
-		$counter = $counter + 1;
+	$('.block.featured-courses').each(function() {
+		var $this = $(this);
+		var $counter = 0;
+	    $this.children(".page").each(function(){
+			var $transformValue = $width * $counter;
+			var $newTransformVal = $(this).width() - $transformValue - $width;
+			$(this).attr('transform-normal','-' + $transformValue);
+			$(this).attr('transform-shifted', $newTransformVal);
 
-		$transformFirstChild = $transformValue/2 + 'px';
+			var $transformProperty= 'translate3d(-' + $transformValue + 'px,0,0)';
+			$(this).css({
+				'transform': $transformProperty,
+				'-webkit-transform': $transformProperty,
+				'-ms-transform' : $transformProperty		
+			});
+			$counter = $counter + 1;
+
+			$transformFirstChild = $transformValue/2 + 'px';
+	    });
 	});
+
+	// $('.block.featured-courses .page').each(function() {
+	// 	var $transformValue = $width * $counter;
+	// 	var $newTransformVal = $(this).width() - $transformValue - $width;
+	// 	$(this).attr('transform-normal','-' + $transformValue);
+	// 	$(this).attr('transform-shifted', $newTransformVal);
+
+	// 	var $transformProperty= 'translate3d(-' + $transformValue + 'px,0,0)';
+	// 	$(this).css({
+	// 		'transform': $transformProperty,
+	// 		'-webkit-transform': $transformProperty,
+	// 		'-ms-transform' : $transformProperty		
+	// 	});
+	// 	$counter = $counter + 1;
+
+	// 	$transformFirstChild = $transformValue/2 + 'px';
+	// });
 
 	$('.block.featured-courses .page:nth-child(1)').addClass('active');
 
