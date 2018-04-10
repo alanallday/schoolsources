@@ -815,7 +815,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 
   /* line 728, ../sass/base/_flex.scss */
-  .middle-md, .rich-text-styling .image-module, .liquid_html .image-module, .block.instructor .instructor-container, .course-block.hero .value-props .row {
+  .middle-md, .rich-text-styling .image-module, .liquid_html .image-module, .block.bio .instructor-container, .course-block.hero .value-props .row {
     -ms-flex-align: center;
     -webkit-box-align: center;
     align-items: center;
@@ -5615,7 +5615,7 @@ body nav.global .right li:last-child {
 }
 
 /* line 1, ../sass/modules/_instructor.scss */
-.block.instructor {
+.block.bio {
   max-width: 1200px;
   width: 95%;
   margin-left: auto;
@@ -5624,56 +5624,56 @@ body nav.global .right li:last-child {
 }
 @media screen and (min-width: 960px) {
   /* line 1, ../sass/modules/_instructor.scss */
-  .block.instructor {
+  .block.bio {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
   /* line 1, ../sass/modules/_instructor.scss */
-  .block.instructor {
+  .block.bio {
     width: 85%;
   }
 }
 /* line 4, ../sass/modules/_instructor.scss */
-.block.instructor label {
+.block.bio label {
   margin-bottom: 1em !important;
 }
 @media screen and (min-width: 960px) {
   /* line 1, ../sass/modules/_instructor.scss */
-  .block.instructor {
+  .block.bio {
     padding: 4em;
   }
 }
 /* line 16, ../sass/modules/_instructor.scss */
-.block.instructor h2, .block.instructor .box-with-border .description .title, .box-with-border .description .block.instructor .title, .block.instructor .coupon_banner.block .coupon-code-applied, .coupon_banner.block .block.instructor .coupon-code-applied {
+.block.bio h2, .block.bio .box-with-border .description .title, .box-with-border .description .block.bio .title, .block.bio .coupon_banner.block .coupon-code-applied, .coupon_banner.block .block.bio .coupon-code-applied {
   margin-bottom: 0;
   margin-top: 1em;
 }
 @media screen and (min-width: 768px) {
   /* line 16, ../sass/modules/_instructor.scss */
-  .block.instructor h2, .block.instructor .box-with-border .description .title, .box-with-border .description .block.instructor .title, .block.instructor .coupon_banner.block .coupon-code-applied, .coupon_banner.block .block.instructor .coupon-code-applied {
+  .block.bio h2, .block.bio .box-with-border .description .title, .box-with-border .description .block.bio .title, .block.bio .coupon_banner.block .coupon-code-applied, .coupon_banner.block .block.bio .coupon-code-applied {
     margin-top: 0;
   }
 }
 /* line 24, ../sass/modules/_instructor.scss */
-.block.instructor .description {
+.block.bio .description {
   display: inline-block;
   margin-bottom: 1em;
 }
 @media screen and (min-width: 768px) {
   /* line 24, ../sass/modules/_instructor.scss */
-  .block.instructor .description {
+  .block.bio .description {
     margin-bottom: 1.5em;
   }
 }
 @media screen and (min-width: 1024px) {
   /* line 24, ../sass/modules/_instructor.scss */
-  .block.instructor .description {
+  .block.bio .description {
     margin-bottom: 2em;
   }
 }
 /* line 34, ../sass/modules/_instructor.scss */
-.block.instructor .instructor-container {
+.block.bio .instructor-container {
   box-sizing: border-box;
   display: -ms-flexbox;
   display: -webkit-box;
@@ -5692,18 +5692,18 @@ body nav.global .right li:last-child {
 }
 @media screen and (min-width: 768px) {
   /* line 34, ../sass/modules/_instructor.scss */
-  .block.instructor .instructor-container {
+  .block.bio .instructor-container {
     margin-top: 1em;
   }
 }
 @media screen and (min-width: 960px) {
   /* line 34, ../sass/modules/_instructor.scss */
-  .block.instructor .instructor-container {
+  .block.bio .instructor-container {
     margin-top: 1.5em;
   }
 }
 /* line 44, ../sass/modules/_instructor.scss */
-.block.instructor .pic {
+.block.bio .pic {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
@@ -5716,7 +5716,7 @@ body nav.global .right li:last-child {
 }
 @media only screen and (min-width: 768px) {
   /* line 44, ../sass/modules/_instructor.scss */
-  .block.instructor .pic {
+  .block.bio .pic {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
@@ -5730,7 +5730,7 @@ body nav.global .right li:last-child {
 }
 @media only screen and (min-width: 960px) {
   /* line 44, ../sass/modules/_instructor.scss */
-  .block.instructor .pic {
+  .block.bio .pic {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
@@ -5743,7 +5743,7 @@ body nav.global .right li:last-child {
   }
 }
 /* line 50, ../sass/modules/_instructor.scss */
-.block.instructor .text {
+.block.bio .text {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
   -webkit-box-flex: 0;
@@ -5756,7 +5756,7 @@ body nav.global .right li:last-child {
 }
 @media only screen and (min-width: 768px) {
   /* line 50, ../sass/modules/_instructor.scss */
-  .block.instructor .text {
+  .block.bio .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
@@ -5770,7 +5770,7 @@ body nav.global .right li:last-child {
 }
 @media only screen and (min-width: 960px) {
   /* line 50, ../sass/modules/_instructor.scss */
-  .block.instructor .text {
+  .block.bio .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
     -webkit-box-flex: 0;
@@ -5784,7 +5784,7 @@ body nav.global .right li:last-child {
 }
 @media screen and (min-width: 768px) {
   /* line 55, ../sass/modules/_instructor.scss */
-  .block.instructor .text p, .block.instructor .text ul, .block.instructor .text ol, .block.instructor .text .box-with-border .description, .box-with-border .block.instructor .text .description, .block.instructor .text .block.faq .faq-answer, .block.faq .block.instructor .text .faq-answer, .block.instructor .text .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .block.instructor .text .coupon-invalid-text, .block.instructor .text .course-card .price-container, .course-card .block.instructor .text .price-container, .block.instructor .text .standard-page .page-header .directory a, .standard-page .page-header .directory .block.instructor .text a, .block.instructor .text .all-courses .page-header .directory a, .all-courses .page-header .directory .block.instructor .text a, .block.instructor .text .dropdown-toggle {
+  .block.bio .text p, .block.bio .text ul, .block.bio .text ol, .block.bio .text .box-with-border .description, .box-with-border .block.bio .text .description, .block.bio .text .block.faq .faq-answer, .block.faq .block.bio .text .faq-answer, .block.bio .text .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .block.bio .text .coupon-invalid-text, .block.bio .text .course-card .price-container, .course-card .block.bio .text .price-container, .block.bio .text .standard-page .page-header .directory a, .standard-page .page-header .directory .block.bio .text a, .block.bio .text .all-courses .page-header .directory a, .all-courses .page-header .directory .block.bio .text a, .block.bio .text .dropdown-toggle {
     margin-left: 3rem;
   }
 }
@@ -7397,52 +7397,59 @@ body.home footer#global .featured-courses.block {
   margin-bottom: 0.5em;
 }
 
-/* line 3, ../sass/modules/_page-template.scss */
+/* line 1, ../sass/modules/_page-template.scss */
+.page-error {
+  background: #D8E2EA;
+  color: #AD2602;
+  padding-bottom: 2rem;
+}
+
+/* line 9, ../sass/modules/_page-template.scss */
 .standard-page .headline, .all-courses .headline {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 960px) {
-  /* line 3, ../sass/modules/_page-template.scss */
+  /* line 9, ../sass/modules/_page-template.scss */
   .standard-page .headline, .all-courses .headline {
     margin-bottom: 0;
   }
 }
-/* line 10, ../sass/modules/_page-template.scss */
+/* line 16, ../sass/modules/_page-template.scss */
 .standard-page .page-header, .all-courses .page-header {
   text-align: center;
   padding: 2em 0 3em;
   position: relative;
 }
 @media screen and (min-width: 960px) {
-  /* line 10, ../sass/modules/_page-template.scss */
+  /* line 16, ../sass/modules/_page-template.scss */
   .standard-page .page-header, .all-courses .page-header {
     padding: 2em 0 4em;
   }
 }
-/* line 17, ../sass/modules/_page-template.scss */
+/* line 23, ../sass/modules/_page-template.scss */
 .standard-page .page-header .star, .all-courses .page-header .star {
   display: none;
 }
 @media screen and (min-width: 960px) {
-  /* line 17, ../sass/modules/_page-template.scss */
+  /* line 23, ../sass/modules/_page-template.scss */
   .standard-page .page-header .star, .all-courses .page-header .star {
     display: block;
   }
 }
-/* line 24, ../sass/modules/_page-template.scss */
+/* line 30, ../sass/modules/_page-template.scss */
 .standard-page .page-header .star:first-child, .all-courses .page-header .star:first-child {
   margin-bottom: 2em;
 }
-/* line 28, ../sass/modules/_page-template.scss */
+/* line 34, ../sass/modules/_page-template.scss */
 .standard-page .page-header .star:last-child, .all-courses .page-header .star:last-child {
   margin-top: 2em;
   padding-bottom: 2rem;
 }
-/* line 34, ../sass/modules/_page-template.scss */
+/* line 40, ../sass/modules/_page-template.scss */
 .standard-page .page-header h1, .all-courses .page-header h1 {
   padding-bottom: 0;
 }
-/* line 38, ../sass/modules/_page-template.scss */
+/* line 44, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory, .all-courses .page-header .directory {
   padding: 2em;
   padding-top: 0;
@@ -7452,24 +7459,24 @@ body.home footer#global .featured-courses.block {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 38, ../sass/modules/_page-template.scss */
+  /* line 44, ../sass/modules/_page-template.scss */
   .standard-page .page-header .directory, .all-courses .page-header .directory {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 38, ../sass/modules/_page-template.scss */
+  /* line 44, ../sass/modules/_page-template.scss */
   .standard-page .page-header .directory, .all-courses .page-header .directory {
     width: 85%;
   }
 }
-/* line 43, ../sass/modules/_page-template.scss */
+/* line 49, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory a, .all-courses .page-header .directory a {
   text-decoration: none;
   color: inherit;
   margin-bottom: 0;
 }
-/* line 50, ../sass/modules/_page-template.scss */
+/* line 56, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory label, .all-courses .page-header .directory label {
   -webkit-transform: none;
   -moz-transform: none;
@@ -7478,7 +7485,7 @@ body.home footer#global .featured-courses.block {
   left: 0;
   border-top: none !important;
 }
-/* line 57, ../sass/modules/_page-template.scss */
+/* line 63, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory .row .thumb, .all-courses .page-header .directory .row .thumb {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -7492,7 +7499,7 @@ body.home footer#global .featured-courses.block {
   margin-bottom: 1em;
 }
 @media only screen and (min-width: 960px) {
-  /* line 57, ../sass/modules/_page-template.scss */
+  /* line 63, ../sass/modules/_page-template.scss */
   .standard-page .page-header .directory .row .thumb, .all-courses .page-header .directory .row .thumb {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -7506,7 +7513,7 @@ body.home footer#global .featured-courses.block {
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 57, ../sass/modules/_page-template.scss */
+  /* line 63, ../sass/modules/_page-template.scss */
   .standard-page .page-header .directory .row .thumb, .all-courses .page-header .directory .row .thumb {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -7520,16 +7527,16 @@ body.home footer#global .featured-courses.block {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 57, ../sass/modules/_page-template.scss */
+  /* line 63, ../sass/modules/_page-template.scss */
   .standard-page .page-header .directory .row .thumb, .all-courses .page-header .directory .row .thumb {
     margin-bottom: 0;
   }
 }
-/* line 67, ../sass/modules/_page-template.scss */
+/* line 73, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory .row .thumb .circle, .all-courses .page-header .directory .row .thumb .circle {
   opacity: 0;
 }
-/* line 72, ../sass/modules/_page-template.scss */
+/* line 78, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory .row .thumb:hover .circle-container:nth-child(1) .circle, .all-courses .page-header .directory .row .thumb:hover .circle-container:nth-child(1) .circle {
   opacity: 1;
   -moz-transition: opacity 0s ease-in-out 0.6s;
@@ -7537,7 +7544,7 @@ body.home footer#global .featured-courses.block {
   -webkit-transition: opacity 0s ease-in-out 0.6s;
   transition: opacity 0s ease-in-out 0.6s;
 }
-/* line 76, ../sass/modules/_page-template.scss */
+/* line 82, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory .row .thumb:hover .circle-container:nth-child(2) .circle, .all-courses .page-header .directory .row .thumb:hover .circle-container:nth-child(2) .circle {
   opacity: 1;
   -moz-transition: opacity 0s ease-in-out 0.4s;
@@ -7545,7 +7552,7 @@ body.home footer#global .featured-courses.block {
   -webkit-transition: opacity 0s ease-in-out 0.4s;
   transition: opacity 0s ease-in-out 0.4s;
 }
-/* line 81, ../sass/modules/_page-template.scss */
+/* line 87, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory .row .thumb:hover .circle-container:nth-child(3) .circle, .all-courses .page-header .directory .row .thumb:hover .circle-container:nth-child(3) .circle {
   opacity: 1;
   -moz-transition: opacity 0s ease-in-out 0.2s;
@@ -7553,11 +7560,11 @@ body.home footer#global .featured-courses.block {
   -webkit-transition: opacity 0s ease-in-out 0.2s;
   transition: opacity 0s ease-in-out 0.2s;
 }
-/* line 87, ../sass/modules/_page-template.scss */
+/* line 93, ../sass/modules/_page-template.scss */
 .standard-page .page-header .directory .row .thumb .description, .all-courses .page-header .directory .row .thumb .description {
   margin-top: 0em;
 }
-/* line 95, ../sass/modules/_page-template.scss */
+/* line 101, ../sass/modules/_page-template.scss */
 .standard-page .page-description, .all-courses .page-description {
   text-align: center;
   max-width: 600px;
