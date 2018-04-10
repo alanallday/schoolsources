@@ -267,7 +267,7 @@ function featuredCoursesBlock() {
 	$('.block.featured-courses').each(function() {
 		var $this = $(this);
 		var $counter = 0;
-	    $this.children(".page").each(function(){
+	    $this.find('.page').each(function(){
 			var $transformValue = $width * $counter;
 			var $newTransformVal = $(this).width() - $transformValue - $width;
 			$(this).attr('transform-normal','-' + $transformValue);
@@ -282,9 +282,8 @@ function featuredCoursesBlock() {
 			$counter = $counter + 1;
 			$transformFirstChild = $transformValue/2 + 'px';
 	    });
-
 	   	var $marginTopValue = $counter + 'em';
-		$this.children('.course-page-container').css({
+		$this.find('.course-page-container').css({
 			'margin-top': $marginTopValue
 		});
 	});
