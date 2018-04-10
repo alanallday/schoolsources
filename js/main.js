@@ -36,6 +36,7 @@ $(document).ready(function() {
 	globalNav();
 	animateLines();
 	initSkrollr();
+	addCoursePageLinkID();
 	addPageHeader();
 });
 
@@ -82,6 +83,10 @@ function sizeStretchedText() {
 	});
 };
 
+function addCoursePageLinkID() {
+	$('.bio.block').attr('id','instructor');
+	$('.curriculum.block').attr('id','curriculum');
+}
 function twoUp() {
 	$('.two-up').wrapAll('<div class="row"/>');
 	$('.two-up').parent().parent().css({

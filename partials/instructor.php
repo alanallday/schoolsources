@@ -1,5 +1,5 @@
 <!-- INSTRUCTOR BLOCK -->
-<div class="block instructor" id="instructor">
+<div class="block bio">
 	<label>Your Instructor</label>
 	<div class="instructor-container">
 	<div class="pic">
