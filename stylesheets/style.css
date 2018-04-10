@@ -6897,7 +6897,14 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
     padding-bottom: 12em;
   }
 }
-/* line 71, ../sass/modules/_course-hero.scss */
+@media screen and (min-width: 1024px) {
+  /* line 55, ../sass/modules/_course-hero.scss */
+  .course-block.hero .value-props {
+    padding-top: 10em;
+    padding-bottom: 15em;
+  }
+}
+/* line 76, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .value-props-container {
   max-width: 1200px;
   width: 95%;
@@ -6905,29 +6912,29 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 71, ../sass/modules/_course-hero.scss */
+  /* line 76, ../sass/modules/_course-hero.scss */
   .course-block.hero .value-props .value-props-container {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 71, ../sass/modules/_course-hero.scss */
+  /* line 76, ../sass/modules/_course-hero.scss */
   .course-block.hero .value-props .value-props-container {
     width: 85%;
   }
 }
-/* line 75, ../sass/modules/_course-hero.scss */
+/* line 80, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .pic {
   width: 200px;
   margin: 0 auto;
   margin-bottom: 2em;
 }
-/* line 81, ../sass/modules/_course-hero.scss */
+/* line 86, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .text {
   z-index: 9;
   position: relative;
 }
-/* line 85, ../sass/modules/_course-hero.scss */
+/* line 90, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props span.rectangles {
   position: absolute;
   height: 100%;
@@ -6936,7 +6943,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   left: 0;
   z-index: 2;
 }
-/* line 93, ../sass/modules/_course-hero.scss */
+/* line 98, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props span.rectangles .rectangle-container:nth-child(1) {
   width: 95%;
   height: 95%;
@@ -6944,7 +6951,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   top: 2.5%;
   position: absolute;
 }
-/* line 101, ../sass/modules/_course-hero.scss */
+/* line 106, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props span.rectangles .rectangle-container:nth-child(2) {
   width: 90%;
   height: 90%;
@@ -6952,7 +6959,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   top: 5%;
   position: absolute;
 }
-/* line 109, ../sass/modules/_course-hero.scss */
+/* line 114, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props span.rectangles .rectangle-container:nth-child(3) {
   width: 85%;
   height: 85%;
@@ -6960,16 +6967,16 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   top: 7.5%;
   position: absolute;
 }
-/* line 117, ../sass/modules/_course-hero.scss */
+/* line 122, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props span.rectangles .rectangle {
   width: 100%;
   height: 100%;
 }
-/* line 123, ../sass/modules/_course-hero.scss */
+/* line 128, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .row {
   text-align: center;
 }
-/* line 126, ../sass/modules/_course-hero.scss */
+/* line 131, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .row .videos {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -6983,7 +6990,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   margin-bottom: 2em;
 }
 @media only screen and (min-width: 960px) {
-  /* line 126, ../sass/modules/_course-hero.scss */
+  /* line 131, ../sass/modules/_course-hero.scss */
   .course-block.hero .value-props .row .videos {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -6996,24 +7003,24 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
     max-width: 50%;
   }
 }
-/* line 130, ../sass/modules/_course-hero.scss */
+/* line 135, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .row .videos .videos-text-container {
   padding: 4em 2em;
   position: relative;
 }
-/* line 133, ../sass/modules/_course-hero.scss */
+/* line 138, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .row .videos .videos-text-container .text {
   width: 80%;
   margin: 0 auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 126, ../sass/modules/_course-hero.scss */
+  /* line 131, ../sass/modules/_course-hero.scss */
   .course-block.hero .value-props .row .videos {
     margin-right: -2em;
     margin-bottom: 0;
   }
 }
-/* line 145, ../sass/modules/_course-hero.scss */
+/* line 150, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .row .learning {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -7026,7 +7033,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 145, ../sass/modules/_course-hero.scss */
+  /* line 150, ../sass/modules/_course-hero.scss */
   .course-block.hero .value-props .row .learning {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -7040,23 +7047,23 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 145, ../sass/modules/_course-hero.scss */
+  /* line 150, ../sass/modules/_course-hero.scss */
   .course-block.hero .value-props .row .learning {
     padding-left: 0;
     margin-left: -2em;
   }
 }
-/* line 153, ../sass/modules/_course-hero.scss */
+/* line 158, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .row .learning .learning-text-container {
   padding: 4em;
 }
 @media screen and (min-width: 960px) {
-  /* line 153, ../sass/modules/_course-hero.scss */
+  /* line 158, ../sass/modules/_course-hero.scss */
   .course-block.hero .value-props .row .learning .learning-text-container {
     width: 100%;
   }
 }
-/* line 161, ../sass/modules/_course-hero.scss */
+/* line 166, ../sass/modules/_course-hero.scss */
 .course-block.hero .value-props .row h2.stretched, .course-block.hero .value-props .row .box-with-border .description .stretched.title, .box-with-border .description .course-block.hero .value-props .row .stretched.title, .course-block.hero .value-props .row .coupon_banner.block .stretched.coupon-code-applied, .coupon_banner.block .course-block.hero .value-props .row .stretched.coupon-code-applied {
   font-size: 2em !important;
   padding-top: 1rem;
@@ -8352,7 +8359,7 @@ button:focus {
 }
 
 /* line 2, ../sass/modules/_define-colors.scss */
-.block.instructor {
+.block.bio {
   background: #EDF3E8;
   color: #000000;
 }

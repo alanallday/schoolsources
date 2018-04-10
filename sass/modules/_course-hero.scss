@@ -68,6 +68,11 @@
 			padding-bottom:12em;
 		}
 
+		@include bp('large') {
+    		padding-top: 10em;
+			padding-bottom:15em;
+		}
+
 		.value-props-container {
 			@include max-container();
 		}
