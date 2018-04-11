@@ -5112,7 +5112,7 @@ form label {
   margin-bottom: 1rem;
 }
 /* line 103, ../sass/modules/_rich-text.scss */
-.rich-text-styling.block, .liquid_html.block, .rich_text.block {
+.rich-text-styling .rich-text-container, .liquid_html .rich-text-container, .rich_text .rich-text-container {
   max-width: 960px;
   width: 95%;
   margin-left: auto;
@@ -5120,13 +5120,13 @@ form label {
 }
 @media screen and (min-width: 960px) {
   /* line 103, ../sass/modules/_rich-text.scss */
-  .rich-text-styling.block, .liquid_html.block, .rich_text.block {
+  .rich-text-styling .rich-text-container, .liquid_html .rich-text-container, .rich_text .rich-text-container {
     width: 55%;
   }
 }
 @media screen and (min-width: 960px) {
   /* line 106, ../sass/modules/_rich-text.scss */
-  .rich-text-styling.block h2, .rich-text-styling.block .box-with-border .description .title, .box-with-border .description .rich-text-styling.block .title, .rich-text-styling.block .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich-text-styling.block .coupon-code-applied, .liquid_html.block h2, .liquid_html.block .box-with-border .description .title, .box-with-border .description .liquid_html.block .title, .liquid_html.block .coupon_banner.block .coupon-code-applied, .coupon_banner.block .liquid_html.block .coupon-code-applied, .rich_text.block h2, .rich_text.block .box-with-border .description .title, .box-with-border .description .rich_text.block .title, .rich_text.block .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich_text.block .coupon-code-applied {
+  .rich-text-styling .rich-text-container h2, .rich-text-styling .rich-text-container .box-with-border .description .title, .box-with-border .description .rich-text-styling .rich-text-container .title, .rich-text-styling .rich-text-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich-text-styling .rich-text-container .coupon-code-applied, .liquid_html .rich-text-container h2, .liquid_html .rich-text-container .box-with-border .description .title, .box-with-border .description .liquid_html .rich-text-container .title, .liquid_html .rich-text-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .liquid_html .rich-text-container .coupon-code-applied, .rich_text .rich-text-container h2, .rich_text .rich-text-container .box-with-border .description .title, .box-with-border .description .rich_text .rich-text-container .title, .rich_text .rich-text-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich_text .rich-text-container .coupon-code-applied {
     text-align: center;
     width: 80%;
     margin-left: auto;
@@ -5135,7 +5135,7 @@ form label {
 }
 @media screen and (min-width: 960px) {
   /* line 114, ../sass/modules/_rich-text.scss */
-  .rich-text-styling.block blockquote, .liquid_html.block blockquote, .rich_text.block blockquote {
+  .rich-text-styling .rich-text-container blockquote, .liquid_html .rich-text-container blockquote, .rich_text .rich-text-container blockquote {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     width: 120%;
@@ -5143,18 +5143,18 @@ form label {
   }
 }
 /* line 123, ../sass/modules/_rich-text.scss */
-.rich-text-styling.block img, .liquid_html.block img, .rich_text.block img {
+.rich-text-styling .rich-text-container img, .liquid_html .rich-text-container img, .rich_text .rich-text-container img {
   margin: 1.5em 0;
 }
 @media screen and (min-width: 768px) {
   /* line 123, ../sass/modules/_rich-text.scss */
-  .rich-text-styling.block img, .liquid_html.block img, .rich_text.block img {
+  .rich-text-styling .rich-text-container img, .liquid_html .rich-text-container img, .rich_text .rich-text-container img {
     margin: 2em 0;
   }
 }
 @media screen and (min-width: 960px) {
   /* line 123, ../sass/modules/_rich-text.scss */
-  .rich-text-styling.block img, .liquid_html.block img, .rich_text.block img {
+  .rich-text-styling .rich-text-container img, .liquid_html .rich-text-container img, .rich_text .rich-text-container img {
     width: 140%;
     margin-left: -20%;
     margin-top: 3em;

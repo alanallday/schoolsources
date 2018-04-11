@@ -75,43 +75,45 @@
 </div>
 <!-- RICH TEXT BLOCK -->
 <div class="rich-text rich-text-styling full-width block">
-	<label>Lorem Ipsum</label>
-	<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <b>exercitation</b> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <i>reprehenderit</i> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	<img src="images/test-image-2.jpg"/>
-	<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-	<blockquote>
-        "It is not an exaggeration to say that peas can be described as nothing less than perfect spheres of joy."
-    </blockquote>
-	<hr>
-	<h2>After this class, you'll learn:</h2>
-	<ol>
-		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
-		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
-		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
-	</ol>
-	<ul>
-		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
-		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
-		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
-	</ul>
-	<hr>
-	<div class="image-module">
+	<div class="rich-text-container">
+		<label>Lorem Ipsum</label>
+		<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <b>exercitation</b> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <i>reprehenderit</i> in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 		<img src="images/test-image-2.jpg"/>
-		<div class="text">
-			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		<blockquote>
+	        "It is not an exaggeration to say that peas can be described as nothing less than perfect spheres of joy."
+	    </blockquote>
+		<hr>
+		<h2>After this class, you'll learn:</h2>
+		<ol>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
+		</ol>
+		<ul>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</li>
+		</ul>
+		<hr>
+		<div class="image-module">
+			<img src="images/test-image-2.jpg"/>
+			<div class="text">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
 		</div>
-	</div>
-	<hr>
-	<div class="image-module right">
-		<img src="images/test-image-2.jpg"/>
-		<div class="text">
-			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<hr>
+		<div class="image-module right">
+			<img src="images/test-image-2.jpg"/>
+			<div class="text">
+				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
 		</div>
 	</div>
 </div>

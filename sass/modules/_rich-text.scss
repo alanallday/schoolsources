@@ -100,7 +100,7 @@
 	    margin-bottom: 1rem;
 	}
 	
-    &.block {
+    .rich-text-container {
     	@include text-container();
 
     	h2 {

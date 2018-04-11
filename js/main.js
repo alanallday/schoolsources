@@ -37,6 +37,7 @@ $(document).ready(function() {
 	animateLines();
 	initSkrollr();
 	addCoursePageLinkID();
+	convertRichText();
 	addPageHeader();
 });
 
@@ -390,6 +391,18 @@ function featuredCoursesBlock() {
 
 	$('.block.featured-courses .page').css({
 		'margin-left' : $transformFirstChild
+	});
+}
+
+
+function convertRichText() {
+	$('.rich_text span').each(function() {
+		console.log('hey');
+		var $content = $(this).html();
+		if ($(this).css("font-size") == '30px'){
+			console.log('blockquote');
+			$(this).replaceWith('<blockquote>' + $content + '</blockquote>');
+		}
 	});
 }
 
