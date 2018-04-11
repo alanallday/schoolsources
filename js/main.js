@@ -411,8 +411,18 @@ function convertRichText() {
 		} else if ($(this).css("font-size") == '20px') {
 			$(this).unwrap();
 			$(this).replaceWith('<h3>' + $content + '</h3>');
+		} else if ($(this).css("font-size") == '12px') {
+			$(this).unwrap();
+			$(this).replaceWith('<label>' + $content + '</label>');
 		}
 	});
+
+	$('.rich_text img').each(function() {
+		if($(this).parent().hasClass('.rich-text-container') != false && $(this).parent().hasClass('.image-module') != false) {
+			$(this).unwrap();
+		}
+	});
+
 }
 
 function convertToSlug(Text)
