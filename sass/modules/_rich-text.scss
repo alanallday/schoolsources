@@ -1,4 +1,4 @@
-.rich-text-styling,.liquid_html {
+.rich-text-styling,.liquid_html,.rich_text {
 	.two-up {
 		@include colXS(12);
 		@include colSM(6);
@@ -87,7 +87,7 @@
 	    margin-bottom: 1rem;
 	}
 	
-    &.full-width {
+    &.block {
     	@include text-container();
 
     	h2 {
