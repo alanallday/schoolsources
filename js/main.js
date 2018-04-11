@@ -17,6 +17,8 @@ setTimeout(function() {
 
 
 $(document).ready(function() {
+	convertRichText();
+
 	$('.rich-text blockquote').addClass('stretched');
 	$(window).resize(function(){
 		sizeStretchedText();
@@ -37,7 +39,6 @@ $(document).ready(function() {
 	animateLines();
 	initSkrollr();
 	addCoursePageLinkID();
-	convertRichText();
 	addPageHeader();
 });
 
@@ -397,11 +398,19 @@ function featuredCoursesBlock() {
 
 function convertRichText() {
 	$('.rich_text span').each(function() {
-		console.log('hey');
 		var $content = $(this).html();
 		if ($(this).css("font-size") == '30px'){
-			console.log('blockquote');
+			$(this).unwrap();
 			$(this).replaceWith('<blockquote>' + $content + '</blockquote>');
+		} else if ($(this).css("font-size") == '28px') {
+			$(this).unwrap();
+			$(this).replaceWith('<h1>' + $content + '</h1>');
+		} else if ($(this).css("font-size") == '24px') {
+			$(this).unwrap();
+			$(this).replaceWith('<h2>' + $content + '</h2>');
+		} else if ($(this).css("font-size") == '20px') {
+			$(this).unwrap();
+			$(this).replaceWith('<h3>' + $content + '</h3>');
 		}
 	});
 }
