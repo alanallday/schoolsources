@@ -1,4 +1,17 @@
 .rich-text-styling,.liquid_html,.rich_text {
+	h1 {
+		font-size:2.5em;
+
+		@include bp('small') {
+			font-size: 3em;
+			text-align:center;
+		}
+
+		@include bp('medium') {
+			font-size: 3.5em;
+		}
+
+	}
 	.two-up {
 		@include colXS(12);
 		@include colSM(6);
