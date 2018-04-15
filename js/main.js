@@ -39,9 +39,15 @@ $(document).ready(function() {
 	animateLines();
 	initSkrollr();
 	addCoursePageLinkID();
+	curriculumBlock();
 	addPageHeader();
 });
 
+function curriculumBlock() {
+	if( !$.trim( $('.section-days-to-drip-number').html() ).length ) {
+		$(this).parent().remove();
+	}
+}
 function addBodyClass() {
 	if($('.page-header h1').text() == 'All Courses') {
 		$('body').addClass('all-courses');
