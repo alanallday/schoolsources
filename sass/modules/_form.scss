@@ -29,9 +29,11 @@ input[type="submit"] {
 	@include border-radius(3px);
 	font-size: 1em;
 	cursor: pointer;
-	@include transition(background, 0.3s, ease-in-out);
+	@include transition(all, 0.3s, ease-in-out);
+
 	&:hover {
 		background: darken(black,5%);
+        @include transform(translate3d(0,-0.2em,0));
 	}
 }
 

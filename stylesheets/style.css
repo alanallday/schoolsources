@@ -4943,21 +4943,25 @@ input[type="submit"] {
   /* stops bg color from leaking outside the border: */
   font-size: 1em;
   cursor: pointer;
-  -moz-transition: background, 0.3s, ease-in-out;
-  -o-transition: background, 0.3s, ease-in-out;
-  -webkit-transition: background, 0.3s, ease-in-out;
-  transition: background, 0.3s, ease-in-out;
+  -moz-transition: all, 0.3s, ease-in-out;
+  -o-transition: all, 0.3s, ease-in-out;
+  -webkit-transition: all, 0.3s, ease-in-out;
+  transition: all, 0.3s, ease-in-out;
 }
-/* line 33, ../sass/modules/_form.scss */
+/* line 34, ../sass/modules/_form.scss */
 input[type="submit"]:hover {
   background: black;
+  -webkit-transform: translate3d(0, -0.2em, 0);
+  -moz-transform: translate3d(0, -0.2em, 0);
+  -o-transform: translate3d(0, -0.2em, 0);
+  transform: translate3d(0, -0.2em, 0);
 }
 
-/* line 38, ../sass/modules/_form.scss */
+/* line 40, ../sass/modules/_form.scss */
 form {
   text-align: left;
 }
-/* line 40, ../sass/modules/_form.scss */
+/* line 42, ../sass/modules/_form.scss */
 form label {
   border: none;
   padding: auto;
@@ -4968,25 +4972,25 @@ form label {
   text-align: left;
 }
 
-/* line 50, ../sass/modules/_form.scss */
+/* line 52, ../sass/modules/_form.scss */
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 53, ../sass/modules/_form.scss */
+/* line 55, ../sass/modules/_form.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 56, ../sass/modules/_form.scss */
+/* line 58, ../sass/modules/_form.scss */
 :-ms-input-placeholder {
   /* IE 10+ */
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 59, ../sass/modules/_form.scss */
+/* line 61, ../sass/modules/_form.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: rgba(0, 0, 0, 0.5);
@@ -8031,7 +8035,12 @@ body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   }
 }
 
-/* line 2, ../sass/modules/_signup.scss */
+/* line 3, ../sass/modules/_signup.scss */
+body.login-page .link-below-button {
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+/* line 7, ../sass/modules/_signup.scss */
 body.login-page .box-half {
   border: 1px solid black;
   display: inline-block;
@@ -8041,12 +8050,17 @@ body.login-page .box-half {
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
   cursor: pointer;
+  background: white;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-/* line 9, ../sass/modules/_signup.scss */
+/* line 16, ../sass/modules/_signup.scss */
 body.login-page .box-half:first-child {
-  margin-right: 2em;
+  margin-right: 1em;
 }
-/* line 13, ../sass/modules/_signup.scss */
+/* line 20, ../sass/modules/_signup.scss */
 body.login-page .box-half img {
   display: inline-block;
   width: 1.2em;
@@ -8058,19 +8072,32 @@ body.login-page .box-half img {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-/* line 23, ../sass/modules/_signup.scss */
+/* line 29, ../sass/modules/_signup.scss */
+body.login-page .box-half:hover {
+  background: #D8E2EA;
+  color: #AD2602;
+  border-color: #AD2602;
+}
+/* line 33, ../sass/modules/_signup.scss */
 body.login-page .box-half:hover img {
   opacity: 1;
 }
-/* line 28, ../sass/modules/_signup.scss */
+/* line 38, ../sass/modules/_signup.scss */
 body.login-page .content-box {
   background: white;
   border: 1px solid black;
   padding: 2em;
   margin-bottom: 3em;
+  padding-top: 3em;
+  margin-top: 3em;
+  padding-bottom: 3em;
+}
+/* line 47, ../sass/modules/_signup.scss */
+body.login-page .content-box h1 {
+  margin-bottom: 2.5rem;
 }
 @media screen and (min-width: 960px) {
-  /* line 28, ../sass/modules/_signup.scss */
+  /* line 38, ../sass/modules/_signup.scss */
   body.login-page .content-box {
     margin-bottom: 4em;
   }
