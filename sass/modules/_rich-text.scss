@@ -127,7 +127,8 @@
 				margin: 2em 0;
 		    }
 		    @include bp('medium') {
-			    width: 140%;
+			    width: 140% !important;
+			    height: auto !important;
 			    margin-left: -20%;
 				margin-top: 3em;
 				margin-bottom: 3em;

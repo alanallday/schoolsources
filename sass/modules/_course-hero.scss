@@ -58,6 +58,10 @@
 		z-index:4;
 		position:relative;
 
+		.play-button {
+    		margin-bottom: 1em;
+		}
+
 		@include bp('small') {
     		padding-top: 8em;
 			padding-bottom:10em;
@@ -133,8 +137,13 @@
 				@include colM(6);
 				margin-bottom: 2em;
 				.videos-text-container {
-					padding: 4em 2em;
+					padding: 6em 2em;
 					position: relative;
+
+					@include bp('small') {
+						padding: 4em 2em;
+					}
+
 					.text {
 						width: 80%;
 						margin: 0 auto;
