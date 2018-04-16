@@ -56,10 +56,13 @@ function curriculumBlock() {
 function checkoutBlock() {
 	$('.product-details').removeClass('col-sm-9');
 	$('.product-price').removeClass('col-sm-2');
+	$('.product-price').insertBefore('.detailed-description');
+	// $('.btn-primary').removeClass('.btn-sm');
+	$('.checkout.block .col-xs-10.col-xs-offset-1.col-md-8.col-md-offset-2').removeClass('col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1').addClass('col-xs-12');
+	// $('.product-price').text()
 }
 
 function addBodyClass() {
-	console.log($('.content-box h1').text().indexOf('Log In to School'));
 	if($('.page-header h1').text() == 'All Courses') {
 		$('body').addClass('all-courses');
 	}
@@ -73,7 +76,6 @@ function addBodyClass() {
 	}
 
 	else if ($('.content-box h1').text().indexOf('Log In to School') >= 0) {
-		console.log('login page');
 		$('body').addClass('login-page');		
 	}
 	else {

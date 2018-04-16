@@ -12,6 +12,14 @@ form {
 			text-align:center;
 		}
 
+		.product-price {
+			margin-bottom: 2em;
+		}
+
+		.default-product-price {
+			font-size: 1.5em;
+		}
+
 		label {
 			// @include colM(4);
 			@include generalColXS();
