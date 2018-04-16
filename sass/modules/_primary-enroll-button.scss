@@ -3,8 +3,8 @@ form {
 		border: 1px solid black;
 
 		> .btn {
-			margin-top: 0;
-			margin-bottom: 0;
+			margin-top: 0 !important;
+			margin-bottom: 0 !important;
 		}
 		.product-radio {
 			display: none;
@@ -34,6 +34,11 @@ form {
 			margin-top: 1em; 
 		}
 
+		.button-container {
+			center {
+				margin: 0 auto;
+			}
+		}
 		.default-product-price {
 			line-height: 1.3em;
 		}
