@@ -57,7 +57,8 @@ function checkoutBlock() {
 	$('.checkout.block .product-details').removeClass('col-sm-9');
 	$('.checkout.block .product-price').removeClass('col-sm-2');
 	$('.checkout.block .detailed-description').each(function() {
-		$(this).closest('.product-price').insertBefore('.detailed-description');
+		console.log($(this).closest('.product-price'));
+		$(this).insertBefore($(this).closest('.product-price'));
 	});
 	$('.checkout.block .btn-primary').removeClass('btn-sm');
 	$('.checkout.block .product-list').removeClass('col-sm-12');
