@@ -52,6 +52,7 @@ function curriculumBlock() {
 	}
 }
 function addBodyClass() {
+	console.log('body-class');
 	if($('.page-header h1').text() == 'All Courses') {
 		$('body').addClass('all-courses');
 	}
