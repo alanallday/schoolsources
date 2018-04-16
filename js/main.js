@@ -51,6 +51,12 @@ function curriculumBlock() {
 		$('.curriculum.block .section-days-to-drip-number').parent().remove();
 	}
 }
+
+function checkoutBlock() {
+	$('.product-details').removeClass('col-sm-9');
+	$('.product-price').removeClass('col-sm-2');
+}
+
 function addBodyClass() {
 	console.log($('.content-box h1').text().indexOf('Log In to School'));
 	if($('.page-header h1').text() == 'All Courses') {

@@ -1,3 +1,23 @@
+form {
+	.product-list {
+		.product-radio {
+			display: none;
+		}
+
+		.product-name {
+			@extend h2;
+		}
+
+		.checkout-button-group{
+			text-align:center;
+		}
+
+		label {
+			text-transform: none;
+		}
+	}
+}
+
 #pricing-options {
 	padding-top: 2rem;
 }
