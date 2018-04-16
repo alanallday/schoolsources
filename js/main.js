@@ -38,6 +38,7 @@ $(document).ready(function() {
 	globalNav();
 	animateLines();
 	initSkrollr();
+	loginPage();
 	addCoursePageLinkID();
 	curriculumBlock();
 	addPageHeader();
@@ -59,13 +60,22 @@ function addBodyClass() {
 		$('body').addClass('alumni');
 	} 
 	else if ($('body').hasClass('course-page')) {
-		
+	}
+
+	else if ($('h1.text-center').text() == 'Log In to School') {
+		$('body').addClass('login-page');		
 	}
 	else {
 		$('body').addClass('standard-page');		
 	}
 }
 
+function loginPage() {
+	$('body.login-page') {
+		$('.text-center.col-lg-6.col-lg-offset-3').removeClass('col-lg-6 col-lg-offset-3').addClass('col-lg-8 col-lg-offset-2');
+
+	}
+}
 function addPageHeader() {
 	if ($('body').hasClass('standard-page')) {
 		if($('.page-header').length > 0) {

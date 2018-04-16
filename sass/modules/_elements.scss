@@ -2,6 +2,10 @@
 	animation: blinking 1s 	steps(5, start) infinite alternate;
 }
 
+.gray-layout {
+	background: $lightblue;
+	color: $darkred;
+}
 
 form.sale_default,form.new_sale {
 	text-align:center;

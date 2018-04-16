@@ -8031,8 +8031,8 @@ body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   }
 }
 
-/* line 1, ../sass/modules/_signup.scss */
-.box-half.teachable-branded {
+/* line 3, ../sass/modules/_signup.scss */
+body.login-page .box-half {
   border: 1px solid black;
   display: inline-block;
   padding: 0.5em 1em;
@@ -8042,10 +8042,14 @@ body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   /* stops bg color from leaking outside the border: */
   cursor: pointer;
 }
-/* line 8, ../sass/modules/_signup.scss */
-.box-half.teachable-branded img {
+/* line 10, ../sass/modules/_signup.scss */
+body.login-page .box-half:first-child {
+  margin-right: 2em;
+}
+/* line 14, ../sass/modules/_signup.scss */
+body.login-page .box-half img {
   display: inline-block;
-  width: 1.5em;
+  width: 1.2em;
   vertical-align: middle;
   margin-right: 1em;
   opacity: 0.5;
@@ -8054,9 +8058,22 @@ body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-/* line 18, ../sass/modules/_signup.scss */
-.box-half.teachable-branded:hover img {
+/* line 24, ../sass/modules/_signup.scss */
+body.login-page .box-half:hover img {
   opacity: 1;
+}
+/* line 29, ../sass/modules/_signup.scss */
+body.login-page .content-box {
+  background: white;
+  border: 1px solid black;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+@media screen and (min-width: 960px) {
+  /* line 29, ../sass/modules/_signup.scss */
+  body.login-page .content-box {
+    margin-bottom: 4em;
+  }
 }
 
 /* line 1, ../sass/modules/_elements.scss */
@@ -8064,29 +8081,35 @@ body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   animation: blinking 1s steps(5, start) infinite alternate;
 }
 
-/* line 6, ../sass/modules/_elements.scss */
+/* line 5, ../sass/modules/_elements.scss */
+.gray-layout {
+  background: #D8E2EA;
+  color: #AD2602;
+}
+
+/* line 10, ../sass/modules/_elements.scss */
 form.sale_default, form.new_sale {
   text-align: center;
 }
 
-/* line 9, ../sass/modules/_elements.scss */
+/* line 13, ../sass/modules/_elements.scss */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* line 14, ../sass/modules/_elements.scss */
+/* line 18, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle + .dropdown-menu {
   font-size: 0.8em;
 }
 
-/* line 18, ../sass/modules/_elements.scss */
+/* line 22, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle {
   min-width: 65px;
   display: block;
   border-bottom: none;
 }
-/* line 23, ../sass/modules/_elements.scss */
+/* line 27, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle .circle {
   width: 100%;
   padding-bottom: 78%;
@@ -8097,7 +8120,7 @@ a {
   position: relative;
   overflow: hidden;
 }
-/* line 26, ../sass/modules/_elements.scss */
+/* line 30, ../sass/modules/_elements.scss */
 .open-my-profile-dropdown.dropdown-toggle .circle img {
   top: 0;
   left: 0;
@@ -8106,12 +8129,12 @@ a {
   position: absolute;
 }
 
-/* line 35, ../sass/modules/_elements.scss */
+/* line 39, ../sass/modules/_elements.scss */
 .dropdown, .btn-group {
   position: relative;
   cursor: pointer;
 }
-/* line 38, ../sass/modules/_elements.scss */
+/* line 42, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu, .btn-group .dropdown-menu {
   z-index: 10;
   margin-top: 0;
@@ -8136,22 +8159,22 @@ a {
   -webkit-transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
-/* line 57, ../sass/modules/_elements.scss */
+/* line 61, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu li, .btn-group .dropdown-menu li {
   margin: 0 !important;
   padding-bottom: 0.5em;
   display: block !important;
 }
-/* line 61, ../sass/modules/_elements.scss */
+/* line 65, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu li:last-child, .btn-group .dropdown-menu li:last-child {
   padding-bottom: 0;
 }
-/* line 66, ../sass/modules/_elements.scss */
+/* line 70, ../sass/modules/_elements.scss */
 .dropdown .dropdown-menu a, .btn-group .dropdown-menu a {
   text-decoration: none;
   font-weight: bold;
 }
-/* line 73, ../sass/modules/_elements.scss */
+/* line 77, ../sass/modules/_elements.scss */
 .dropdown.open .dropdown-menu, .btn-group.open .dropdown-menu {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -8159,7 +8182,7 @@ a {
   transform: scale(1, 1);
 }
 
-/* line 79, ../sass/modules/_elements.scss */
+/* line 83, ../sass/modules/_elements.scss */
 .dropdown-toggle {
   border: none;
   padding: 0;
@@ -8168,17 +8191,17 @@ a {
   min-width: 200px;
   text-align: left;
 }
-/* line 87, ../sass/modules/_elements.scss */
+/* line 91, ../sass/modules/_elements.scss */
 .dropdown-toggle:hover {
   background: none;
 }
 
-/* line 92, ../sass/modules/_elements.scss */
+/* line 96, ../sass/modules/_elements.scss */
 button:focus {
   outline: none;
 }
 
-/* line 96, ../sass/modules/_elements.scss */
+/* line 100, ../sass/modules/_elements.scss */
 .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0;
@@ -8196,78 +8219,78 @@ button:focus {
   top: 50%;
 }
 
-/* line 113, ../sass/modules/_elements.scss */
+/* line 117, ../sass/modules/_elements.scss */
 .course-filters {
   text-align: center;
 }
-/* line 116, ../sass/modules/_elements.scss */
+/* line 120, ../sass/modules/_elements.scss */
 .course-filters:nth-child(1) {
   margin-bottom: 0;
 }
 
-/* line 121, ../sass/modules/_elements.scss */
+/* line 125, ../sass/modules/_elements.scss */
 .filter-label {
   font-weight: bold;
   font-size: 0.8em;
 }
 
-/* line 126, ../sass/modules/_elements.scss */
+/* line 130, ../sass/modules/_elements.scss */
 .course-filter {
   display: inline-block;
   margin: 1.5em 1em;
   text-align: left;
 }
 
-/* line 133, ../sass/modules/_elements.scss */
+/* line 137, ../sass/modules/_elements.scss */
 .strike-through-price {
   text-decoration: line-through;
   font-weight: normal;
 }
 
-/* line 137, ../sass/modules/_elements.scss */
+/* line 141, ../sass/modules/_elements.scss */
 .play-button {
   width: 48px;
   margin: 0 auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 137, ../sass/modules/_elements.scss */
+  /* line 141, ../sass/modules/_elements.scss */
   .play-button {
     width: 64px;
   }
 }
-/* line 143, ../sass/modules/_elements.scss */
+/* line 147, ../sass/modules/_elements.scss */
 .play-button svg {
   width: 100%;
   height: auto;
 }
 
-/* line 149, ../sass/modules/_elements.scss */
+/* line 153, ../sass/modules/_elements.scss */
 .featured-courses .image-container, .course-card .image-container {
   width: 100%;
   padding-bottom: 112.5%;
   position: relative;
   overflow: hidden;
 }
-/* line 154, ../sass/modules/_elements.scss */
+/* line 158, ../sass/modules/_elements.scss */
 .featured-courses .image-container img, .course-card .image-container img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 161, ../sass/modules/_elements.scss */
+/* line 165, ../sass/modules/_elements.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 165, ../sass/modules/_elements.scss */
+/* line 169, ../sass/modules/_elements.scss */
 .wistia_responsive_padding {
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
 }
 
-/* line 171, ../sass/modules/_elements.scss */
+/* line 175, ../sass/modules/_elements.scss */
 .downward-arrow {
   background: url("../images/downwardarrow.svg") center center no-repeat;
   background-size: 100%;
@@ -8279,12 +8302,12 @@ button:focus {
   position: relative;
   display: inline-block;
 }
-/* line 181, ../sass/modules/_elements.scss */
+/* line 185, ../sass/modules/_elements.scss */
 .downward-arrow:hover {
   animation: bounce 0.4s infinite;
 }
 @media screen and (min-width: 960px) {
-  /* line 171, ../sass/modules/_elements.scss */
+  /* line 175, ../sass/modules/_elements.scss */
   .downward-arrow {
     width: 70px;
     padding-bottom: 35px;
@@ -8305,11 +8328,11 @@ button:focus {
     transform: translateY("2px");
   }
 }
-/* line 200, ../sass/modules/_elements.scss */
+/* line 204, ../sass/modules/_elements.scss */
 .circle-thumb {
   position: relative;
 }
-/* line 202, ../sass/modules/_elements.scss */
+/* line 206, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic {
   width: 100%;
   padding-bottom: 78%;
@@ -8319,14 +8342,14 @@ button:focus {
   border: 1px solid black;
   position: relative;
 }
-/* line 205, ../sass/modules/_elements.scss */
+/* line 209, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture-container {
   position: absolute;
   width: 80%;
   left: 10%;
   top: 10%;
 }
-/* line 211, ../sass/modules/_elements.scss */
+/* line 215, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture {
   width: 100%;
   padding-bottom: 78%;
@@ -8338,7 +8361,7 @@ button:focus {
   overflow: hidden;
   z-index: 1;
 }
-/* line 217, ../sass/modules/_elements.scss */
+/* line 221, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic img {
   position: absolute;
   top: 0;
@@ -8346,7 +8369,7 @@ button:focus {
   width: 100%;
   height: auto;
 }
-/* line 226, ../sass/modules/_elements.scss */
+/* line 230, ../sass/modules/_elements.scss */
 .circle-thumb span.circles {
   position: absolute;
   height: 100%;
@@ -8354,28 +8377,28 @@ button:focus {
   top: 0;
   left: 0;
 }
-/* line 232, ../sass/modules/_elements.scss */
+/* line 236, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(1) {
   width: 95%;
   left: 2.5%;
   top: 2.5%;
   position: absolute;
 }
-/* line 239, ../sass/modules/_elements.scss */
+/* line 243, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(2) {
   width: 90%;
   left: 5%;
   top: 5%;
   position: absolute;
 }
-/* line 246, ../sass/modules/_elements.scss */
+/* line 250, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(3) {
   width: 85%;
   left: 7.5%;
   top: 7.5%;
   position: absolute;
 }
-/* line 252, ../sass/modules/_elements.scss */
+/* line 256, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle {
   width: 100%;
   padding-bottom: 78%;

@@ -1,22 +1,38 @@
-.box-half.teachable-branded {
-	border: 1px solid black;
-    display: inline-block;
-    padding: 0.5em 1em;
-    @include border-radius(2px);
-    cursor: pointer;
+body.login-page {
+	.box-half {
+		border: 1px solid black;
+	    display: inline-block;
+	    padding: 0.5em 1em;
+	    @include border-radius(2px);
+	    cursor: pointer;
 
-    img {
-	   	display: inline-block;
-	    width: 1.5em;
-	    vertical-align: middle;
-	    margin-right: 1em;
-	    opacity: 0.5;
-    	@include transition(opacity 0.3s ease-in-out);
-    }
+	    &:first-child {
+	    	margin-right: 2em;
+	    }
 
-    &:hover {
-    	img {
-    		opacity: 1;
+	    img {
+		   	display: inline-block;
+		    width: 1.2em;
+		    vertical-align: middle;
+		    margin-right: 1em;
+		    opacity: 0.5;
+	    	@include transition(opacity 0.3s ease-in-out);
+	    }
+
+	    &:hover {
+	    	img {
+	    		opacity: 1;
+	    	}
+	    }
+	}
+	.content-box {
+		background: white;
+	    border: 1px solid black;
+	    padding: 2em;
+    	margin-bottom: 3em;
+
+    	@include bp('medium') {
+    		margin-bottom: 4em;
     	}
-    }
+	}
 }
