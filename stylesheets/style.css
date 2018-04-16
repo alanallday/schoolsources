@@ -6230,31 +6230,31 @@ body nav.global .right li:last-child {
   }
 }
 
-/* line 5, ../sass/modules/_primary-enroll-button.scss */
+/* line 4, ../sass/modules/_primary-enroll-button.scss */
 form .product-list .product-radio {
   display: none;
 }
-/* line 13, ../sass/modules/_primary-enroll-button.scss */
+/* line 12, ../sass/modules/_primary-enroll-button.scss */
 form .product-list .checkout-button-group {
   text-align: center;
 }
-/* line 17, ../sass/modules/_primary-enroll-button.scss */
+/* line 16, ../sass/modules/_primary-enroll-button.scss */
 form .product-list .product-details {
   padding-bottom: 2em;
 }
-/* line 21, ../sass/modules/_primary-enroll-button.scss */
+/* line 20, ../sass/modules/_primary-enroll-button.scss */
 form .product-list .product-price {
   font-size: 2.4em;
 }
-/* line 25, ../sass/modules/_primary-enroll-button.scss */
+/* line 24, ../sass/modules/_primary-enroll-button.scss */
 form .product-list .detailed-description {
   margin-top: 2rem;
 }
-/* line 29, ../sass/modules/_primary-enroll-button.scss */
+/* line 28, ../sass/modules/_primary-enroll-button.scss */
 form .product-list .btn {
   margin-top: 1em;
 }
-/* line 36, ../sass/modules/_primary-enroll-button.scss */
+/* line 35, ../sass/modules/_primary-enroll-button.scss */
 form .product-list label {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -6268,25 +6268,25 @@ form .product-list label {
   padding: 2em;
 }
 
-/* line 46, ../sass/modules/_primary-enroll-button.scss */
+/* line 45, ../sass/modules/_primary-enroll-button.scss */
 #pricing-options {
   padding-top: 2rem;
 }
 
-/* line 49, ../sass/modules/_primary-enroll-button.scss */
+/* line 48, ../sass/modules/_primary-enroll-button.scss */
 .block.checkout {
   text-align: center;
 }
-/* line 52, ../sass/modules/_primary-enroll-button.scss */
+/* line 51, ../sass/modules/_primary-enroll-button.scss */
 .block.checkout .cta-container {
   text-align: center;
 }
-/* line 56, ../sass/modules/_primary-enroll-button.scss */
+/* line 55, ../sass/modules/_primary-enroll-button.scss */
 .block.checkout h2, .block.checkout .box-with-border .description .title, .box-with-border .description .block.checkout .title, .block.checkout form .product-list .product-name, form .product-list .block.checkout .product-name, .block.checkout .coupon_banner.block .coupon-code-applied, .coupon_banner.block .block.checkout .coupon-code-applied {
   vertical-align: middle;
   padding-bottom: 0;
 }
-/* line 61, ../sass/modules/_primary-enroll-button.scss */
+/* line 60, ../sass/modules/_primary-enroll-button.scss */
 .block.checkout .star {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -6294,23 +6294,23 @@ form .product-list label {
   position: relative;
 }
 @media screen and (min-width: 960px) {
-  /* line 69, ../sass/modules/_primary-enroll-button.scss */
+  /* line 68, ../sass/modules/_primary-enroll-button.scss */
   .block.checkout .star.left {
     margin-right: 2em;
   }
-  /* line 72, ../sass/modules/_primary-enroll-button.scss */
+  /* line 71, ../sass/modules/_primary-enroll-button.scss */
   .block.checkout .star.right {
     margin-left: 2em;
   }
 }
-/* line 77, ../sass/modules/_primary-enroll-button.scss */
+/* line 76, ../sass/modules/_primary-enroll-button.scss */
 .block.checkout .star {
   vertical-align: middle;
   width: 24px;
   height: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 77, ../sass/modules/_primary-enroll-button.scss */
+  /* line 76, ../sass/modules/_primary-enroll-button.scss */
   .block.checkout .star {
     width: 32px;
     height: auto;

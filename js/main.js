@@ -56,15 +56,31 @@ function curriculumBlock() {
 function checkoutBlock() {
 	$('.checkout.block .product-details').removeClass('col-sm-9');
 	$('.checkout.block .product-price').removeClass('col-sm-2');
-	console.log('checkout');
 	$('.checkout.block .product-details .detailed-description').each(function() {
-		console.log($(this).parent().parent().find('.product-price'));
 		$(this).insertAfter($(this).parent().parent().find('.product-price'));
 	});
 
 	$('.checkout.block .product-price').each(function(){
 	    $(this).html($(this).html().replace(/&nbsp;/gi,''));
 	});
+
+	var $length = $('.checkout.block .btn.checkout-button-group').length;
+
+	if ($length == 1) {
+		$('.checkout.block .btn.checkout-button-group').addClass('.col-sm-12');
+	}
+
+	if ($length == 2) {
+		$('.checkout.block .btn.checkout-button-group').addClass('.col-sm-6');
+	}
+
+	if ($length == 3) {
+		$('.checkout.block .btn.checkout-button-group').addClass('.col-sm-4');
+	} 
+
+	if ($length == 4) {
+		$('.checkout.block .btn.checkout-button-group').addClass('.col-sm-3');
+	} 
 
 	$('.checkout.block .product-list').addClass('row');
 	$('.checkout.block .btn-primary').removeClass('btn-sm');
