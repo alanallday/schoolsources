@@ -84,7 +84,7 @@ function checkoutBlock() {
 	if ($('.checkout.block .product-list').hasClass('hidden')) {
 
 	} else {
-		$('.button-container').addClass('hidden');
+		$('.checkout.block .button-container').addClass('hidden');
 	}
 	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	$('.checkout.block .product-list').addClass('row');
