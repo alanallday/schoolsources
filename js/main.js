@@ -46,9 +46,9 @@ $(document).ready(function() {
 
 function curriculumBlock() {
 	console.log('hello');
-	if( !$.trim( $('.curriculum.block .section-days-to-drip-number').html() ).length ) {
+	if( !$.trim($('.curriculum.block .section-days-to-drip-number').html()).length ) {
 		console.log('curriculum');
-		$(this).parent().remove();
+		$('.curriculum.block .section-days-to-drip-number').parent().remove();
 	}
 }
 function addBodyClass() {
