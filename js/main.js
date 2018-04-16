@@ -56,7 +56,9 @@ function curriculumBlock() {
 function checkoutBlock() {
 	$('.checkout.block .product-details').removeClass('col-sm-9');
 	$('.checkout.block .product-price').removeClass('col-sm-2');
-	$('.checkout.block .product-price').insertBefore('.detailed-description');
+	$('.checkout.block .detailed-description').each(function() {
+		$(this).closest('.product-price').insertBefore('.detailed-description');
+	});
 	$('.btn-primary').removeClass('btn-sm');
 	$('.checkout.block .col-xs-10.col-xs-offset-1.col-md-8.col-md-offset-2').removeClass('col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1').addClass('col-xs-12');
 	// $('.product-price').text()
