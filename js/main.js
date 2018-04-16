@@ -18,8 +18,7 @@ setTimeout(function() {
 
 $(document).ready(function() {
 	convertRichText();
-
-	$('.rich-text blockquote').addClass('stretched');
+	$('.rich_text blockquote').addClass('stretched');
 	$(window).resize(function(){
 		sizeStretchedText();
 		featuredCoursesBlock();
@@ -46,9 +45,7 @@ $(document).ready(function() {
 });
 
 function curriculumBlock() {
-	console.log('hello');
 	if( !$.trim($('.curriculum.block .section-days-to-drip-number').html()).length ) {
-		console.log('curriculum');
 		$('.curriculum.block .section-days-to-drip-number').parent().remove();
 	}
 }
