@@ -1,6 +1,11 @@
 form {
 	.product-list {
 		border: 1px solid black;
+
+		> .btn {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
 		.product-radio {
 			display: none;
 		}
