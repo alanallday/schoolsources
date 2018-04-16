@@ -83,7 +83,7 @@ function checkoutBlock() {
 	if ($length == 4) {
 		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-3');
 	} 
-
+	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	$('.checkout.block .product-list').addClass('row');
 	$('.checkout.block .btn-primary').removeClass('btn-sm');
 	$('.checkout.block .product-list').removeClass('col-sm-12');

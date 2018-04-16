@@ -34,8 +34,17 @@ form {
 		}
 
 		label {
-			// @include colM(4);
-			@include colXS(12);
+			@media only screen and (max-width: 767px) {
+			  box-sizing: border-box;
+			  -ms-flex: 0 0 auto;
+			  -webkit-box-flex: 0;
+			  flex: 0 0 auto;
+			  padding-right: 1rem;
+			  padding-left: 1rem;
+			  max-width: 100%;	
+			  border-bottom: 1px solid black;			
+			}
+
 			transform: none;
 			left: 0;
 			text-transform: none;
@@ -43,7 +52,7 @@ form {
     		padding: 4em 2em;
 
     		&:last-child {
-    			border-right: none;
+    			border: none;
     		}
 		}
 	}
