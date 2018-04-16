@@ -52,7 +52,6 @@ function curriculumBlock() {
 	}
 }
 function addBodyClass() {
-	console.log($('.content-box h1').text());
 	if($('.page-header h1').text() == 'All Courses') {
 		$('body').addClass('all-courses');
 	}
@@ -65,7 +64,7 @@ function addBodyClass() {
 	else if ($('body').hasClass('course-page')) {
 	}
 
-	else if ($('.content-box h1').text() == 'Log In to School') {
+	else if ($('.content-box h1').text().indexOf('Log In to School') >= 0) {
 		console.log('login page');
 		$('body').addClass('login-page');		
 	}
