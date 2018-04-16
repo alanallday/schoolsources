@@ -40,7 +40,7 @@ $(document).ready(function() {
 	loginPage();
 	addCoursePageLinkID();
 	curriculumBlock();
-	// checkoutBlock();
+	checkoutBlock();
 	addPageHeader();
 });
 
@@ -81,17 +81,17 @@ function checkoutBlock() {
 		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-3');
 	} 
 
-	if ($('.checkout.block .product-list').hasClass('hidden')) {
+	// if ($('.checkout.block .product-list').hasClass('hidden')) {
 
-	} else {
-		$('.checkout.block .button-container').addClass('hidden');
-	}
-	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
-	$('.checkout.block .product-list').addClass('row');
-	// $('.checkout.block .btn-primary').removeClass('btn-sm');
-	$('.checkout.block .product-list').removeClass('col-sm-12');
-	$('.checkout.block .col-xs-10.col-xs-offset-1.col-md-8.col-md-offset-2').removeClass('col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1').addClass('col-xs-12');
-	// $('.product-price').text()
+	// } else {
+	// 	$('.checkout.block .button-container').addClass('hidden');
+	// }
+	
+	// $('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
+	// $('.checkout.block .product-list').addClass('row');
+	// // $('.checkout.block .btn-primary').removeClass('btn-sm');
+	// $('.checkout.block .product-list').removeClass('col-sm-12');
+	// $('.checkout.block .col-xs-10.col-xs-offset-1.col-md-8.col-md-offset-2').removeClass('col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1').addClass('col-xs-12');
 }
 
 function addBodyClass() {
