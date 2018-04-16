@@ -59,7 +59,7 @@ function checkoutBlock() {
 	console.log('checkout');
 	$('.checkout.block .product-details .detailed-description').each(function() {
 		console.log($(this).closest('.product-price'));
-		$(this).insertBefore($(this).closest('.product-price'));
+		$(this).insertAfter($(this).closest('.product-price'));
 	});
 	$('.checkout.block .btn-primary').removeClass('btn-sm');
 	$('.checkout.block .product-list').removeClass('col-sm-12');
