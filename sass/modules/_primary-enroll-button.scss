@@ -1,7 +1,7 @@
 form {
 	.product-list {
 		border: 1px solid black;
-
+		margin-top: 1em;
 		> .btn {
 			margin-top: 0 !important;
 			margin-bottom: 0 !important;
@@ -37,11 +37,6 @@ form {
 			margin-top: 1em; 
 		}
 
-		.button-container {
-			center {
-				margin: 0 auto;
-			}
-		}
 		.default-product-price {
 			line-height: 1.3em;
 		}
@@ -79,6 +74,13 @@ form {
 .block.checkout {
 	text-align: center;
 
+	.button-container {
+		center {
+			margin: 0 auto;
+			display: block;			
+		}
+	}
+	
 	.cta-container {
 		text-align:center;
 	}

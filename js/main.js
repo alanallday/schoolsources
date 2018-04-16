@@ -88,7 +88,7 @@ function checkoutBlock() {
 	}
 	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	$('.checkout.block .product-list').addClass('row');
-	$('.checkout.block .btn-primary').removeClass('btn-sm');
+	// $('.checkout.block .btn-primary').removeClass('btn-sm');
 	$('.checkout.block .product-list').removeClass('col-sm-12');
 	$('.checkout.block .col-xs-10.col-xs-offset-1.col-md-8.col-md-offset-2').removeClass('col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1').addClass('col-xs-12');
 	// $('.product-price').text()
