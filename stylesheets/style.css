@@ -8031,7 +8031,7 @@ body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   }
 }
 
-/* line 3, ../sass/modules/_signup.scss */
+/* line 2, ../sass/modules/_signup.scss */
 body.login-page .box-half {
   border: 1px solid black;
   display: inline-block;
@@ -8042,11 +8042,11 @@ body.login-page .box-half {
   /* stops bg color from leaking outside the border: */
   cursor: pointer;
 }
-/* line 10, ../sass/modules/_signup.scss */
+/* line 9, ../sass/modules/_signup.scss */
 body.login-page .box-half:first-child {
   margin-right: 2em;
 }
-/* line 14, ../sass/modules/_signup.scss */
+/* line 13, ../sass/modules/_signup.scss */
 body.login-page .box-half img {
   display: inline-block;
   width: 1.2em;
@@ -8058,11 +8058,11 @@ body.login-page .box-half img {
   -webkit-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
-/* line 24, ../sass/modules/_signup.scss */
+/* line 23, ../sass/modules/_signup.scss */
 body.login-page .box-half:hover img {
   opacity: 1;
 }
-/* line 29, ../sass/modules/_signup.scss */
+/* line 28, ../sass/modules/_signup.scss */
 body.login-page .content-box {
   background: white;
   border: 1px solid black;
@@ -8070,7 +8070,7 @@ body.login-page .content-box {
   margin-bottom: 3em;
 }
 @media screen and (min-width: 960px) {
-  /* line 29, ../sass/modules/_signup.scss */
+  /* line 28, ../sass/modules/_signup.scss */
   body.login-page .content-box {
     margin-bottom: 4em;
   }

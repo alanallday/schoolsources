@@ -71,10 +71,7 @@ function addBodyClass() {
 }
 
 function loginPage() {
-	$('body.login-page') {
-		$('.text-center.col-lg-6.col-lg-offset-3').removeClass('col-lg-6 col-lg-offset-3').addClass('col-lg-8 col-lg-offset-2');
-
-	}
+	$('body.login-page .text-center.col-lg-6.col-lg-offset-3').removeClass('col-lg-6 col-lg-offset-3').addClass('col-lg-8 col-lg-offset-2');
 }
 function addPageHeader() {
 	if ($('body').hasClass('standard-page')) {
