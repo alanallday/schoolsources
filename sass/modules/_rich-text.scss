@@ -12,6 +12,12 @@
 		}
 
 	}
+
+	img {
+		width:100% !important;
+		height: auto !important;
+	}
+	
 	.two-up {
 		@include colXS(12);
 		@include colSM(6);

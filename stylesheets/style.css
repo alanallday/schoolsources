@@ -5017,7 +5017,12 @@ form label {
     font-size: 3.5em;
   }
 }
-/* line 15, ../sass/modules/_rich-text.scss */
+/* line 16, ../sass/modules/_rich-text.scss */
+.rich-text-styling img, .liquid_html img, .rich_text img {
+  width: 100% !important;
+  height: auto !important;
+}
+/* line 20, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up, .liquid_html .two-up, .rich_text .two-up {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5034,7 +5039,7 @@ form label {
   padding-right: 2rem;
 }
 @media only screen and (min-width: 768px) {
-  /* line 15, ../sass/modules/_rich-text.scss */
+  /* line 20, ../sass/modules/_rich-text.scss */
   .rich-text-styling .two-up, .liquid_html .two-up, .rich_text .two-up {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5048,26 +5053,26 @@ form label {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 15, ../sass/modules/_rich-text.scss */
+  /* line 20, ../sass/modules/_rich-text.scss */
   .rich-text-styling .two-up, .liquid_html .two-up, .rich_text .two-up {
     padding-top: 4em;
     padding-bottom: 4em;
     padding-left: 4rem;
     padding-right: 3rem;
   }
-  /* line 33, ../sass/modules/_rich-text.scss */
+  /* line 38, ../sass/modules/_rich-text.scss */
   .rich-text-styling .two-up .btn-secondary, .liquid_html .two-up .btn-secondary, .rich_text .two-up .btn-secondary {
     margin-top: 1em;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 15, ../sass/modules/_rich-text.scss */
+  /* line 20, ../sass/modules/_rich-text.scss */
   .rich-text-styling .two-up, .liquid_html .two-up, .rich_text .two-up {
     padding-top: 6em;
     padding-bottom: 6em;
   }
 }
-/* line 43, ../sass/modules/_rich-text.scss */
+/* line 48, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up label, .liquid_html .two-up label, .rich_text .two-up label {
   -webkit-transform: none;
   -moz-transform: none;
@@ -5075,13 +5080,13 @@ form label {
   transform: none;
   left: 0;
 }
-/* line 48, ../sass/modules/_rich-text.scss */
+/* line 53, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(1), .liquid_html .two-up:nth-child(1), .rich_text .two-up:nth-child(1) {
   color: #DFA648;
   background: #00118E;
 }
 @media screen and (min-width: 960px) {
-  /* line 53, ../sass/modules/_rich-text.scss */
+  /* line 58, ../sass/modules/_rich-text.scss */
   .rich-text-styling .two-up:nth-child(1) h2, .rich-text-styling .two-up:nth-child(1) .box-with-border .description .title, .box-with-border .description .rich-text-styling .two-up:nth-child(1) .title, .rich-text-styling .two-up:nth-child(1) form .product-list .product-name, form .product-list .rich-text-styling .two-up:nth-child(1) .product-name, .rich-text-styling .two-up:nth-child(1) .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich-text-styling .two-up:nth-child(1) .coupon-code-applied, .liquid_html .two-up:nth-child(1) h2, .liquid_html .two-up:nth-child(1) .box-with-border .description .title, .box-with-border .description .liquid_html .two-up:nth-child(1) .title, .liquid_html .two-up:nth-child(1) form .product-list .product-name, form .product-list .liquid_html .two-up:nth-child(1) .product-name, .liquid_html .two-up:nth-child(1) .coupon_banner.block .coupon-code-applied, .coupon_banner.block .liquid_html .two-up:nth-child(1) .coupon-code-applied, .rich_text .two-up:nth-child(1) h2, .rich_text .two-up:nth-child(1) .box-with-border .description .title, .box-with-border .description .rich_text .two-up:nth-child(1) .title, .rich_text .two-up:nth-child(1) form .product-list .product-name, form .product-list .rich_text .two-up:nth-child(1) .product-name, .rich_text .two-up:nth-child(1) .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich_text .two-up:nth-child(1) .coupon-code-applied {
     font-size: 4.5em;
     font-family: 'Times New Roman', serif;
@@ -5090,38 +5095,38 @@ form label {
     letter-spacing: -0.03em;
   }
 }
-/* line 62, ../sass/modules/_rich-text.scss */
+/* line 67, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(1) .btn-secondary, .liquid_html .two-up:nth-child(1) .btn-secondary, .rich_text .two-up:nth-child(1) .btn-secondary {
   border-color: #DFA648;
   color: #DFA648;
   text-decoration: none;
 }
-/* line 67, ../sass/modules/_rich-text.scss */
+/* line 72, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(1) label, .liquid_html .two-up:nth-child(1) label, .rich_text .two-up:nth-child(1) label {
   border-color: #DFA648;
 }
-/* line 72, ../sass/modules/_rich-text.scss */
+/* line 77, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(2), .liquid_html .two-up:nth-child(2), .rich_text .two-up:nth-child(2) {
   color: #FFD9D4;
   background: #AD2602;
 }
 @media screen and (min-width: 960px) {
-  /* line 76, ../sass/modules/_rich-text.scss */
+  /* line 81, ../sass/modules/_rich-text.scss */
   .rich-text-styling .two-up:nth-child(2) h2, .rich-text-styling .two-up:nth-child(2) .box-with-border .description .title, .box-with-border .description .rich-text-styling .two-up:nth-child(2) .title, .rich-text-styling .two-up:nth-child(2) form .product-list .product-name, form .product-list .rich-text-styling .two-up:nth-child(2) .product-name, .rich-text-styling .two-up:nth-child(2) .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich-text-styling .two-up:nth-child(2) .coupon-code-applied, .liquid_html .two-up:nth-child(2) h2, .liquid_html .two-up:nth-child(2) .box-with-border .description .title, .box-with-border .description .liquid_html .two-up:nth-child(2) .title, .liquid_html .two-up:nth-child(2) form .product-list .product-name, form .product-list .liquid_html .two-up:nth-child(2) .product-name, .liquid_html .two-up:nth-child(2) .coupon_banner.block .coupon-code-applied, .coupon_banner.block .liquid_html .two-up:nth-child(2) .coupon-code-applied, .rich_text .two-up:nth-child(2) h2, .rich_text .two-up:nth-child(2) .box-with-border .description .title, .box-with-border .description .rich_text .two-up:nth-child(2) .title, .rich_text .two-up:nth-child(2) form .product-list .product-name, form .product-list .rich_text .two-up:nth-child(2) .product-name, .rich_text .two-up:nth-child(2) .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich_text .two-up:nth-child(2) .coupon-code-applied {
     font-size: 4em;
   }
 }
-/* line 81, ../sass/modules/_rich-text.scss */
+/* line 86, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(2) .btn-secondary, .liquid_html .two-up:nth-child(2) .btn-secondary, .rich_text .two-up:nth-child(2) .btn-secondary {
   border-color: #FFD9D4;
   color: #FFD9D4;
   text-decoration: none;
 }
-/* line 87, ../sass/modules/_rich-text.scss */
+/* line 92, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(2) label, .liquid_html .two-up:nth-child(2) label, .rich_text .two-up:nth-child(2) label {
   border-color: #FFD9D4;
 }
-/* line 92, ../sass/modules/_rich-text.scss */
+/* line 97, ../sass/modules/_rich-text.scss */
 .rich-text-styling label, .liquid_html label, .rich_text label {
   border: 1px solid #000000;
   text-align: center;
@@ -5135,7 +5140,7 @@ form label {
   position: relative;
   margin-bottom: 1rem;
 }
-/* line 103, ../sass/modules/_rich-text.scss */
+/* line 108, ../sass/modules/_rich-text.scss */
 .rich-text-styling .rich-text-container, .liquid_html .rich-text-container, .rich_text .rich-text-container {
   max-width: 960px;
   width: 95%;
@@ -5143,13 +5148,13 @@ form label {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 103, ../sass/modules/_rich-text.scss */
+  /* line 108, ../sass/modules/_rich-text.scss */
   .rich-text-styling .rich-text-container, .liquid_html .rich-text-container, .rich_text .rich-text-container {
     width: 55%;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 106, ../sass/modules/_rich-text.scss */
+  /* line 111, ../sass/modules/_rich-text.scss */
   .rich-text-styling .rich-text-container h2, .rich-text-styling .rich-text-container .box-with-border .description .title, .box-with-border .description .rich-text-styling .rich-text-container .title, .rich-text-styling .rich-text-container form .product-list .product-name, form .product-list .rich-text-styling .rich-text-container .product-name, .rich-text-styling .rich-text-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich-text-styling .rich-text-container .coupon-code-applied, .liquid_html .rich-text-container h2, .liquid_html .rich-text-container .box-with-border .description .title, .box-with-border .description .liquid_html .rich-text-container .title, .liquid_html .rich-text-container form .product-list .product-name, form .product-list .liquid_html .rich-text-container .product-name, .liquid_html .rich-text-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .liquid_html .rich-text-container .coupon-code-applied, .rich_text .rich-text-container h2, .rich_text .rich-text-container .box-with-border .description .title, .box-with-border .description .rich_text .rich-text-container .title, .rich_text .rich-text-container form .product-list .product-name, form .product-list .rich_text .rich-text-container .product-name, .rich_text .rich-text-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich_text .rich-text-container .coupon-code-applied {
     text-align: center;
     width: 80%;
@@ -5158,7 +5163,7 @@ form label {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 114, ../sass/modules/_rich-text.scss */
+  /* line 119, ../sass/modules/_rich-text.scss */
   .rich-text-styling .rich-text-container blockquote, .liquid_html .rich-text-container blockquote, .rich_text .rich-text-container blockquote {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -5166,18 +5171,18 @@ form label {
     margin-left: -10%;
   }
 }
-/* line 123, ../sass/modules/_rich-text.scss */
+/* line 128, ../sass/modules/_rich-text.scss */
 .rich-text-styling .rich-text-container img, .liquid_html .rich-text-container img, .rich_text .rich-text-container img {
   margin: 1.5em 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 123, ../sass/modules/_rich-text.scss */
+  /* line 128, ../sass/modules/_rich-text.scss */
   .rich-text-styling .rich-text-container img, .liquid_html .rich-text-container img, .rich_text .rich-text-container img {
     margin: 2em 0;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 123, ../sass/modules/_rich-text.scss */
+  /* line 128, ../sass/modules/_rich-text.scss */
   .rich-text-styling .rich-text-container img, .liquid_html .rich-text-container img, .rich_text .rich-text-container img {
     width: 140% !important;
     height: auto !important;
@@ -5186,12 +5191,12 @@ form label {
     margin-bottom: 3em;
   }
 }
-/* line 141, ../sass/modules/_rich-text.scss */
+/* line 146, ../sass/modules/_rich-text.scss */
 .rich-text-styling caption, .liquid_html caption, .rich_text caption {
   margin-bottom: 1rem;
   font-size: 0.875em;
 }
-/* line 146, ../sass/modules/_rich-text.scss */
+/* line 151, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module, .liquid_html .image-module, .rich_text .image-module {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -5210,7 +5215,7 @@ form label {
   margin-left: -1rem;
 }
 @media screen and (min-width: 960px) {
-  /* line 146, ../sass/modules/_rich-text.scss */
+  /* line 151, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module, .liquid_html .image-module, .rich_text .image-module {
     width: 150%;
     margin-left: -25%;
@@ -5218,30 +5223,30 @@ form label {
     margin-top: 4em;
     margin-bottom: 4em;
   }
-  /* line 155, ../sass/modules/_rich-text.scss */
+  /* line 160, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module.right, .liquid_html .image-module.right, .rich_text .image-module.right {
     -ms-flex-direction: row-reverse;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     flex-direction: row-reverse;
   }
-  /* line 161, ../sass/modules/_rich-text.scss */
+  /* line 166, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module h2, .rich-text-styling .image-module .box-with-border .description .title, .box-with-border .description .rich-text-styling .image-module .title, .rich-text-styling .image-module form .product-list .product-name, form .product-list .rich-text-styling .image-module .product-name, .rich-text-styling .image-module .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich-text-styling .image-module .coupon-code-applied, .liquid_html .image-module h2, .liquid_html .image-module .box-with-border .description .title, .box-with-border .description .liquid_html .image-module .title, .liquid_html .image-module form .product-list .product-name, form .product-list .liquid_html .image-module .product-name, .liquid_html .image-module .coupon_banner.block .coupon-code-applied, .coupon_banner.block .liquid_html .image-module .coupon-code-applied, .rich_text .image-module h2, .rich_text .image-module .box-with-border .description .title, .box-with-border .description .rich_text .image-module .title, .rich_text .image-module form .product-list .product-name, form .product-list .rich_text .image-module .product-name, .rich_text .image-module .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich_text .image-module .coupon-code-applied {
     text-align: left;
     width: 100%;
     margin-bottom: 4rem;
   }
-  /* line 166, ../sass/modules/_rich-text.scss */
+  /* line 171, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module p, .rich-text-styling .image-module ul, .rich-text-styling .image-module ol, .rich-text-styling .image-module .box-with-border .description, .box-with-border .rich-text-styling .image-module .description, .rich-text-styling .image-module .block.faq .faq-answer, .block.faq .rich-text-styling .image-module .faq-answer, .rich-text-styling .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich-text-styling .image-module .coupon-invalid-text, .rich-text-styling .image-module .course-card .price-container, .course-card .rich-text-styling .image-module .price-container, .rich-text-styling .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .dropdown-toggle, .liquid_html .image-module p, .liquid_html .image-module ul, .liquid_html .image-module ol, .liquid_html .image-module .box-with-border .description, .box-with-border .liquid_html .image-module .description, .liquid_html .image-module .block.faq .faq-answer, .block.faq .liquid_html .image-module .faq-answer, .liquid_html .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .liquid_html .image-module .coupon-invalid-text, .liquid_html .image-module .course-card .price-container, .course-card .liquid_html .image-module .price-container, .liquid_html .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .dropdown-toggle, .rich_text .image-module p, .rich_text .image-module ul, .rich_text .image-module ol, .rich_text .image-module .box-with-border .description, .box-with-border .rich_text .image-module .description, .rich_text .image-module .block.faq .faq-answer, .block.faq .rich_text .image-module .faq-answer, .rich_text .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich_text .image-module .coupon-invalid-text, .rich_text .image-module .course-card .price-container, .course-card .rich_text .image-module .price-container, .rich_text .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich_text .image-module a, .rich_text .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich_text .image-module a, .rich_text .image-module .dropdown-toggle {
     margin-left: 2rem;
   }
 }
-/* line 175, ../sass/modules/_rich-text.scss */
+/* line 180, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module img, .liquid_html .image-module img, .rich_text .image-module img {
   width: 100% !important;
   margin: 0;
 }
-/* line 180, ../sass/modules/_rich-text.scss */
+/* line 185, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module .image-container, .liquid_html .image-module .image-container, .rich_text .image-module .image-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5254,7 +5259,7 @@ form label {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 180, ../sass/modules/_rich-text.scss */
+  /* line 185, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module .image-container, .liquid_html .image-module .image-container, .rich_text .image-module .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5267,7 +5272,7 @@ form label {
     max-width: 58.33333%;
   }
 }
-/* line 185, ../sass/modules/_rich-text.scss */
+/* line 190, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module .text, .liquid_html .image-module .text, .rich_text .image-module .text {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5280,7 +5285,7 @@ form label {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 185, ../sass/modules/_rich-text.scss */
+  /* line 190, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module .text, .liquid_html .image-module .text, .rich_text .image-module .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5294,7 +5299,7 @@ form label {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 191, ../sass/modules/_rich-text.scss */
+  /* line 196, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module.vertical .image-container, .liquid_html .image-module.vertical .image-container, .rich_text .image-module.vertical .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5308,7 +5313,7 @@ form label {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 194, ../sass/modules/_rich-text.scss */
+  /* line 199, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module.vertical .text, .liquid_html .image-module.vertical .text, .rich_text .image-module.vertical .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
