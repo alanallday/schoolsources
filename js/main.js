@@ -55,14 +55,17 @@ function addBodyClass() {
 	if($('.page-header h1').text() == 'All Courses') {
 		$('body').addClass('all-courses');
 	}
+
 	else if($('body').attr('data-pagename') == 'Alumni') {
 		$('body').addClass('alumni-page');
 		$('body').addClass('alumni');
 	} 
+
 	else if ($('body').hasClass('course-page')) {
 	}
 
-	else if ($('h1.text-center').text() == 'Log In to School') {
+	else if ($('.content-box h1').text() == 'Log In to School') {
+		console.log('login page');
 		$('body').addClass('login-page');		
 	}
 	else {
