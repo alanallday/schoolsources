@@ -65,6 +65,8 @@ function checkoutBlock() {
 	});
 
 	var $length = $('.checkout.block .btn.checkout-button-group').length;
+	
+	console.log($length);
 
 	if ($length == 1) {
 		$('.checkout.block .btn.checkout-button-group').addClass('.col-sm-12');
