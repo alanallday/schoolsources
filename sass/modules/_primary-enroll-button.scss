@@ -30,14 +30,17 @@ form {
 		}
 
 		.default-product-price {
+			line-height: 1.3em;
 		}
 
 		label {
 			// @include colM(4);
 			// @include generalColXS();
+			transform: none;
+			left: 0;
 			text-transform: none;
 			border: 1px solid black;
-    		padding: 2em;
+    		padding: 4em 2em;
 		}
 	}
 }
