@@ -40,7 +40,7 @@ $(document).ready(function() {
 	loginPage();
 	addCoursePageLinkID();
 	curriculumBlock();
-	checkoutBlock();
+	// checkoutBlock();
 	addPageHeader();
 });
 
