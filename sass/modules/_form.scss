@@ -7,7 +7,7 @@ input {
 
 input:focus {outline:0;}
 
-input[type="text"],input[type="email"] {
+input[type="text"],input[type="email"], input[type="password"] {
 	background: none;
 	border: none;
 	border-bottom: 1px solid black;
