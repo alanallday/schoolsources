@@ -56,7 +56,7 @@ function curriculumBlock() {
 function checkoutBlock() {
 	$('.checkout.block .product-details').removeClass('col-sm-9');
 	$('.checkout.block .product-price').removeClass('col-sm-2');
-	$('.checkout.block .detailed-description').each(function() {
+	$('.checkout.block .product-details .detailed-description').each(function() {
 		console.log($(this).closest('.product-price'));
 		$(this).insertBefore($(this).closest('.product-price'));
 	});
