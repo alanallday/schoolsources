@@ -13,7 +13,11 @@ form {
 		}
 
 		label {
+			// @include colM(4);
+			@include generalColXS();
 			text-transform: none;
+			border: 1px solid black;
+    		padding: 2em;
 		}
 	}
 }
