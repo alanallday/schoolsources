@@ -35,7 +35,7 @@ form {
 
 		label {
 			// @include colM(4);
-			// @include generalColXS();
+			@include colXS(12);
 			transform: none;
 			left: 0;
 			text-transform: none;

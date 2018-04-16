@@ -6264,6 +6264,15 @@ form .product-list .default-product-price {
 }
 /* line 36, ../sass/modules/_primary-enroll-button.scss */
 form .product-list label {
+  box-sizing: border-box;
+  -ms-flex: 0 0 auto;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
   transform: none;
   left: 0;
   text-transform: none;
