@@ -91,7 +91,7 @@ function checkoutBlock() {
 
 	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	$('.checkout.block .product-list').addClass('row');
-	// $('.checkout.block .btn-primary').addClass('hidden');
+	$('.checkout.block .product-price .btn-primary').addClass('hidden');
 	// $('.checkout.block .btn-primary').removeClass('btn-sm');
 	$('.checkout.block .product-list').removeClass('col-sm-12');
 	$('.checkout.block .col-xs-10.col-xs-offset-1.col-md-8.col-md-offset-2').removeClass('col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1').addClass('col-xs-12');
@@ -157,7 +157,6 @@ function twoUp() {
 	$('.two-up').parent().parent().css({
 		'margin' : 0
 	});
-	console.log('testTwoUp');
 	$( ".two-up a" ).wrapInner( "<div class='btn-secondary'></div>");
 }
 function imageModule() {
@@ -259,7 +258,6 @@ function courseHeader() {
 		$(window).on('scroll',function() {
 			var $headerHeight = $('.course-block.hero .header').outerHeight();
 			var $threshhold = $('.course-block.hero .value-props').offset().top + $('.course-block.hero .value-props').height(); 
-			console.log($(window).scrollTop() + $headerHeight);
 			if ($(window).scrollTop() + $headerHeight > $threshhold) {
 				$('.course-block.hero .header').hide();
 			} else {
