@@ -83,6 +83,12 @@ form {
 .block.checkout {
 	text-align: center;
 
+	.checkout-cta {
+		p {
+			margin-top: 1.5em;
+		}
+	}
+
 	.button-container {
 		center {
 			margin: 0 auto;
