@@ -57,35 +57,35 @@ function checkoutBlock() {
 	// 	$(this).insertAfter($(this).parent().parent().find('.product-price'));
 	// });
 
-	// $('.checkout.block .product-price').each(function(){
-	//     $(this).html($(this).html().replace(/&nbsp;/gi,''));
-	// });
+	$('.checkout.block .product-price').each(function(){
+	    $(this).html($(this).html().replace(/&nbsp;/gi,''));
+	});
 
-	// var $length = $('.checkout.block .btn.checkout-button-group').length;
+	var $length = $('.checkout.block .btn.checkout-button-group').length;
 
-	// console.log($length);
+	console.log($length);
 
-	// if ($length == 1) {
-	// 	$('.checkout.block .btn.checkout-button-group').addClass('col-sm-12');
-	// }
+	if ($length == 1) {
+		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-12');
+	}
 
-	// if ($length == 2) {
-	// 	$('.checkout.block .btn.checkout-button-group').addClass('col-sm-6');
-	// }
+	if ($length == 2) {
+		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-6');
+	}
 
-	// if ($length == 3) {
-	// 	$('.checkout.block .btn.checkout-button-group').addClass('col-sm-4');
-	// } 
+	if ($length == 3) {
+		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-4');
+	} 
 
-	// if ($length == 4) {
-	// 	$('.checkout.block .btn.checkout-button-group').addClass('col-sm-3');
-	// } 
+	if ($length == 4) {
+		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-3');
+	} 
 
-	// if ($('.checkout.block .product-list').hasClass('hidden')) {
+	if ($('.checkout.block .product-list').hasClass('hidden')) {
 
-	// } else {
-	// 	$('.checkout.block .button-container').addClass('hidden');
-	// }
+	} else {
+		$('.checkout.block .button-container').addClass('hidden');
+	}
 	
 	// $('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	// $('.checkout.block .product-list').addClass('row');
