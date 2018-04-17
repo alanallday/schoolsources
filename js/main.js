@@ -85,9 +85,11 @@ function checkoutBlock() {
 		$( ".checkout.block .checkout-cta" ).append( "<p>Select the pricing that works best for you</p>" );
 	}
 
-	if( !$.trim($('.checkout.block .detailed-description').html()).length ) {
-		$(this).remove();
-	}
+	$('.checkout.block .detailed-description').each(function() {
+		if( !$.trim($(this).html()).length ) {
+			$(this).remove();
+		}
+	});
 
 	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	$('.checkout.block .product-list').addClass('row');
