@@ -6252,7 +6252,7 @@ form .product-list > .btn {
 }
 /* line 10, ../sass/modules/_primary-enroll-button.scss */
 form .product-list > .btn:hover {
-  background: white;
+  background: #e9eef3;
 }
 /* line 14, ../sass/modules/_primary-enroll-button.scss */
 form .product-list > .btn.active {

@@ -53,17 +53,15 @@ function curriculumBlock() {
 function checkoutBlock() {
 	$('.checkout.block .product-details').removeClass('col-sm-9');
 	$('.checkout.block .product-price').removeClass('col-sm-2');
-	// $('.checkout.block .product-details .detailed-description').each(function() {
-	// 	$(this).insertAfter($(this).parent().parent().find('.product-price'));
-	// });
+	$('.checkout.block .product-details .detailed-description').each(function() {
+		$(this).insertAfter($(this).parent().parent().find('.product-price'));
+	});
 
 	$('.checkout.block .product-price').each(function(){
 	    $(this).html($(this).html().replace(/&nbsp;/gi,''));
 	});
 
 	var $length = $('.checkout.block .btn.checkout-button-group').length;
-
-	console.log($length);
 
 	if ($length == 1) {
 		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-12');
@@ -81,13 +79,12 @@ function checkoutBlock() {
 		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-3');
 	} 
 
-	if ($('.checkout.block .product-list').hasClass('hidden')) {
+	// if ($('.checkout.block .product-list').hasClass('hidden')) {
 
-	} else {
-		$('.checkout.block .button-container').addClass('hidden');
-	}
+	// } else {
+	// 	$('.checkout.block .button-container').addClass('hidden');
+	// }
 
-	console.log('change1');
 
 	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	$('.checkout.block .product-list').addClass('row');

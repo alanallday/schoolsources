@@ -6,9 +6,9 @@ form {
 			margin-top: 0 !important;
 			margin-bottom: 0 !important;
 			@include transition(all 0.3s ease-in-out);
-			
+
 			&:hover {
-				background: lighten($lightblue,30%);
+				background: lighten($lightblue,5%);
 			}
 
 			&.active {
