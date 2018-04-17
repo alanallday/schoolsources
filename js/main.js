@@ -79,12 +79,11 @@ function checkoutBlock() {
 		$('.checkout.block .btn.checkout-button-group').addClass('col-sm-3');
 	} 
 
-	// if ($('.checkout.block .product-list').hasClass('hidden')) {
+	if ($('.checkout.block .product-list').hasClass('hidden')) {
 
-	// } else {
-	// 	$('.checkout.block .button-container').addClass('hidden');
-	// }
-
+	} else {
+		$( ".checkout.block .checkout-cta" ).append( "<p>Select the pricing that works best for you</p>" );
+	}
 
 	$('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	$('.checkout.block .product-list').addClass('row');
