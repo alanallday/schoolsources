@@ -5184,19 +5184,28 @@ form label {
 @media screen and (min-width: 960px) {
   /* line 129, ../sass/modules/_rich-text.scss */
   .rich-text-styling .rich-text-container img, .liquid_html .rich-text-container img, .rich_text .rich-text-container img {
-    width: 140% !important;
-    height: auto !important;
-    margin-left: -20%;
     margin-top: 3em;
     margin-bottom: 3em;
+    height: auto !important;
+  }
+  /* line 141, ../sass/modules/_rich-text.scss */
+  .rich-text-styling .rich-text-container img.vertical, .liquid_html .rich-text-container img.vertical, .rich_text .rich-text-container img.vertical {
+    width: 80% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 147, ../sass/modules/_rich-text.scss */
+  .rich-text-styling .rich-text-container img.horizontal, .liquid_html .rich-text-container img.horizontal, .rich_text .rich-text-container img.horizontal {
+    width: 140% !important;
+    margin-left: -20%;
   }
 }
-/* line 147, ../sass/modules/_rich-text.scss */
+/* line 157, ../sass/modules/_rich-text.scss */
 .rich-text-styling caption, .liquid_html caption, .rich_text caption {
   margin-bottom: 1rem;
   font-size: 0.875em;
 }
-/* line 152, ../sass/modules/_rich-text.scss */
+/* line 162, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module, .liquid_html .image-module, .rich_text .image-module {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -5215,7 +5224,7 @@ form label {
   margin-left: -1rem;
 }
 @media screen and (min-width: 960px) {
-  /* line 152, ../sass/modules/_rich-text.scss */
+  /* line 162, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module, .liquid_html .image-module, .rich_text .image-module {
     width: 150%;
     margin-left: -25%;
@@ -5223,30 +5232,30 @@ form label {
     margin-top: 4em;
     margin-bottom: 4em;
   }
-  /* line 161, ../sass/modules/_rich-text.scss */
+  /* line 171, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module.right, .liquid_html .image-module.right, .rich_text .image-module.right {
     -ms-flex-direction: row-reverse;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     flex-direction: row-reverse;
   }
-  /* line 167, ../sass/modules/_rich-text.scss */
+  /* line 177, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module h2, .rich-text-styling .image-module .box-with-border .description .title, .box-with-border .description .rich-text-styling .image-module .title, .rich-text-styling .image-module form .product-list .product-name, form .product-list .rich-text-styling .image-module .product-name, .rich-text-styling .image-module .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich-text-styling .image-module .coupon-code-applied, .liquid_html .image-module h2, .liquid_html .image-module .box-with-border .description .title, .box-with-border .description .liquid_html .image-module .title, .liquid_html .image-module form .product-list .product-name, form .product-list .liquid_html .image-module .product-name, .liquid_html .image-module .coupon_banner.block .coupon-code-applied, .coupon_banner.block .liquid_html .image-module .coupon-code-applied, .rich_text .image-module h2, .rich_text .image-module .box-with-border .description .title, .box-with-border .description .rich_text .image-module .title, .rich_text .image-module form .product-list .product-name, form .product-list .rich_text .image-module .product-name, .rich_text .image-module .coupon_banner.block .coupon-code-applied, .coupon_banner.block .rich_text .image-module .coupon-code-applied {
     text-align: left;
     width: 100%;
     margin-bottom: 4rem;
   }
-  /* line 172, ../sass/modules/_rich-text.scss */
+  /* line 182, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module p, .rich-text-styling .image-module ul, .rich-text-styling .image-module ol, .rich-text-styling .image-module .box-with-border .description, .box-with-border .rich-text-styling .image-module .description, .rich-text-styling .image-module .block.faq .faq-answer, .block.faq .rich-text-styling .image-module .faq-answer, .rich-text-styling .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich-text-styling .image-module .coupon-invalid-text, .rich-text-styling .image-module .course-card .price-container, .course-card .rich-text-styling .image-module .price-container, .rich-text-styling .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .dropdown-toggle, .liquid_html .image-module p, .liquid_html .image-module ul, .liquid_html .image-module ol, .liquid_html .image-module .box-with-border .description, .box-with-border .liquid_html .image-module .description, .liquid_html .image-module .block.faq .faq-answer, .block.faq .liquid_html .image-module .faq-answer, .liquid_html .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .liquid_html .image-module .coupon-invalid-text, .liquid_html .image-module .course-card .price-container, .course-card .liquid_html .image-module .price-container, .liquid_html .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .dropdown-toggle, .rich_text .image-module p, .rich_text .image-module ul, .rich_text .image-module ol, .rich_text .image-module .box-with-border .description, .box-with-border .rich_text .image-module .description, .rich_text .image-module .block.faq .faq-answer, .block.faq .rich_text .image-module .faq-answer, .rich_text .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich_text .image-module .coupon-invalid-text, .rich_text .image-module .course-card .price-container, .course-card .rich_text .image-module .price-container, .rich_text .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich_text .image-module a, .rich_text .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich_text .image-module a, .rich_text .image-module .dropdown-toggle {
     margin-left: 2rem;
   }
 }
-/* line 181, ../sass/modules/_rich-text.scss */
+/* line 191, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module img, .liquid_html .image-module img, .rich_text .image-module img {
   width: 100% !important;
   margin: 0;
 }
-/* line 186, ../sass/modules/_rich-text.scss */
+/* line 196, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module .image-container, .liquid_html .image-module .image-container, .rich_text .image-module .image-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5259,7 +5268,7 @@ form label {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 186, ../sass/modules/_rich-text.scss */
+  /* line 196, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module .image-container, .liquid_html .image-module .image-container, .rich_text .image-module .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5272,7 +5281,7 @@ form label {
     max-width: 58.33333%;
   }
 }
-/* line 191, ../sass/modules/_rich-text.scss */
+/* line 201, ../sass/modules/_rich-text.scss */
 .rich-text-styling .image-module .text, .liquid_html .image-module .text, .rich_text .image-module .text {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5285,7 +5294,7 @@ form label {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 191, ../sass/modules/_rich-text.scss */
+  /* line 201, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module .text, .liquid_html .image-module .text, .rich_text .image-module .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5299,7 +5308,7 @@ form label {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 197, ../sass/modules/_rich-text.scss */
+  /* line 207, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module.vertical .image-container, .liquid_html .image-module.vertical .image-container, .rich_text .image-module.vertical .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5313,7 +5322,7 @@ form label {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 200, ../sass/modules/_rich-text.scss */
+  /* line 210, ../sass/modules/_rich-text.scss */
   .rich-text-styling .image-module.vertical .text, .liquid_html .image-module.vertical .text, .rich_text .image-module.vertical .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -8494,8 +8503,9 @@ button:focus {
   width: 80%;
   left: 10%;
   top: 10%;
+  overflow: hidden;
 }
-/* line 215, ../sass/modules/_elements.scss */
+/* line 216, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture {
   width: 100%;
   padding-bottom: 78%;
@@ -8507,7 +8517,7 @@ button:focus {
   overflow: hidden;
   z-index: 1;
 }
-/* line 221, ../sass/modules/_elements.scss */
+/* line 222, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic img {
   position: absolute;
   top: 0;
@@ -8515,7 +8525,7 @@ button:focus {
   width: 100%;
   height: auto;
 }
-/* line 230, ../sass/modules/_elements.scss */
+/* line 231, ../sass/modules/_elements.scss */
 .circle-thumb span.circles {
   position: absolute;
   height: 100%;
@@ -8523,28 +8533,28 @@ button:focus {
   top: 0;
   left: 0;
 }
-/* line 236, ../sass/modules/_elements.scss */
+/* line 237, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(1) {
   width: 95%;
   left: 2.5%;
   top: 2.5%;
   position: absolute;
 }
-/* line 243, ../sass/modules/_elements.scss */
+/* line 244, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(2) {
   width: 90%;
   left: 5%;
   top: 5%;
   position: absolute;
 }
-/* line 250, ../sass/modules/_elements.scss */
+/* line 251, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(3) {
   width: 85%;
   left: 7.5%;
   top: 7.5%;
   position: absolute;
 }
-/* line 256, ../sass/modules/_elements.scss */
+/* line 257, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle {
   width: 100%;
   padding-bottom: 78%;

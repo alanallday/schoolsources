@@ -27,6 +27,7 @@ $(document).ready(function() {
 	addBodyClass();
 	twoUp();
 	sizeStretchedText();
+	sizeImages();
 	imageModule();
 	testimonialBlock();
 	couponCode();
@@ -44,6 +45,16 @@ $(document).ready(function() {
 	addPageHeader();
 });
 
+function sizeImages() {
+	$(".rich_text img").each(function(){
+	    var $this = $(this);
+	    if ($this.width() > $this.height()) {
+	        $this.addClass("horizontal");
+	    } else {
+	        $this.addClass("vertical");	    	
+	    }
+	});
+}
 function curriculumBlock() {
 	if( !$.trim($('.curriculum.block .section-days-to-drip-number').html()).length ) {
 		$('.curriculum.block .section-days-to-drip-number').parent().remove();

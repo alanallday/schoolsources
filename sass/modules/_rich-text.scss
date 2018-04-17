@@ -133,11 +133,21 @@
 				margin: 2em 0;
 		    }
 		    @include bp('medium') {
-			    width: 140% !important;
-			    height: auto !important;
-			    margin-left: -20%;
+
 				margin-top: 3em;
 				margin-bottom: 3em;
+				height: auto !important;
+
+		    	&.vertical {
+		    		width: 80% !important;
+		    		margin-left: auto;
+		    		margin-right: auto;
+		    	}
+
+		    	&.horizontal {
+				    width: 140% !important;
+				    margin-left: -20%;
+				}
 
 			}
 	    }

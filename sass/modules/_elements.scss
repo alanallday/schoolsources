@@ -211,6 +211,7 @@ button:focus {
 			width: 80%;
 			left:10%;
 			top:10%;
+			overflow: hidden;
 		}
 		.picture {
 			@include oval();
