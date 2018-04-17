@@ -67,7 +67,11 @@ form {
 			transform: none;
 			left: 0;
 			text-transform: none;
-			border-right: 1px solid black;
+			
+			@include bp('small') {
+				border-right: 1px solid black;
+			}
+
     		padding: 4em 2em 2em;
 
     		&:last-child {
@@ -83,10 +87,22 @@ form {
 .block.checkout {
 	text-align: center;
 
+	.container#pricing-options {
+		padding-left: 2em;
+    	padding-right: 2em;
+    	@include bp('small') {
+    		padding-left: 0;
+    		padding-right: 0;
+    	}
+	}
 	.checkout-cta {
-
+    	padding-top: 2em;
 		p {
-			margin-top: 0em;
+			margin-top: 1rem;
+		}
+
+		@include bp('small') {
+			padding-top:0;
 		}
 		@include bp('medium') {
 			p {
