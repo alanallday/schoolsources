@@ -86,7 +86,9 @@ function checkoutBlock() {
 	} else {
 		$('.checkout.block .button-container').addClass('hidden');
 	}
-	
+
+	console.log('change1');
+
 	// $('.checkout.block  #enroll-button').parent().parent().addClass('button-container');
 	// $('.checkout.block .product-list').addClass('row');
 	// // $('.checkout.block .btn-primary').removeClass('btn-sm');
