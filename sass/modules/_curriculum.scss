@@ -3,6 +3,11 @@
 		padding-right:0.5em;
 		font-size:0.8em;
 		opacity: 0.8;
+		display: none;
+
+		@include bp('small') {
+			display: inline;
+		}
 	}
 	.collapse {
 		display:none;
@@ -65,6 +70,7 @@
 		width: 100%;
 		text-indent: 0;
 		margin-bottom:1em;
+		font-size: 1.25em !important;
 		@include bp('medium') {
 			margin-bottom:2em;
 		}
