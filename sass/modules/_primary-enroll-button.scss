@@ -84,8 +84,14 @@ form {
 	text-align: center;
 
 	.checkout-cta {
+
 		p {
-			margin-top: 1.5em;
+			margin-top: 0em;
+		}
+		@include bp('medium') {
+			p {
+				margin-top: 1.5em;
+			}
 		}
 	}
 
