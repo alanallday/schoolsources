@@ -188,11 +188,31 @@ function imageModule() {
 }
 
 function couponCode() {
+	var $counter = 0;
 	$('.coupon-marquee-container').each(function(){
-		$(this).find('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
-		$(this).find('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
-		$(this).find('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div2');
-	$(this).width($('#div1').width());
+		if ($counter == 0) {
+			var $id = 'first';
+		}
+
+		if ($counter == 1) {
+			var $id = 'second';
+		}
+
+		if ($counter == 2) {
+			var $id = 'third';
+		}
+
+		if ($counter == 3) {
+			var $id = 'fourth';
+		}
+
+		console.log($id);
+		
+		$(this).find('.coupon-percent-text').clone().appendTo('#' + $id +' .coupon-marquee-container #div1');
+		$(this).find('.coupon-percent-text').clone().appendTo('#' + $id +' .coupon-marquee-container #div1');
+		$(this).find('.coupon-percent-text').clone().appendTo('#' + $id +' .coupon-marquee-container #div2');
+		$(this).width($('#div1').width());
+		$counter = $counter + 1;
 	});
 }
 function testimonialBlock() {
