@@ -6434,14 +6434,27 @@ form .product-list label:last-child {
 /* line 2, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container {
   text-align: center;
+  padding: 0 1.5em;
 }
-/* line 4, ../sass/modules/_share.scss */
+@media screen and (min-width: 768px) {
+  /* line 2, ../sass/modules/_share.scss */
+  .block.description_with_share_icons .share-icon-container {
+    padding: 0;
+  }
+}
+/* line 9, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container .share-border {
   border: 1px solid black;
   padding: 1.5em;
   margin: 0 auto;
   margin-bottom: 2rem;
   display: inline-block;
+}
+@media screen and (min-width: 768px) {
+  /* line 9, ../sass/modules/_share.scss */
+  .block.description_with_share_icons .share-icon-container .share-border {
+    padding: 1.5em 2.5em;
+  }
 }
 @media screen and (min-width: 768px) {
   /* line 2, ../sass/modules/_share.scss */
@@ -6455,21 +6468,28 @@ form .product-list label:last-child {
     margin-bottom: 4rem;
   }
 }
-/* line 20, ../sass/modules/_share.scss */
+/* line 28, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container blockquote {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   display: block;
+  padding-top: 0.5rem;
 }
-/* line 25, ../sass/modules/_share.scss */
+@media screen and (min-width: 768px) {
+  /* line 28, ../sass/modules/_share.scss */
+  .block.description_with_share_icons .share-icon-container blockquote {
+    padding-bottom: 1rem;
+  }
+}
+/* line 37, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container .fa {
   font-size: 2em;
   margin-right: 0.2em;
 }
-/* line 30, ../sass/modules/_share.scss */
+/* line 42, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container .fa.fa-linkedin-square {
   margin-right: 0;
 }
-/* line 35, ../sass/modules/_share.scss */
+/* line 47, ../sass/modules/_share.scss */
 .block.description_with_share_icons .course-description {
   max-width: 960px;
   width: 95%;
@@ -6477,7 +6497,7 @@ form .product-list label:last-child {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 35, ../sass/modules/_share.scss */
+  /* line 47, ../sass/modules/_share.scss */
   .block.description_with_share_icons .course-description {
     width: 55%;
   }

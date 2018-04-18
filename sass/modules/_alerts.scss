@@ -1,0 +1,40 @@
+.course-page {
+	.enrolled-in-course-alert {
+		z-index: 999;
+	    position: fixed;
+	    width: 100%;
+	    bottom: 0;
+	    left: 0;
+	}
+
+	.alert {
+		width: 100% !important;
+	}
+}
+
+.alert-success  {
+	background: $lightblue;
+	color:$red;
+}
+
+.alert {
+	padding: 1em;
+		
+	.enrolled-in-course-alert-link {
+		display: inline-block;
+    	vertical-align: middle;
+	}
+
+	button {
+		border: none;
+		background: none;
+		color: white;
+		font-size: 2em;
+		padding: 0;
+		margin: 0;
+		margin-top: -4px;
+		margin-right: 1rem;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}

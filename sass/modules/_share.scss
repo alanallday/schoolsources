@@ -1,14 +1,22 @@
 .block.description_with_share_icons {
 	.share-icon-container {
 		text-align:center;
+		padding: 0 1.5em;
+		@include bp('small') {
+			padding: 0;
+		}
+
 		.share-border {
 			border: 1px solid black;
 			padding: 1.5em;
 			margin: 0 auto;	
 			margin-bottom: 2rem;
 			display: inline-block;
+			@include bp('small') {
+				padding: 1.5em 2.5em;
+			}
 		}
-		
+
 		@include bp('small') {
 			margin-bottom: 3rem;
 		}
@@ -18,8 +26,12 @@
 		}
 
 		blockquote {
-			padding-bottom: 1rem;
+			padding-bottom: 1.5rem;
+			@include bp('small') {
+				padding-bottom: 1rem;
+			}
 			display: block;
+			padding-top: 0.5rem;
 		}
 
 		.fa {
