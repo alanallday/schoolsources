@@ -2,12 +2,29 @@
 	.share-icon-container {
 		border: 1px solid black;
 		padding: 1em;
-		font-size: 2em;
 		margin: 0 auto;	
+		margin-bottom: 2rem;
+		@include bp('small') {
+			margin-bottom: 3rem;
+		}
+
+		@include bp('medium') {
+			margin-bottom: 4rem;
+		}
 
 		blockquote {
-			margin-bottom: 1em;
-		}	
+			padding-bottom: 1rem;
+			display: block;
+		}
+
+		.fa {
+			font-size: 2em;
+			margin-right: 0.2em;
+		}
+
+		.fa.fa-linkedin-square {
+			margin-right: 0;
+		}
 	}
 
 	.course-container {

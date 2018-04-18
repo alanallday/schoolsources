@@ -6435,14 +6435,36 @@ form .product-list label:last-child {
 .block.description_with_share_icons .share-icon-container {
   border: 1px solid black;
   padding: 1em;
-  font-size: 2em;
   margin: 0 auto;
+  margin-bottom: 2rem;
 }
-/* line 8, ../sass/modules/_share.scss */
+@media screen and (min-width: 768px) {
+  /* line 2, ../sass/modules/_share.scss */
+  .block.description_with_share_icons .share-icon-container {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 960px) {
+  /* line 2, ../sass/modules/_share.scss */
+  .block.description_with_share_icons .share-icon-container {
+    margin-bottom: 4rem;
+  }
+}
+/* line 15, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container blockquote {
-  margin-bottom: 1em;
+  padding-bottom: 1rem;
+  display: block;
 }
-/* line 13, ../sass/modules/_share.scss */
+/* line 20, ../sass/modules/_share.scss */
+.block.description_with_share_icons .share-icon-container .fa {
+  font-size: 2em;
+  margin-right: 0.2em;
+}
+/* line 25, ../sass/modules/_share.scss */
+.block.description_with_share_icons .share-icon-container .fa.fa-linkedin-square {
+  margin-right: 0;
+}
+/* line 30, ../sass/modules/_share.scss */
 .block.description_with_share_icons .course-container {
   max-width: 960px;
   width: 95%;
@@ -6450,7 +6472,7 @@ form .product-list label:last-child {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 13, ../sass/modules/_share.scss */
+  /* line 30, ../sass/modules/_share.scss */
   .block.description_with_share_icons .course-container {
     width: 55%;
   }
