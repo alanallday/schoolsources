@@ -206,11 +206,11 @@ function couponCode() {
 			var $id = 'fourth';
 		}
 
-		console.log($id);
+		$(this).addClass($id);
 		
-		$(this).find('.coupon-percent-text').clone().appendTo('#' + $id +' .coupon-marquee-container #div1');
-		$(this).find('.coupon-percent-text').clone().appendTo('#' + $id +' .coupon-marquee-container #div1');
-		$(this).find('.coupon-percent-text').clone().appendTo('#' + $id +' .coupon-marquee-container #div2');
+		$(this).find('.coupon-percent-text').clone().appendTo('.' + $id +'.coupon-marquee-container #div1');
+		$(this).find('.coupon-percent-text').clone().appendTo('.' + $id +'.coupon-marquee-container #div1');
+		$(this).find('.coupon-percent-text').clone().appendTo('.' + $id +'.coupon-marquee-container #div2');
 		$(this).width($('#div1').width());
 		$counter = $counter + 1;
 	});
