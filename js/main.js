@@ -142,7 +142,7 @@ function addPageHeader() {
 			//add page
 			var $pageTitle = $('body').attr('data-pageName');
 			var $html ='<div class="page-header"><div class="headline"><span class="star"><svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Free-Resources---Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-329.000000, -2832.000000)"><polygon id="Star" fill="#000000" points="339.5 2848.58359 333.010643 2852 334.25 2844.76393 329 2839.63932 336.255322 2838.58359 339.5 2832 342.744678 2838.58359 350 2839.63932 344.75 2844.76393 345.989357 2852"></polygon></g></svg></span><h1 class="serif stretched">' + $pageTitle + '</h1><span class="star"><svg width="21px" height="20px" viewBox="0 0 21 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Free-Resources---Article" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-329.000000, -2832.000000)"><polygon id="Star" fill="#000000" points="339.5 2848.58359 333.010643 2852 334.25 2844.76393 329 2839.63932 336.255322 2838.58359 339.5 2832 342.744678 2838.58359 350 2839.63932 344.75 2844.76393 345.989357 2852"></polygon></g></svg></span></div></div>' 	
-			$('.blocks-page.blocks-page-rich_text').insertBefore($html);
+			// $('.blocks-page.blocks-page-rich_text').insertBefore($html);
 		}
 	}
 }
