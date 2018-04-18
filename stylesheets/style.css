@@ -6433,10 +6433,15 @@ form .product-list label:last-child {
 
 /* line 2, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container {
+  text-align: center;
+}
+/* line 4, ../sass/modules/_share.scss */
+.block.description_with_share_icons .share-icon-container .share-border {
   border: 1px solid black;
-  padding: 1em;
+  padding: 1.5em;
   margin: 0 auto;
   margin-bottom: 2rem;
+  display: inline-block;
 }
 @media screen and (min-width: 768px) {
   /* line 2, ../sass/modules/_share.scss */
@@ -6450,21 +6455,21 @@ form .product-list label:last-child {
     margin-bottom: 4rem;
   }
 }
-/* line 15, ../sass/modules/_share.scss */
+/* line 20, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container blockquote {
   padding-bottom: 1rem;
   display: block;
 }
-/* line 20, ../sass/modules/_share.scss */
+/* line 25, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container .fa {
   font-size: 2em;
   margin-right: 0.2em;
 }
-/* line 25, ../sass/modules/_share.scss */
+/* line 30, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container .fa.fa-linkedin-square {
   margin-right: 0;
 }
-/* line 30, ../sass/modules/_share.scss */
+/* line 35, ../sass/modules/_share.scss */
 .block.description_with_share_icons .course-description {
   max-width: 960px;
   width: 95%;
@@ -6472,7 +6477,7 @@ form .product-list label:last-child {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 30, ../sass/modules/_share.scss */
+  /* line 35, ../sass/modules/_share.scss */
   .block.description_with_share_icons .course-description {
     width: 55%;
   }
