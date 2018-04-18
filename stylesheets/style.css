@@ -6465,7 +6465,7 @@ form .product-list label:last-child {
   margin-right: 0;
 }
 /* line 30, ../sass/modules/_share.scss */
-.block.description_with_share_icons .course-container {
+.block.description_with_share_icons .course-description {
   max-width: 960px;
   width: 95%;
   margin-left: auto;
@@ -6473,7 +6473,7 @@ form .product-list label:last-child {
 }
 @media screen and (min-width: 960px) {
   /* line 30, ../sass/modules/_share.scss */
-  .block.description_with_share_icons .course-container {
+  .block.description_with_share_icons .course-description {
     width: 55%;
   }
 }
