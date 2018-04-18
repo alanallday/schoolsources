@@ -25,7 +25,7 @@ $(document).ready(function() {
 		courseHeader();
 	});
 	addBodyClass();
-	addPageHeader();
+	// addPageHeader();
 	twoUp();
 	sizeStretchedText();
 	sizeImages();
@@ -34,7 +34,7 @@ $(document).ready(function() {
 	couponCode();
 	featuredCoursesBlock();
 	courseHeader();
-	pageHeader();
+	// pageHeader();
 	alumniPage();
 	globalNav();
 	animateLines();
@@ -336,7 +336,6 @@ function pageHeader() {
 
 function alumniPage() {
 	if ($('body').hasClass('alumni-page') || $('body').hasClass('alumni') ) {
-		console.log('hey');
 		var $testimonialPicArray = [];
 		var $testimonialNameArray = [];
 		var $testimonialURLArray = [];
