@@ -188,10 +188,12 @@ function imageModule() {
 }
 
 function couponCode() {
-	$('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
-	$('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
-	$('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div2');
-	$('.coupon-marquee-container').width($('#div1').width());
+	$('.coupon-marquee-container').each(function(){
+		$(this).find('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
+		$(this).find('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div1');
+		$(this).find('.coupon-percent-text').clone().appendTo('.coupon-marquee-container #div2');
+	$(this).width($('#div1').width());
+	});
 }
 function testimonialBlock() {
 	$( ".block.testimonial" ).wrapAll( "<div class='testimonial-container block' />");
