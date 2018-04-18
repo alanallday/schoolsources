@@ -25,6 +25,7 @@ $(document).ready(function() {
 		courseHeader();
 	});
 	addBodyClass();
+	addPageHeader();
 	twoUp();
 	sizeStretchedText();
 	sizeImages();
@@ -42,7 +43,6 @@ $(document).ready(function() {
 	addCoursePageLinkID();
 	curriculumBlock();
 	checkoutBlock();
-	addPageHeader();
 });
 
 function sizeImages() {
@@ -135,7 +135,7 @@ function loginPage() {
 	$('body.login-page .text-center.col-lg-6.col-lg-offset-3').removeClass('col-lg-6 col-lg-offset-3').addClass('col-lg-8 col-lg-offset-2');
 }
 function addPageHeader() {
-	if ($('body').hasClass('standard-page')) {
+	if ($('body').hasClass('standard-page') || $('body').hasClass('alumni')) {
 		if($('.page-header').length > 0) {
 
 		} else {
@@ -186,6 +186,7 @@ function imageModule() {
 	    }
 	});
 }
+
 
 function couponCode() {
 	var $counter = 0;
@@ -326,13 +327,16 @@ function courseHeader() {
 }
 
 function pageHeader() {
-	if ($('body').hasClass('standard-page')) {
-		$('.page-description').insertBefore ('.page-header .directory');
+	if ($('body').hasClass('standard-page') || $('body').hasClass('alumni')) {
+		if ($('.page-description').length > 0) {
+			$('.page-description').insertBefore ('.page-header .directory');
+		}
 	}
 }
 
 function alumniPage() {
 	if ($('body').hasClass('alumni-page') || $('body').hasClass('alumni') ) {
+		console.log('hey');
 		var $testimonialPicArray = [];
 		var $testimonialNameArray = [];
 		var $testimonialURLArray = [];
@@ -342,6 +346,7 @@ function alumniPage() {
 		$('.testimonial.block').each(function(){
 			var $name = $(this).find('p:nth-child(1)').html();
 			$name = $name.toString().split(',')[0];
+			console.log($name);
 			var $URL = convertToSlug($name);
 			$name = getInitials($name);
 			$name = $name.split('').join('.'); 

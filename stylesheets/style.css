@@ -6445,7 +6445,7 @@ form .product-list label:last-child {
 /* line 9, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container .share-border {
   border: 1px solid black;
-  padding: 1.5em;
+  padding: 2em 1.5em;
   margin: 0 auto;
   margin-bottom: 2rem;
   display: inline-block;
@@ -6453,7 +6453,7 @@ form .product-list label:last-child {
 @media screen and (min-width: 768px) {
   /* line 9, ../sass/modules/_share.scss */
   .block.description_with_share_icons .share-icon-container .share-border {
-    padding: 1.5em 2.5em;
+    padding: 3em 2em 2em;
   }
 }
 @media screen and (min-width: 768px) {
@@ -6484,12 +6484,20 @@ form .product-list label:last-child {
 .block.description_with_share_icons .share-icon-container .fa {
   font-size: 2em;
   margin-right: 0.2em;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
-/* line 42, ../sass/modules/_share.scss */
+/* line 41, ../sass/modules/_share.scss */
+.block.description_with_share_icons .share-icon-container .fa:hover {
+  color: #AD2602;
+}
+/* line 46, ../sass/modules/_share.scss */
 .block.description_with_share_icons .share-icon-container .fa.fa-linkedin-square {
   margin-right: 0;
 }
-/* line 47, ../sass/modules/_share.scss */
+/* line 51, ../sass/modules/_share.scss */
 .block.description_with_share_icons .course-description {
   max-width: 960px;
   width: 95%;
@@ -6497,7 +6505,7 @@ form .product-list label:last-child {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 47, ../sass/modules/_share.scss */
+  /* line 51, ../sass/modules/_share.scss */
   .block.description_with_share_icons .course-description {
     width: 55%;
   }
