@@ -44,6 +44,7 @@ $(document).ready(function() {
 	addCoursePageLinkID();
 	curriculumBlock();
 	checkoutBlock();
+	courseCard();
 });
 
 function purchasePage() {
@@ -55,7 +56,7 @@ function purchasePage() {
 
 function courseCard() {
 	$('.course-card').each(function(){
-		var $category $(this).find('category').text();
+		var $category = $(this).find('category').text();
 		$(this).addClass($category);
 	});
 }
