@@ -27,7 +27,7 @@ $(document).ready(function() {
 	addBodyClass();
 	addPageHeader();
 	// pageHeader();
-
+	purchasePage();
 	twoUp();
 	sizeStretchedText();
 	sizeImages();
@@ -47,7 +47,7 @@ $(document).ready(function() {
 });
 
 function purchasePage() {
-	if($('.blocks-page-post_purchase_page').length > 0 ) {
+	if($('.blocks-page.blocks-page-post_purchase_page').length > 0 ) {
 		$('body').addClass('thank-you-page');
 		$('body').removeClass('course-page');
 	}
@@ -124,6 +124,7 @@ function addBodyClass() {
 	}
 
 	else if($('body').attr('data-pagename') == 'Alumni') {
+		$('body').addClass('standard-page');
 		$('body').addClass('alumni-page');
 		$('body').addClass('alumni');
 	} 
