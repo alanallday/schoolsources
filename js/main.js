@@ -367,7 +367,7 @@ function alumniPage() {
 			i++;
 		});
 
-		$('.page-header').append('<div class="directory"><label>Directory</label><div class="max-container"><div class="row"></div></div></div>');
+		$('.page-header').append('<div class="directory"><label>Directory</label><div class="max-container"><div class="row center-xs"></div></div></div>');
 
 		for ($i = 0; $i< $testimonialNameArray.length; $i++) {
 			var profilePic = '<div class="pic"><div class="circle-thumb"><span class="circles"><div class="circle-container"><div class="circle"></div></div><div class="circle-container"><div class="circle"></div></div><div class="circle-container"><div class="circle"></div></div></span><div class="profile-pic"><div class="picture-container"><div class="picture"><img src="' + $testimonialPicArray[$i] + '"/></div></div></div></div></div>';
