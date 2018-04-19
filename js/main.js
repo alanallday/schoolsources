@@ -46,6 +46,13 @@ $(document).ready(function() {
 	checkoutBlock();
 });
 
+function purchasePage() {
+	if($('.blocks-page-post_purchase_page').length > 0 ) {
+		$('body').addClass('thank-you-page');
+		$('body').removeClass('course-page');
+	}
+}
+
 function sizeImages() {
 	$(".rich_text img").each(function(){
 	    var $this = $(this);

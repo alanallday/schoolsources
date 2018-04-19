@@ -143,6 +143,9 @@
 	@include homeHeader($darkred,$lightblue);
 }
 
+.thank-you-page {
+	
+}
 .standard-page {
 	@include globalHeader($darkred,$lightblue);
 	@include homeHeader($darkred,$lightblue);	
