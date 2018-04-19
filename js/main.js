@@ -53,6 +53,12 @@ function purchasePage() {
 	}
 }
 
+function courseCard() {
+	$('.course-card').each(function(){
+		var $category $(this).find('category').text();
+		$(this).addClass($category);
+	});
+}
 function sizeImages() {
 	$(".rich_text img").each(function(){
 	    var $this = $(this);
