@@ -8379,10 +8379,22 @@ body.login-page .content-box h1 {
   }
 }
 
-/* line 2, ../sass/modules/_thank-you.scss */
-body .purchase_confirmation {
+/* line 3, ../sass/modules/_thank-you.scss */
+body.thank-you-page {
   background: #D8E2EA;
   color: #AD2602;
+}
+/* line 8, ../sass/modules/_thank-you.scss */
+body .purchase_confirmation {
+  margin-bottom: 1em;
+}
+/* line 13, ../sass/modules/_thank-you.scss */
+body .blocks-page.blocks-page-post_purchase_page .block.purchase_confirmation {
+  padding-top: 0;
+}
+/* line 18, ../sass/modules/_thank-you.scss */
+body .block.purchase_confirmation + .block.proceed_to_course_button {
+  margin-top: 1em;
 }
 
 /* line 1, ../sass/modules/_elements.scss */
@@ -8976,6 +8988,40 @@ button:focus {
 .home .home-top-container .btn-primary {
   background: #AD2602;
   border: 1px solid #AD2602;
+}
+
+/* line 39, ../sass/modules/_define-colors.scss */
+.thank-you-page nav.global {
+  background: #D8E2EA !important;
+  color: #AD2602 !important;
+}
+/* line 43, ../sass/modules/_define-colors.scss */
+.thank-you-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+  border-color: #AD2602 !important;
+}
+/* line 46, ../sass/modules/_define-colors.scss */
+.thank-you-page nav.global .right {
+  border-color: #AD2602 !important;
+}
+/* line 49, ../sass/modules/_define-colors.scss */
+.thank-you-page nav.global .dropdown-menu {
+  background: #D8E2EA !important;
+  border-color: #AD2602 !important;
+}
+/* line 54, ../sass/modules/_define-colors.scss */
+.thank-you-page nav.global svg polygon, .thank-you-page nav.global svg path {
+  fill: #AD2602 !important;
+}
+/* line 58, ../sass/modules/_define-colors.scss */
+.thank-you-page nav.global .btn-primary {
+  background: #AD2602 !important;
+  color: #D8E2EA !important;
+  border-color: #AD2602 !important;
+}
+/* line 64, ../sass/modules/_define-colors.scss */
+.thank-you-page nav.global .btn-secondary {
+  color: #AD2602 !important;
+  border-color: #AD2602 !important;
 }
 
 /* line 39, ../sass/modules/_define-colors.scss */
