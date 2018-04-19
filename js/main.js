@@ -339,6 +339,7 @@ function courseHeader() {
 function pageHeader() {
 	if ($('body').hasClass('standard-page') || $('body').hasClass('alumni')) {
 		if ($('.page-description').length > 0 && $('.page-header').length > 0) {
+			$('.page-description').parent().remove();
 			$('.page-description').insertBefore ('.page-header .directory');
 		}
 	}
