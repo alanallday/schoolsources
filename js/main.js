@@ -45,8 +45,39 @@ $(document).ready(function() {
 	curriculumBlock();
 	checkoutBlock();
 	courseCard();
+
 });
 
+function clickedLink() {
+	if($('body').hasClass('loaded') == false) {
+		loaded == false;
+		$('body').addClass('loaded');
+		convertRichText();
+		$('.rich_text blockquote').addClass('stretched');
+		addBodyClass();
+		addPageHeader();
+		// pageHeader();
+		purchasePage();
+		twoUp();
+		sizeStretchedText();
+		sizeImages();
+		imageModule();
+		testimonialBlock();
+		couponCode();
+		featuredCoursesBlock();
+		courseHeader();
+		alumniPage();
+		globalNav();
+		animateLines();
+		initSkrollr();
+		loginPage();
+		addCoursePageLinkID();
+		curriculumBlock();
+		checkoutBlock();
+		courseCard();
+		loaded = true;
+	}
+}
 function purchasePage() {
 	if($('.blocks-page.blocks-page-post_purchase_page').length > 0 ) {
 		$('body').addClass('thank-you-page');
@@ -338,7 +369,7 @@ function courseHeader() {
 		$('.course-block.hero a').click(function(e) {
 			e.preventDefault();
 			var $link = $(this).attr('href');
-			$("html, body").animate({ scrollTop: $($link).offset().top - 100}, 1000);
+			$("html, body").animate({ scrollTop: $($link).offset().top - 100}, 500);
 		});
 	}
 }

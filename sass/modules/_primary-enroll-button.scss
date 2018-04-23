@@ -43,7 +43,7 @@ form {
 		}
 
 		.btn {
-			margin-top: 1em; 
+			margin-top: 0em; 
 		}
 
 		.default-product-price {
@@ -82,7 +82,10 @@ form {
 }
 
 #pricing-options {
-	padding-top: 2rem;
+	padding-top: 1rem;
+	@include bp('small') {
+		padding-top:2rem;
+	}
 }
 .block.checkout {
 	text-align: center;
