@@ -15,6 +15,10 @@ setTimeout(function() {
 	}
 },2500);
 
+$(window).bind('hashchange', function() {
+	clickedLink();
+	console.log('hey link was clicked');
+});
 
 $(document).ready(function() {
 	convertRichText();
@@ -45,14 +49,6 @@ $(document).ready(function() {
 	curriculumBlock();
 	checkoutBlock();
 	courseCard();
-
-	$('a').on('click',function(){
-		setTimeout(function() {
-			clickedLink();
-			console.log('hey link was clicked');
-		},400);
-	});
-
 });
 
 function clickedLink() {
