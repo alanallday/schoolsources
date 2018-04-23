@@ -8,13 +8,24 @@
 
 		.share-border {
 			border: 1px solid black;
-			padding: 2em 1.5em;
+    		padding: 3em 3em 2em;
 			margin: 0 auto;	
 			margin-bottom: 2rem;
 			display: inline-block;
-			@include bp('small') {
-    			padding: 3em 2em 2em;
+			blockquote {
+				position:relative;
+				z-index:1;
 			}
+
+			a {
+				position:relative;
+				z-index:2;
+    			display: inline-block;
+			}
+
+			@include bp('small') {
+    			padding: 3em 3em 2em;			
+    		}
 		}
 
 		@include bp('small') {
@@ -35,9 +46,10 @@
 		}
 
 		.fa {
-			font-size: 2em;
-			margin-right: 0.2em;
-			@include transition(all 0.5s ease-in-out);
+			font-size: 2.4em;
+			margin-right: 0.3em;
+			@include transition(all 0.3s ease-in-out);
+			cursor: pointer;
 			&:hover {
 				color: $darkred;
 			}
