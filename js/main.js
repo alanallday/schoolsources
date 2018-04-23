@@ -46,6 +46,12 @@ $(document).ready(function() {
 	checkoutBlock();
 	courseCard();
 
+	$('a').on('click',function(){
+		setTimeout(function() {
+			clickedLink();
+		},400);
+	});
+
 });
 
 function clickedLink() {
