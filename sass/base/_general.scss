@@ -51,8 +51,8 @@ img {
 }
 
 .block {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	z-index:10;
 	background: white;
 	@include bp('medium') {

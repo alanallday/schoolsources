@@ -135,56 +135,68 @@
 		</div>
 	</div>
 	<div class="course-card-container">
-		<div class="course-card">
-			<div class="inner-container">
-				<a href="#">
-				<div class="header">
-					<span class="category">Entrepreneur</span>
-					<h2>How to start a successful career</h2>
-					<span class="author">Rumi Neely</span>
+		<div class="scrolling-wrapper">
+			<div class="course-card2">
+				<div class="inner-container">
+					<a href="#">
+					<div class="header">
+						<span class="author">Rumi Neely</span>
+						<h2>How to start a successful career</h2>
+						<span class="price-container">$99</span>
+					</div>
+					<div class="image-container">
+						<span class="overlay"></span>
+						<img src="images/test-image.jpg"/>
+					</div>
+					</a>
 				</div>
-				<div class="image-container">
-					<img src="images/test-image.jpg"/>
-				</div>
-				<div class="price-container">
-					$99
-				</div>
-				</a>
 			</div>
-		</div>
-		<div class="course-card">
-			<div class="inner-container">
-				<a href="#">
-				<div class="header">
-					<span class="category">Entrepreneur</span>
-					<h2>How to start a successful career</h2>
-					<span class="author">Rumi Neely</span>
+			<div class="course-card2">
+				<div class="inner-container">
+					<a href="#">
+					<div class="header">
+						<span class="author">Rumi Neely</span>
+						<h2>How to start a successful career</h2>
+						<span class="price-container">$99</span>
+					</div>
+					<div class="image-container">
+						<span class="overlay"></span>
+						<img src="images/test-image.jpg"/>
+					</div>
+					</a>
 				</div>
-				<div class="image-container">
-					<img src="images/test-image.jpg"/>
-				</div>
-				<div class="price-container">
-					$99
-				</div>
-				</a>
 			</div>
-		</div>
-		<div class="course-card">
-			<div class="inner-container">
-				<a href="#">
-				<div class="header">
-					<span class="category">Entrepreneur</span>
-					<h2>How to start a successful career</h2>
-					<span class="author">Rumi Neely</span>
+			<div class="course-card2">
+				<div class="inner-container">
+					<a href="#">
+					<div class="header">
+						<span class="author">Rumi Neely</span>
+						<h2>How to start a successful career</h2>
+						<span class="price-container">$99</span>
+					</div>
+					<div class="image-container">
+						<span class="overlay"></span>
+						<img src="images/test-image.jpg"/>
+					</div>
+					</a>
 				</div>
-				<div class="image-container">
-					<img src="images/test-image.jpg"/>
-				</div>
-				<div class="price-container">
-					$99
-				</div>
-				</a>
 			</div>
+			<div class="course-card2">
+				<div class="inner-container">
+					<a href="#">
+					<div class="header">
+						<span class="author">Rumi Neely</span>
+						<h2>How to start a successful career</h2>
+						<span class="price-container">$99</span>
+					</div>
+					<div class="image-container">
+						<span class="overlay"></span>
+						<img src="images/test-image.jpg"/>
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="spacer"></div>
 		</div>
 	</div>
 	<div class="main-cta">
