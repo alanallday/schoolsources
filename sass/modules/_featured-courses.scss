@@ -121,9 +121,13 @@ footer#global {
 
 		  .course-card2 {
 		    flex: 0 0 auto;
-		    width: 300px;
+		    width: 250px;
 		    margin: 0 1em;
 
+		    @include bp('small') {
+		    	width: 300px;
+		    }
+		    
 		    .header {
 		    	position:absolute;
 		    	top:50%;

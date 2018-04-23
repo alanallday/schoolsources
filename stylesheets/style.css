@@ -6784,10 +6784,16 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
 /* line 122, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 {
   flex: 0 0 auto;
-  width: 300px;
+  width: 250px;
   margin: 0 1em;
 }
-/* line 127, ../sass/modules/_featured-courses.scss */
+@media screen and (min-width: 768px) {
+  /* line 122, ../sass/modules/_featured-courses.scss */
+  .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 {
+    width: 300px;
+  }
+}
+/* line 130, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 .header {
   position: absolute;
   top: 50%;
@@ -6800,18 +6806,18 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   transform: translate3d(0, -50%, 0);
   z-index: 5;
 }
-/* line 136, ../sass/modules/_featured-courses.scss */
+/* line 139, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 .header .author {
   margin-bottom: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.01em;
   font-weight: bold;
 }
-/* line 143, ../sass/modules/_featured-courses.scss */
+/* line 146, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 .header span {
   display: block;
 }
-/* line 149, ../sass/modules/_featured-courses.scss */
+/* line 152, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 span.overlay {
   position: absolute;
   top: 0;
@@ -6821,11 +6827,11 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   opacity: 0.7;
   z-index: 4;
 }
-/* line 158, ../sass/modules/_featured-courses.scss */
+/* line 161, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 .inner-container {
   position: relative;
 }
-/* line 161, ../sass/modules/_featured-courses.scss */
+/* line 164, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-card-container .scrolling-wrapper .course-card2 img {
   -webkit-filter: grayscale(100%);
   /* Safari 6.0 - 9.0 */
@@ -6838,7 +6844,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
     display: none;
   }
 }
-/* line 174, ../sass/modules/_featured-courses.scss */
+/* line 177, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container {
   width: 70%;
   margin: 0 auto;
@@ -6846,17 +6852,17 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   display: none;
 }
 @media screen and (min-width: 1024px) {
-  /* line 174, ../sass/modules/_featured-courses.scss */
+  /* line 177, ../sass/modules/_featured-courses.scss */
   .featured-courses.block .course-page-container {
     display: block;
   }
 }
-/* line 183, ../sass/modules/_featured-courses.scss */
+/* line 186, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(n+2) {
   position: absolute;
   top: 0;
 }
-/* line 188, ../sass/modules/_featured-courses.scss */
+/* line 191, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page {
   cursor: pointer;
   -moz-transition: all 0.3s ease-in-out;
@@ -6864,11 +6870,11 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-/* line 193, ../sass/modules/_featured-courses.scss */
+/* line 196, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page.active {
   cursor: auto;
 }
-/* line 198, ../sass/modules/_featured-courses.scss */
+/* line 201, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(1) {
   left: 0;
   z-index: 10;
@@ -6885,7 +6891,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   color: #00118E;
   border-color: #D8E2EA;
 }
-/* line 204, ../sass/modules/_featured-courses.scss */
+/* line 207, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(2) {
   -webkit-transform: translate3d(-12.5%, 0, 0);
   -moz-transform: translate3d(-12.5%, 0, 0);
@@ -6906,7 +6912,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   color: #FF6701;
   border-color: black;
 }
-/* line 211, ../sass/modules/_featured-courses.scss */
+/* line 214, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(3) {
   -webkit-transform: translate3d(-25%, 0, 0);
   -moz-transform: translate3d(-25%, 0, 0);
@@ -6927,7 +6933,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   color: #AD2602;
   border-color: #D8E2EA;
 }
-/* line 219, ../sass/modules/_featured-courses.scss */
+/* line 222, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(4) {
   -webkit-transform: translate3d(-37.5%, 0, 0);
   -moz-transform: translate3d(-37.5%, 0, 0);
@@ -6948,7 +6954,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   color: #FFD9D4;
   border-color: #000000;
 }
-/* line 227, ../sass/modules/_featured-courses.scss */
+/* line 230, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .category-container, .featured-courses.block .course-page-container .name-container {
   position: absolute;
   left: 50%;
@@ -6957,7 +6963,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   -o-transform: translate3d(-50%, 0, 0);
   transform: translate3d(-50%, 0, 0);
 }
-/* line 233, ../sass/modules/_featured-courses.scss */
+/* line 236, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .category, .featured-courses.block .course-page-container .name {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -6969,15 +6975,15 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   padding: 0em 0.3em;
   display: block;
 }
-/* line 242, ../sass/modules/_featured-courses.scss */
+/* line 245, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .category-container {
   bottom: 5em;
 }
-/* line 246, ../sass/modules/_featured-courses.scss */
+/* line 249, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .name-container {
   top: 5em;
 }
-/* line 249, ../sass/modules/_featured-courses.scss */
+/* line 252, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .sidebar {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -6991,7 +6997,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   position: relative;
   white-space: nowrap;
 }
-/* line 255, ../sass/modules/_featured-courses.scss */
+/* line 258, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .body {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -7006,21 +7012,21 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   height: 100%;
   padding-left: 1em;
 }
-/* line 260, ../sass/modules/_featured-courses.scss */
+/* line 263, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .body p, .featured-courses.block .course-page-container .body ul, .featured-courses.block .course-page-container .body ol, .featured-courses.block .course-page-container .body .box-with-border .description, .box-with-border .featured-courses.block .course-page-container .body .description, .featured-courses.block .course-page-container .body .block.faq .faq-answer, .block.faq .featured-courses.block .course-page-container .body .faq-answer, .featured-courses.block .course-page-container .body .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .featured-courses.block .course-page-container .body .coupon-invalid-text, .featured-courses.block .course-page-container .body .course-card .price-container, .course-card .featured-courses.block .course-page-container .body .price-container, .featured-courses.block .course-page-container .body .standard-page .page-header .directory a, .standard-page .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .all-courses .page-header .directory a, .all-courses .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .dropdown-toggle {
   width: 45%;
 }
-/* line 265, ../sass/modules/_featured-courses.scss */
+/* line 268, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .body .btn-primary, .featured-courses.block .course-page-container .body p, .featured-courses.block .course-page-container .body ul, .featured-courses.block .course-page-container .body ol, .featured-courses.block .course-page-container .body .box-with-border .description, .box-with-border .featured-courses.block .course-page-container .body .description, .featured-courses.block .course-page-container .body .block.faq .faq-answer, .block.faq .featured-courses.block .course-page-container .body .faq-answer, .featured-courses.block .course-page-container .body .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .featured-courses.block .course-page-container .body .coupon-invalid-text, .featured-courses.block .course-page-container .body .course-card .price-container, .course-card .featured-courses.block .course-page-container .body .price-container, .featured-courses.block .course-page-container .body .standard-page .page-header .directory a, .standard-page .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .all-courses .page-header .directory a, .all-courses .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .dropdown-toggle, .featured-courses.block .course-page-container .body h3, .featured-courses.block .course-page-container .body .block.faq .faq-question, .block.faq .featured-courses.block .course-page-container .body .faq-question {
   margin-left: 1.5rem;
 }
-/* line 270, ../sass/modules/_featured-courses.scss */
+/* line 273, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container h2, .featured-courses.block .course-page-container .box-with-border .description .title, .box-with-border .description .featured-courses.block .course-page-container .title, .featured-courses.block .course-page-container form .product-list .product-name, form .product-list .featured-courses.block .course-page-container .product-name, .featured-courses.block .course-page-container .coupon_banner.block .coupon-code-applied, .coupon_banner.block .featured-courses.block .course-page-container .coupon-code-applied {
   font-size: 3.5em;
   width: 70%;
   margin-bottom: 1rem;
 }
-/* line 276, ../sass/modules/_featured-courses.scss */
+/* line 279, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .text {
   top: 50%;
   position: absolute;
@@ -7031,11 +7037,11 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   z-index: 2;
   width: 100%;
 }
-/* line 284, ../sass/modules/_featured-courses.scss */
+/* line 287, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .btn-primary {
   margin-top: 0.5rem;
 }
-/* line 288, ../sass/modules/_featured-courses.scss */
+/* line 291, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .image-shape {
   position: absolute;
   width: 45%;
@@ -7047,7 +7053,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   top: 50%;
   z-index: 1;
 }
-/* line 296, ../sass/modules/_featured-courses.scss */
+/* line 299, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page {
   position: relative;
   width: 100%;
@@ -7059,14 +7065,14 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   -moz-box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 4px 10px 2px rgba(0, 0, 0, 0.1);
 }
-/* line 307, ../sass/modules/_featured-courses.scss */
+/* line 310, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page.active {
   -webkit-box-shadow: 3px 4px 28px 2px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 3px 4px 28px 2px rgba(0, 0, 0, 0.4);
   box-shadow: 3px 4px 28px 2px rgba(0, 0, 0, 0.4);
   border-color: black;
 }
-/* line 314, ../sass/modules/_featured-courses.scss */
+/* line 317, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page .page-container {
   box-sizing: border-box;
   display: -ms-flexbox;
