@@ -15,7 +15,7 @@ setTimeout(function() {
 	}
 },2500);
 
-$(window).bind('hashchange', function() {
+$('a').on('click', function() {
 	clickedLink();
 	console.log('hey link was clicked');
 });
