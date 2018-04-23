@@ -49,6 +49,7 @@ $(document).ready(function() {
 	$('a').on('click',function(){
 		setTimeout(function() {
 			clickedLink();
+			console.log('hey link was clicked');
 		},400);
 	});
 
