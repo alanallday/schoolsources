@@ -15,10 +15,10 @@ setTimeout(function() {
 	}
 },2500);
 
-$('a').on('click', function() {
-	clickedLink();
-	console.log('hey link was clicked');
-});
+// $('a').on('click', function() {
+// 	clickedLink();
+// 	console.log('hey link was clicked');
+// });
 
 $(document).ready(function() {
 	convertRichText();
@@ -49,6 +49,10 @@ $(document).ready(function() {
 	curriculumBlock();
 	checkoutBlock();
 	courseCard();
+	if($('body').hasClass('loaded') == false) {
+			loaded == true;
+			$('body').addClass('loaded');
+	}
 });
 
 function clickedLink() {
