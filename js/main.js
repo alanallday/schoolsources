@@ -20,6 +20,11 @@ setTimeout(function() {
 // 	console.log('hey link was clicked');
 // });
 
+$(window).bind('hashchange', function() {
+	clickedLink();
+	console.log('hey link was clicked');	
+});
+	
 $(document).ready(function() {
 	convertRichText();
 	$('.rich_text blockquote').addClass('stretched');
@@ -30,7 +35,7 @@ $(document).ready(function() {
 	});
 	addBodyClass();
 	addPageHeader();
-	// pageHeader();
+	pageHeader();
 	purchasePage();
 	twoUp();
 	sizeStretchedText();
@@ -53,11 +58,6 @@ $(document).ready(function() {
 		loaded == true;
 		$('body').addClass('loaded');
 	}
-
-	$('a').on('click', function() {
-		clickedLink();
-		console.log('hey link was clicked');
-	});
 });
 
 function clickedLink() {
@@ -66,7 +66,7 @@ function clickedLink() {
 		$('.rich_text blockquote').addClass('stretched');
 		addBodyClass();
 		addPageHeader();
-		// pageHeader();
+		pageHeader();
 		purchasePage();
 		twoUp();
 		sizeStretchedText();
