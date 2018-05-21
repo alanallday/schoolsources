@@ -50,15 +50,18 @@ $(document).ready(function() {
 	checkoutBlock();
 	courseCard();
 	if($('body').hasClass('loaded') == false) {
-			loaded == true;
-			$('body').addClass('loaded');
+		loaded == true;
+		$('body').addClass('loaded');
 	}
+
+	$('a').on('click', function() {
+		clickedLink();
+		console.log('hey link was clicked');
+	});
 });
 
 function clickedLink() {
 	if($('body').hasClass('loaded') == false) {
-		loaded == false;
-		$('body').addClass('loaded');
 		convertRichText();
 		$('.rich_text blockquote').addClass('stretched');
 		addBodyClass();
@@ -82,6 +85,7 @@ function clickedLink() {
 		curriculumBlock();
 		checkoutBlock();
 		courseCard();
+		$('body').addClass('loaded');
 		loaded = true;
 	}
 }
