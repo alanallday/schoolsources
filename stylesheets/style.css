@@ -80,7 +80,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 12, ../sass/base/_reset.scss */
 .text {
-  text-align: left;
+  text-align: unset;
   margin-top: unset;
   padding-bottom: unset;
   border-bottom: none;
@@ -98,22 +98,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 29, ../sass/base/_reset.scss */
+.open > .dropdown-menu li a {
+  color: inherit;
+}
+
+/* line 33, ../sass/base/_reset.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: none;
+}
+
+/* line 37, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
   background: none !important;
   border-bottom: 0;
 }
 
-/* line 32, ../sass/base/_reset.scss */
+/* line 40, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
   color: #AD2602 !important;
 }
 
-/* line 34, ../sass/base/_reset.scss */
+/* line 42, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
   background: none !important;
 }
 
-/* line 36, ../sass/base/_reset.scss */
+/* line 44, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
   background: none !important;
   color: #7b1b01 !important;
@@ -7721,7 +7731,7 @@ footer#global {
 }
 /* line 10, ../sass/modules/_footer.scss */
 #global-footer .dropdown-menu a {
-  color: black;
+  color: black !important;
   font-weight: bold;
 }
 
@@ -7738,14 +7748,14 @@ body.home footer#global .featured-courses.block {
 }
 /* line 26, ../sass/modules/_footer.scss */
 #global-footer .btn-primary {
-  background: white;
-  color: black;
-  border-color: white;
+  background: white !important;
+  color: black !important;
+  border-color: white !important;
 }
 /* line 32, ../sass/modules/_footer.scss */
 #global-footer .btn-secondary {
-  color: white;
-  border-color: white;
+  color: white !important;
+  border-color: white !important;
 }
 /* line 37, ../sass/modules/_footer.scss */
 #global-footer .cta {

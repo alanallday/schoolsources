@@ -10,7 +10,7 @@
 }
 
 .text {
-	text-align:left;
+	text-align:unset;
 	margin-top:unset;
 	padding-bottom:unset;
 	border-bottom: none;
@@ -24,6 +24,14 @@
 
 .course-block.featured_courses, .block.featured_courses {
 	text-align:unset;
+}
+
+.open > .dropdown-menu li a {
+	color: inherit;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-color: none;
 }
 
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {

@@ -8,7 +8,7 @@ footer#global {
 		text-align:left;
 	}
 	.dropdown-menu a {
-		color: black;
+		color: black !important;
 		font-weight: bold;
 	}
 }
@@ -24,14 +24,14 @@ body.home footer#global {
 	color: white;
 	padding-bottom:3em;
 	.btn-primary {
-		background: white;
-		color: black;
-		border-color: white;
+		background: white !important;
+		color: black !important;
+		border-color: white !important;
 	}
 
 	.btn-secondary {
-		color: white;
-		border-color: white;
+		color: white !important;
+		border-color: white !important;
 	}
 
 	.cta {
