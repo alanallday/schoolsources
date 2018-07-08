@@ -2,16 +2,6 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 1, ../sass/base/_reset.scss */
-body {
-  all: initial;
-}
-
-/* line 5, ../sass/base/_reset.scss */
-* {
-  all: unset;
-}
-
 /* line 5, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, .box-with-border .description .title, form .product-list .product-name, .coupon_banner.block .coupon-code-applied, h3, .block.faq .faq-question, h4, h5, h6, p, ul, ol, .box-with-border .description, .block.faq .faq-answer, .coupon_banner.block .coupon-invalid-text, .course-card .price-container, .standard-page .page-header .directory a, .all-courses .page-header .directory a, .dropdown-toggle, blockquote, pre,
