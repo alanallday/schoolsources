@@ -6,8 +6,9 @@
 body {
   all: initial;
 }
-/* line 3, ../sass/base/_reset.scss */
-body * {
+
+/* line 5, ../sass/base/_reset.scss */
+* {
   all: unset;
 }
 
