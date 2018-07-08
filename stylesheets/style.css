@@ -4440,7 +4440,7 @@ img {
 .btn-primary {
   font-family: 'Alte Haas Grotesk', sans-serif;
   display: inline-block;
-  padding: 0.8em 1.2em;
+  padding: 0.8em 1.2em !important;
   line-height: 1em;
   background: black;
   color: white;
@@ -4476,24 +4476,24 @@ img {
 
 /* line 65, ../sass/modules/_buttons.scss */
 .btn-secondary.btn-sm {
-  padding: 0.5em 0.7em;
-  font-size: 0.9rem;
+  padding: 0.5em 0.7em !important;
+  font-size: 0.9rem !important;
 }
 
 /* line 69, ../sass/modules/_buttons.scss */
 .btn-primary.btn-sm {
-  padding: 0.5em 0.7em;
-  font-size: 0.9rem;
+  padding: 0.5em 0.7em !important;
+  font-size: 0.9rem !important;
 }
 
 /* line 74, ../sass/modules/_buttons.scss */
 .btn-secondary.btn-hg {
-  font-size: 1.3rem;
+  font-size: 1.3rem !important;
 }
 
 /* line 77, ../sass/modules/_buttons.scss */
 .btn-primary.btn-hg {
-  font-size: 1.3rem;
+  font-size: 1.3rem !important;
 }
 
 /* line 1, ../sass/modules/_typography.scss */

@@ -37,14 +37,14 @@
 .btn-primary {
 	font-family: 'Alte Haas Grotesk', sans-serif;
 	display: inline-block;
-    padding: 0.8em 1.2em;    
+    padding: 0.8em 1.2em !important;    
     line-height:1em;
     background: black;
     color: white;
     font-size:1rem;
     cursor: pointer;
     border:1px solid black !important;
-    font-weight:bold;
+    font-weight:bold !important;
     @include border-radius(2px);
     @include transition(all 0.3s ease-in-out);
     position:relative;
@@ -63,19 +63,19 @@
 }
 
 .btn-secondary.btn-sm {
-    padding: 0.5em 0.7em;
-    font-size:0.9rem;
+    padding: 0.5em 0.7em !important;
+    font-size:0.9rem !important;
 }
 .btn-primary.btn-sm {
-    padding: 0.5em 0.7em;
-    font-size:0.9rem;
+    padding: 0.5em 0.7em !important;
+    font-size:0.9rem !important;
 }
 
 .btn-secondary.btn-hg {
-    font-size:1.3rem;
+    font-size:1.3rem !important;
 }
 .btn-primary.btn-hg {
-    font-size:1.3rem;
+    font-size:1.3rem !important;
 }
 
 
