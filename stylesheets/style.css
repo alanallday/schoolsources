@@ -5180,8 +5180,8 @@ form label {
 }
 /* line 68, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(1) .btn-secondary, .liquid_html .two-up:nth-child(1) .btn-secondary, .rich_text .two-up:nth-child(1) .btn-secondary {
-  border-color: #DFA648;
-  color: #DFA648;
+  border-color: #DFA648 !important;
+  color: #DFA648 !important;
   text-decoration: none;
 }
 /* line 73, ../sass/modules/_rich-text.scss */
@@ -5201,8 +5201,8 @@ form label {
 }
 /* line 87, ../sass/modules/_rich-text.scss */
 .rich-text-styling .two-up:nth-child(2) .btn-secondary, .liquid_html .two-up:nth-child(2) .btn-secondary, .rich_text .two-up:nth-child(2) .btn-secondary {
-  border-color: #FFD9D4;
-  color: #FFD9D4;
+  border-color: #FFD9D4 !important;
+  color: #FFD9D4 !important;
   text-decoration: none;
 }
 /* line 93, ../sass/modules/_rich-text.scss */
