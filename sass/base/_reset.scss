@@ -4,6 +4,27 @@
 	}
 }
 
+.text h2 {
+	color: unset;
+	letter-spacing:unset;
+}
+
+.text {
+	text-align:left;
+	margin-top:unset;
+	padding-bottom:unset;
+	border-bottom: none;
+}
+
+.course-block, .block {
+	padding-top: unset;
+	padding-bottom: unset;
+
+}
+
+.course-block.featured_courses, .block.featured_courses {
+	text-align:unset;
+}
 // .btn-secondary, .btn-secondary:active, .btn-secondary:focus {
 // 	background: none !important;
 // 	// padding: 0 !important;

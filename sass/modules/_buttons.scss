@@ -1,8 +1,8 @@
-.btn {
+.btn,.btn:active, .btn:focus {
 	cursor: pointer;
 }
 
-.btn-default {
+.btn-default,.btn-default:active, .btn-default:focus {
     border: 1px solid black !important;
     display: inline-block;
     padding: 0.5em 1em !important;
@@ -16,7 +16,7 @@
     	background:rgba(0,0,0,0.05);
     }    
 }
-.btn-secondary {
+.btn-secondary, .btn-secondary:active, .btn-secondary:focus {
 	font-family: 'Alte Haas Grotesk', sans-serif;
 	display: inline-block;
     border: 1px solid black !important;
@@ -27,19 +27,20 @@
     cursor: pointer;
     @include transition(all 0.3s ease-in-out);
     font-weight:bold !important;
+    background: none !important;
 
     &:hover {
         @include transform(translate3d(0,-0.2em,0));
-        background: rgba(0,0,0,0.05);
+        background: rgba(0,0,0,0.05) !important;
     }
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:active, .btn-primary:focus {
 	font-family: 'Alte Haas Grotesk', sans-serif;
-	display: inline-block;
+	display: inline-block !important;
     padding: 0.8em 1.2em !important;    
     line-height:1em;
-    background: black;
+    background: black !important;
     color: white;
     font-size:1rem;
     cursor: pointer;
@@ -59,6 +60,7 @@
 		-moz-box-shadow: 3px 4px 28px 5px rgba(0,0,0,0.1);
 		box-shadow: 3px 4px 28px 5px rgba(0,0,0,0.1);
     	@include transform(translate3d(0,-0.2em,0));
+        background: black !important;
     }
 }
 

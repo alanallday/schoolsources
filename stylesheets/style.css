@@ -4382,12 +4382,12 @@ img {
 }
 
 /* line 1, ../sass/modules/_buttons.scss */
-.btn {
+.btn, .btn:active, .btn:focus {
   cursor: pointer;
 }
 
 /* line 5, ../sass/modules/_buttons.scss */
-.btn-default {
+.btn-default, .btn-default:active, .btn-default:focus {
   border: 1px solid black !important;
   display: inline-block;
   padding: 0.5em 1em !important;
@@ -4404,12 +4404,12 @@ img {
   background: none !important;
 }
 /* line 15, ../sass/modules/_buttons.scss */
-.btn-default:hover {
+.btn-default:hover, .btn-default:active:hover, .btn-default:focus:hover {
   background: rgba(0, 0, 0, 0.05);
 }
 
 /* line 19, ../sass/modules/_buttons.scss */
-.btn-secondary {
+.btn-secondary, .btn-secondary:active, .btn-secondary:focus {
   font-family: 'Alte Haas Grotesk', sans-serif;
   display: inline-block;
   border: 1px solid black !important;
@@ -4426,28 +4426,29 @@ img {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   font-weight: bold !important;
+  background: none !important;
 }
-/* line 31, ../sass/modules/_buttons.scss */
-.btn-secondary:hover {
+/* line 32, ../sass/modules/_buttons.scss */
+.btn-secondary:hover, .btn-secondary:active:hover, .btn-secondary:focus:hover {
   -webkit-transform: translate3d(0, -0.2em, 0);
   -moz-transform: translate3d(0, -0.2em, 0);
   -o-transform: translate3d(0, -0.2em, 0);
   transform: translate3d(0, -0.2em, 0);
-  background: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.05) !important;
 }
 
-/* line 37, ../sass/modules/_buttons.scss */
-.btn-primary {
+/* line 38, ../sass/modules/_buttons.scss */
+.btn-primary, .btn-primary:active, .btn-primary:focus {
   font-family: 'Alte Haas Grotesk', sans-serif;
-  display: inline-block;
+  display: inline-block !important;
   padding: 0.8em 1.2em !important;
   line-height: 1em;
-  background: black;
+  background: black !important;
   color: white;
   font-size: 1rem;
   cursor: pointer;
   border: 1px solid black !important;
-  font-weight: bold;
+  font-weight: bold !important;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   background-clip: padding-box;
@@ -4458,13 +4459,13 @@ img {
   transition: all 0.3s ease-in-out;
   position: relative;
 }
-/* line 51, ../sass/modules/_buttons.scss */
-.btn-primary.darkred {
+/* line 52, ../sass/modules/_buttons.scss */
+.btn-primary.darkred, .btn-primary:active.darkred, .btn-primary:focus.darkred {
   background: #AD2602 !important;
   border: 1px solid #AD2602 !important;
 }
-/* line 57, ../sass/modules/_buttons.scss */
-.btn-primary:hover {
+/* line 58, ../sass/modules/_buttons.scss */
+.btn-primary:hover, .btn-primary:active:hover, .btn-primary:focus:hover {
   -webkit-box-shadow: 3px 4px 28px 5px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 3px 4px 28px 5px rgba(0, 0, 0, 0.1);
   box-shadow: 3px 4px 28px 5px rgba(0, 0, 0, 0.1);
@@ -4472,26 +4473,27 @@ img {
   -moz-transform: translate3d(0, -0.2em, 0);
   -o-transform: translate3d(0, -0.2em, 0);
   transform: translate3d(0, -0.2em, 0);
+  background: black !important;
 }
 
-/* line 65, ../sass/modules/_buttons.scss */
+/* line 67, ../sass/modules/_buttons.scss */
 .btn-secondary.btn-sm {
   padding: 0.5em 0.7em !important;
   font-size: 0.9rem !important;
 }
 
-/* line 69, ../sass/modules/_buttons.scss */
+/* line 71, ../sass/modules/_buttons.scss */
 .btn-primary.btn-sm {
   padding: 0.5em 0.7em !important;
   font-size: 0.9rem !important;
 }
 
-/* line 74, ../sass/modules/_buttons.scss */
+/* line 76, ../sass/modules/_buttons.scss */
 .btn-secondary.btn-hg {
   font-size: 1.3rem !important;
 }
 
-/* line 77, ../sass/modules/_buttons.scss */
+/* line 79, ../sass/modules/_buttons.scss */
 .btn-primary.btn-hg {
   font-size: 1.3rem !important;
 }
