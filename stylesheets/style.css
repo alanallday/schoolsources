@@ -97,6 +97,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   text-align: unset;
 }
 
+/* line 29, ../sass/base/_reset.scss */
+.navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
+  background: none !important;
+  border-bottom: 0;
+}
+
+/* line 32, ../sass/base/_reset.scss */
+.navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
+  color: #AD2602 !important;
+}
+
+/* line 34, ../sass/base/_reset.scss */
+.navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
+  background: none !important;
+}
+
+/* line 36, ../sass/base/_reset.scss */
+.navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
+  background: none !important;
+  color: #7b1b01 !important;
+}
+
 /* Uncomment and set these variables to customize the grid. */
 /* line 85, ../sass/base/_flex.scss */
 .container {
@@ -4504,26 +4526,27 @@ img {
   -o-transform: translate3d(0, -0.2em, 0);
   transform: translate3d(0, -0.2em, 0);
   background: black !important;
+  border-color: black;
 }
 
-/* line 67, ../sass/modules/_buttons.scss */
+/* line 68, ../sass/modules/_buttons.scss */
 .btn-secondary.btn-sm {
   padding: 0.5em 0.7em !important;
   font-size: 0.9rem !important;
 }
 
-/* line 71, ../sass/modules/_buttons.scss */
+/* line 72, ../sass/modules/_buttons.scss */
 .btn-primary.btn-sm {
   padding: 0.5em 0.7em !important;
   font-size: 0.9rem !important;
 }
 
-/* line 76, ../sass/modules/_buttons.scss */
+/* line 77, ../sass/modules/_buttons.scss */
 .btn-secondary.btn-hg {
   font-size: 1.3rem !important;
 }
 
-/* line 79, ../sass/modules/_buttons.scss */
+/* line 80, ../sass/modules/_buttons.scss */
 .btn-primary.btn-hg {
   font-size: 1.3rem !important;
 }

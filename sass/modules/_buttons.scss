@@ -61,6 +61,7 @@
 		box-shadow: 3px 4px 28px 5px rgba(0,0,0,0.1);
     	@include transform(translate3d(0,-0.2em,0));
         background: black !important;
+        border-color: black;
     }
 }
 
