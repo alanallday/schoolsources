@@ -4969,17 +4969,21 @@ input[type="submit"] {
 /* line 47, ../sass/modules/_form.scss */
 input[type="submit"]:hover {
   background: black;
+  -moz-transition: all, 0.3s, ease-in-out;
+  -o-transition: all, 0.3s, ease-in-out;
+  -webkit-transition: all, 0.3s, ease-in-out;
+  transition: all, 0.3s, ease-in-out;
   -webkit-transform: translate3d(0, -0.2em, 0);
   -moz-transform: translate3d(0, -0.2em, 0);
   -o-transform: translate3d(0, -0.2em, 0);
   transform: translate3d(0, -0.2em, 0);
 }
 
-/* line 53, ../sass/modules/_form.scss */
+/* line 54, ../sass/modules/_form.scss */
 form {
   text-align: left;
 }
-/* line 55, ../sass/modules/_form.scss */
+/* line 56, ../sass/modules/_form.scss */
 form label {
   border: none;
   padding: auto;
@@ -4990,25 +4994,25 @@ form label {
   text-align: left;
 }
 
-/* line 65, ../sass/modules/_form.scss */
+/* line 66, ../sass/modules/_form.scss */
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 68, ../sass/modules/_form.scss */
+/* line 69, ../sass/modules/_form.scss */
 ::-moz-placeholder {
   /* Firefox 19+ */
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 71, ../sass/modules/_form.scss */
+/* line 72, ../sass/modules/_form.scss */
 :-ms-input-placeholder {
   /* IE 10+ */
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* line 74, ../sass/modules/_form.scss */
+/* line 75, ../sass/modules/_form.scss */
 :-moz-placeholder {
   /* Firefox 18- */
   color: rgba(0, 0, 0, 0.5);
