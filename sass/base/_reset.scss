@@ -1,4 +1,13 @@
+.view-school {
+	h2, h3, h4, h5 {
+		color: inherit;
+	}
+}
 
+.btn-secondary, .btn-secondary:active, .btn-secondary:focus {
+	background: none !important;
+	// padding: 0 !important;
+}
 @mixin reset() {
     animation : none;
     animation-delay : 0;

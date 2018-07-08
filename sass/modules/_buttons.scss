@@ -3,13 +3,14 @@
 }
 
 .btn-default {
-    border: 1px solid black;
+    border: 1px solid black !important;
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 0.5em 1em !important;
     @include border-radius(2px);
     @include transition(background 0.3s ease-in-out);
     cursor: pointer;
-    font-weight:bold;
+    font-weight:bold !important;
+    background: none !important;
 
     &:hover {
     	background:rgba(0,0,0,0.05);
@@ -18,14 +19,14 @@
 .btn-secondary {
 	font-family: 'Alte Haas Grotesk', sans-serif;
 	display: inline-block;
-    border: 1px solid black;
-    padding: 0.8em 1.2em;    
+    border: 1px solid black !important;
+    padding: 0.8em 1.2em !important;    
     font-size:1rem;
     @include border-radius(2px);
     line-height:1em;
     cursor: pointer;
     @include transition(all 0.3s ease-in-out);
-    font-weight:bold;
+    font-weight:bold !important;
 
     &:hover {
         @include transform(translate3d(0,-0.2em,0));
@@ -41,16 +42,15 @@
     background: black;
     color: white;
     font-size:1rem;
-    border: none;
     cursor: pointer;
-    border:1px solid black;
+    border:1px solid black !important;
     font-weight:bold;
     @include border-radius(2px);
     @include transition(all 0.3s ease-in-out);
     position:relative;
     &.darkred {
-    	background:$darkred;
-        border:1px solid $darkred;
+    	background:$darkred !important;
+        border:1px solid $darkred !important;
 
     }
 

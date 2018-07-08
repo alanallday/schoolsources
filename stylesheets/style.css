@@ -4388,9 +4388,9 @@ img {
 
 /* line 5, ../sass/modules/_buttons.scss */
 .btn-default {
-  border: 1px solid black;
+  border: 1px solid black !important;
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.5em 1em !important;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   background-clip: padding-box;
@@ -4400,19 +4400,20 @@ img {
   -webkit-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: bold !important;
+  background: none !important;
 }
-/* line 14, ../sass/modules/_buttons.scss */
+/* line 15, ../sass/modules/_buttons.scss */
 .btn-default:hover {
   background: rgba(0, 0, 0, 0.05);
 }
 
-/* line 18, ../sass/modules/_buttons.scss */
+/* line 19, ../sass/modules/_buttons.scss */
 .btn-secondary {
   font-family: 'Alte Haas Grotesk', sans-serif;
   display: inline-block;
-  border: 1px solid black;
-  padding: 0.8em 1.2em;
+  border: 1px solid black !important;
+  padding: 0.8em 1.2em !important;
   font-size: 1rem;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -4424,9 +4425,9 @@ img {
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-weight: bold;
+  font-weight: bold !important;
 }
-/* line 30, ../sass/modules/_buttons.scss */
+/* line 31, ../sass/modules/_buttons.scss */
 .btn-secondary:hover {
   -webkit-transform: translate3d(0, -0.2em, 0);
   -moz-transform: translate3d(0, -0.2em, 0);
@@ -4435,7 +4436,7 @@ img {
   background: rgba(0, 0, 0, 0.05);
 }
 
-/* line 36, ../sass/modules/_buttons.scss */
+/* line 37, ../sass/modules/_buttons.scss */
 .btn-primary {
   font-family: 'Alte Haas Grotesk', sans-serif;
   display: inline-block;
@@ -4444,9 +4445,8 @@ img {
   background: black;
   color: white;
   font-size: 1rem;
-  border: none;
   cursor: pointer;
-  border: 1px solid black;
+  border: 1px solid black !important;
   font-weight: bold;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -4460,8 +4460,8 @@ img {
 }
 /* line 51, ../sass/modules/_buttons.scss */
 .btn-primary.darkred {
-  background: #AD2602;
-  border: 1px solid #AD2602;
+  background: #AD2602 !important;
+  border: 1px solid #AD2602 !important;
 }
 /* line 57, ../sass/modules/_buttons.scss */
 .btn-primary:hover {
