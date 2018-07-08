@@ -67,6 +67,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 1, ../sass/base/_reset.scss */
+body {
+  all: initial;
+}
+/* line 3, ../sass/base/_reset.scss */
+body * {
+  all: unset;
+}
+
 /* Uncomment and set these variables to customize the grid. */
 /* line 85, ../sass/base/_flex.scss */
 .container {
