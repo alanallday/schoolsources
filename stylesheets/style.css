@@ -6743,8 +6743,8 @@ footer#global .featured-courses.block label {
 }
 /* line 38, ../sass/modules/_featured-courses.scss */
 footer#global .featured-courses.block .main-cta .btn-secondary {
-  color: #FFFFFF;
-  border-color: #FFFFFF;
+  color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
 }
 
 /* line 46, ../sass/modules/_featured-courses.scss */
@@ -6974,9 +6974,9 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
 }
 /* line 10, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(1) .btn-primary {
-  background: #D8E2EA;
-  color: #00118E;
-  border-color: #D8E2EA;
+  background: #D8E2EA !important;
+  color: #00118E !important;
+  border-color: #D8E2EA !important;
 }
 /* line 208, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(2) {
@@ -6995,9 +6995,9 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
 }
 /* line 10, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(2) .btn-primary {
-  background: black;
-  color: #FF6701;
-  border-color: black;
+  background: black !important;
+  color: #FF6701 !important;
+  border-color: black !important;
 }
 /* line 215, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(3) {
@@ -7016,9 +7016,9 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
 }
 /* line 10, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(3) .btn-primary {
-  background: #D8E2EA;
-  color: #AD2602;
-  border-color: #D8E2EA;
+  background: #D8E2EA !important;
+  color: #AD2602 !important;
+  border-color: #D8E2EA !important;
 }
 /* line 223, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(4) {
@@ -7037,9 +7037,9 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
 }
 /* line 10, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .page:nth-child(4) .btn-primary {
-  background: #000000;
-  color: #FFD9D4;
-  border-color: #000000;
+  background: #000000 !important;
+  color: #FFD9D4 !important;
+  border-color: #000000 !important;
 }
 /* line 231, ../sass/modules/_featured-courses.scss */
 .featured-courses.block .course-page-container .category-container, .featured-courses.block .course-page-container .name-container {

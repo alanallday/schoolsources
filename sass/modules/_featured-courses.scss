@@ -8,9 +8,9 @@
 	}
 
 	.btn-primary {
-		background: $color;
-		color: $color2;
-		border-color: $color;
+		background: $color !important;
+		color: $color2 !important;
+		border-color: $color !important;
 	}
 }
 
@@ -36,8 +36,8 @@ footer#global {
 		}
 
 		.main-cta .btn-secondary {
-			color: $white;
-			border-color: $white;
+			color: $white !important;
+			border-color: $white !important;
 		}
 	}
 }
