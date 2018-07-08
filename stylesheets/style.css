@@ -67,6 +67,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 2, ../sass/base/_reset.scss */
+.view-school h2, .view-school .box-with-border .description .title, .box-with-border .description .view-school .title, .view-school form .product-list .product-name, form .product-list .view-school .product-name, .view-school .coupon_banner.block .coupon-code-applied, .coupon_banner.block .view-school .coupon-code-applied, .view-school h3, .view-school .block.faq .faq-question, .block.faq .view-school .faq-question, .view-school h4, .view-school h5 {
+  color: inherit;
+}
+
+/* line 7, ../sass/base/_reset.scss */
+.text h2, .text .box-with-border .description .title, .box-with-border .description .text .title, .text form .product-list .product-name, form .product-list .text .product-name, .text .coupon_banner.block .coupon-code-applied, .coupon_banner.block .text .coupon-code-applied {
+  color: unset;
+  letter-spacing: unset;
+}
+
+/* line 12, ../sass/base/_reset.scss */
+.text {
+  text-align: left;
+  margin-top: unset;
+  padding-bottom: unset;
+  border-bottom: none;
+}
+
+/* line 19, ../sass/base/_reset.scss */
+.course-block, .block {
+  padding-top: unset;
+  padding-bottom: unset;
+}
+
+/* line 25, ../sass/base/_reset.scss */
+.course-block.featured_courses, .block.featured_courses {
+  text-align: unset;
+}
+
 /* Uncomment and set these variables to customize the grid. */
 /* line 85, ../sass/base/_flex.scss */
 .container {
