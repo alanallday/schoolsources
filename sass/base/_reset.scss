@@ -14,8 +14,14 @@
     margin-bottom:0;
     border: none;
     &.is-scrolling {
+        position: fixed;
+        top: 8px; //width of top bar
+        left: 0;
+        z-index: 98;
+        width: 100%;
+
         nav.global {
-            padding-top:0.5em;
+            padding-top:0.8em;
             padding-bottom:0.5em;
             border-bottom: 1px solid black;
         }
