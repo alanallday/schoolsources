@@ -1238,6 +1238,11 @@ html, body {
   overflow-x: hidden;
 }
 
+/* line 11, ../sass/base/_general.scss */
+body {
+  padding-bottom: 0 !important;
+}
+
 /* line 15, ../sass/base/_general.scss */
 .page-borders {
   z-index: 999;
