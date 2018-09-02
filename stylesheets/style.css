@@ -73,12 +73,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 7, ../sass/base/_reset.scss */
+.navbar {
+  min-height: 0;
+  margin-bottom: 0;
+  border: none;
+}
+/* line 12, ../sass/base/_reset.scss */
+.navbar.is-scrolling nav.global {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* line 19, ../sass/base/_reset.scss */
 .text h2, .text .box-with-border .description .title, .box-with-border .description .text .title, .text form .product-list .product-name, form .product-list .text .product-name, .text .coupon_banner.block .coupon-code-applied, .coupon_banner.block .text .coupon-code-applied {
   color: unset;
   letter-spacing: unset;
 }
 
-/* line 11, ../sass/base/_reset.scss */
+/* line 23, ../sass/base/_reset.scss */
 .text {
   text-align: unset;
   margin-top: unset;
@@ -86,50 +98,50 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: none;
 }
 
-/* line 18, ../sass/base/_reset.scss */
+/* line 30, ../sass/base/_reset.scss */
 .course-block, .block {
   padding-top: unset;
   padding-bottom: unset;
 }
 
-/* line 24, ../sass/base/_reset.scss */
+/* line 36, ../sass/base/_reset.scss */
 .course-block.featured_courses, .block.featured_courses {
   text-align: unset;
 }
 
-/* line 28, ../sass/base/_reset.scss */
+/* line 40, ../sass/base/_reset.scss */
 .open > .dropdown-menu li a {
   color: inherit;
 }
 
-/* line 32, ../sass/base/_reset.scss */
+/* line 44, ../sass/base/_reset.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-color: none;
 }
 
-/* line 38, ../sass/base/_reset.scss */
+/* line 50, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
   background: none !important;
   border-bottom: 0;
 }
 
-/* line 41, ../sass/base/_reset.scss */
+/* line 53, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
   color: #AD2602 !important;
 }
 
-/* line 43, ../sass/base/_reset.scss */
+/* line 55, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
   background: none !important;
 }
 
-/* line 45, ../sass/base/_reset.scss */
+/* line 57, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
   background: none !important;
   color: #7b1b01 !important;
 }
 
-/* line 50, ../sass/base/_reset.scss */
+/* line 62, ../sass/base/_reset.scss */
 .btn-secondary, .btn-secondary:active, .btn-secondary:focus {
   background: none !important;
 }

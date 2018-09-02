@@ -22,7 +22,6 @@ setTimeout(function() {
 
 $(window).bind('hashchange', function() {
 	clickedLink();
-	console.log('hey link was clicked');	
 });
 	
 $(document).ready(function() {
@@ -209,6 +208,14 @@ function globalNav() {
 	$('nav.global .menu').click(function(){
 		$('nav.global').toggleClass('open');
 	});
+
+	var height = $('.navbar-fedora').height();
+	console.log(height);
+	if ($('.navbar-fedora').length) {
+		$('.navbar-fedora').parent().parent().css({
+			'height' : height;
+		});
+	}
 }
 function sizeStretchedText() {
 	$('.stretched').each(function() {
