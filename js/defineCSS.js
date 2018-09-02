@@ -6,9 +6,10 @@ function defineCSS() {
 		});
 	} else {
 		//remove custom css
-		$("#customCSS").attr("disabled", "disabled");
+		$("#marketingCSS").attr("disabled", "disabled");
 	}
 }
+
 $(document).ready(function() {
 	console.log('reloadCSS');
 	defineCSS();
