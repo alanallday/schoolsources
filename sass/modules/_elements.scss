@@ -22,7 +22,7 @@ a {
 .open-my-profile-dropdown.dropdown-toggle {
 	min-width: 65px;
 	display: block;
-	border-bottom:none;
+	border-bottom:none !important;
 
 	.circle {
 		@include oval();
