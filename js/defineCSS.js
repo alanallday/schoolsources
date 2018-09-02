@@ -10,7 +10,10 @@ function defineCSS() {
 	}
 }
 
+$(window).bind('hashchange', function() {
+	defineCSS();
+});
+	
 $(document).ready(function() {
-	console.log('reloadCSS');
 	defineCSS();
 });
