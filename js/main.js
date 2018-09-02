@@ -88,6 +88,7 @@ function clickedLink() {
 		loaded = true;
 	}
 }
+
 function purchasePage() {
 	if($('.blocks-page.blocks-page-post_purchase_page').length > 0 ) {
 		$('body').addClass('thank-you-page');

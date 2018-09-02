@@ -4,6 +4,11 @@
 	}
 }
 
+.filter-label {
+    float: none;
+    color: unset;
+    margin-right: unset;
+}
 .navbar {
     min-height: 0;
     margin-bottom:0;
@@ -12,7 +17,11 @@
         nav.global {
             padding-top:0.5em;
             padding-bottom:0.5em;
+            border-bottom: 1px solid black;
         }
+    }
+
+    &.is-above-the-fold {       
     }
 }
 

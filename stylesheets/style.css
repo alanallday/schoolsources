@@ -73,24 +73,32 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 7, ../sass/base/_reset.scss */
+.filter-label {
+  float: none;
+  color: unset;
+  margin-right: unset;
+}
+
+/* line 12, ../sass/base/_reset.scss */
 .navbar {
   min-height: 0;
   margin-bottom: 0;
   border: none;
 }
-/* line 12, ../sass/base/_reset.scss */
+/* line 17, ../sass/base/_reset.scss */
 .navbar.is-scrolling nav.global {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
+  border-bottom: 1px solid black;
 }
 
-/* line 19, ../sass/base/_reset.scss */
+/* line 28, ../sass/base/_reset.scss */
 .text h2, .text .box-with-border .description .title, .box-with-border .description .text .title, .text form .product-list .product-name, form .product-list .text .product-name, .text .coupon_banner.block .coupon-code-applied, .coupon_banner.block .text .coupon-code-applied {
   color: unset;
   letter-spacing: unset;
 }
 
-/* line 23, ../sass/base/_reset.scss */
+/* line 32, ../sass/base/_reset.scss */
 .text {
   text-align: unset;
   margin-top: unset;
@@ -98,50 +106,50 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: none;
 }
 
-/* line 30, ../sass/base/_reset.scss */
+/* line 39, ../sass/base/_reset.scss */
 .course-block, .block {
   padding-top: unset;
   padding-bottom: unset;
 }
 
-/* line 36, ../sass/base/_reset.scss */
+/* line 45, ../sass/base/_reset.scss */
 .course-block.featured_courses, .block.featured_courses {
   text-align: unset;
 }
 
-/* line 40, ../sass/base/_reset.scss */
+/* line 49, ../sass/base/_reset.scss */
 .open > .dropdown-menu li a {
   color: inherit;
 }
 
-/* line 44, ../sass/base/_reset.scss */
+/* line 53, ../sass/base/_reset.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   background-color: none;
 }
 
-/* line 50, ../sass/base/_reset.scss */
+/* line 59, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
   background: none !important;
   border-bottom: 0;
 }
 
-/* line 53, ../sass/base/_reset.scss */
+/* line 62, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
   color: #AD2602 !important;
 }
 
-/* line 55, ../sass/base/_reset.scss */
+/* line 64, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
   background: none !important;
 }
 
-/* line 57, ../sass/base/_reset.scss */
+/* line 66, ../sass/base/_reset.scss */
 .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
   background: none !important;
   color: #7b1b01 !important;
 }
 
-/* line 62, ../sass/base/_reset.scss */
+/* line 71, ../sass/base/_reset.scss */
 .btn-secondary, .btn-secondary:active, .btn-secondary:focus {
   background: none !important;
 }
@@ -5478,10 +5486,6 @@ body nav.global {
   padding-bottom: 1em;
   position: relative;
   z-index: 999;
-  -moz-transition: all 0.2s ease-in-out 0.4s;
-  -o-transition: all 0.2s ease-in-out 0.4s;
-  -webkit-transition: all 0.2s ease-in-out 0.4s;
-  transition: all 0.2s ease-in-out 0.4s;
 }
 /* line 40, ../sass/modules/_header.scss */
 body nav.global svg polygon, body nav.global svg path {
