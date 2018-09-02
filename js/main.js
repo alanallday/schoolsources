@@ -213,7 +213,7 @@ function globalNav() {
 	console.log(height);
 	if ($('.navbar-fedora').length) {
 		$('.navbar-fedora').parent().parent().css({
-			'height' : height;
+			'height' : height
 		});
 	}
 }
