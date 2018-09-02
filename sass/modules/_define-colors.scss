@@ -70,18 +70,18 @@
 
 @mixin homeHeader($primary,$secondary)  {
 	.home-top-container {
-		color: $primary;
-		background: $secondary;
+		color: $primary !important;
+		background: $secondary !important;
 		.box-with-border {
-			border: 1px solid $primary;
+			border: 1px solid $primary !important;
 		}
 		.btn-secondary {
-			border-color: $primary;
+			border-color: $primary !important;
 		}		
 
 		.btn-primary {
-			background: $primary;
-			border: 1px solid $primary;
+			background: $primary !important;
+			border: 1px solid $primary !important;
 		}
 	}
 }

@@ -80,10 +80,10 @@ a {
 	}
 }
 
-.dropdown-toggle {
-	border: none;
-	padding: 0;
-	border-bottom: 1px solid black;
+.dropdown-toggle,.dropdown-toggle:active, .dropdown-toggle:focus {
+	border: none !important;
+	padding: 0 !important;
+	border-bottom: 1px solid black !important;
 	@extend p;
 	margin-bottom:0;
 	min-width: 200px;
@@ -96,7 +96,6 @@ a {
 button:focus {
   outline: none;
 }
-
 .caret {
 	border-width: 5px 5px 0;
     border-bottom-width: 0;

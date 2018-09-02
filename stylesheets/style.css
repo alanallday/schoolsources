@@ -2,9 +2,164 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 212, ../sass/base/_reset.scss */
+* {
+  animation: none;
+  animation-delay: 0;
+  animation-direction: normal;
+  animation-duration: 0;
+  animation-fill-mode: none;
+  animation-iteration-count: 1;
+  animation-name: none;
+  animation-play-state: running;
+  animation-timing-function: ease;
+  backface-visibility: visible;
+  background: 0;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: transparent;
+  background-image: none;
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-repeat: repeat;
+  background-size: auto auto;
+  border: 0;
+  border-style: none;
+  border-width: medium;
+  border-color: inherit;
+  border-bottom: 0;
+  border-bottom-color: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-collapse: separate;
+  border-image: none;
+  border-left: 0;
+  border-left-color: inherit;
+  border-left-style: none;
+  border-left-width: medium;
+  border-radius: 0;
+  border-right: 0;
+  border-right-color: inherit;
+  border-right-style: none;
+  border-right-width: medium;
+  border-spacing: 0;
+  border-top: 0;
+  border-top-color: inherit;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top-style: none;
+  border-top-width: medium;
+  bottom: auto;
+  box-shadow: none;
+  box-sizing: content-box;
+  caption-side: top;
+  clear: none;
+  clip: auto;
+  color: inherit;
+  columns: auto;
+  column-count: auto;
+  column-fill: balance;
+  column-gap: normal;
+  column-rule: medium none currentColor;
+  column-rule-color: currentColor;
+  column-rule-style: none;
+  column-rule-width: none;
+  column-span: 1;
+  column-width: auto;
+  content: normal;
+  counter-increment: none;
+  counter-reset: none;
+  cursor: auto;
+  direction: ltr;
+  display: inline;
+  empty-cells: show;
+  float: none;
+  font: normal;
+  font-family: inherit;
+  font-size: medium;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: auto;
+  hyphens: none;
+  left: auto;
+  letter-spacing: normal;
+  line-height: normal;
+  list-style: none;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: disc;
+  margin: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  orphans: 0;
+  outline: 0;
+  outline-color: invert;
+  outline-style: none;
+  outline-width: medium;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  page-break-after: auto;
+  page-break-before: auto;
+  page-break-inside: auto;
+  perspective: none;
+  perspective-origin: 50% 50%;
+  position: static;
+  /* May need to alter quotes for different locales (e.g fr) */
+  quotes: '\201C' '\201D' '\2018' '\2019';
+  right: auto;
+  tab-size: 8;
+  table-layout: auto;
+  text-align: inherit;
+  text-align-last: auto;
+  text-decoration: none;
+  text-decoration-color: inherit;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  top: auto;
+  transform: none;
+  transform-style: flat;
+  transition: none;
+  transition-delay: 0s;
+  transition-duration: 0s;
+  transition-property: none;
+  transition-timing-function: ease;
+  unicode-bidi: normal;
+  vertical-align: baseline;
+  visibility: visible;
+  white-space: normal;
+  widows: 0;
+  width: auto;
+  word-spacing: normal;
+  z-index: auto;
+  /* basic modern patch */
+  all: initial;
+  all: unset;
+}
+
 /* line 5, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
-h1, h2, .box-with-border .description .title, form .product-list .product-name, .coupon_banner.block .coupon-code-applied, h3, .block.faq .faq-question, h4, h5, h6, p, ul, ol, .box-with-border .description, .block.faq .faq-answer, .coupon_banner.block .coupon-invalid-text, .course-card .price-container, .standard-page .page-header .directory a, .all-courses .page-header .directory a, .dropdown-toggle, blockquote, pre,
+h1, h2, .box-with-border .description .title, form .product-list .product-name, .coupon_banner.block .coupon-code-applied, h3, .block.faq .faq-question, h4, h5, h6, p, ul, ol, .box-with-border .description, .block.faq .faq-answer, .coupon_banner.block .coupon-invalid-text, .course-card .price-container, .standard-page .page-header .directory a, .all-courses .page-header .directory a, .dropdown-toggle, .dropdown-toggle:active, .dropdown-toggle:focus, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -65,68 +220,6 @@ a img {
 /* line 116, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
-}
-
-/* line 2, ../sass/base/_reset.scss */
-.view-school h2, .view-school .box-with-border .description .title, .box-with-border .description .view-school .title, .view-school form .product-list .product-name, form .product-list .view-school .product-name, .view-school .coupon_banner.block .coupon-code-applied, .coupon_banner.block .view-school .coupon-code-applied, .view-school h3, .view-school .block.faq .faq-question, .block.faq .view-school .faq-question, .view-school h4, .view-school h5 {
-  color: inherit;
-}
-
-/* line 7, ../sass/base/_reset.scss */
-.text h2, .text .box-with-border .description .title, .box-with-border .description .text .title, .text form .product-list .product-name, form .product-list .text .product-name, .text .coupon_banner.block .coupon-code-applied, .coupon_banner.block .text .coupon-code-applied {
-  color: unset;
-  letter-spacing: unset;
-}
-
-/* line 12, ../sass/base/_reset.scss */
-.text {
-  text-align: unset;
-  margin-top: unset;
-  padding-bottom: unset;
-  border-bottom: none;
-}
-
-/* line 19, ../sass/base/_reset.scss */
-.course-block, .block {
-  padding-top: unset;
-  padding-bottom: unset;
-}
-
-/* line 25, ../sass/base/_reset.scss */
-.course-block.featured_courses, .block.featured_courses {
-  text-align: unset;
-}
-
-/* line 29, ../sass/base/_reset.scss */
-.open > .dropdown-menu li a {
-  color: inherit;
-}
-
-/* line 33, ../sass/base/_reset.scss */
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  background-color: none;
-}
-
-/* line 37, ../sass/base/_reset.scss */
-.navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
-  background: none !important;
-  border-bottom: 0;
-}
-
-/* line 40, ../sass/base/_reset.scss */
-.navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
-  color: #AD2602 !important;
-}
-
-/* line 42, ../sass/base/_reset.scss */
-.navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
-  background: none !important;
-}
-
-/* line 44, ../sass/base/_reset.scss */
-.navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
-  background: none !important;
-  color: #7b1b01 !important;
 }
 
 /* Uncomment and set these variables to customize the grid. */
@@ -1211,11 +1304,6 @@ html, body {
   font-size: 14px;
   line-height: 1.4em;
   overflow-x: hidden;
-}
-
-/* line 11, ../sass/base/_general.scss */
-body {
-  padding-bottom: 0 !important;
 }
 
 /* line 15, ../sass/base/_general.scss */
@@ -4562,7 +4650,7 @@ img {
 }
 
 /* line 1, ../sass/modules/_typography.scss */
-p, ul, ol, .box-with-border .description, .block.faq .faq-answer, .coupon_banner.block .coupon-invalid-text, .course-card .price-container, .standard-page .page-header .directory a, .all-courses .page-header .directory a, .dropdown-toggle {
+p, ul, ol, .box-with-border .description, .block.faq .faq-answer, .coupon_banner.block .coupon-invalid-text, .course-card .price-container, .standard-page .page-header .directory a, .all-courses .page-header .directory a, .dropdown-toggle, .dropdown-toggle:active, .dropdown-toggle:focus {
   font-family: 'Times New Roman', serif;
   font-size: 1.5em;
   line-height: 1.3em;
@@ -4594,7 +4682,7 @@ i {
 }
 
 /* line 29, ../sass/modules/_typography.scss */
-p a, ul a, ol a, .box-with-border .description a, .block.faq .faq-answer a, .coupon_banner.block .coupon-invalid-text a, .course-card .price-container a, .standard-page .page-header .directory a a, .all-courses .page-header .directory a a, .dropdown-toggle a {
+p a, ul a, ol a, .box-with-border .description a, .block.faq .faq-answer a, .coupon_banner.block .coupon-invalid-text a, .course-card .price-container a, .standard-page .page-header .directory a a, .all-courses .page-header .directory a a, .dropdown-toggle a, .dropdown-toggle:active a, .dropdown-toggle:focus a {
   color: inherit;
   font-weight: bold;
 }
@@ -4673,7 +4761,7 @@ label {
 }
 
 /* line 98, ../sass/modules/_typography.scss */
-p.small, ul.small, ol.small, .box-with-border .small.description, .rich-text-styling .two-up p, .rich-text-styling .two-up ul, .rich-text-styling .two-up ol, .rich-text-styling .two-up .box-with-border .description, .box-with-border .rich-text-styling .two-up .description, .rich-text-styling .two-up .block.faq .faq-answer, .block.faq .rich-text-styling .two-up .faq-answer, .rich-text-styling .two-up .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich-text-styling .two-up .coupon-invalid-text, .rich-text-styling .two-up .course-card .price-container, .course-card .rich-text-styling .two-up .price-container, .rich-text-styling .two-up .standard-page .page-header .directory a, .standard-page .page-header .directory .rich-text-styling .two-up a, .rich-text-styling .two-up .all-courses .page-header .directory a, .all-courses .page-header .directory .rich-text-styling .two-up a, .rich-text-styling .two-up .dropdown-toggle, .liquid_html .two-up p, .liquid_html .two-up ul, .liquid_html .two-up ol, .liquid_html .two-up .box-with-border .description, .box-with-border .liquid_html .two-up .description, .liquid_html .two-up .block.faq .faq-answer, .block.faq .liquid_html .two-up .faq-answer, .liquid_html .two-up .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .liquid_html .two-up .coupon-invalid-text, .liquid_html .two-up .course-card .price-container, .course-card .liquid_html .two-up .price-container, .liquid_html .two-up .standard-page .page-header .directory a, .standard-page .page-header .directory .liquid_html .two-up a, .liquid_html .two-up .all-courses .page-header .directory a, .all-courses .page-header .directory .liquid_html .two-up a, .liquid_html .two-up .dropdown-toggle, .rich_text .two-up p, .rich_text .two-up ul, .rich_text .two-up ol, .rich_text .two-up .box-with-border .description, .box-with-border .rich_text .two-up .description, .rich_text .two-up .block.faq .faq-answer, .block.faq .rich_text .two-up .faq-answer, .rich_text .two-up .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich_text .two-up .coupon-invalid-text, .rich_text .two-up .course-card .price-container, .course-card .rich_text .two-up .price-container, .rich_text .two-up .standard-page .page-header .directory a, .standard-page .page-header .directory .rich_text .two-up a, .rich_text .two-up .all-courses .page-header .directory a, .all-courses .page-header .directory .rich_text .two-up a, .rich_text .two-up .dropdown-toggle, .rich-text-styling .image-module p, .rich-text-styling .image-module ul, .rich-text-styling .image-module ol, .rich-text-styling .image-module .box-with-border .description, .box-with-border .rich-text-styling .image-module .description, .rich-text-styling .image-module .block.faq .faq-answer, .block.faq .rich-text-styling .image-module .faq-answer, .rich-text-styling .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich-text-styling .image-module .coupon-invalid-text, .rich-text-styling .image-module .course-card .price-container, .course-card .rich-text-styling .image-module .price-container, .rich-text-styling .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .dropdown-toggle, .liquid_html .image-module p, .liquid_html .image-module ul, .liquid_html .image-module ol, .liquid_html .image-module .box-with-border .description, .box-with-border .liquid_html .image-module .description, .liquid_html .image-module .block.faq .faq-answer, .block.faq .liquid_html .image-module .faq-answer, .liquid_html .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .liquid_html .image-module .coupon-invalid-text, .liquid_html .image-module .course-card .price-container, .course-card .liquid_html .image-module .price-container, .liquid_html .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .dropdown-toggle, .rich_text .image-module p, .rich_text .image-module ul, .rich_text .image-module ol, .rich_text .image-module .box-with-border .description, .box-with-border .rich_text .image-module .description, .rich_text .image-module .block.faq .faq-answer, .block.faq .rich_text .image-module .faq-answer, .rich_text .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich_text .image-module .coupon-invalid-text, .rich_text .image-module .course-card .price-container, .course-card .rich_text .image-module .price-container, .rich_text .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich_text .image-module a, .rich_text .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich_text .image-module a, .rich_text .image-module .dropdown-toggle, .block.curriculum .time, .block.testimonial p:after, .block.testimonial ul:after, .block.testimonial ol:after, .block.testimonial .box-with-border .description:after, .box-with-border .block.testimonial .description:after, .block.testimonial .block.faq .faq-answer:after, .block.faq .block.testimonial .faq-answer:after, .block.testimonial .coupon_banner.block .coupon-invalid-text:after, .coupon_banner.block .block.testimonial .coupon-invalid-text:after, .block.testimonial .course-card .price-container:after, .course-card .block.testimonial .price-container:after, .block.testimonial .standard-page .page-header .directory a:after, .standard-page .page-header .directory .block.testimonial a:after, .block.testimonial .all-courses .page-header .directory a:after, .all-courses .page-header .directory .block.testimonial a:after, .block.testimonial .dropdown-toggle:after, .block.faq .small.faq-answer, .coupon_banner.block .small.coupon-invalid-text, .featured-courses.block .mouse-tooltip, .featured-courses.block .course-page-container .body p, .featured-courses.block .course-page-container .body ul, .featured-courses.block .course-page-container .body ol, .featured-courses.block .course-page-container .body .box-with-border .description, .box-with-border .featured-courses.block .course-page-container .body .description, .featured-courses.block .course-page-container .body .block.faq .faq-answer, .block.faq .featured-courses.block .course-page-container .body .faq-answer, .featured-courses.block .course-page-container .body .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .featured-courses.block .course-page-container .body .coupon-invalid-text, .featured-courses.block .course-page-container .body .course-card .price-container, .course-card .featured-courses.block .course-page-container .body .price-container, .featured-courses.block .course-page-container .body .standard-page .page-header .directory a, .standard-page .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .all-courses .page-header .directory a, .all-courses .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .dropdown-toggle, .course-card .small.price-container, .course-block.hero .value-props .row p, .course-block.hero .value-props .row ul, .course-block.hero .value-props .row ol, .course-block.hero .value-props .row .box-with-border .description, .box-with-border .course-block.hero .value-props .row .description, .course-block.hero .value-props .row .block.faq .faq-answer, .block.faq .course-block.hero .value-props .row .faq-answer, .course-block.hero .value-props .row .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .course-block.hero .value-props .row .coupon-invalid-text, .course-block.hero .value-props .row .course-card .price-container, .course-card .course-block.hero .value-props .row .price-container, .course-block.hero .value-props .row .standard-page .page-header .directory a, .standard-page .page-header .directory .course-block.hero .value-props .row a, .course-block.hero .value-props .row .all-courses .page-header .directory a, .all-courses .page-header .directory .course-block.hero .value-props .row a, .course-block.hero .value-props .row .dropdown-toggle, .standard-page .page-header .directory a.small, .all-courses .page-header .directory a.small, .dropdown .dropdown-menu, .btn-group .dropdown-menu, .small.dropdown-toggle {
+p.small, ul.small, ol.small, .box-with-border .small.description, .rich-text-styling .two-up p, .rich-text-styling .two-up ul, .rich-text-styling .two-up ol, .rich-text-styling .two-up .box-with-border .description, .box-with-border .rich-text-styling .two-up .description, .rich-text-styling .two-up .block.faq .faq-answer, .block.faq .rich-text-styling .two-up .faq-answer, .rich-text-styling .two-up .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich-text-styling .two-up .coupon-invalid-text, .rich-text-styling .two-up .course-card .price-container, .course-card .rich-text-styling .two-up .price-container, .rich-text-styling .two-up .standard-page .page-header .directory a, .standard-page .page-header .directory .rich-text-styling .two-up a, .rich-text-styling .two-up .all-courses .page-header .directory a, .all-courses .page-header .directory .rich-text-styling .two-up a, .rich-text-styling .two-up .dropdown-toggle, .liquid_html .two-up p, .liquid_html .two-up ul, .liquid_html .two-up ol, .liquid_html .two-up .box-with-border .description, .box-with-border .liquid_html .two-up .description, .liquid_html .two-up .block.faq .faq-answer, .block.faq .liquid_html .two-up .faq-answer, .liquid_html .two-up .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .liquid_html .two-up .coupon-invalid-text, .liquid_html .two-up .course-card .price-container, .course-card .liquid_html .two-up .price-container, .liquid_html .two-up .standard-page .page-header .directory a, .standard-page .page-header .directory .liquid_html .two-up a, .liquid_html .two-up .all-courses .page-header .directory a, .all-courses .page-header .directory .liquid_html .two-up a, .liquid_html .two-up .dropdown-toggle, .rich_text .two-up p, .rich_text .two-up ul, .rich_text .two-up ol, .rich_text .two-up .box-with-border .description, .box-with-border .rich_text .two-up .description, .rich_text .two-up .block.faq .faq-answer, .block.faq .rich_text .two-up .faq-answer, .rich_text .two-up .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich_text .two-up .coupon-invalid-text, .rich_text .two-up .course-card .price-container, .course-card .rich_text .two-up .price-container, .rich_text .two-up .standard-page .page-header .directory a, .standard-page .page-header .directory .rich_text .two-up a, .rich_text .two-up .all-courses .page-header .directory a, .all-courses .page-header .directory .rich_text .two-up a, .rich_text .two-up .dropdown-toggle, .rich-text-styling .image-module p, .rich-text-styling .image-module ul, .rich-text-styling .image-module ol, .rich-text-styling .image-module .box-with-border .description, .box-with-border .rich-text-styling .image-module .description, .rich-text-styling .image-module .block.faq .faq-answer, .block.faq .rich-text-styling .image-module .faq-answer, .rich-text-styling .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich-text-styling .image-module .coupon-invalid-text, .rich-text-styling .image-module .course-card .price-container, .course-card .rich-text-styling .image-module .price-container, .rich-text-styling .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich-text-styling .image-module a, .rich-text-styling .image-module .dropdown-toggle, .liquid_html .image-module p, .liquid_html .image-module ul, .liquid_html .image-module ol, .liquid_html .image-module .box-with-border .description, .box-with-border .liquid_html .image-module .description, .liquid_html .image-module .block.faq .faq-answer, .block.faq .liquid_html .image-module .faq-answer, .liquid_html .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .liquid_html .image-module .coupon-invalid-text, .liquid_html .image-module .course-card .price-container, .course-card .liquid_html .image-module .price-container, .liquid_html .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .liquid_html .image-module a, .liquid_html .image-module .dropdown-toggle, .rich_text .image-module p, .rich_text .image-module ul, .rich_text .image-module ol, .rich_text .image-module .box-with-border .description, .box-with-border .rich_text .image-module .description, .rich_text .image-module .block.faq .faq-answer, .block.faq .rich_text .image-module .faq-answer, .rich_text .image-module .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .rich_text .image-module .coupon-invalid-text, .rich_text .image-module .course-card .price-container, .course-card .rich_text .image-module .price-container, .rich_text .image-module .standard-page .page-header .directory a, .standard-page .page-header .directory .rich_text .image-module a, .rich_text .image-module .all-courses .page-header .directory a, .all-courses .page-header .directory .rich_text .image-module a, .rich_text .image-module .dropdown-toggle, .block.curriculum .time, .block.testimonial p:after, .block.testimonial ul:after, .block.testimonial ol:after, .block.testimonial .box-with-border .description:after, .box-with-border .block.testimonial .description:after, .block.testimonial .block.faq .faq-answer:after, .block.faq .block.testimonial .faq-answer:after, .block.testimonial .coupon_banner.block .coupon-invalid-text:after, .coupon_banner.block .block.testimonial .coupon-invalid-text:after, .block.testimonial .course-card .price-container:after, .course-card .block.testimonial .price-container:after, .block.testimonial .standard-page .page-header .directory a:after, .standard-page .page-header .directory .block.testimonial a:after, .block.testimonial .all-courses .page-header .directory a:after, .all-courses .page-header .directory .block.testimonial a:after, .block.testimonial .dropdown-toggle:after, .block.faq .small.faq-answer, .coupon_banner.block .small.coupon-invalid-text, .featured-courses.block .mouse-tooltip, .featured-courses.block .course-page-container .body p, .featured-courses.block .course-page-container .body ul, .featured-courses.block .course-page-container .body ol, .featured-courses.block .course-page-container .body .box-with-border .description, .box-with-border .featured-courses.block .course-page-container .body .description, .featured-courses.block .course-page-container .body .block.faq .faq-answer, .block.faq .featured-courses.block .course-page-container .body .faq-answer, .featured-courses.block .course-page-container .body .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .featured-courses.block .course-page-container .body .coupon-invalid-text, .featured-courses.block .course-page-container .body .course-card .price-container, .course-card .featured-courses.block .course-page-container .body .price-container, .featured-courses.block .course-page-container .body .standard-page .page-header .directory a, .standard-page .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .all-courses .page-header .directory a, .all-courses .page-header .directory .featured-courses.block .course-page-container .body a, .featured-courses.block .course-page-container .body .dropdown-toggle, .course-card .small.price-container, .course-block.hero .value-props .row p, .course-block.hero .value-props .row ul, .course-block.hero .value-props .row ol, .course-block.hero .value-props .row .box-with-border .description, .box-with-border .course-block.hero .value-props .row .description, .course-block.hero .value-props .row .block.faq .faq-answer, .block.faq .course-block.hero .value-props .row .faq-answer, .course-block.hero .value-props .row .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .course-block.hero .value-props .row .coupon-invalid-text, .course-block.hero .value-props .row .course-card .price-container, .course-card .course-block.hero .value-props .row .price-container, .course-block.hero .value-props .row .standard-page .page-header .directory a, .standard-page .page-header .directory .course-block.hero .value-props .row a, .course-block.hero .value-props .row .all-courses .page-header .directory a, .all-courses .page-header .directory .course-block.hero .value-props .row a, .course-block.hero .value-props .row .dropdown-toggle, .standard-page .page-header .directory a.small, .all-courses .page-header .directory a.small, .dropdown .dropdown-menu, .btn-group .dropdown-menu, .small.dropdown-toggle, .small.dropdown-toggle:active, .small.dropdown-toggle:focus {
   font-family: 'Alte Haas Grotesk', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
@@ -8729,16 +8817,16 @@ a {
 }
 
 /* line 83, ../sass/modules/_elements.scss */
-.dropdown-toggle {
-  border: none;
-  padding: 0;
-  border-bottom: 1px solid black;
+.dropdown-toggle, .dropdown-toggle:active, .dropdown-toggle:focus {
+  border: none !important;
+  padding: 0 !important;
+  border-bottom: 1px solid black !important;
   margin-bottom: 0;
   min-width: 200px;
   text-align: left;
 }
 /* line 91, ../sass/modules/_elements.scss */
-.dropdown-toggle:hover {
+.dropdown-toggle:hover, .dropdown-toggle:active:hover, .dropdown-toggle:focus:hover {
   background: none;
 }
 
@@ -8747,7 +8835,7 @@ button:focus {
   outline: none;
 }
 
-/* line 100, ../sass/modules/_elements.scss */
+/* line 99, ../sass/modules/_elements.scss */
 .caret {
   border-width: 5px 5px 0;
   border-bottom-width: 0;
@@ -8765,78 +8853,78 @@ button:focus {
   top: 50%;
 }
 
-/* line 117, ../sass/modules/_elements.scss */
+/* line 116, ../sass/modules/_elements.scss */
 .course-filters {
   text-align: center;
 }
-/* line 120, ../sass/modules/_elements.scss */
+/* line 119, ../sass/modules/_elements.scss */
 .course-filters:nth-child(1) {
   margin-bottom: 0;
 }
 
-/* line 125, ../sass/modules/_elements.scss */
+/* line 124, ../sass/modules/_elements.scss */
 .filter-label {
   font-weight: bold;
   font-size: 0.8em;
 }
 
-/* line 130, ../sass/modules/_elements.scss */
+/* line 129, ../sass/modules/_elements.scss */
 .course-filter {
   display: inline-block;
   margin: 1.5em 1em;
   text-align: left;
 }
 
-/* line 137, ../sass/modules/_elements.scss */
+/* line 136, ../sass/modules/_elements.scss */
 .strike-through-price {
   text-decoration: line-through;
   font-weight: normal;
 }
 
-/* line 141, ../sass/modules/_elements.scss */
+/* line 140, ../sass/modules/_elements.scss */
 .play-button {
   width: 48px;
   margin: 0 auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 141, ../sass/modules/_elements.scss */
+  /* line 140, ../sass/modules/_elements.scss */
   .play-button {
     width: 64px;
   }
 }
-/* line 147, ../sass/modules/_elements.scss */
+/* line 146, ../sass/modules/_elements.scss */
 .play-button svg {
   width: 100%;
   height: auto;
 }
 
-/* line 153, ../sass/modules/_elements.scss */
+/* line 152, ../sass/modules/_elements.scss */
 .featured-courses .image-container, .course-card .image-container {
   width: 100%;
   padding-bottom: 112.5%;
   position: relative;
   overflow: hidden;
 }
-/* line 158, ../sass/modules/_elements.scss */
+/* line 157, ../sass/modules/_elements.scss */
 .featured-courses .image-container img, .course-card .image-container img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 165, ../sass/modules/_elements.scss */
+/* line 164, ../sass/modules/_elements.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 169, ../sass/modules/_elements.scss */
+/* line 168, ../sass/modules/_elements.scss */
 .wistia_responsive_padding {
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
 }
 
-/* line 175, ../sass/modules/_elements.scss */
+/* line 174, ../sass/modules/_elements.scss */
 .downward-arrow {
   background: url("../images/downwardarrow.svg") center center no-repeat;
   background-size: 100%;
@@ -8848,12 +8936,12 @@ button:focus {
   position: relative;
   display: inline-block;
 }
-/* line 185, ../sass/modules/_elements.scss */
+/* line 184, ../sass/modules/_elements.scss */
 .downward-arrow:hover {
   animation: bounce 0.4s infinite;
 }
 @media screen and (min-width: 960px) {
-  /* line 175, ../sass/modules/_elements.scss */
+  /* line 174, ../sass/modules/_elements.scss */
   .downward-arrow {
     width: 70px;
     padding-bottom: 35px;
@@ -8874,11 +8962,11 @@ button:focus {
     transform: translateY("2px");
   }
 }
-/* line 204, ../sass/modules/_elements.scss */
+/* line 203, ../sass/modules/_elements.scss */
 .circle-thumb {
   position: relative;
 }
-/* line 206, ../sass/modules/_elements.scss */
+/* line 205, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic {
   width: 100%;
   padding-bottom: 78%;
@@ -8888,7 +8976,7 @@ button:focus {
   border: 1px solid black;
   position: relative;
 }
-/* line 209, ../sass/modules/_elements.scss */
+/* line 208, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture-container {
   position: absolute;
   width: 80%;
@@ -8896,7 +8984,7 @@ button:focus {
   top: 10%;
   overflow: hidden;
 }
-/* line 216, ../sass/modules/_elements.scss */
+/* line 215, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture {
   width: 100%;
   padding-bottom: 78%;
@@ -8908,7 +8996,7 @@ button:focus {
   overflow: hidden;
   z-index: 1;
 }
-/* line 222, ../sass/modules/_elements.scss */
+/* line 221, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic img {
   position: absolute;
   top: 0;
@@ -8916,7 +9004,7 @@ button:focus {
   width: 100%;
   height: auto;
 }
-/* line 231, ../sass/modules/_elements.scss */
+/* line 230, ../sass/modules/_elements.scss */
 .circle-thumb span.circles {
   position: absolute;
   height: 100%;
@@ -8924,28 +9012,28 @@ button:focus {
   top: 0;
   left: 0;
 }
-/* line 237, ../sass/modules/_elements.scss */
+/* line 236, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(1) {
   width: 95%;
   left: 2.5%;
   top: 2.5%;
   position: absolute;
 }
-/* line 244, ../sass/modules/_elements.scss */
+/* line 243, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(2) {
   width: 90%;
   left: 5%;
   top: 5%;
   position: absolute;
 }
-/* line 251, ../sass/modules/_elements.scss */
+/* line 250, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(3) {
   width: 85%;
   left: 7.5%;
   top: 7.5%;
   position: absolute;
 }
-/* line 257, ../sass/modules/_elements.scss */
+/* line 256, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle {
   width: 100%;
   padding-bottom: 78%;
@@ -9198,21 +9286,21 @@ button:focus {
 }
 /* line 72, ../sass/modules/_define-colors.scss */
 .home .home-top-container {
-  color: #AD2602;
-  background: #D8E2EA;
+  color: #AD2602 !important;
+  background: #D8E2EA !important;
 }
 /* line 75, ../sass/modules/_define-colors.scss */
 .home .home-top-container .box-with-border {
-  border: 1px solid #AD2602;
+  border: 1px solid #AD2602 !important;
 }
 /* line 78, ../sass/modules/_define-colors.scss */
 .home .home-top-container .btn-secondary {
-  border-color: #AD2602;
+  border-color: #AD2602 !important;
 }
 /* line 82, ../sass/modules/_define-colors.scss */
 .home .home-top-container .btn-primary {
-  background: #AD2602;
-  border: 1px solid #AD2602;
+  background: #AD2602 !important;
+  border: 1px solid #AD2602 !important;
 }
 
 /* line 39, ../sass/modules/_define-colors.scss */
@@ -9284,21 +9372,21 @@ button:focus {
 }
 /* line 72, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container {
-  color: #AD2602;
-  background: #D8E2EA;
+  color: #AD2602 !important;
+  background: #D8E2EA !important;
 }
 /* line 75, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container .box-with-border {
-  border: 1px solid #AD2602;
+  border: 1px solid #AD2602 !important;
 }
 /* line 78, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container .btn-secondary {
-  border-color: #AD2602;
+  border-color: #AD2602 !important;
 }
 /* line 82, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container .btn-primary {
-  background: #AD2602;
-  border: 1px solid #AD2602;
+  background: #AD2602 !important;
+  border: 1px solid #AD2602 !important;
 }
 
 /* line 39, ../sass/modules/_define-colors.scss */

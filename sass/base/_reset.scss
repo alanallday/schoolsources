@@ -1,55 +1,59 @@
-.view-school {
-	h2, h3, h4, h5 {
-		color: inherit;
-	}
-}
 
-.text h2 {
-	color: unset;
-	letter-spacing:unset;
-}
 
-.text {
-	text-align:unset;
-	margin-top:unset;
-	padding-bottom:unset;
-	border-bottom: none;
-}
+// .view-school {
+// 	h2, h3, h4, h5 {
+// 		color: inherit;
+// 	}
+// }
 
-.course-block, .block {
-	padding-top: unset;
-	padding-bottom: unset;
+// .text h2 {
+// 	color: unset;
+// 	letter-spacing:unset;
+// }
+// .text {
+// 	text-align:unset;
+// 	margin-top:unset;
+// 	padding-bottom:unset;
+// 	border-bottom: none;
+// }
 
-}
+// .course-block, .block {
+// 	padding-top: unset;
+// 	padding-bottom: unset;
 
-.course-block.featured_courses, .block.featured_courses {
-	text-align:unset;
-}
+// }
 
-.open > .dropdown-menu li a {
-	color: inherit;
-}
+// .course-block.featured_courses, .block.featured_courses {
+// 	text-align:unset;
+// }
 
-.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
-	background-color: none;
-}
+// .open > .dropdown-menu li a {
+// 	color: inherit;
+// }
 
-.navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
-  background: none !important;
-  border-bottom: 0; }
-  .navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
-    color: $darkred !important; }
-  .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
-    background: none !important; }
-    .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
-      background: none !important;
-      color: darken($darkred,10%) !important; }
+// .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+// 	background-color: none;
+// }
+
+
+
+// .navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
+//   background: none !important;
+//   border-bottom: 0; }
+//   .navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
+//     color: $darkred !important; }
+//   .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
+//     background: none !important; }
+//     .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
+//       background: none !important;
+//       color: darken($darkred,10%) !important; }
 
 
 // .btn-secondary, .btn-secondary:active, .btn-secondary:focus {
 // 	background: none !important;
 // 	// padding: 0 !important;
 // }
+
 @mixin reset() {
     animation : none;
     animation-delay : 0;
@@ -204,4 +208,9 @@
     all: initial;
     all: unset;
 }
+
+* {
+    @include reset();
+}
+
 
