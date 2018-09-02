@@ -2,7 +2,6 @@
     min-height: 0;
     margin-bottom:0;
     border: none;
-    @include transition(transform,0.3s,ease-in-out);
 
     &.is-scrolling {
         position: fixed;
@@ -11,11 +10,12 @@
         z-index: 98;
         width: 100%;
         @include transform(translate3d(0,0,0)); 
+    	@include transition(transform,0.3s,ease-in-out);
 
         @include bp('small') {
         	top:0;
         }
-        
+
         nav.global {
             padding-top:0.8em;
             padding-bottom:0.5em;
@@ -24,7 +24,8 @@
     }
 
     &.is-above-the-fold { 
-        @include transform(translate3d(0,-100%,0));      
+        @include transform(translate3d(0,-100%,0));   
+        @include transition(transform,0.3s,ease-in-out);
     }
 }
 
