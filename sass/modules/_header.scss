@@ -5,7 +5,7 @@
 
     &.is-scrolling {
         position: fixed;
-        top: 8px; //width of top bar
+        top: 0px; //width of top bar
         left: 0;
         z-index: 98;
         width: 100%;
@@ -13,7 +13,7 @@
     	@include transition(transform,0.3s,ease-in-out);
 
         @include bp('small') {
-        	top:0;
+        	top:8px;
         }
 
         nav.global {
