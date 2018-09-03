@@ -79,7 +79,7 @@ body nav.global {
 	> .row {
 		@include max-container();
 		@extend .middle-xs;
-		margin-bottom: 1px;
+		margin-bottom: 4px;
 	}
 	.logo {
 		@include colXS(12);
