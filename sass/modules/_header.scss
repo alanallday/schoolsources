@@ -17,30 +17,21 @@
         z-index: 98;
         width: 100%;
         @include transform(translate3d(0,0,0)); 
-    	@include transition(transform,0.3s,ease-in-out);
+    	@include transition(transform 0.3s ease-in-out);
 
         @include bp('small') {
         }
 
-
-        &.is-not-signed-in {
-	        nav.global {
-	            padding-top:1em;
-	            padding-bottom:0.8em;
-	            border-bottom: 1px solid black;
-	        }
-    	}
-
         nav.global {
-            padding-top:0.7em;
-            padding-bottom:0.5em;
+		    padding-top: 0.8em;
+		    padding-bottom: 0.3em;
             border-bottom: 1px solid black;
         }
     }
 
-    &.is-above-the-fold { 
+    &.is-above-the-fold,&.is-at-top { 
         @include transform(translate3d(0,-100%,0));   
-        @include transition(transform,0.3s,ease-in-out);
+        @include transition(transform 0.3s ease-in-out);
     }
 }
 

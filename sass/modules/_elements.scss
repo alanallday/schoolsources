@@ -19,6 +19,10 @@ a {
 	font-size: 0.8em;
 }
 
+.open-my-profile-dropdown .dropdown-menu {
+	left: -151% 
+}
+
 .open-my-profile-dropdown.dropdown-toggle,.open-my-profile-dropdown.dropdown-toggle:active, .open-my-profile-dropdown.dropdown-toggle:focus {
 	min-width: unset !important;
 	width: 65px;
