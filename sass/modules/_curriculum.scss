@@ -1,4 +1,18 @@
 .block.curriculum {
+
+	.block.curriculum .collapse.in {
+		margin-top:2em;
+	}
+
+	#more_lecture_sections {
+		@include transform(rotate(0deg));
+		@include transition(transform 0.3s ease-in-out);
+	}
+
+	#more_lecture_sections[aria-expanded="true"] {
+		@include transform(rotate(180deg));
+	}
+	
 	.lecture-icon {
 		padding-right:0.5em;
 		font-size:0.8em;

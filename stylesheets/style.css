@@ -5438,7 +5438,7 @@ form label {
 }
 
 /* line 1, ../sass/modules/_header.scss */
-.top {
+.top .alert-header {
   background: white;
   padding: 0.5em;
   border-bottom: 1px solid black;
@@ -6009,7 +6009,29 @@ body nav.global .right li:last-child {
   }
 }
 
-/* line 2, ../sass/modules/_curriculum.scss */
+/* line 3, ../sass/modules/_curriculum.scss */
+.block.curriculum .block.curriculum .collapse.in {
+  margin-top: 2em;
+}
+/* line 7, ../sass/modules/_curriculum.scss */
+.block.curriculum #more_lecture_sections {
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -moz-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+/* line 12, ../sass/modules/_curriculum.scss */
+.block.curriculum #more_lecture_sections[aria-expanded="true"] {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 16, ../sass/modules/_curriculum.scss */
 .block.curriculum .lecture-icon {
   padding-right: 0.5em;
   font-size: 0.8em;
@@ -6017,24 +6039,24 @@ body nav.global .right li:last-child {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 2, ../sass/modules/_curriculum.scss */
+  /* line 16, ../sass/modules/_curriculum.scss */
   .block.curriculum .lecture-icon {
     display: inline;
   }
 }
-/* line 12, ../sass/modules/_curriculum.scss */
+/* line 26, ../sass/modules/_curriculum.scss */
 .block.curriculum .collapse {
   display: none;
 }
-/* line 15, ../sass/modules/_curriculum.scss */
+/* line 29, ../sass/modules/_curriculum.scss */
 .block.curriculum .collapse.in {
   display: block;
 }
-/* line 19, ../sass/modules/_curriculum.scss */
+/* line 33, ../sass/modules/_curriculum.scss */
 .block.curriculum .lecture-start {
   opacity: 0.1;
 }
-/* line 22, ../sass/modules/_curriculum.scss */
+/* line 36, ../sass/modules/_curriculum.scss */
 .block.curriculum .course-section {
   max-width: 960px;
   width: 95%;
@@ -6042,48 +6064,48 @@ body nav.global .right li:last-child {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 22, ../sass/modules/_curriculum.scss */
+  /* line 36, ../sass/modules/_curriculum.scss */
   .block.curriculum .course-section {
     width: 55%;
   }
 }
-/* line 26, ../sass/modules/_curriculum.scss */
+/* line 40, ../sass/modules/_curriculum.scss */
 .block.curriculum ul li {
   list-style: none;
 }
-/* line 30, ../sass/modules/_curriculum.scss */
+/* line 44, ../sass/modules/_curriculum.scss */
 .block.curriculum a {
   text-decoration: none;
   color: inherit;
   font-weight: normal;
 }
-/* line 36, ../sass/modules/_curriculum.scss */
+/* line 50, ../sass/modules/_curriculum.scss */
 .block.curriculum .section-title {
   background: black;
   color: white;
   padding: 0.5em 1.5em;
   text-transform: uppercase;
 }
-/* line 43, ../sass/modules/_curriculum.scss */
+/* line 57, ../sass/modules/_curriculum.scss */
 .block.curriculum p, .block.curriculum ul, .block.curriculum ol, .block.curriculum .box-with-border .description, .box-with-border .block.curriculum .description, .block.curriculum .block.faq .faq-answer, .block.faq .block.curriculum .faq-answer, .block.curriculum .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .block.curriculum .coupon-invalid-text, .block.curriculum .course-card .price-container, .course-card .block.curriculum .price-container, .block.curriculum .standard-page .page-header .directory a, .standard-page .page-header .directory .block.curriculum a, .block.curriculum .all-courses .page-header .directory a, .all-courses .page-header .directory .block.curriculum a, .block.curriculum .dropdown-toggle {
   font-size: 1em;
 }
 @media screen and (min-width: 768px) {
-  /* line 43, ../sass/modules/_curriculum.scss */
+  /* line 57, ../sass/modules/_curriculum.scss */
   .block.curriculum p, .block.curriculum ul, .block.curriculum ol, .block.curriculum .box-with-border .description, .box-with-border .block.curriculum .description, .block.curriculum .block.faq .faq-answer, .block.faq .block.curriculum .faq-answer, .block.curriculum .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .block.curriculum .coupon-invalid-text, .block.curriculum .course-card .price-container, .course-card .block.curriculum .price-container, .block.curriculum .standard-page .page-header .directory a, .standard-page .page-header .directory .block.curriculum a, .block.curriculum .all-courses .page-header .directory a, .all-courses .page-header .directory .block.curriculum a, .block.curriculum .dropdown-toggle {
     font-size: 1.25em;
   }
 }
-/* line 51, ../sass/modules/_curriculum.scss */
+/* line 65, ../sass/modules/_curriculum.scss */
 .block.curriculum .title {
   padding-right: 10rem;
 }
-/* line 55, ../sass/modules/_curriculum.scss */
+/* line 69, ../sass/modules/_curriculum.scss */
 .block.curriculum .time {
   font-size: 0.6em;
   padding-right: 0.3em;
 }
-/* line 61, ../sass/modules/_curriculum.scss */
+/* line 75, ../sass/modules/_curriculum.scss */
 .block.curriculum .right {
   display: inline-block;
   position: absolute;
@@ -6094,7 +6116,7 @@ body nav.global .right li:last-child {
   -o-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
-/* line 69, ../sass/modules/_curriculum.scss */
+/* line 83, ../sass/modules/_curriculum.scss */
 .block.curriculum ul {
   width: 100%;
   text-indent: 0;
@@ -6102,12 +6124,12 @@ body nav.global .right li:last-child {
   font-size: 1.25em !important;
 }
 @media screen and (min-width: 960px) {
-  /* line 69, ../sass/modules/_curriculum.scss */
+  /* line 83, ../sass/modules/_curriculum.scss */
   .block.curriculum ul {
     margin-bottom: 2em;
   }
 }
-/* line 79, ../sass/modules/_curriculum.scss */
+/* line 93, ../sass/modules/_curriculum.scss */
 .block.curriculum li {
   border: 1px solid black;
   position: relative;
@@ -6120,7 +6142,7 @@ body nav.global .right li:last-child {
   transition: background, 0.3s, ease-in-out;
   background: none;
 }
-/* line 87, ../sass/modules/_curriculum.scss */
+/* line 101, ../sass/modules/_curriculum.scss */
 .block.curriculum li:hover {
   background: rgba(0, 0, 0, 0.05);
 }
