@@ -16,9 +16,11 @@
         left: 0;
         z-index: 98;
         width: 100%;
-        @include transform(translate3d(0,0,0)); 
-    	@include transition(transform 0.3s ease-in-out);
 
+        nav.global {
+	        @include transform(translate3d(0,0,0)); 
+	    	@include transition(transform 0.3s ease-in-out);
+		}
         @include bp('small') {
         }
 
@@ -29,9 +31,11 @@
         }
     }
 
-    &.is-above-the-fold,&.is-at-top { 
-        @include transform(translate3d(0,-100%,0));   
-        @include transition(transform 0.3s ease-in-out);
+    &.is-above-the-fold { 
+    	nav.global {
+	        @include transform(translate3d(0,-100%,0));   
+        	@include transition(transform 0.3s ease-in-out);
+		}
     }
 }
 
