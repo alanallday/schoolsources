@@ -358,7 +358,7 @@ function courseHeader() {
 
 		$(window).on('scroll',function() {
 			var $headerHeight = $('.course-block.hero .header').outerHeight();
-			var $threshhold = $('.course-block.hero .value-props').offset().top + $('.course-block.hero .value-props').height(); 
+			var $threshhold = $('.course-block.hero .value-props').offset().top + $('.course-block.hero .value-props').height() - 1; 
 			if ($(window).scrollTop() + $headerHeight > $threshhold) {
 				$('.course-block.hero .header').hide();
 			} else {

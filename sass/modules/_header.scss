@@ -2,12 +2,12 @@
 	background: white;
     padding: 0.5em;
     border-bottom: 1px solid black;
-    margin-top: 8px;
+    margin-top: 0;
     font-size: 0.8em;
-    @include bp('small') {
-    	margin-top:0;
-    }
 
+    @include bp('medium') {
+    	margin-top:8px;
+    }
 }
 .navbar {
     min-height: 0;
@@ -73,7 +73,7 @@ nav.global {
 }
 
 body nav.global {
-	padding-top:1em;
+	padding-top: 1em;
 	padding-bottom: 1em;
 	position:relative;
 	z-index: 999;
@@ -87,7 +87,8 @@ body nav.global {
 
 	a {
 		cursor: pointer;
-	}
+	} 
+
 	> .row {
 		@include max-container();
 		width: 100%;
