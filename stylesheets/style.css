@@ -7372,17 +7372,21 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   padding-bottom: 1.5em;
   display: block;
 }
-/* line 63, ../sass/modules/_course-card.scss */
+/* line 64, ../sass/modules/_course-card.scss */
+.course-card .description {
+  padding-bottom: 1.5em;
+}
+/* line 67, ../sass/modules/_course-card.scss */
 .course-card .category {
   padding-bottom: 1.5em;
   display: block;
   padding-top: 1.5em;
 }
-/* line 69, ../sass/modules/_course-card.scss */
+/* line 73, ../sass/modules/_course-card.scss */
 .course-card .image-container {
   border-top: 1px solid black;
 }
-/* line 73, ../sass/modules/_course-card.scss */
+/* line 77, ../sass/modules/_course-card.scss */
 .course-card .price-container {
   border: 1px solid black;
   position: absolute;
@@ -7392,7 +7396,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   font-size: 1.2em;
 }
 
-/* line 84, ../sass/modules/_course-card.scss */
+/* line 88, ../sass/modules/_course-card.scss */
 .course-card-container {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -7415,13 +7419,13 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 84, ../sass/modules/_course-card.scss */
+  /* line 88, ../sass/modules/_course-card.scss */
   .course-card-container {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 84, ../sass/modules/_course-card.scss */
+  /* line 88, ../sass/modules/_course-card.scss */
   .course-card-container {
     width: 85%;
   }
