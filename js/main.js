@@ -41,7 +41,6 @@ $(document).ready(function() {
 	sizeImages();
 	imageModule();
 	testimonialBlock();
-	couponCode();
 	featuredCoursesBlock();
 	courseHeader();
 	alumniPage();
@@ -72,7 +71,6 @@ function clickedLink() {
 		sizeImages();
 		imageModule();
 		testimonialBlock();
-		couponCode();
 		featuredCoursesBlock();
 		courseHeader();
 		alumniPage();
