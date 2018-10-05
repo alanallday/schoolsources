@@ -5530,7 +5530,13 @@ body nav.global svg polygon, body nav.global svg path {
 body nav.global a {
   cursor: pointer;
 }
-/* line 92, ../sass/modules/_header.scss */
+@media screen and (min-width: 768px) {
+  /* line 88, ../sass/modules/_header.scss */
+  body nav.global a {
+    line-height: 1.4em;
+  }
+}
+/* line 96, ../sass/modules/_header.scss */
 body nav.global > .row {
   max-width: 1200px;
   width: 95%;
@@ -5540,24 +5546,24 @@ body nav.global > .row {
   margin-bottom: 4px;
 }
 @media screen and (min-width: 960px) {
-  /* line 92, ../sass/modules/_header.scss */
+  /* line 96, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 92, ../sass/modules/_header.scss */
+  /* line 96, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 85%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 92, ../sass/modules/_header.scss */
+  /* line 96, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 95%;
   }
 }
-/* line 103, ../sass/modules/_header.scss */
+/* line 107, ../sass/modules/_header.scss */
 body nav.global .logo {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5571,12 +5577,12 @@ body nav.global .logo {
   position: relative;
   width: 100%;
 }
-/* line 107, ../sass/modules/_header.scss */
+/* line 111, ../sass/modules/_header.scss */
 body nav.global .logo svg {
   width: 96px;
 }
 @media screen and (min-width: 768px) {
-  /* line 103, ../sass/modules/_header.scss */
+  /* line 107, ../sass/modules/_header.scss */
   body nav.global .logo {
     width: 124px;
     box-sizing: border-box;
@@ -5588,7 +5594,7 @@ body nav.global .logo svg {
     max-width: 100%;
   }
 }
-/* line 124, ../sass/modules/_header.scss */
+/* line 128, ../sass/modules/_header.scss */
 body nav.global .logo .menu {
   right: 1em;
   position: absolute;
@@ -5602,12 +5608,12 @@ body nav.global .logo .menu {
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  /* line 124, ../sass/modules/_header.scss */
+  /* line 128, ../sass/modules/_header.scss */
   body nav.global .logo .menu {
     display: none;
   }
 }
-/* line 138, ../sass/modules/_header.scss */
+/* line 142, ../sass/modules/_header.scss */
 body nav.global.open {
   color: white !important;
   background: black !important;
@@ -5616,7 +5622,7 @@ body nav.global.open {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 144, ../sass/modules/_header.scss */
+/* line 148, ../sass/modules/_header.scss */
 body nav.global.open svg polygon, body nav.global.open svg path {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -5624,18 +5630,18 @@ body nav.global.open svg polygon, body nav.global.open svg path {
   transition: all 0.2s ease-in-out;
   fill: white !important;
 }
-/* line 150, ../sass/modules/_header.scss */
+/* line 154, ../sass/modules/_header.scss */
 body nav.global.open .btn-primary {
   background: white !important;
   color: black !important;
   border-color: white !important;
 }
-/* line 156, ../sass/modules/_header.scss */
+/* line 160, ../sass/modules/_header.scss */
 body nav.global.open .btn-secondary {
   color: white !important;
   border-color: white !important;
 }
-/* line 161, ../sass/modules/_header.scss */
+/* line 165, ../sass/modules/_header.scss */
 body nav.global.open .navigation-container {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -5646,7 +5652,7 @@ body nav.global.open .navigation-container {
   -webkit-transition: transform 0.4s ease-in-out 0.2s;
   transition: transform 0.4s ease-in-out 0.2s;
 }
-/* line 168, ../sass/modules/_header.scss */
+/* line 172, ../sass/modules/_header.scss */
 body nav.global .navigation-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5672,13 +5678,13 @@ body nav.global .navigation-container {
   -webkit-transition: transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
 }
-/* line 181, ../sass/modules/_header.scss */
+/* line 185, ../sass/modules/_header.scss */
 body nav.global .navigation-container .row {
   background: black !important;
   color: white !important;
 }
 @media screen and (min-width: 768px) {
-  /* line 168, ../sass/modules/_header.scss */
+  /* line 172, ../sass/modules/_header.scss */
   body nav.global .navigation-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5700,13 +5706,13 @@ body nav.global .navigation-container .row {
     -webkit-transition: none;
     transition: none;
   }
-  /* line 201, ../sass/modules/_header.scss */
+  /* line 205, ../sass/modules/_header.scss */
   body nav.global .navigation-container .row {
     background: none !important;
     color: inherit !important;
   }
 }
-/* line 211, ../sass/modules/_header.scss */
+/* line 215, ../sass/modules/_header.scss */
 body nav.global .navigation-container .navigation {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5716,34 +5722,34 @@ body nav.global .navigation-container .navigation {
   padding-left: 2.5rem;
 }
 @media screen and (min-width: 768px) {
-  /* line 211, ../sass/modules/_header.scss */
+  /* line 215, ../sass/modules/_header.scss */
   body nav.global .navigation-container .navigation {
     padding-left: 1rem;
     padding-top: 0;
     padding-bottom: 0;
   }
 }
-/* line 224, ../sass/modules/_header.scss */
+/* line 228, ../sass/modules/_header.scss */
 body nav.global .navigation-container .navigation .dropdown li {
   margin-bottom: 0.5em;
 }
-/* line 230, ../sass/modules/_header.scss */
+/* line 234, ../sass/modules/_header.scss */
 body nav.global .dropdown {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 230, ../sass/modules/_header.scss */
+  /* line 234, ../sass/modules/_header.scss */
   body nav.global .dropdown {
     display: inline-block;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 237, ../sass/modules/_header.scss */
+  /* line 241, ../sass/modules/_header.scss */
   body nav.global .dropdown-items-for-mobile {
     display: none;
   }
 }
-/* line 242, ../sass/modules/_header.scss */
+/* line 246, ../sass/modules/_header.scss */
 body nav.global .right {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5761,18 +5767,18 @@ body nav.global .right {
   font-weight: bold;
   margin-left: auto;
 }
-/* line 250, ../sass/modules/_header.scss */
+/* line 254, ../sass/modules/_header.scss */
 body nav.global .right li {
   width: 48%;
   display: inline-block;
 }
-/* line 254, ../sass/modules/_header.scss */
+/* line 258, ../sass/modules/_header.scss */
 body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary {
   text-align: center;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 242, ../sass/modules/_header.scss */
+  /* line 246, ../sass/modules/_header.scss */
   body nav.global .right {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5788,22 +5794,22 @@ body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  /* line 268, ../sass/modules/_header.scss */
+  /* line 272, ../sass/modules/_header.scss */
   body nav.global .right li {
     width: auto;
   }
-  /* line 271, ../sass/modules/_header.scss */
+  /* line 275, ../sass/modules/_header.scss */
   body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary {
     text-align: auto;
     width: auto;
   }
 }
-/* line 281, ../sass/modules/_header.scss */
+/* line 285, ../sass/modules/_header.scss */
 body nav.global .right li {
   list-style: none;
   margin-right: 0.5em;
 }
-/* line 284, ../sass/modules/_header.scss */
+/* line 288, ../sass/modules/_header.scss */
 body nav.global .right li:last-child {
   margin-right: 0 !important;
 }
@@ -7361,36 +7367,33 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
 .course-card .header {
   padding-left: 1.5em;
   padding-right: 1.5em;
+  padding-bottom: 1.5em;
 }
-/* line 54, ../sass/modules/_course-card.scss */
+/* line 55, ../sass/modules/_course-card.scss */
 .course-card a {
   text-decoration: none;
   color: inherit;
 }
-/* line 59, ../sass/modules/_course-card.scss */
+/* line 60, ../sass/modules/_course-card.scss */
 .course-card h2, .course-card .box-with-border .description .title, .box-with-border .description .course-card .title, .course-card form .product-list .product-name, form .product-list .course-card .product-name, .course-card .coupon_banner.block .coupon-code-applied, .coupon_banner.block .course-card .coupon-code-applied {
   font-size: 1.8em;
 }
-/* line 62, ../sass/modules/_course-card.scss */
+/* line 63, ../sass/modules/_course-card.scss */
 .course-card .author {
   padding-bottom: 1.5em;
   display: block;
 }
-/* line 67, ../sass/modules/_course-card.scss */
-.course-card .description {
-  padding-bottom: 1.5em;
-}
-/* line 70, ../sass/modules/_course-card.scss */
+/* line 71, ../sass/modules/_course-card.scss */
 .course-card .category {
   padding-bottom: 1.5em;
   display: block;
   padding-top: 1.5em;
 }
-/* line 76, ../sass/modules/_course-card.scss */
+/* line 77, ../sass/modules/_course-card.scss */
 .course-card .image-container {
   border-top: 1px solid black;
 }
-/* line 80, ../sass/modules/_course-card.scss */
+/* line 81, ../sass/modules/_course-card.scss */
 .course-card .price-container {
   border: 1px solid black;
   position: absolute;
@@ -7400,7 +7403,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   font-size: 1.2em;
 }
 
-/* line 91, ../sass/modules/_course-card.scss */
+/* line 92, ../sass/modules/_course-card.scss */
 .course-card-container {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -7423,13 +7426,13 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 91, ../sass/modules/_course-card.scss */
+  /* line 92, ../sass/modules/_course-card.scss */
   .course-card-container {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 91, ../sass/modules/_course-card.scss */
+  /* line 92, ../sass/modules/_course-card.scss */
   .course-card-container {
     width: 85%;
   }

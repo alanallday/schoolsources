@@ -87,6 +87,10 @@ body nav.global {
 
 	a {
 		cursor: pointer;
+
+		@include bp('small') {
+			line-height: 1.4em;
+		}
 	} 
 
 	> .row {
