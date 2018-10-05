@@ -41,16 +41,16 @@
 
 
 
-.navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
-  background: none !important;
-  border-bottom: 0; }
-  .navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
-    color: $darkred !important; }
-  .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
-    background: none !important; }
-    .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
-      background: none !important;
-      color: darken($darkred,10%) !important; }
+// .navbar-fedora.is-at-top.is-not-signed-in.is-homepage, .navbar-fedora.is-at-top.is-not-signed-in.is-blog {
+//   background: none !important;
+//   border-bottom: 0; }
+//   .navbar-fedora.is-at-top.is-not-signed-in.is-homepage .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog .navbar-brand, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
+//     color: $darkred !important; }
+//   .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link {
+//     background: none !important; }
+//     .navbar-fedora.is-at-top.is-not-signed-in.is-homepage a.fedora-navbar-link:hover, .navbar-fedora.is-at-top.is-not-signed-in.is-blog a.fedora-navbar-link:hover {
+//       background: none !important;
+//       color: darken($darkred,10%) !important; }
 
 
 .btn-secondary, .btn-secondary:active, .btn-secondary:focus {

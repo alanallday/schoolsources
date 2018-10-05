@@ -4,6 +4,10 @@
     border-bottom: 1px solid black;
     margin-top: 8px;
     font-size: 0.8em;
+    @include bp('small') {
+    	margin-top:0;
+    }
+
 }
 .navbar {
     min-height: 0;
@@ -21,8 +25,6 @@
 	        @include transform(translate3d(0,0,0)); 
 	    	@include transition(transform 0.3s ease-in-out);
 		}
-        @include bp('small') {
-        }
 
         nav.global {
 		    padding-top: 0.8em;

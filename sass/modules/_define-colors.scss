@@ -37,9 +37,10 @@
 
 @mixin globalHeader($primary, $secondary) {
 	nav.global {
-			background: $secondary !important;
-			color: $primary !important;
-
+		background: $secondary !important;
+		color: $primary !important;
+		border-color: $primary !important;
+			
 		.open-my-profile-dropdown.dropdown-toggle .circle {
 			border-color: $primary !important;
 		}
