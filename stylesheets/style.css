@@ -5422,6 +5422,7 @@ form label {
   border-bottom: 1px solid black;
   margin-top: 0;
   font-size: 0.8em;
+  display: none;
 }
 @media screen and (min-width: 960px) {
   /* line 1, ../sass/modules/_header.scss */
@@ -5510,8 +5511,8 @@ nav.global .navigation li:last-child {
 
 /* line 75, ../sass/modules/_header.scss */
 body nav.global {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   position: relative;
   z-index: 999;
   -moz-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
@@ -5529,6 +5530,7 @@ body nav.global svg polygon, body nav.global svg path {
 /* line 88, ../sass/modules/_header.scss */
 body nav.global a {
   cursor: pointer;
+  line-height: 2em;
 }
 @media screen and (min-width: 768px) {
   /* line 88, ../sass/modules/_header.scss */
@@ -5536,7 +5538,7 @@ body nav.global a {
     line-height: 1.4em;
   }
 }
-/* line 96, ../sass/modules/_header.scss */
+/* line 97, ../sass/modules/_header.scss */
 body nav.global > .row {
   max-width: 1200px;
   width: 95%;
@@ -5546,24 +5548,24 @@ body nav.global > .row {
   margin-bottom: 4px;
 }
 @media screen and (min-width: 960px) {
-  /* line 96, ../sass/modules/_header.scss */
+  /* line 97, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 96, ../sass/modules/_header.scss */
+  /* line 97, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 85%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 96, ../sass/modules/_header.scss */
+  /* line 97, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 95%;
   }
 }
-/* line 107, ../sass/modules/_header.scss */
+/* line 108, ../sass/modules/_header.scss */
 body nav.global .logo {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5577,12 +5579,12 @@ body nav.global .logo {
   position: relative;
   width: 100%;
 }
-/* line 111, ../sass/modules/_header.scss */
+/* line 112, ../sass/modules/_header.scss */
 body nav.global .logo svg {
   width: 96px;
 }
 @media screen and (min-width: 768px) {
-  /* line 107, ../sass/modules/_header.scss */
+  /* line 108, ../sass/modules/_header.scss */
   body nav.global .logo {
     width: 124px;
     box-sizing: border-box;
@@ -5594,7 +5596,7 @@ body nav.global .logo svg {
     max-width: 100%;
   }
 }
-/* line 128, ../sass/modules/_header.scss */
+/* line 129, ../sass/modules/_header.scss */
 body nav.global .logo .menu {
   right: 1em;
   position: absolute;
@@ -5608,12 +5610,12 @@ body nav.global .logo .menu {
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  /* line 128, ../sass/modules/_header.scss */
+  /* line 129, ../sass/modules/_header.scss */
   body nav.global .logo .menu {
     display: none;
   }
 }
-/* line 142, ../sass/modules/_header.scss */
+/* line 143, ../sass/modules/_header.scss */
 body nav.global.open {
   color: white !important;
   background: black !important;
@@ -5622,7 +5624,7 @@ body nav.global.open {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 148, ../sass/modules/_header.scss */
+/* line 149, ../sass/modules/_header.scss */
 body nav.global.open svg polygon, body nav.global.open svg path {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -5630,18 +5632,18 @@ body nav.global.open svg polygon, body nav.global.open svg path {
   transition: all 0.2s ease-in-out;
   fill: white !important;
 }
-/* line 154, ../sass/modules/_header.scss */
+/* line 155, ../sass/modules/_header.scss */
 body nav.global.open .btn-primary {
   background: white !important;
   color: black !important;
   border-color: white !important;
 }
-/* line 160, ../sass/modules/_header.scss */
+/* line 161, ../sass/modules/_header.scss */
 body nav.global.open .btn-secondary {
   color: white !important;
   border-color: white !important;
 }
-/* line 165, ../sass/modules/_header.scss */
+/* line 166, ../sass/modules/_header.scss */
 body nav.global.open .navigation-container {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -5652,7 +5654,7 @@ body nav.global.open .navigation-container {
   -webkit-transition: transform 0.4s ease-in-out 0.2s;
   transition: transform 0.4s ease-in-out 0.2s;
 }
-/* line 172, ../sass/modules/_header.scss */
+/* line 173, ../sass/modules/_header.scss */
 body nav.global .navigation-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5678,13 +5680,13 @@ body nav.global .navigation-container {
   -webkit-transition: transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
 }
-/* line 185, ../sass/modules/_header.scss */
+/* line 186, ../sass/modules/_header.scss */
 body nav.global .navigation-container .row {
   background: black !important;
   color: white !important;
 }
 @media screen and (min-width: 768px) {
-  /* line 172, ../sass/modules/_header.scss */
+  /* line 173, ../sass/modules/_header.scss */
   body nav.global .navigation-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5706,13 +5708,13 @@ body nav.global .navigation-container .row {
     -webkit-transition: none;
     transition: none;
   }
-  /* line 205, ../sass/modules/_header.scss */
+  /* line 206, ../sass/modules/_header.scss */
   body nav.global .navigation-container .row {
     background: none !important;
     color: inherit !important;
   }
 }
-/* line 215, ../sass/modules/_header.scss */
+/* line 216, ../sass/modules/_header.scss */
 body nav.global .navigation-container .navigation {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5722,34 +5724,34 @@ body nav.global .navigation-container .navigation {
   padding-left: 2.5rem;
 }
 @media screen and (min-width: 768px) {
-  /* line 215, ../sass/modules/_header.scss */
+  /* line 216, ../sass/modules/_header.scss */
   body nav.global .navigation-container .navigation {
     padding-left: 1rem;
     padding-top: 0;
     padding-bottom: 0;
   }
 }
-/* line 228, ../sass/modules/_header.scss */
+/* line 229, ../sass/modules/_header.scss */
 body nav.global .navigation-container .navigation .dropdown li {
   margin-bottom: 0.5em;
 }
-/* line 234, ../sass/modules/_header.scss */
+/* line 235, ../sass/modules/_header.scss */
 body nav.global .dropdown {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 234, ../sass/modules/_header.scss */
+  /* line 235, ../sass/modules/_header.scss */
   body nav.global .dropdown {
     display: inline-block;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 241, ../sass/modules/_header.scss */
+  /* line 242, ../sass/modules/_header.scss */
   body nav.global .dropdown-items-for-mobile {
     display: none;
   }
 }
-/* line 246, ../sass/modules/_header.scss */
+/* line 247, ../sass/modules/_header.scss */
 body nav.global .right {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5767,18 +5769,22 @@ body nav.global .right {
   font-weight: bold;
   margin-left: auto;
 }
-/* line 254, ../sass/modules/_header.scss */
+/* line 257, ../sass/modules/_header.scss */
+body nav.global .right .dropdown li {
+  width: 100%;
+}
+/* line 262, ../sass/modules/_header.scss */
 body nav.global .right li {
   width: 48%;
   display: inline-block;
 }
-/* line 258, ../sass/modules/_header.scss */
+/* line 266, ../sass/modules/_header.scss */
 body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary {
   text-align: center;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 246, ../sass/modules/_header.scss */
+  /* line 247, ../sass/modules/_header.scss */
   body nav.global .right {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5794,22 +5800,22 @@ body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  /* line 272, ../sass/modules/_header.scss */
+  /* line 280, ../sass/modules/_header.scss */
   body nav.global .right li {
     width: auto;
   }
-  /* line 275, ../sass/modules/_header.scss */
+  /* line 283, ../sass/modules/_header.scss */
   body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary {
     text-align: auto;
     width: auto;
   }
 }
-/* line 285, ../sass/modules/_header.scss */
+/* line 293, ../sass/modules/_header.scss */
 body nav.global .right li {
   list-style: none;
   margin-right: 0.5em;
 }
-/* line 288, ../sass/modules/_header.scss */
+/* line 296, ../sass/modules/_header.scss */
 body nav.global .right li:last-child {
   margin-right: 0 !important;
 }
@@ -8895,60 +8901,60 @@ button:focus {
 /* line 134, ../sass/modules/_elements.scss */
 .course-filter {
   display: inline-block;
-  margin: 1.5em 1em;
+  margin: 1.5em 1em 2.5em;
   text-align: left;
 }
 
-/* line 141, ../sass/modules/_elements.scss */
+/* line 140, ../sass/modules/_elements.scss */
 .strike-through-price {
   text-decoration: line-through;
   font-weight: normal;
 }
 
-/* line 145, ../sass/modules/_elements.scss */
+/* line 144, ../sass/modules/_elements.scss */
 .play-button {
   width: 48px;
   margin: 0 auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 145, ../sass/modules/_elements.scss */
+  /* line 144, ../sass/modules/_elements.scss */
   .play-button {
     width: 64px;
   }
 }
-/* line 151, ../sass/modules/_elements.scss */
+/* line 150, ../sass/modules/_elements.scss */
 .play-button svg {
   width: 100%;
   height: auto;
 }
 
-/* line 157, ../sass/modules/_elements.scss */
+/* line 156, ../sass/modules/_elements.scss */
 .featured-courses .image-container, .course-card .image-container {
   width: 100%;
   padding-bottom: 112.5%;
   position: relative;
   overflow: hidden;
 }
-/* line 162, ../sass/modules/_elements.scss */
+/* line 161, ../sass/modules/_elements.scss */
 .featured-courses .image-container img, .course-card .image-container img {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-/* line 169, ../sass/modules/_elements.scss */
+/* line 168, ../sass/modules/_elements.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 173, ../sass/modules/_elements.scss */
+/* line 172, ../sass/modules/_elements.scss */
 .wistia_responsive_padding {
   height: 0;
   padding-bottom: 56.25%;
   position: relative;
 }
 
-/* line 179, ../sass/modules/_elements.scss */
+/* line 178, ../sass/modules/_elements.scss */
 .downward-arrow {
   background: url("../images/downwardarrow.svg") center center no-repeat;
   background-size: 100%;
@@ -8960,12 +8966,12 @@ button:focus {
   position: relative;
   display: inline-block;
 }
-/* line 189, ../sass/modules/_elements.scss */
+/* line 188, ../sass/modules/_elements.scss */
 .downward-arrow:hover {
   animation: bounce 0.4s infinite;
 }
 @media screen and (min-width: 960px) {
-  /* line 179, ../sass/modules/_elements.scss */
+  /* line 178, ../sass/modules/_elements.scss */
   .downward-arrow {
     width: 70px;
     padding-bottom: 35px;
@@ -8986,11 +8992,11 @@ button:focus {
     transform: translateY("2px");
   }
 }
-/* line 208, ../sass/modules/_elements.scss */
+/* line 207, ../sass/modules/_elements.scss */
 .circle-thumb {
   position: relative;
 }
-/* line 210, ../sass/modules/_elements.scss */
+/* line 209, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic {
   width: 100%;
   padding-bottom: 78%;
@@ -9000,7 +9006,7 @@ button:focus {
   border: 1px solid black;
   position: relative;
 }
-/* line 213, ../sass/modules/_elements.scss */
+/* line 212, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture-container {
   position: absolute;
   width: 80%;
@@ -9008,7 +9014,7 @@ button:focus {
   top: 10%;
   overflow: hidden;
 }
-/* line 220, ../sass/modules/_elements.scss */
+/* line 219, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic .picture {
   width: 100%;
   padding-bottom: 78%;
@@ -9020,7 +9026,7 @@ button:focus {
   overflow: hidden;
   z-index: 1;
 }
-/* line 226, ../sass/modules/_elements.scss */
+/* line 225, ../sass/modules/_elements.scss */
 .circle-thumb .profile-pic img {
   position: absolute;
   top: 0;
@@ -9028,7 +9034,7 @@ button:focus {
   width: 100%;
   height: auto;
 }
-/* line 235, ../sass/modules/_elements.scss */
+/* line 234, ../sass/modules/_elements.scss */
 .circle-thumb span.circles {
   position: absolute;
   height: 100%;
@@ -9036,28 +9042,28 @@ button:focus {
   top: 0;
   left: 0;
 }
-/* line 241, ../sass/modules/_elements.scss */
+/* line 240, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(1) {
   width: 95%;
   left: 2.5%;
   top: 2.5%;
   position: absolute;
 }
-/* line 248, ../sass/modules/_elements.scss */
+/* line 247, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(2) {
   width: 90%;
   left: 5%;
   top: 5%;
   position: absolute;
 }
-/* line 255, ../sass/modules/_elements.scss */
+/* line 254, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle-container:nth-child(3) {
   width: 85%;
   left: 7.5%;
   top: 7.5%;
   position: absolute;
 }
-/* line 261, ../sass/modules/_elements.scss */
+/* line 260, ../sass/modules/_elements.scss */
 .circle-thumb span.circles .circle {
   width: 100%;
   padding-bottom: 78%;
@@ -9068,41 +9074,41 @@ button:focus {
   position: relative;
 }
 
-/* line 90, ../sass/modules/_define-colors.scss */
+/* line 91, ../sass/modules/_define-colors.scss */
 .course-block.hero {
   background: #EDF3E8;
 }
-/* line 92, ../sass/modules/_define-colors.scss */
+/* line 93, ../sass/modules/_define-colors.scss */
 .course-block.hero .spacer {
   background: #EDF3E8;
 }
-/* line 95, ../sass/modules/_define-colors.scss */
+/* line 96, ../sass/modules/_define-colors.scss */
 .course-block.hero .header {
   color: #000000;
 }
-/* line 98, ../sass/modules/_define-colors.scss */
+/* line 99, ../sass/modules/_define-colors.scss */
 .course-block.hero .value-props {
   background: #000000;
   color: #EDF3E8;
 }
-/* line 103, ../sass/modules/_define-colors.scss */
+/* line 104, ../sass/modules/_define-colors.scss */
 .course-block.hero .video-container {
   border: 5px solid black;
 }
-/* line 107, ../sass/modules/_define-colors.scss */
+/* line 108, ../sass/modules/_define-colors.scss */
 .course-block.hero .value-props .videos-text-container {
   border: 1px solid #EDF3E8;
 }
-/* line 111, ../sass/modules/_define-colors.scss */
+/* line 112, ../sass/modules/_define-colors.scss */
 .course-block.hero .value-props .learning-text-container {
   background: #EDF3E8;
   color: #000000;
 }
-/* line 116, ../sass/modules/_define-colors.scss */
+/* line 117, ../sass/modules/_define-colors.scss */
 .course-block.hero .value-props .rectangle {
   border: 1px solid #EDF3E8;
 }
-/* line 120, ../sass/modules/_define-colors.scss */
+/* line 121, ../sass/modules/_define-colors.scss */
 .course-block.hero .value-props h2.punchout, .course-block.hero .value-props .box-with-border .description .punchout.title, .box-with-border .description .course-block.hero .value-props .punchout.title, .course-block.hero .value-props form .product-list .punchout.product-name, form .product-list .course-block.hero .value-props .punchout.product-name, .course-block.hero .value-props .coupon_banner.block .punchout.coupon-code-applied, .coupon_banner.block .course-block.hero .value-props .punchout.coupon-code-applied {
   color: #EDF3E8;
 }
@@ -9131,18 +9137,19 @@ button:focus {
 .standard-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
+  color: #AD2602 !important;
 }
-/* line 55, ../sass/modules/_define-colors.scss */
+/* line 56, ../sass/modules/_define-colors.scss */
 .standard-page nav.global svg polygon, .standard-page nav.global svg path {
   fill: #AD2602 !important;
 }
-/* line 59, ../sass/modules/_define-colors.scss */
+/* line 60, ../sass/modules/_define-colors.scss */
 .standard-page nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
-/* line 65, ../sass/modules/_define-colors.scss */
+/* line 66, ../sass/modules/_define-colors.scss */
 .standard-page nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
@@ -9196,18 +9203,19 @@ button:focus {
 .course-page nav.global .dropdown-menu {
   background: #EDF3E8 !important;
   border-color: #000000 !important;
+  color: #000000 !important;
 }
-/* line 55, ../sass/modules/_define-colors.scss */
+/* line 56, ../sass/modules/_define-colors.scss */
 .course-page nav.global svg polygon, .course-page nav.global svg path {
   fill: #000000 !important;
 }
-/* line 59, ../sass/modules/_define-colors.scss */
+/* line 60, ../sass/modules/_define-colors.scss */
 .course-page nav.global .btn-primary {
   background: #000000 !important;
   color: #EDF3E8 !important;
   border-color: #000000 !important;
 }
-/* line 65, ../sass/modules/_define-colors.scss */
+/* line 66, ../sass/modules/_define-colors.scss */
 .course-page nav.global .btn-secondary {
   color: #000000 !important;
   border-color: #000000 !important;
@@ -9231,18 +9239,19 @@ button:focus {
 .all-courses nav.global .dropdown-menu {
   background: white !important;
   border-color: black !important;
+  color: black !important;
 }
-/* line 55, ../sass/modules/_define-colors.scss */
+/* line 56, ../sass/modules/_define-colors.scss */
 .all-courses nav.global svg polygon, .all-courses nav.global svg path {
   fill: black !important;
 }
-/* line 59, ../sass/modules/_define-colors.scss */
+/* line 60, ../sass/modules/_define-colors.scss */
 .all-courses nav.global .btn-primary {
   background: black !important;
   color: white !important;
   border-color: black !important;
 }
-/* line 65, ../sass/modules/_define-colors.scss */
+/* line 66, ../sass/modules/_define-colors.scss */
 .all-courses nav.global .btn-secondary {
   color: black !important;
   border-color: black !important;
@@ -9296,36 +9305,37 @@ button:focus {
 .home nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
+  color: #AD2602 !important;
 }
-/* line 55, ../sass/modules/_define-colors.scss */
+/* line 56, ../sass/modules/_define-colors.scss */
 .home nav.global svg polygon, .home nav.global svg path {
   fill: #AD2602 !important;
 }
-/* line 59, ../sass/modules/_define-colors.scss */
+/* line 60, ../sass/modules/_define-colors.scss */
 .home nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
-/* line 65, ../sass/modules/_define-colors.scss */
+/* line 66, ../sass/modules/_define-colors.scss */
 .home nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
-/* line 73, ../sass/modules/_define-colors.scss */
+/* line 74, ../sass/modules/_define-colors.scss */
 .home .home-top-container {
   color: #AD2602 !important;
   background: #D8E2EA !important;
 }
-/* line 76, ../sass/modules/_define-colors.scss */
+/* line 77, ../sass/modules/_define-colors.scss */
 .home .home-top-container .box-with-border {
   border: 1px solid #AD2602 !important;
 }
-/* line 79, ../sass/modules/_define-colors.scss */
+/* line 80, ../sass/modules/_define-colors.scss */
 .home .home-top-container .btn-secondary {
   border-color: #AD2602 !important;
 }
-/* line 83, ../sass/modules/_define-colors.scss */
+/* line 84, ../sass/modules/_define-colors.scss */
 .home .home-top-container .btn-primary {
   background: #AD2602 !important;
   border: 1px solid #AD2602 !important;
@@ -9349,18 +9359,19 @@ button:focus {
 .thank-you-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
+  color: #AD2602 !important;
 }
-/* line 55, ../sass/modules/_define-colors.scss */
+/* line 56, ../sass/modules/_define-colors.scss */
 .thank-you-page nav.global svg polygon, .thank-you-page nav.global svg path {
   fill: #AD2602 !important;
 }
-/* line 59, ../sass/modules/_define-colors.scss */
+/* line 60, ../sass/modules/_define-colors.scss */
 .thank-you-page nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
-/* line 65, ../sass/modules/_define-colors.scss */
+/* line 66, ../sass/modules/_define-colors.scss */
 .thank-you-page nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
@@ -9384,36 +9395,37 @@ button:focus {
 .standard-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
+  color: #AD2602 !important;
 }
-/* line 55, ../sass/modules/_define-colors.scss */
+/* line 56, ../sass/modules/_define-colors.scss */
 .standard-page nav.global svg polygon, .standard-page nav.global svg path {
   fill: #AD2602 !important;
 }
-/* line 59, ../sass/modules/_define-colors.scss */
+/* line 60, ../sass/modules/_define-colors.scss */
 .standard-page nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
-/* line 65, ../sass/modules/_define-colors.scss */
+/* line 66, ../sass/modules/_define-colors.scss */
 .standard-page nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
-/* line 73, ../sass/modules/_define-colors.scss */
+/* line 74, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container {
   color: #AD2602 !important;
   background: #D8E2EA !important;
 }
-/* line 76, ../sass/modules/_define-colors.scss */
+/* line 77, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container .box-with-border {
   border: 1px solid #AD2602 !important;
 }
-/* line 79, ../sass/modules/_define-colors.scss */
+/* line 80, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container .btn-secondary {
   border-color: #AD2602 !important;
 }
-/* line 83, ../sass/modules/_define-colors.scss */
+/* line 84, ../sass/modules/_define-colors.scss */
 .standard-page .home-top-container .btn-primary {
   background: #AD2602 !important;
   border: 1px solid #AD2602 !important;
@@ -9437,18 +9449,19 @@ button:focus {
 .blog-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: black !important;
+  color: black !important;
 }
-/* line 55, ../sass/modules/_define-colors.scss */
+/* line 56, ../sass/modules/_define-colors.scss */
 .blog-page nav.global svg polygon, .blog-page nav.global svg path {
   fill: black !important;
 }
-/* line 59, ../sass/modules/_define-colors.scss */
+/* line 60, ../sass/modules/_define-colors.scss */
 .blog-page nav.global .btn-primary {
   background: black !important;
   color: #D8E2EA !important;
   border-color: black !important;
 }
-/* line 65, ../sass/modules/_define-colors.scss */
+/* line 66, ../sass/modules/_define-colors.scss */
 .blog-page nav.global .btn-secondary {
   color: black !important;
   border-color: black !important;

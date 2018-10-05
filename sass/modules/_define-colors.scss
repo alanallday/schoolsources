@@ -40,7 +40,7 @@
 		background: $secondary !important;
 		color: $primary !important;
 		border-color: $primary !important;
-			
+
 		.open-my-profile-dropdown.dropdown-toggle .circle {
 			border-color: $primary !important;
 		}
@@ -50,6 +50,7 @@
 		.dropdown-menu {
 			background: $secondary !important;
 			border-color: $primary !important;
+			color: $primary !important;
 		}
 		svg {
 			polygon,path {

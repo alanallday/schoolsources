@@ -4,7 +4,7 @@
     border-bottom: 1px solid black;
     margin-top: 0;
     font-size: 0.8em;
-
+    display: none;
     @include bp('medium') {
     	margin-top:8px;
     }
@@ -73,8 +73,8 @@ nav.global {
 }
 
 body nav.global {
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 	position:relative;
 	z-index: 999;
 	@include transition(color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s);
@@ -87,6 +87,7 @@ body nav.global {
 
 	a {
 		cursor: pointer;
+		line-height: 2em;
 
 		@include bp('small') {
 			line-height: 1.4em;
@@ -251,6 +252,13 @@ body nav.global {
 		// border-bottom: 1px solid black;
 	    padding-left: 2.5rem;
 	    padding-right: 2.5rem;
+		
+		.dropdown {
+			li {
+				width: 100%;
+			}
+		}
+
 		li {
 			width: 48%;
 			display: inline-block;
