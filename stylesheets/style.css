@@ -7368,25 +7368,29 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   color: inherit;
 }
 /* line 59, ../sass/modules/_course-card.scss */
+.course-card h2, .course-card .box-with-border .description .title, .box-with-border .description .course-card .title, .course-card form .product-list .product-name, form .product-list .course-card .product-name, .course-card .coupon_banner.block .coupon-code-applied, .coupon_banner.block .course-card .coupon-code-applied {
+  font-size: 1.8em;
+}
+/* line 62, ../sass/modules/_course-card.scss */
 .course-card .author {
   padding-bottom: 1.5em;
   display: block;
 }
-/* line 64, ../sass/modules/_course-card.scss */
+/* line 67, ../sass/modules/_course-card.scss */
 .course-card .description {
   padding-bottom: 1.5em;
 }
-/* line 67, ../sass/modules/_course-card.scss */
+/* line 70, ../sass/modules/_course-card.scss */
 .course-card .category {
   padding-bottom: 1.5em;
   display: block;
   padding-top: 1.5em;
 }
-/* line 73, ../sass/modules/_course-card.scss */
+/* line 76, ../sass/modules/_course-card.scss */
 .course-card .image-container {
   border-top: 1px solid black;
 }
-/* line 77, ../sass/modules/_course-card.scss */
+/* line 80, ../sass/modules/_course-card.scss */
 .course-card .price-container {
   border: 1px solid black;
   position: absolute;
@@ -7396,7 +7400,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   font-size: 1.2em;
 }
 
-/* line 88, ../sass/modules/_course-card.scss */
+/* line 91, ../sass/modules/_course-card.scss */
 .course-card-container {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -7419,13 +7423,13 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 88, ../sass/modules/_course-card.scss */
+  /* line 91, ../sass/modules/_course-card.scss */
   .course-card-container {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 88, ../sass/modules/_course-card.scss */
+  /* line 91, ../sass/modules/_course-card.scss */
   .course-card-container {
     width: 85%;
   }
