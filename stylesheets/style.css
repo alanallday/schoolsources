@@ -5743,7 +5743,7 @@ body nav.global .navigation-container .navigation {
   }
 }
 /* line 226, ../sass/modules/_header.scss */
-body nav.global .navigation-container .navigation li {
+body nav.global .navigation-container .navigation .dropdown li {
   margin-bottom: 0.5em;
 }
 /* line 232, ../sass/modules/_header.scss */
