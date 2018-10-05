@@ -6739,7 +6739,7 @@ form .product-list label:last-child {
 /* line 1, ../sass/modules/_coupon.scss */
 .coupon_banner.block {
   text-align: center;
-  font-size: 0.5em;
+  font-size: 0.6em;
   background: black;
   color: white;
   position: fixed;
@@ -6748,25 +6748,30 @@ form .product-list label:last-child {
   left: 0;
   margin: 0;
   z-index: 99;
+  width: 100%;
 }
-/* line 17, ../sass/modules/_coupon.scss */
+/* line 14, ../sass/modules/_coupon.scss */
+.coupon_banner.block .coupon-code-applied {
+  margin-top: 0.3em;
+}
+/* line 19, ../sass/modules/_coupon.scss */
 .coupon_banner.block .coupon-percent-text {
   display: inline-block;
   padding: 0.3em;
   margin: 0 0.5rem;
 }
-/* line 30, ../sass/modules/_coupon.scss */
+/* line 32, ../sass/modules/_coupon.scss */
 .coupon_banner.block .coupon-marquee-container {
   white-space: nowrap;
   overflow: hidden;
   border-top: 1px solid black;
 }
-/* line 41, ../sass/modules/_coupon.scss */
+/* line 43, ../sass/modules/_coupon.scss */
 .coupon_banner.block #div1 {
   display: inline-block;
   animation: marquee 20s linear infinite;
 }
-/* line 46, ../sass/modules/_coupon.scss */
+/* line 48, ../sass/modules/_coupon.scss */
 .coupon_banner.block #div2 {
   display: inline-block;
   animation: marquee2 20s linear infinite;

@@ -1,6 +1,6 @@
 .coupon_banner.block {
-	text-align:center;
-	font-size: 0.5em;
+	text-align: center;
+    font-size: 0.6em;
     background: black;
     color: white;
     position: fixed;
@@ -9,9 +9,11 @@
     left: 0;
     margin: 0;
     z-index: 99;
+    width: 100%;
 
 	.coupon-code-applied {
 		@extend h2;
+		margin-top: 0.3em;
 	}
 
 	.coupon-percent-text {
