@@ -5459,10 +5459,17 @@ form label {
 /* line 29, ../sass/modules/_header.scss */
 .navbar.is-scrolling nav.global {
   padding-top: 0.8em;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.8em;
   border-bottom: 1px solid black;
 }
-/* line 37, ../sass/modules/_header.scss */
+@media screen and (min-width: 768px) {
+  /* line 29, ../sass/modules/_header.scss */
+  .navbar.is-scrolling nav.global {
+    padding-top: 1.2em;
+    padding-bottom: 0.4em;
+  }
+}
+/* line 42, ../sass/modules/_header.scss */
 .navbar.is-above-the-fold nav.global {
   -webkit-transform: translate3d(0, -100%, 0);
   -moz-transform: translate3d(0, -100%, 0);
@@ -5474,42 +5481,42 @@ form label {
   transition: transform 0.3s ease-in-out;
 }
 
-/* line 46, ../sass/modules/_header.scss */
+/* line 51, ../sass/modules/_header.scss */
 nav.global .logo {
   margin-right: 1em;
 }
-/* line 50, ../sass/modules/_header.scss */
+/* line 55, ../sass/modules/_header.scss */
 nav.global li {
   display: block;
 }
 @media screen and (min-width: 768px) {
-  /* line 50, ../sass/modules/_header.scss */
+  /* line 55, ../sass/modules/_header.scss */
   nav.global li {
     display: inline-block;
   }
 }
-/* line 58, ../sass/modules/_header.scss */
+/* line 63, ../sass/modules/_header.scss */
 nav.global .navigation {
   padding-top: 1rem;
 }
-/* line 60, ../sass/modules/_header.scss */
+/* line 65, ../sass/modules/_header.scss */
 nav.global .navigation li {
   list-style: none;
   margin-right: 2em;
   font-weight: bold;
 }
-/* line 65, ../sass/modules/_header.scss */
+/* line 70, ../sass/modules/_header.scss */
 nav.global .navigation li:last-child {
   margin-right: 0 !important;
 }
 @media screen and (min-width: 768px) {
-  /* line 58, ../sass/modules/_header.scss */
+  /* line 63, ../sass/modules/_header.scss */
   nav.global .navigation {
     padding-top: 0;
   }
 }
 
-/* line 75, ../sass/modules/_header.scss */
+/* line 80, ../sass/modules/_header.scss */
 body nav.global {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -5520,25 +5527,25 @@ body nav.global {
   -webkit-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
   transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
 }
-/* line 83, ../sass/modules/_header.scss */
+/* line 88, ../sass/modules/_header.scss */
 body nav.global svg polygon, body nav.global svg path {
   -moz-transition: all 0.2s ease-in-out 0.4s;
   -o-transition: all 0.2s ease-in-out 0.4s;
   -webkit-transition: all 0.2s ease-in-out 0.4s;
   transition: all 0.2s ease-in-out 0.4s;
 }
-/* line 88, ../sass/modules/_header.scss */
+/* line 93, ../sass/modules/_header.scss */
 body nav.global a {
   cursor: pointer;
   line-height: 2em;
 }
 @media screen and (min-width: 768px) {
-  /* line 88, ../sass/modules/_header.scss */
+  /* line 93, ../sass/modules/_header.scss */
   body nav.global a {
     line-height: 1.4em;
   }
 }
-/* line 97, ../sass/modules/_header.scss */
+/* line 102, ../sass/modules/_header.scss */
 body nav.global > .row {
   max-width: 1200px;
   width: 95%;
@@ -5548,24 +5555,24 @@ body nav.global > .row {
   margin-bottom: 4px;
 }
 @media screen and (min-width: 960px) {
-  /* line 97, ../sass/modules/_header.scss */
+  /* line 102, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 97, ../sass/modules/_header.scss */
+  /* line 102, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 85%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 97, ../sass/modules/_header.scss */
+  /* line 102, ../sass/modules/_header.scss */
   body nav.global > .row {
     width: 95%;
   }
 }
-/* line 108, ../sass/modules/_header.scss */
+/* line 113, ../sass/modules/_header.scss */
 body nav.global .logo {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5579,12 +5586,12 @@ body nav.global .logo {
   position: relative;
   width: 100%;
 }
-/* line 112, ../sass/modules/_header.scss */
+/* line 117, ../sass/modules/_header.scss */
 body nav.global .logo svg {
   width: 96px;
 }
 @media screen and (min-width: 768px) {
-  /* line 108, ../sass/modules/_header.scss */
+  /* line 113, ../sass/modules/_header.scss */
   body nav.global .logo {
     width: 124px;
     box-sizing: border-box;
@@ -5596,7 +5603,7 @@ body nav.global .logo svg {
     max-width: 100%;
   }
 }
-/* line 129, ../sass/modules/_header.scss */
+/* line 134, ../sass/modules/_header.scss */
 body nav.global .logo .menu {
   right: 1em;
   position: absolute;
@@ -5610,12 +5617,12 @@ body nav.global .logo .menu {
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  /* line 129, ../sass/modules/_header.scss */
+  /* line 134, ../sass/modules/_header.scss */
   body nav.global .logo .menu {
     display: none;
   }
 }
-/* line 143, ../sass/modules/_header.scss */
+/* line 148, ../sass/modules/_header.scss */
 body nav.global.open {
   color: white !important;
   background: black !important;
@@ -5624,7 +5631,7 @@ body nav.global.open {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 149, ../sass/modules/_header.scss */
+/* line 154, ../sass/modules/_header.scss */
 body nav.global.open svg polygon, body nav.global.open svg path {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -5632,18 +5639,18 @@ body nav.global.open svg polygon, body nav.global.open svg path {
   transition: all 0.2s ease-in-out;
   fill: white !important;
 }
-/* line 155, ../sass/modules/_header.scss */
+/* line 160, ../sass/modules/_header.scss */
 body nav.global.open .btn-primary {
   background: white !important;
   color: black !important;
   border-color: white !important;
 }
-/* line 161, ../sass/modules/_header.scss */
+/* line 166, ../sass/modules/_header.scss */
 body nav.global.open .btn-secondary {
   color: white !important;
   border-color: white !important;
 }
-/* line 166, ../sass/modules/_header.scss */
+/* line 171, ../sass/modules/_header.scss */
 body nav.global.open .navigation-container {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -5654,7 +5661,7 @@ body nav.global.open .navigation-container {
   -webkit-transition: transform 0.4s ease-in-out 0.2s;
   transition: transform 0.4s ease-in-out 0.2s;
 }
-/* line 173, ../sass/modules/_header.scss */
+/* line 178, ../sass/modules/_header.scss */
 body nav.global .navigation-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5680,13 +5687,13 @@ body nav.global .navigation-container {
   -webkit-transition: transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
 }
-/* line 186, ../sass/modules/_header.scss */
+/* line 191, ../sass/modules/_header.scss */
 body nav.global .navigation-container .row {
   background: black !important;
   color: white !important;
 }
 @media screen and (min-width: 768px) {
-  /* line 173, ../sass/modules/_header.scss */
+  /* line 178, ../sass/modules/_header.scss */
   body nav.global .navigation-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5708,13 +5715,13 @@ body nav.global .navigation-container .row {
     -webkit-transition: none;
     transition: none;
   }
-  /* line 206, ../sass/modules/_header.scss */
+  /* line 211, ../sass/modules/_header.scss */
   body nav.global .navigation-container .row {
     background: none !important;
     color: inherit !important;
   }
 }
-/* line 216, ../sass/modules/_header.scss */
+/* line 221, ../sass/modules/_header.scss */
 body nav.global .navigation-container .navigation {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5724,34 +5731,34 @@ body nav.global .navigation-container .navigation {
   padding-left: 2.5rem;
 }
 @media screen and (min-width: 768px) {
-  /* line 216, ../sass/modules/_header.scss */
+  /* line 221, ../sass/modules/_header.scss */
   body nav.global .navigation-container .navigation {
     padding-left: 1rem;
     padding-top: 0;
     padding-bottom: 0;
   }
 }
-/* line 229, ../sass/modules/_header.scss */
+/* line 234, ../sass/modules/_header.scss */
 body nav.global .navigation-container .navigation .dropdown li {
   margin-bottom: 0.5em;
 }
-/* line 235, ../sass/modules/_header.scss */
+/* line 240, ../sass/modules/_header.scss */
 body nav.global .dropdown {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 235, ../sass/modules/_header.scss */
+  /* line 240, ../sass/modules/_header.scss */
   body nav.global .dropdown {
     display: inline-block;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 242, ../sass/modules/_header.scss */
+  /* line 247, ../sass/modules/_header.scss */
   body nav.global .dropdown-items-for-mobile {
     display: none;
   }
 }
-/* line 247, ../sass/modules/_header.scss */
+/* line 252, ../sass/modules/_header.scss */
 body nav.global .right {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5769,22 +5776,22 @@ body nav.global .right {
   font-weight: bold;
   margin-left: auto;
 }
-/* line 257, ../sass/modules/_header.scss */
+/* line 262, ../sass/modules/_header.scss */
 body nav.global .right .dropdown li {
   width: 100%;
 }
-/* line 262, ../sass/modules/_header.scss */
+/* line 267, ../sass/modules/_header.scss */
 body nav.global .right li {
   width: 48%;
   display: inline-block;
 }
-/* line 266, ../sass/modules/_header.scss */
+/* line 271, ../sass/modules/_header.scss */
 body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary {
   text-align: center;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 247, ../sass/modules/_header.scss */
+  /* line 252, ../sass/modules/_header.scss */
   body nav.global .right {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5800,27 +5807,27 @@ body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  /* line 280, ../sass/modules/_header.scss */
+  /* line 285, ../sass/modules/_header.scss */
   body nav.global .right li {
     width: auto;
   }
-  /* line 283, ../sass/modules/_header.scss */
+  /* line 288, ../sass/modules/_header.scss */
   body nav.global .right li .btn-primary, body nav.global .right li .btn-secondary {
     text-align: auto;
     width: auto;
   }
 }
-/* line 293, ../sass/modules/_header.scss */
+/* line 298, ../sass/modules/_header.scss */
 body nav.global .right li {
   list-style: none;
   margin-right: 0.5em;
 }
-/* line 296, ../sass/modules/_header.scss */
+/* line 301, ../sass/modules/_header.scss */
 body nav.global .right li:last-child {
   margin-right: 0 !important;
 }
 @media screen and (min-width: 960px) {
-  /* line 75, ../sass/modules/_header.scss */
+  /* line 80, ../sass/modules/_header.scss */
   body nav.global {
     padding-top: 2em;
     padding-bottom: 2em;

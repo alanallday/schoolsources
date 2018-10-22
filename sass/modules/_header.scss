@@ -27,8 +27,13 @@
 		}
 
         nav.global {
-		    padding-top: 0.8em;
-		    padding-bottom: 0.3em;
+			padding-top: 0.8em;
+			padding-bottom: 0.8em;
+
+        	@include bp('small') {
+				padding-top: 1.2em;
+				padding-bottom: 0.4em;
+        	}
             border-bottom: 1px solid black;
         }
     }
