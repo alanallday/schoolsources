@@ -5462,7 +5462,7 @@ form label {
   padding-bottom: 0.8em;
   border-bottom: 1px solid black;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 960px) {
   /* line 29, ../sass/modules/_header.scss */
   .navbar.is-scrolling nav.global {
     padding-top: 1.2em;
