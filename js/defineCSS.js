@@ -8,6 +8,8 @@ function defineCSS() {
 		//remove custom css
 		$("#marketingCSS").attr("disabled", "disabled");
 	}
+	console.log('defineCSS');
+
 }
 
 $(window).bind('hashchange', function() {
