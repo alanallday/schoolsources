@@ -182,6 +182,10 @@ function addBodyClass() {
 	else if ($('.content-box h1').text().indexOf('Log In to School') >= 0) {
 		$('body').addClass('login-page');		
 	}
+
+	else if($('.course-sidebar').length) {
+		$('body').addClass('lecture-content-body-container');		
+	}
 	else {
 		$('body').addClass('standard-page');		
 	}
