@@ -7356,7 +7356,7 @@ footer#global .featured-courses.block .main-cta .btn-secondary {
 }
 /* line 36, ../sass/modules/_course-card.scss */
 .course-card h2, .course-card .box-with-border .description .title, .box-with-border .description .course-card .title, .course-card form .product-list .product-name, form .product-list .course-card .product-name, .course-card .coupon_banner.block .coupon-code-applied, .coupon_banner.block .course-card .coupon-code-applied {
-  font-size: 2em;
+  font-size: 1.6em;
   font-family: 'Times New Roman', serif;
   text-transform: none;
 }
