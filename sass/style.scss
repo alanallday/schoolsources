@@ -5,15 +5,14 @@
 
 @import "compass/reset";
 
-@import "base/_variables";
-@import "base/_reset";
-@import "base/_mixin";
-@import "base/_flex";
-@import "base/_fonts";
-@import "base/_general";
-@import "base/_animations";
-
-.view-school {
+.marketing-external-page-container {
+	@import "base/_variables";
+	@import "base/_reset";
+	@import "base/_mixin";
+	@import "base/_flex";
+	@import "base/_fonts";
+	@import "base/_general";
+	@import "base/_animations";
 	@import "modules/_buttons";
 	@import "modules/_typography";
 	@import "modules/_index";
@@ -47,7 +46,7 @@
 	@import "modules/_page-load";
 }
 
-.body-content-view {
+.lecture-content-body-container {
 @import "teachable/_bootstrap";
 @import "teachable/_teachable";
 }
