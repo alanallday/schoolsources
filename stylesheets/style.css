@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, .box-with-border .description .title, form .product-list .product-name, .coupon_banner.block .coupon-code-applied, h3, .block.faq .faq-question, h4, h5, h6, p, ul, ol, .box-with-border .description, .block.faq .faq-answer, .coupon_banner.block .coupon-invalid-text, .standard-page .page-header .directory a, .all-courses .page-header .directory a, .dropdown-toggle, .dropdown-toggle:active, .dropdown-toggle:focus, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../usr/local/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -6009,11 +6009,15 @@ body nav.global .right li:last-child {
   }
 }
 
-/* line 3, ../sass/modules/_curriculum.scss */
+/* line 2, ../sass/modules/_curriculum.scss */
+.block.curriculum #hidden_sections {
+  margin-top: 2em;
+}
+/* line 6, ../sass/modules/_curriculum.scss */
 .block.curriculum .block.curriculum .collapse.in {
   margin-top: 2em;
 }
-/* line 7, ../sass/modules/_curriculum.scss */
+/* line 10, ../sass/modules/_curriculum.scss */
 .block.curriculum #more_lecture_sections {
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
@@ -6024,14 +6028,14 @@ body nav.global .right li:last-child {
   -webkit-transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
 }
-/* line 12, ../sass/modules/_curriculum.scss */
+/* line 15, ../sass/modules/_curriculum.scss */
 .block.curriculum #more_lecture_sections[aria-expanded="true"] {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-/* line 16, ../sass/modules/_curriculum.scss */
+/* line 19, ../sass/modules/_curriculum.scss */
 .block.curriculum .lecture-icon {
   padding-right: 0.5em;
   font-size: 0.8em;
@@ -6039,24 +6043,24 @@ body nav.global .right li:last-child {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 16, ../sass/modules/_curriculum.scss */
+  /* line 19, ../sass/modules/_curriculum.scss */
   .block.curriculum .lecture-icon {
     display: inline;
   }
 }
-/* line 26, ../sass/modules/_curriculum.scss */
+/* line 29, ../sass/modules/_curriculum.scss */
 .block.curriculum .collapse {
   display: none;
 }
-/* line 29, ../sass/modules/_curriculum.scss */
+/* line 32, ../sass/modules/_curriculum.scss */
 .block.curriculum .collapse.in {
   display: block;
 }
-/* line 33, ../sass/modules/_curriculum.scss */
+/* line 36, ../sass/modules/_curriculum.scss */
 .block.curriculum .lecture-start {
   opacity: 0.1;
 }
-/* line 36, ../sass/modules/_curriculum.scss */
+/* line 39, ../sass/modules/_curriculum.scss */
 .block.curriculum .course-section {
   max-width: 960px;
   width: 95%;
@@ -6064,48 +6068,48 @@ body nav.global .right li:last-child {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 36, ../sass/modules/_curriculum.scss */
+  /* line 39, ../sass/modules/_curriculum.scss */
   .block.curriculum .course-section {
     width: 55%;
   }
 }
-/* line 40, ../sass/modules/_curriculum.scss */
+/* line 43, ../sass/modules/_curriculum.scss */
 .block.curriculum ul li {
   list-style: none;
 }
-/* line 44, ../sass/modules/_curriculum.scss */
+/* line 47, ../sass/modules/_curriculum.scss */
 .block.curriculum a {
   text-decoration: none;
   color: inherit;
   font-weight: normal;
 }
-/* line 50, ../sass/modules/_curriculum.scss */
+/* line 53, ../sass/modules/_curriculum.scss */
 .block.curriculum .section-title {
   background: black;
   color: white;
   padding: 0.5em 1.5em;
   text-transform: uppercase;
 }
-/* line 57, ../sass/modules/_curriculum.scss */
+/* line 60, ../sass/modules/_curriculum.scss */
 .block.curriculum p, .block.curriculum ul, .block.curriculum ol, .block.curriculum .box-with-border .description, .box-with-border .block.curriculum .description, .block.curriculum .block.faq .faq-answer, .block.faq .block.curriculum .faq-answer, .block.curriculum .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .block.curriculum .coupon-invalid-text, .block.curriculum .standard-page .page-header .directory a, .standard-page .page-header .directory .block.curriculum a, .block.curriculum .all-courses .page-header .directory a, .all-courses .page-header .directory .block.curriculum a, .block.curriculum .dropdown-toggle {
   font-size: 1em;
 }
 @media screen and (min-width: 768px) {
-  /* line 57, ../sass/modules/_curriculum.scss */
+  /* line 60, ../sass/modules/_curriculum.scss */
   .block.curriculum p, .block.curriculum ul, .block.curriculum ol, .block.curriculum .box-with-border .description, .box-with-border .block.curriculum .description, .block.curriculum .block.faq .faq-answer, .block.faq .block.curriculum .faq-answer, .block.curriculum .coupon_banner.block .coupon-invalid-text, .coupon_banner.block .block.curriculum .coupon-invalid-text, .block.curriculum .standard-page .page-header .directory a, .standard-page .page-header .directory .block.curriculum a, .block.curriculum .all-courses .page-header .directory a, .all-courses .page-header .directory .block.curriculum a, .block.curriculum .dropdown-toggle {
     font-size: 1.25em;
   }
 }
-/* line 65, ../sass/modules/_curriculum.scss */
+/* line 68, ../sass/modules/_curriculum.scss */
 .block.curriculum .title {
   padding-right: 10rem;
 }
-/* line 69, ../sass/modules/_curriculum.scss */
+/* line 72, ../sass/modules/_curriculum.scss */
 .block.curriculum .time {
   font-size: 0.6em;
   padding-right: 0.3em;
 }
-/* line 75, ../sass/modules/_curriculum.scss */
+/* line 78, ../sass/modules/_curriculum.scss */
 .block.curriculum .right {
   display: inline-block;
   position: absolute;
@@ -6116,7 +6120,7 @@ body nav.global .right li:last-child {
   -o-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
-/* line 83, ../sass/modules/_curriculum.scss */
+/* line 86, ../sass/modules/_curriculum.scss */
 .block.curriculum ul {
   width: 100%;
   text-indent: 0;
@@ -6124,12 +6128,12 @@ body nav.global .right li:last-child {
   font-size: 1.25em !important;
 }
 @media screen and (min-width: 960px) {
-  /* line 83, ../sass/modules/_curriculum.scss */
+  /* line 86, ../sass/modules/_curriculum.scss */
   .block.curriculum ul {
     margin-bottom: 2em;
   }
 }
-/* line 93, ../sass/modules/_curriculum.scss */
+/* line 96, ../sass/modules/_curriculum.scss */
 .block.curriculum li {
   border: 1px solid black;
   position: relative;
@@ -6142,7 +6146,7 @@ body nav.global .right li:last-child {
   transition: background, 0.3s, ease-in-out;
   background: none;
 }
-/* line 101, ../sass/modules/_curriculum.scss */
+/* line 104, ../sass/modules/_curriculum.scss */
 .block.curriculum li:hover {
   background: rgba(0, 0, 0, 0.05);
 }
@@ -8199,25 +8203,25 @@ body.home footer#global .featured-courses.block {
   margin-bottom: 2em;
 }
 
-/* line 2, ../sass/modules/_all-courses.scss */
+/* line 4, ../sass/modules/_all-courses.scss */
 body.all-courses footer#global {
   border: none;
 }
-/* line 4, ../sass/modules/_all-courses.scss */
+/* line 6, ../sass/modules/_all-courses.scss */
 body.all-courses footer#global .featured-courses.block {
   display: none;
 }
-/* line 10, ../sass/modules/_all-courses.scss */
+/* line 12, ../sass/modules/_all-courses.scss */
 body.all-courses .course-listings .filter-title {
   text-align: center;
   margin: 2em 0;
 }
-/* line 16, ../sass/modules/_all-courses.scss */
+/* line 18, ../sass/modules/_all-courses.scss */
 body.all-courses .featured-courses.block {
   margin-top: 0;
   background: white;
 }
-/* line 19, ../sass/modules/_all-courses.scss */
+/* line 21, ../sass/modules/_all-courses.scss */
 body.all-courses .featured-courses.block .btn-secondary.btn-hg {
   display: none;
 }
