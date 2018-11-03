@@ -12,11 +12,11 @@ function defineCSS() {
 
 }
 
-$(window).bind('hashchange', function() {
+$(window).on('hashchange', function(){
 	defineCSS();
 	console.log('hashchange');
-});
-	
+}).trigger('hashchange');
+
 $(document).ready(function() {
 	defineCSS();
 });
