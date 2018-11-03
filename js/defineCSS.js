@@ -1,7 +1,7 @@
 function defineCSS() {
-	$("link[rel$='stylesheet'][href*='cloudfront']").each(function() {
-		$(this).attr("data-turbolinks-track", "false");
-	});
+	// $("link[rel$='stylesheet'][href*='cloudfront']").each(function() {
+	// 	$(this).attr("data-turbolinks-track", "false");
+	// });
 	if ($('.view-school').length) {
 		//remove default CSS
 		$("link[rel$='stylesheet'][href*='cloudfront']").each(function() {
@@ -14,10 +14,10 @@ function defineCSS() {
 	console.log('defineCSS');
 }
 
-$(window).on('hashchange', function(){
+document.addEventListener("turbolinks:load", function() {
 	defineCSS();
 	console.log('hashchange');
-}).trigger('hashchange');
+});
 
 $(document).ready(function() {
 	defineCSS();
