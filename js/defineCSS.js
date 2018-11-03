@@ -12,6 +12,7 @@ function defineCSS() {
 
 $(window).bind('hashchange', function() {
 	defineCSS();
+	console.log('hashchange');
 });
 	
 $(document).ready(function() {
