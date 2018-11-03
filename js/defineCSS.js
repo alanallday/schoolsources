@@ -14,7 +14,7 @@ function defineCSS() {
 	console.log('defineCSS');
 }
 
-document.addEventListener("turbolinks:load", function() {
+$(window).on('hashchange', function(){
 	defineCSS();
 	console.log('hashchange');
 });
