@@ -14,15 +14,10 @@ function defineCSS() {
 	console.log('defineCSS');
 }
 
-document.addEventListener("turbolinks:load", function() {
-  	defineCSS();
+$(window).on('hashchange', function(){
+	defineCSS();
 	console.log('hashchange');
-})
-
-$(document).on('turbolinks:load'),function() {
-  	defineCSS();
-	console.log('hashchange');	
-}
+}).trigger('hashchange');
 
 $(document).ready(function() {
 	defineCSS();

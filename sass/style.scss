@@ -13,37 +13,42 @@
 @import "base/_general";
 @import "base/_animations";
 
-@import "modules/_buttons";
+.view-school {
+	@import "modules/_buttons";
+	@import "modules/_typography";
+	@import "modules/_index";
+	@import "modules/_queries";
+	@import "modules/_form";
+	@import "modules/_rich-text";
+	@import "modules/_header";
+	@import "modules/_instructor";
+	@import "modules/_curriculum";
+	@import "modules/_testimonial";
+	@import "modules/_faq";
+	@import "modules/_primary-enroll-button";
+	@import "modules/_share";
+	@import "modules/_checkout-button";
+	@import "modules/_coupon";
+	@import "modules/_video-embed";
+	@import "modules/_featured-courses";
+	@import "modules/_course-card";
+	@import "modules/_course-hero";
+	@import "modules/_social";
+	@import "modules/_emailCTA";
+	@import "modules/_footer";
+	@import "modules/_page-template";
+	@import "modules/_all-courses";
+	@import "modules/_blog-listing";
+	@import "modules/_blog-page";
+	@import "modules/_signup";
+	@import "modules/_thank-you";
+	@import "modules/_elements";
+	@import "modules/_define-colors";
+	@import "modules/_page-load";
+}
 
-@import "modules/_typography";
-@import "modules/_index";
-@import "modules/_queries";
-@import "modules/_form";
-@import "modules/_rich-text";
-@import "modules/_header";
-@import "modules/_instructor";
-@import "modules/_curriculum";
-@import "modules/_testimonial";
-@import "modules/_faq";
-@import "modules/_primary-enroll-button";
-@import "modules/_share";
-@import "modules/_checkout-button";
-@import "modules/_coupon";
-@import "modules/_video-embed";
-@import "modules/_featured-courses";
-@import "modules/_course-card";
-@import "modules/_course-hero";
-@import "modules/_social";
-@import "modules/_emailCTA";
-@import "modules/_footer";
-@import "modules/_page-template";
-@import "modules/_all-courses";
-@import "modules/_blog-listing";
-@import "modules/_blog-page";
-@import "modules/_signup";
-@import "modules/_thank-you";
+.body-content-view {
+@import "teachable/_bootstrap";
+@import "teachable/_teachable";
+}
 
-
-@import "modules/_elements";
-@import "modules/_define-colors";
-@import "modules/_page-load";
