@@ -1,4 +1,7 @@
 function defineCSS() {
+	$("link[rel$='stylesheet'][href*='cloudfront']").each(function() {
+		$(this).attr("data-turbolinks-track", "false");
+	});
 	if ($('.view-school').length) {
 		//remove default CSS
 		$("link[rel$='stylesheet'][href*='cloudfront']").each(function() {
@@ -9,7 +12,6 @@ function defineCSS() {
 		$("#marketingCSS").attr("disabled", "disabled");
 	}
 	console.log('defineCSS');
-
 }
 
 $(window).on('hashchange', function(){
