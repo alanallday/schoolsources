@@ -17055,7 +17055,7 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container a:hover, .lecture-content-body-container a:active {
-  color: #044440;
+  color: #481001;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container a, .lecture-content-body-container a:active, .lecture-content-body-container a:hover, .lecture-content-body-container a:focus {
@@ -23057,10 +23057,10 @@ body.loaded .block.hero .btn {
   top: 36px;
   z-index: 100;
   width: 349px;
-  background: rgba(242, 242, 242, 0.97) !important;
+  background: rgba(0, 0, 0, 0.8) !important;
   padding-bottom: 0px;
   transition: 0.3s background ease;
-  border-bottom: 1px solid #d7dadb;
+  border-bottom: 1px solid #FFFFFF;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-sidebar .course-progress.lecture-page.sticky .course-progress-percentage {
@@ -25861,18 +25861,22 @@ body.loaded .block.hero .btn {
   white-space: pre-wrap;
 }
 /* line 1, ../sass/teachable/_overide.scss */
+.lecture-content-body-container.body-content-view {
+  height: auto !important;
+}
+/* line 5, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section .section-title {
   font-family: 'Times New Roman', serif;
   font-weight: normal;
   font-size: 1.2em;
 }
-/* line 7, ../sass/teachable/_overide.scss */
+/* line 11, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar {
   background: #000000;
   color: #FFFFFF;
   border-right: none;
 }
-/* line 12, ../sass/teachable/_overide.scss */
+/* line 16, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar h2, .lecture-content-body-container .course-sidebar .marketing-external-page-container .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .course-sidebar .title, .lecture-content-body-container .course-sidebar .marketing-external-page-container form .product-list .product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .course-sidebar .product-name, .lecture-content-body-container .course-sidebar .marketing-external-page-container .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .course-sidebar .coupon-code-applied {
   color: #FFFFFF;
   font-size: 1.7em;
@@ -25880,69 +25884,88 @@ body.loaded .block.hero .btn {
   padding-left: 16px;
   padding-right: 16px;
 }
-/* line 21, ../sass/teachable/_overide.scss */
+/* line 25, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-title {
   border-bottom: 1px solid #222;
   background: none;
 }
-/* line 26, ../sass/teachable/_overide.scss */
+/* line 30, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-item {
   border-color: #222222;
 }
-/* line 29, ../sass/teachable/_overide.scss */
+/* line 33, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-item .item {
   color: #FFFFFF;
 }
-/* line 34, ../sass/teachable/_overide.scss */
+/* line 38, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item {
   background: none;
   color: #FFFFFF;
 }
-/* line 38, ../sass/teachable/_overide.scss */
+/* line 42, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item .lecture-icon {
   display: none;
 }
-/* line 41, ../sass/teachable/_overide.scss */
+/* line 45, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item:hover {
   background: #111111 !important;
   color: #FFFFFF !important;
 }
-/* line 44, ../sass/teachable/_overide.scss */
+/* line 48, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item:hover .status-icon {
   box-shadow: inset 0px 0px 0px 2px #FFFFFF !important;
 }
-/* line 51, ../sass/teachable/_overide.scss */
+/* line 55, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item {
   background: #AD2602;
   color: #D8E2EA;
 }
-/* line 55, ../sass/teachable/_overide.scss */
+/* line 59, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item .status-icon {
   background: url("hxttps://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png") 1px 0px #D8E2EA;
   box-shadow: inset 0px 0px 0px 2px #D8E2EA;
 }
-/* line 61, ../sass/teachable/_overide.scss */
+/* line 65, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .status-container {
   margin-right: 0;
 }
-/* line 66, ../sass/teachable/_overide.scss */
+/* line 70, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .title-container {
   border-left: none;
   padding: 10px 0;
 }
-/* line 72, ../sass/teachable/_overide.scss */
+/* line 76, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item, .lecture-content-body-container .course-section ul.section-list .section-item .item.incomplete {
   border-bottom: 1px solid #2f2f2f;
 }
-/* line 75, ../sass/teachable/_overide.scss */
+/* line 79, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item .status-icon, .lecture-content-body-container .course-section ul.section-list .section-item .item.incomplete .status-icon {
   box-shadow: inset 0px 0px 0px 2px #FFFFFF;
 }
-/* line 81, ../sass/teachable/_overide.scss */
+/* line 85, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .lecture-content h2.section-title, .lecture-content-body-container .lecture-content .marketing-external-page-container .box-with-border .description .section-title.title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .lecture-content .section-title.title, .lecture-content-body-container .lecture-content .marketing-external-page-container form .product-list .section-title.product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .lecture-content .section-title.product-name, .lecture-content-body-container .lecture-content .marketing-external-page-container .coupon_banner.block .section-title.coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .lecture-content .section-title.coupon-code-applied {
   color: #000000;
+  -webkit-transform: scale(1, 2);
+  -moz-transform: scale(1, 2);
+  -o-transform: scale(1, 2);
+  transform: scale(1, 2);
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 0.8em;
+  font-size: 1.4em;
+  font-family: 'Times New Roman', serif;
 }
-/* line 82, ../sass/teachable/_overide.scss */
+/* line 86, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .lecture-content h2.section-title .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container .box-with-border .description .section-title.title .fa, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .lecture-content .section-title.title .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container form .product-list .section-title.product-name .fa, .marketing-external-page-container form .product-list .lecture-content-body-container .lecture-content .section-title.product-name .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container .coupon_banner.block .section-title.coupon-code-applied .fa, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .lecture-content .section-title.coupon-code-applied .fa {
   display: none;
+}
+/* line 102, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-sidebar .course-progress {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+/* line 107, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .progress-bar {
+  background: #444;
 }
