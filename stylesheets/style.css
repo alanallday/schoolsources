@@ -25904,7 +25904,7 @@ body.loaded .block.hero .btn {
 }
 /* line 41, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item:hover {
-  background: #111111;
+  background: #111111 !important;
 }
 /* line 44, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item:hover .status-icon {
@@ -25930,10 +25930,10 @@ body.loaded .block.hero .btn {
   padding: 10px 0;
 }
 /* line 72, ../sass/teachable/_overide.scss */
-.lecture-content-body-container .course-section ul.section-list .section-item .item {
+.lecture-content-body-container .course-section ul.section-list .section-item .item, .lecture-content-body-container .course-section ul.section-list .section-item .item.incomplete {
   border-bottom: 1px solid #2f2f2f;
 }
-/* line 76, ../sass/teachable/_overide.scss */
-.lecture-content-body-container .course-section ul.section-list .section-item .status-icon {
+/* line 75, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-section ul.section-list .section-item .item .status-icon, .lecture-content-body-container .course-section ul.section-list .section-item .item.incomplete .status-icon {
   box-shadow: inset 0px 0px 0px 2px #FFFFFF;
 }

@@ -39,8 +39,8 @@
 		display: none;
 	}
 	&:hover {
-		background: #111111;
-
+		background: #111111 !important;
+		color: $white !important;
 		.status-icon {
 			box-shadow: inset 0px 0px 0px 2px $white !important;
 		}
@@ -69,11 +69,11 @@
 		padding: 10px 0;
 	}
 
-	.item {
+	.item,.item.incomplete {
 		border-bottom: 1px solid #2f2f2f;
-	}
 
-	.status-icon {
-		box-shadow: inset 0px 0px 0px 2px $white;
+		.status-icon {
+			box-shadow: inset 0px 0px 0px 2px $white;
+		}
 	}
 }
