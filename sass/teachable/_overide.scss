@@ -1,0 +1,33 @@
+.course-section .section-title {
+	font-family: 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+.course-sidebar {
+	background: $lightblue;
+    color: $darkred;
+	border-right: 1px solid black;
+
+    h2 {
+    	color: $darkred;
+    	font-family: 'Times New Roman', serif;
+    	font-size:1.7em;
+    }
+}
+
+.course-section ul.section-list .section-item.incomplete .status-icon {
+	box-shadow: inset 0px 0px 0px 2px $darkred;
+}
+
+.course-sidebar .row.lecture-sidebar .course-section .section-title {
+	border-bottom: 1px solid $darkred;
+}
+
+.course-sidebar .row.lecture-sidebar .course-section .section-item {
+
+}
+
+.course-section ul.section-list .section-item .item {
+	background: none;
+}

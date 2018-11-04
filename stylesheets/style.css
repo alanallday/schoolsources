@@ -25860,3 +25860,29 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .convert-existing {
   white-space: pre-wrap;
 }
+/* line 1, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-section .section-title {
+  font-family: 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+/* line 7, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-sidebar {
+  background: #D8E2EA;
+  color: #AD2602;
+  border-right: 1px solid black;
+}
+/* line 12, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-sidebar h2, .lecture-content-body-container .course-sidebar .marketing-external-page-container .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .course-sidebar .title, .lecture-content-body-container .course-sidebar .marketing-external-page-container form .product-list .product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .course-sidebar .product-name, .lecture-content-body-container .course-sidebar .marketing-external-page-container .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .course-sidebar .coupon-code-applied {
+  color: #AD2602;
+  font-family: 'Times New Roman', serif;
+  font-size: 1.7em;
+}
+/* line 19, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-section ul.section-list .section-item.incomplete .status-icon {
+  box-shadow: inset 0px 0px 0px 2px #AD2602;
+}
+/* line 23, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-title {
+  border-bottom: 1px solid #AD2602;
+}
