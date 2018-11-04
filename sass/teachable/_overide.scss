@@ -7,8 +7,8 @@
 .course-sidebar {
 	background: $black;
     color: $white;
-	border-right: 1px solid $black;
-
+	// border-right: 1px solid $black;
+	border-right: none;
     h2 {
     	color: $white;
     	font-size:1.7em;
@@ -17,7 +17,7 @@
 }
 
 .course-section ul.section-list .section-item.incomplete .status-icon {
-	box-shadow: inset 0px 0px 0px 2px $black;
+	box-shadow: inset 0px 0px 0px 2px $white;
 }
 
 .course-sidebar .row.lecture-sidebar .course-section .section-title {
@@ -26,8 +26,15 @@
 }
 
 .course-sidebar .row.lecture-sidebar .course-section .section-item {
-	&.incomplete.next-lecture {
-		background: lighten($black,5%);
+	&.next-lecture {
+		.item {
+			background: $lightblue;
+			color:$darkred;
+		}
+	}
+
+	.item {
+		color: $white;
 	}
 }
 

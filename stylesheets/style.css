@@ -25870,7 +25870,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .course-sidebar {
   background: #000000;
   color: #FFFFFF;
-  border-right: 1px solid #000000;
+  border-right: none;
 }
 /* line 12, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar h2, .lecture-content-body-container .course-sidebar .marketing-external-page-container .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .course-sidebar .title, .lecture-content-body-container .course-sidebar .marketing-external-page-container form .product-list .product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .course-sidebar .product-name, .lecture-content-body-container .course-sidebar .marketing-external-page-container .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .course-sidebar .coupon-code-applied {
@@ -25880,18 +25880,23 @@ body.loaded .block.hero .btn {
 }
 /* line 19, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.incomplete .status-icon {
-  box-shadow: inset 0px 0px 0px 2px #000000;
+  box-shadow: inset 0px 0px 0px 2px #FFFFFF;
 }
 /* line 23, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-title {
   border-bottom: 1px solid #000000;
   background: none;
 }
-/* line 29, ../sass/teachable/_overide.scss */
-.lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-item.incomplete.next-lecture {
-  background: black;
+/* line 30, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-item.next-lecture .item {
+  background: #D8E2EA;
+  color: #AD2602;
 }
-/* line 34, ../sass/teachable/_overide.scss */
+/* line 36, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-item .item {
+  color: #FFFFFF;
+}
+/* line 41, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item {
   background: none;
 }
