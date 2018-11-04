@@ -16176,8 +16176,8 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .btn-primary:hover, .lecture-content-body-container .btn-primary:active:hover, .lecture-content-body-container .btn-primary:focus:hover {
   outline: none !important;
   text-decoration: none;
-  background: #088d83 !important;
-  border: 1px solid #088d83 !important;
+  background: #7b1b01 !important;
+  border: 1px solid #7b1b01 !important;
   color: #fff;
 }
 @media screen and (max-width: 767px) {
@@ -16231,7 +16231,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .btn-inverse:hover, .lecture-content-body-container .btn-inverse:hover:hover, .lecture-content-body-container .btn-inverse:active:hover, .lecture-content-body-container .btn-inverse:focus:hover {
   outline: none !important;
   text-decoration: none;
-  color: #088d83 !important;
+  color: #7b1b01 !important;
   border: 1px solid #afb6bb !important;
 }
 @media screen and (max-width: 767px) {
@@ -16324,7 +16324,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .btn-teachable-inverse:hover, .lecture-content-body-container .btn-teachable-inverse:hover:hover, .lecture-content-body-container .btn-teachable-inverse:active:hover, .lecture-content-body-container .btn-teachable-inverse:focus:hover {
   outline: none !important;
   text-decoration: none;
-  color: #088d83 !important;
+  color: #7b1b01 !important;
   border: 1px solid #8accc8 !important;
 }
 @media screen and (max-width: 767px) {
@@ -16935,7 +16935,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .modal .modal-dialog .modal-header .modal-title {
   font-weight: 600;
   font-size: 22px;
-  color: #2b3636;
+  color: #000000;
   padding-left: 10px;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
@@ -17047,7 +17047,7 @@ body.loaded .block.hero .btn {
   background: none;
   font-family: "Helvetica";
   margin: 0 !important;
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container a {
@@ -17069,7 +17069,7 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container h2, .lecture-content-body-container .marketing-external-page-container .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .title, .lecture-content-body-container .marketing-external-page-container form .product-list .product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .product-name, .lecture-content-body-container .marketing-external-page-container .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .coupon-code-applied, .lecture-content-body-container h3, .lecture-content-body-container .marketing-external-page-container .block.faq .faq-question, .marketing-external-page-container .block.faq .lecture-content-body-container .faq-question, .lecture-content-body-container h4, .lecture-content-body-container h5 {
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container h3, .lecture-content-body-container .marketing-external-page-container .block.faq .faq-question, .marketing-external-page-container .block.faq .lecture-content-body-container .faq-question {
@@ -18415,7 +18415,7 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-block .full-width-image-bg.background-not-set h3.signup-form-title, .lecture-content-body-container .course-block .full-width-image-bg.background-not-set .marketing-external-page-container .block.faq .signup-form-title.faq-question, .marketing-external-page-container .block.faq .lecture-content-body-container .course-block .full-width-image-bg.background-not-set .signup-form-title.faq-question, .lecture-content-body-container .block .full-width-image-bg.background-not-set h3.signup-form-title, .lecture-content-body-container .marketing-external-page-container .block.faq .full-width-image-bg.background-not-set .signup-form-title.faq-question, .marketing-external-page-container .lecture-content-body-container .block.faq .full-width-image-bg.background-not-set .signup-form-title.faq-question {
-  color: #2b3636 !important;
+  color: #000000 !important;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-block .checkout-button, .lecture-content-body-container .block .checkout-button {
@@ -18428,7 +18428,7 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-block .checkout-button.background-not-set h3.signup-form-title, .lecture-content-body-container .course-block .checkout-button.background-not-set .marketing-external-page-container .block.faq .signup-form-title.faq-question, .marketing-external-page-container .block.faq .lecture-content-body-container .course-block .checkout-button.background-not-set .signup-form-title.faq-question, .lecture-content-body-container .block .checkout-button.background-not-set h3.signup-form-title, .lecture-content-body-container .marketing-external-page-container .block.faq .checkout-button.background-not-set .signup-form-title.faq-question, .marketing-external-page-container .lecture-content-body-container .block.faq .checkout-button.background-not-set .signup-form-title.faq-question {
-  color: #2b3636 !important;
+  color: #000000 !important;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-block.testimonial .large-img-rounded, .lecture-content-body-container .block.testimonial .large-img-rounded {
@@ -18666,22 +18666,22 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item {
-  color: #2b3636;
+  color: #000000;
   background: #d4ebe9;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .status-icon {
-  background: url("https://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png") 1px 0px #2b3636;
-  box-shadow: inset 0px 0px 0px 2px #2b3636;
+  background: url("https://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png") 1px 0px #000000;
+  box-shadow: inset 0px 0px 0px 2px #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item:hover {
-  color: #2b3636;
+  color: #000000;
   background: #d4ebe9;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item:hover .status-icon {
-  box-shadow: inset 0px 0px 0px 2px #2b3636 !important;
+  box-shadow: inset 0px 0px 0px 2px #000000 !important;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container #more_lecture_sections {
@@ -18734,7 +18734,7 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-listing .course-listing-title {
-  color: #2b3636;
+  color: #000000;
   line-height: 25px;
   padding: 16px 16px 4px 16px;
   font-weight: bold;
@@ -18963,7 +18963,7 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .checkout-button-group {
-  color: #2b3636;
+  color: #000000;
   background: #f0f0f0;
   width: 100%;
   border: 0;
@@ -19875,7 +19875,7 @@ body.loaded .block.hero .btn {
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .blog-container .post h1 a {
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .blog-container .post h1 a:hover {
@@ -19921,7 +19921,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .blog-container .post .post-byline .post-author-name {
   font-size: 16px;
   font-weight: 600;
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .blog-container .post .post-byline .post-date {
@@ -19998,14 +19998,14 @@ body.loaded .block.hero .btn {
   margin-top: 0px;
   margin-bottom: 20px;
   letter-spacing: 1px;
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .checkout-page .checkout-sidebar {
   padding-top: 50px;
   padding-bottom: 50px;
   background-repeat: no-repeat;
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .checkout-page .checkout-sidebar.with-teachable-badge {
@@ -20442,7 +20442,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .checkout-breadcrumbs ol li.current-step:before {
   opacity: 1;
   background: white;
-  color: #2b3636;
+  color: #000000;
   border-color: #fff;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
@@ -21932,7 +21932,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .course-sidebar ul.sidebar-nav li a {
   font-size: 16px;
   padding: 13px 18px;
-  color: #2b3636;
+  color: #000000;
   display: block;
   margin-top: 1px;
 }
@@ -21987,7 +21987,7 @@ body.loaded .block.hero .btn {
   .lecture-content-body-container .sidebar-nav-link {
     font-size: 15px;
     padding: 10px 15px;
-    color: #2b3636;
+    color: #000000;
     display: block;
     line-height: 30px;
     font-weight: 200;
@@ -22166,7 +22166,7 @@ body.loaded .block.hero .btn {
   margin-bottom: 25px;
   font-size: 18pt;
   opacity: 0.85;
-  color: #2b3636;
+  color: #000000;
   margin-top: 50px;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
@@ -22332,7 +22332,7 @@ body.loaded .block.hero .btn {
   line-height: 45px;
   margin-top: 0px;
   margin-bottom: 0px;
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .course-top-row .course-header-container .course-subtitle {
@@ -22652,7 +22652,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .checkout-row h3.signup-form-title, .lecture-content-body-container .checkout-row .marketing-external-page-container .block.faq .signup-form-title.faq-question, .marketing-external-page-container .block.faq .lecture-content-body-container .checkout-row .signup-form-title.faq-question {
   text-align: center;
   font-weight: bold;
-  color: #2b3636 !important;
+  color: #000000 !important;
   font-size: 35px;
   margin-bottom: 38px;
 }
@@ -23365,7 +23365,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .devise-layout .content label.control-label {
   font-size: 15px;
   font-weight: 200;
-  color: #2b3636;
+  color: #000000;
   width: 100%;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
@@ -23701,7 +23701,7 @@ body.loaded .block.hero .btn {
   margin-top: 0px;
   margin-bottom: 20px;
   letter-spacing: 1px;
-  color: #2b3636;
+  color: #000000;
 }
 /* line 1, ../sass/teachable/_teachable.scss */
 .lecture-content-body-container .instant-checkout-iframe-body .change-payment-method {
@@ -25937,4 +25937,12 @@ body.loaded .block.hero .btn {
 /* line 75, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item .status-icon, .lecture-content-body-container .course-section ul.section-list .section-item .item.incomplete .status-icon {
   box-shadow: inset 0px 0px 0px 2px #FFFFFF;
+}
+/* line 81, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .lecture-content h2.section-title, .lecture-content-body-container .lecture-content .marketing-external-page-container .box-with-border .description .section-title.title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .lecture-content .section-title.title, .lecture-content-body-container .lecture-content .marketing-external-page-container form .product-list .section-title.product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .lecture-content .section-title.product-name, .lecture-content-body-container .lecture-content .marketing-external-page-container .coupon_banner.block .section-title.coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .lecture-content .section-title.coupon-code-applied {
+  color: #000000;
+}
+/* line 82, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .lecture-content h2.section-title .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container .box-with-border .description .section-title.title .fa, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .lecture-content .section-title.title .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container form .product-list .section-title.product-name .fa, .marketing-external-page-container form .product-list .lecture-content-body-container .lecture-content .section-title.product-name .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container .coupon_banner.block .section-title.coupon-code-applied .fa, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .lecture-content .section-title.coupon-code-applied .fa {
+  display: none;
 }
