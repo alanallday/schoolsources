@@ -53,7 +53,7 @@
 		background: #111111;
 
 		.status-icon {
-			box-shadow: inset 0px 0px 0px 2px $white;
+			box-shadow: inset 0px 0px 0px 2px $white !important;
 		}
 
 	}
@@ -72,10 +72,12 @@
 .course-section ul.section-list .section-item .status-container {
 	margin-right:0;
 }
+
 .course-section ul.section-list .section-item {
 	.title-container {
 		// border-color: #222222;
 		border-left: none;
+		padding: 10px 0;
 	}
 
 	.item {

@@ -25917,7 +25917,7 @@ body.loaded .block.hero .btn {
 }
 /* line 55, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item:hover .status-icon {
-  box-shadow: inset 0px 0px 0px 2px #FFFFFF;
+  box-shadow: inset 0px 0px 0px 2px #FFFFFF !important;
 }
 /* line 62, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item {
@@ -25933,11 +25933,12 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .course-section ul.section-list .section-item .status-container {
   margin-right: 0;
 }
-/* line 76, ../sass/teachable/_overide.scss */
+/* line 77, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .title-container {
   border-left: none;
+  padding: 10px 0;
 }
-/* line 81, ../sass/teachable/_overide.scss */
+/* line 83, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item {
   border-bottom: 1px solid #2f2f2f;
 }
