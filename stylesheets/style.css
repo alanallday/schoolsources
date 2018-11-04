@@ -25886,3 +25886,7 @@ body.loaded .block.hero .btn {
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-title {
   border-bottom: 1px solid #AD2602;
 }
+/* line 31, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .course-section ul.section-list .section-item .item {
+  background: none;
+}
