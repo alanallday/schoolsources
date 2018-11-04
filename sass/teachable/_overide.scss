@@ -5,27 +5,30 @@
 }
 
 .course-sidebar {
-	background: $lightblue;
-    color: $darkred;
-	border-right: 1px solid black;
+	background: $black;
+    color: $white;
+	border-right: 1px solid $black;
 
     h2 {
-    	color: $darkred;
-    	font-family: 'Times New Roman', serif;
+    	color: $white;
     	font-size:1.7em;
+    	font-weight: bold;
     }
 }
 
 .course-section ul.section-list .section-item.incomplete .status-icon {
-	box-shadow: inset 0px 0px 0px 2px $darkred;
+	box-shadow: inset 0px 0px 0px 2px $black;
 }
 
 .course-sidebar .row.lecture-sidebar .course-section .section-title {
-	border-bottom: 1px solid $darkred;
+	border-bottom: 1px solid $black;
+    background: none;
 }
 
 .course-sidebar .row.lecture-sidebar .course-section .section-item {
-
+	&.incomplete.next-lecture {
+		background: lighten($black,5%);
+	}
 }
 
 .course-section ul.section-list .section-item .item {
