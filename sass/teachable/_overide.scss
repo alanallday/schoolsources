@@ -13,6 +13,8 @@
     	color: $white;
     	font-size:1.7em;
     	font-weight: bold;
+    	padding-left: 16px;
+    	padding-right: 16px;
     }
 }
 
@@ -21,11 +23,13 @@
 }
 
 .course-sidebar .row.lecture-sidebar .course-section .section-title {
-	border-bottom: 1px solid $black;
+	border-bottom: 1px solid #222;
     background: none;
 }
 
 .course-sidebar .row.lecture-sidebar .course-section .section-item {
+	border-color: #222222;
+
 	&.next-lecture {
 		.item {
 			background: $lightblue;
@@ -40,4 +44,41 @@
 
 .course-section ul.section-list .section-item .item {
 	background: none;
+	color: $white;
+
+	.lecture-icon {
+		display: none;
+	}
+	&:hover {
+		background: #111111;
+
+		.status-icon {
+			box-shadow: inset 0px 0px 0px 2px $white;
+		}
+
+	}
+}
+
+.course-section ul.section-list .section-item.next-lecture .item {
+	background: $darkred;
+	color:$lightblue;	
+
+	.status-icon {
+		background: url("https://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png") 1px 0px $lightblue;
+		box-shadow: inset 0px 0px 0px 2px $lightblue;
+	}
+}
+
+.course-section ul.section-list .section-item .status-container {
+	margin-right:0;
+}
+.course-section ul.section-list .section-item {
+	.title-container {
+		// border-color: #222222;
+		border-left: none;
+	}
+
+	.item {
+		border-bottom: 1px solid #2f2f2f;
+	}
 }
