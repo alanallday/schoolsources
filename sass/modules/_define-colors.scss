@@ -127,34 +127,34 @@
 @include courseHeader();
 @include instructor();
 
-.standard-page {
+&.standard-page {
 	@include globalHeader($darkred,$lightblue);	
 	@include pageHeader($darkred,$lightblue);
 }
 
-.course-page {
+&.course-page {
 	@include globalHeader($black,$lightgreen);
 }
 
-.all-courses {
+&.all-courses {
 	@include globalHeader(black,white);	
 	@include pageHeader(black,white);
 }
-.home {
+&.home {
 	@include globalHeader($darkred,$lightblue);
 	@include homeHeader($darkred,$lightblue);
 }
 
-.thank-you-page {
+&.thank-you-page {
 	@include globalHeader($darkred,$lightblue);
 
 }
-.standard-page {
+&.standard-page {
 	@include globalHeader($darkred,$lightblue);
 	@include homeHeader($darkred,$lightblue);	
 }
 
-.blog-page {
+&.blog-page {
 	@include globalHeader(black,$lightblue);
 	@include pageHeader(black,$lightblue);
 }

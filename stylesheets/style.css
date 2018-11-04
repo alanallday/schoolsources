@@ -8986,374 +8986,374 @@ img {
   color: #000000;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global {
+.marketing-external-page-container.standard-page nav.global {
   background: #D8E2EA !important;
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+.marketing-external-page-container.standard-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
   border-color: #AD2602 !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .right {
+.marketing-external-page-container.standard-page nav.global .right {
   border-color: #AD2602 !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .dropdown-menu {
+.marketing-external-page-container.standard-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
   color: #AD2602 !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global svg polygon, .marketing-external-page-container .standard-page nav.global svg path {
+.marketing-external-page-container.standard-page nav.global svg polygon, .marketing-external-page-container.standard-page nav.global svg path {
   fill: #AD2602 !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .btn-primary {
+.marketing-external-page-container.standard-page nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .btn-secondary {
+.marketing-external-page-container.standard-page nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 9, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .page-header {
+.marketing-external-page-container.standard-page .page-header {
   color: #AD2602;
   background: #D8E2EA;
 }
 /* line 13, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .page-header .btn-primary {
+.marketing-external-page-container.standard-page .page-header .btn-primary {
   background: #AD2602;
   border: 1px solid #AD2602;
 }
 /* line 17, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .page-header svg polygon {
+.marketing-external-page-container.standard-page .page-header svg polygon {
   fill: #AD2602;
 }
 /* line 21, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .page-header .directory {
+.marketing-external-page-container.standard-page .page-header .directory {
   border: 1px solid #AD2602;
 }
 /* line 23, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .page-header .directory label {
+.marketing-external-page-container.standard-page .page-header .directory label {
   border: 1px solid #AD2602;
 }
 /* line 27, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .page-header .directory .row .thumb .profile-pic {
+.marketing-external-page-container.standard-page .page-header .directory .row .thumb .profile-pic {
   border-color: transparent !important;
 }
 /* line 31, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .page-header .directory .circle, .marketing-external-page-container .standard-page .page-header .directory .picture {
+.marketing-external-page-container.standard-page .page-header .directory .circle, .marketing-external-page-container.standard-page .page-header .directory .picture {
   border-color: #AD2602 !important;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .course-page nav.global {
+.marketing-external-page-container.course-page nav.global {
   background: #EDF3E8 !important;
   color: #000000 !important;
   border-color: #000000 !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .course-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+.marketing-external-page-container.course-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
   border-color: #000000 !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .course-page nav.global .right {
+.marketing-external-page-container.course-page nav.global .right {
   border-color: #000000 !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .course-page nav.global .dropdown-menu {
+.marketing-external-page-container.course-page nav.global .dropdown-menu {
   background: #EDF3E8 !important;
   border-color: #000000 !important;
   color: #000000 !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .course-page nav.global svg polygon, .marketing-external-page-container .course-page nav.global svg path {
+.marketing-external-page-container.course-page nav.global svg polygon, .marketing-external-page-container.course-page nav.global svg path {
   fill: #000000 !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .course-page nav.global .btn-primary {
+.marketing-external-page-container.course-page nav.global .btn-primary {
   background: #000000 !important;
   color: #EDF3E8 !important;
   border-color: #000000 !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .course-page nav.global .btn-secondary {
+.marketing-external-page-container.course-page nav.global .btn-secondary {
   color: #000000 !important;
   border-color: #000000 !important;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses nav.global {
+.marketing-external-page-container.all-courses nav.global {
   background: white !important;
   color: black !important;
   border-color: black !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+.marketing-external-page-container.all-courses nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
   border-color: black !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses nav.global .right {
+.marketing-external-page-container.all-courses nav.global .right {
   border-color: black !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses nav.global .dropdown-menu {
+.marketing-external-page-container.all-courses nav.global .dropdown-menu {
   background: white !important;
   border-color: black !important;
   color: black !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses nav.global svg polygon, .marketing-external-page-container .all-courses nav.global svg path {
+.marketing-external-page-container.all-courses nav.global svg polygon, .marketing-external-page-container.all-courses nav.global svg path {
   fill: black !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses nav.global .btn-primary {
+.marketing-external-page-container.all-courses nav.global .btn-primary {
   background: black !important;
   color: white !important;
   border-color: black !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses nav.global .btn-secondary {
+.marketing-external-page-container.all-courses nav.global .btn-secondary {
   color: black !important;
   border-color: black !important;
 }
 /* line 9, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses .page-header {
+.marketing-external-page-container.all-courses .page-header {
   color: black;
   background: white;
 }
 /* line 13, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses .page-header .btn-primary {
+.marketing-external-page-container.all-courses .page-header .btn-primary {
   background: black;
   border: 1px solid black;
 }
 /* line 17, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses .page-header svg polygon {
+.marketing-external-page-container.all-courses .page-header svg polygon {
   fill: black;
 }
 /* line 21, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses .page-header .directory {
+.marketing-external-page-container.all-courses .page-header .directory {
   border: 1px solid black;
 }
 /* line 23, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses .page-header .directory label {
+.marketing-external-page-container.all-courses .page-header .directory label {
   border: 1px solid black;
 }
 /* line 27, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses .page-header .directory .row .thumb .profile-pic {
+.marketing-external-page-container.all-courses .page-header .directory .row .thumb .profile-pic {
   border-color: transparent !important;
 }
 /* line 31, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .all-courses .page-header .directory .circle, .marketing-external-page-container .all-courses .page-header .directory .picture {
+.marketing-external-page-container.all-courses .page-header .directory .circle, .marketing-external-page-container.all-courses .page-header .directory .picture {
   border-color: black !important;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home nav.global {
+.marketing-external-page-container.home nav.global {
   background: #D8E2EA !important;
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+.marketing-external-page-container.home nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
   border-color: #AD2602 !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home nav.global .right {
+.marketing-external-page-container.home nav.global .right {
   border-color: #AD2602 !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home nav.global .dropdown-menu {
+.marketing-external-page-container.home nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
   color: #AD2602 !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home nav.global svg polygon, .marketing-external-page-container .home nav.global svg path {
+.marketing-external-page-container.home nav.global svg polygon, .marketing-external-page-container.home nav.global svg path {
   fill: #AD2602 !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home nav.global .btn-primary {
+.marketing-external-page-container.home nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home nav.global .btn-secondary {
+.marketing-external-page-container.home nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 74, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home .home-top-container {
+.marketing-external-page-container.home .home-top-container {
   color: #AD2602 !important;
   background: #D8E2EA !important;
 }
 /* line 77, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home .home-top-container .box-with-border {
+.marketing-external-page-container.home .home-top-container .box-with-border {
   border: 1px solid #AD2602 !important;
 }
 /* line 80, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home .home-top-container .btn-secondary {
+.marketing-external-page-container.home .home-top-container .btn-secondary {
   border-color: #AD2602 !important;
 }
 /* line 84, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .home .home-top-container .btn-primary {
+.marketing-external-page-container.home .home-top-container .btn-primary {
   background: #AD2602 !important;
   border: 1px solid #AD2602 !important;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .thank-you-page nav.global {
+.marketing-external-page-container.thank-you-page nav.global {
   background: #D8E2EA !important;
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .thank-you-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+.marketing-external-page-container.thank-you-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
   border-color: #AD2602 !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .thank-you-page nav.global .right {
+.marketing-external-page-container.thank-you-page nav.global .right {
   border-color: #AD2602 !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .thank-you-page nav.global .dropdown-menu {
+.marketing-external-page-container.thank-you-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
   color: #AD2602 !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .thank-you-page nav.global svg polygon, .marketing-external-page-container .thank-you-page nav.global svg path {
+.marketing-external-page-container.thank-you-page nav.global svg polygon, .marketing-external-page-container.thank-you-page nav.global svg path {
   fill: #AD2602 !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .thank-you-page nav.global .btn-primary {
+.marketing-external-page-container.thank-you-page nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .thank-you-page nav.global .btn-secondary {
+.marketing-external-page-container.thank-you-page nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global {
+.marketing-external-page-container.standard-page nav.global {
   background: #D8E2EA !important;
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+.marketing-external-page-container.standard-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
   border-color: #AD2602 !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .right {
+.marketing-external-page-container.standard-page nav.global .right {
   border-color: #AD2602 !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .dropdown-menu {
+.marketing-external-page-container.standard-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: #AD2602 !important;
   color: #AD2602 !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global svg polygon, .marketing-external-page-container .standard-page nav.global svg path {
+.marketing-external-page-container.standard-page nav.global svg polygon, .marketing-external-page-container.standard-page nav.global svg path {
   fill: #AD2602 !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .btn-primary {
+.marketing-external-page-container.standard-page nav.global .btn-primary {
   background: #AD2602 !important;
   color: #D8E2EA !important;
   border-color: #AD2602 !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page nav.global .btn-secondary {
+.marketing-external-page-container.standard-page nav.global .btn-secondary {
   color: #AD2602 !important;
   border-color: #AD2602 !important;
 }
 /* line 74, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .home-top-container {
+.marketing-external-page-container.standard-page .home-top-container {
   color: #AD2602 !important;
   background: #D8E2EA !important;
 }
 /* line 77, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .home-top-container .box-with-border {
+.marketing-external-page-container.standard-page .home-top-container .box-with-border {
   border: 1px solid #AD2602 !important;
 }
 /* line 80, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .home-top-container .btn-secondary {
+.marketing-external-page-container.standard-page .home-top-container .btn-secondary {
   border-color: #AD2602 !important;
 }
 /* line 84, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .standard-page .home-top-container .btn-primary {
+.marketing-external-page-container.standard-page .home-top-container .btn-primary {
   background: #AD2602 !important;
   border: 1px solid #AD2602 !important;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page nav.global {
+.marketing-external-page-container.blog-page nav.global {
   background: #D8E2EA !important;
   color: black !important;
   border-color: black !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+.marketing-external-page-container.blog-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
   border-color: black !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page nav.global .right {
+.marketing-external-page-container.blog-page nav.global .right {
   border-color: black !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page nav.global .dropdown-menu {
+.marketing-external-page-container.blog-page nav.global .dropdown-menu {
   background: #D8E2EA !important;
   border-color: black !important;
   color: black !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page nav.global svg polygon, .marketing-external-page-container .blog-page nav.global svg path {
+.marketing-external-page-container.blog-page nav.global svg polygon, .marketing-external-page-container.blog-page nav.global svg path {
   fill: black !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page nav.global .btn-primary {
+.marketing-external-page-container.blog-page nav.global .btn-primary {
   background: black !important;
   color: #D8E2EA !important;
   border-color: black !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page nav.global .btn-secondary {
+.marketing-external-page-container.blog-page nav.global .btn-secondary {
   color: black !important;
   border-color: black !important;
 }
 /* line 9, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page .page-header {
+.marketing-external-page-container.blog-page .page-header {
   color: black;
   background: #D8E2EA;
 }
 /* line 13, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page .page-header .btn-primary {
+.marketing-external-page-container.blog-page .page-header .btn-primary {
   background: black;
   border: 1px solid black;
 }
 /* line 17, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page .page-header svg polygon {
+.marketing-external-page-container.blog-page .page-header svg polygon {
   fill: black;
 }
 /* line 21, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page .page-header .directory {
+.marketing-external-page-container.blog-page .page-header .directory {
   border: 1px solid black;
 }
 /* line 23, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page .page-header .directory label {
+.marketing-external-page-container.blog-page .page-header .directory label {
   border: 1px solid black;
 }
 /* line 27, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page .page-header .directory .row .thumb .profile-pic {
+.marketing-external-page-container.blog-page .page-header .directory .row .thumb .profile-pic {
   border-color: transparent !important;
 }
 /* line 31, ../sass/modules/_define-colors.scss */
-.marketing-external-page-container .blog-page .page-header .directory .circle, .marketing-external-page-container .blog-page .page-header .directory .picture {
+.marketing-external-page-container.blog-page .page-header .directory .circle, .marketing-external-page-container.blog-page .page-header .directory .picture {
   border-color: black !important;
 }
 
