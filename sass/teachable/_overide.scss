@@ -1,5 +1,71 @@
 &.body-content-view {
 	height: auto !important;
+
+	.course-sidebar ul.sidebar-nav li a {
+		color: $white;
+
+	}
+
+	.course-sidebar ul.sidebar-nav li.selected {
+		border-color: $darkred;
+		a {
+			background: #222;
+
+			&:hover {
+				background: #151515;
+			}
+		}
+	}
+	.course-mainbar {
+		h2.section-title {
+			color: $black;
+			-webkit-transform: scale(1, 2);
+		    -moz-transform: scale(1, 2);
+		    -o-transform: scale(1, 2);
+		    transform: scale(1, 2);
+		    display: inline-block;
+		    text-transform: uppercase;
+		    font-weight: bold;
+		    line-height: 0.8em;
+		    font-size:1.4em;
+			font-family: 'Times New Roman', serif;
+		}
+
+		.next-lecture-wrapper {
+		background: white;
+		border: 1px solid $black;
+		border-radius:0;
+			.start-next-lecture {
+				border-radius: 0;
+				border-right: solid 1px black !important;
+			}
+		}
+
+		.course-section {
+			.section-title {
+				background: white;
+				border: 1px solid black;
+
+			}
+
+			.section-list {
+				border-left: 1px solid black;
+				border-right: 1px solid black;				
+			}
+		}
+	}
+	.course-mainbar .course-section .btn-primary {
+		margin-right: 5px !important;
+	}
+
+	.course-mainbar .course-section ul.section-list .section-item .item {
+		color: $black;
+		border-color:$black;
+
+		.status-icon {
+			box-shadow: inset 0px 0px 0px 2px $black;
+		}
+	}
 }
 
 .course-section .section-title {
@@ -11,8 +77,8 @@
 .course-sidebar {
 	background: $black;
     color: $white;
-	// border-right: 1px solid $black;
-	border-right: none;
+	border-right: 1px solid $black;
+	// border-right: none;
     h2 {
     	color: $white;
     	font-size:1.7em;
@@ -78,6 +144,17 @@
 
 		.status-icon {
 			box-shadow: inset 0px 0px 0px 2px $white;
+		}
+	}
+
+	&.completed {
+		.item {
+			background: none !important;
+		}
+
+		.status-icon {
+			box-shadow: inset 0px 0px 0px 1px #FFFFFF;
+			background-color: $darkred !important;
 		}
 	}
 }
