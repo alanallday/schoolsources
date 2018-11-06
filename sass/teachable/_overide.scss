@@ -17,6 +17,17 @@
 		}
 	}
 	.course-mainbar {
+		padding-top: 75px;
+
+		.course-section {
+			width: 100%;
+
+			.btn-primary {
+				@media screen and (max-width: 767px) {
+					display: none;
+				}
+			}
+		}
 		h2.section-title {
 			color: $black;
 			-webkit-transform: scale(1, 2);
@@ -39,6 +50,13 @@
 			.start-next-lecture {
 				border-radius: 0;
 				border-right: solid 1px black !important;
+			}
+			
+			@media screen and (max-width: 767px) {
+				width: 100%;
+				.start-next-lecture {
+					border-right: none !important;
+				}
 			}
 		}
 
@@ -65,7 +83,7 @@
 					.btn-primary {
 						border: 1px solid white !important;
 					}
-					
+
 					.status-icon {
 						box-shadow: inset 0px 0px 0px 2px $white;
 						background: url(hxttps://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png) 1px 0px $darkred;
