@@ -25900,47 +25900,65 @@ body.loaded .block.hero .btn {
   border: 1px solid #000000;
   border-radius: 0;
 }
-/* line 38, ../sass/teachable/_overide.scss */
+/* line 39, ../sass/teachable/_overide.scss */
 .lecture-content-body-container.body-content-view .course-mainbar .next-lecture-wrapper .start-next-lecture {
   border-radius: 0;
   border-right: solid 1px black !important;
 }
-/* line 45, ../sass/teachable/_overide.scss */
+/* line 46, ../sass/teachable/_overide.scss */
 .lecture-content-body-container.body-content-view .course-mainbar .course-section .section-title {
-  background: white;
   border: 1px solid black;
+  background: black;
+  color: white;
 }
-/* line 51, ../sass/teachable/_overide.scss */
+/* line 52, ../sass/teachable/_overide.scss */
 .lecture-content-body-container.body-content-view .course-mainbar .course-section .section-list {
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
-/* line 57, ../sass/teachable/_overide.scss */
+/* line 58, ../sass/teachable/_overide.scss */
+.lecture-content-body-container.body-content-view .course-mainbar .course-section .section-item:hover {
+  background: #333 !important;
+}
+/* line 62, ../sass/teachable/_overide.scss */
+.lecture-content-body-container.body-content-view .course-mainbar .course-section .section-item.next-lecture {
+  color: #FFFFFF;
+}
+/* line 65, ../sass/teachable/_overide.scss */
+.lecture-content-body-container.body-content-view .course-mainbar .course-section .section-item.next-lecture .btn-primary {
+  border: 1px solid white !important;
+}
+/* line 68, ../sass/teachable/_overide.scss */
+.lecture-content-body-container.body-content-view .course-mainbar .course-section .section-item.next-lecture .status-icon {
+  box-shadow: inset 0px 0px 0px 2px #FFFFFF;
+  background: url(hxttps://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png) 1px 0px #AD2602;
+}
+/* line 76, ../sass/teachable/_overide.scss */
 .lecture-content-body-container.body-content-view .course-mainbar .course-section .btn-primary {
   margin-right: 5px !important;
 }
-/* line 61, ../sass/teachable/_overide.scss */
+/* line 80, ../sass/teachable/_overide.scss */
 .lecture-content-body-container.body-content-view .course-mainbar .course-section ul.section-list .section-item .item {
   color: #000000;
   border-color: #000000;
 }
-/* line 65, ../sass/teachable/_overide.scss */
+/* line 84, ../sass/teachable/_overide.scss */
 .lecture-content-body-container.body-content-view .course-mainbar .course-section ul.section-list .section-item .item .status-icon {
   box-shadow: inset 0px 0px 0px 2px #000000;
 }
-/* line 71, ../sass/teachable/_overide.scss */
+/* line 90, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section .section-title {
   font-family: 'Times New Roman', serif;
   font-weight: normal;
   font-size: 1.2em;
 }
-/* line 77, ../sass/teachable/_overide.scss */
+/* line 96, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar {
   background: #000000;
   color: #FFFFFF;
   border-right: 1px solid #000000;
 }
-/* line 82, ../sass/teachable/_overide.scss */
+/* line 101, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar h2, .lecture-content-body-container .course-sidebar .marketing-external-page-container .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .course-sidebar .title, .lecture-content-body-container .course-sidebar .marketing-external-page-container form .product-list .product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .course-sidebar .product-name, .lecture-content-body-container .course-sidebar .marketing-external-page-container .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .course-sidebar .coupon-code-applied {
   color: #FFFFFF;
   font-size: 1.7em;
@@ -25948,74 +25966,74 @@ body.loaded .block.hero .btn {
   padding-left: 16px;
   padding-right: 16px;
 }
-/* line 91, ../sass/teachable/_overide.scss */
+/* line 110, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-title {
   border-bottom: 1px solid #222;
   background: none;
 }
-/* line 96, ../sass/teachable/_overide.scss */
+/* line 115, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-item {
   border-color: #222222;
 }
-/* line 99, ../sass/teachable/_overide.scss */
+/* line 118, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .row.lecture-sidebar .course-section .section-item .item {
   color: #FFFFFF;
 }
-/* line 104, ../sass/teachable/_overide.scss */
+/* line 123, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item {
   background: none;
   color: #FFFFFF;
 }
-/* line 108, ../sass/teachable/_overide.scss */
+/* line 127, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item .lecture-icon {
   display: none;
 }
-/* line 111, ../sass/teachable/_overide.scss */
+/* line 130, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item:hover {
   background: #111111 !important;
   color: #FFFFFF !important;
 }
-/* line 114, ../sass/teachable/_overide.scss */
+/* line 133, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item:hover .status-icon {
   box-shadow: inset 0px 0px 0px 2px #FFFFFF !important;
 }
-/* line 121, ../sass/teachable/_overide.scss */
+/* line 140, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item {
   background: #AD2602;
   color: #D8E2EA;
 }
-/* line 125, ../sass/teachable/_overide.scss */
+/* line 144, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.next-lecture .item .status-icon {
   background: url("hxttps://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png") 1px 0px #D8E2EA;
   box-shadow: inset 0px 0px 0px 2px #D8E2EA;
 }
-/* line 131, ../sass/teachable/_overide.scss */
+/* line 150, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .status-container {
   margin-right: 0;
 }
-/* line 136, ../sass/teachable/_overide.scss */
+/* line 155, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .title-container {
   border-left: none;
   padding: 10px 0;
 }
-/* line 142, ../sass/teachable/_overide.scss */
+/* line 161, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item, .lecture-content-body-container .course-section ul.section-list .section-item .item.incomplete {
   border-bottom: 1px solid #2f2f2f;
 }
-/* line 145, ../sass/teachable/_overide.scss */
+/* line 164, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item .item .status-icon, .lecture-content-body-container .course-section ul.section-list .section-item .item.incomplete .status-icon {
   box-shadow: inset 0px 0px 0px 2px #FFFFFF;
 }
-/* line 151, ../sass/teachable/_overide.scss */
+/* line 170, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.completed .item {
   background: none !important;
 }
-/* line 155, ../sass/teachable/_overide.scss */
+/* line 174, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-section ul.section-list .section-item.completed .status-icon {
   box-shadow: inset 0px 0px 0px 1px #FFFFFF;
   background-color: #AD2602 !important;
 }
-/* line 162, ../sass/teachable/_overide.scss */
+/* line 181, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .lecture-content h2.section-title, .lecture-content-body-container .lecture-content .marketing-external-page-container .box-with-border .description .section-title.title, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .lecture-content .section-title.title, .lecture-content-body-container .lecture-content .marketing-external-page-container form .product-list .section-title.product-name, .marketing-external-page-container form .product-list .lecture-content-body-container .lecture-content .section-title.product-name, .lecture-content-body-container .lecture-content .marketing-external-page-container .coupon_banner.block .section-title.coupon-code-applied, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .lecture-content .section-title.coupon-code-applied {
   color: #000000;
   -webkit-transform: scale(1, 2);
@@ -26029,16 +26047,16 @@ body.loaded .block.hero .btn {
   font-size: 1.4em;
   font-family: 'Times New Roman', serif;
 }
-/* line 163, ../sass/teachable/_overide.scss */
+/* line 182, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .lecture-content h2.section-title .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container .box-with-border .description .section-title.title .fa, .marketing-external-page-container .box-with-border .description .lecture-content-body-container .lecture-content .section-title.title .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container form .product-list .section-title.product-name .fa, .marketing-external-page-container form .product-list .lecture-content-body-container .lecture-content .section-title.product-name .fa, .lecture-content-body-container .lecture-content .marketing-external-page-container .coupon_banner.block .section-title.coupon-code-applied .fa, .marketing-external-page-container .coupon_banner.block .lecture-content-body-container .lecture-content .section-title.coupon-code-applied .fa {
   display: none;
 }
-/* line 179, ../sass/teachable/_overide.scss */
+/* line 198, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .course-sidebar .course-progress {
   padding-left: 16px;
   padding-right: 16px;
 }
-/* line 184, ../sass/teachable/_overide.scss */
+/* line 203, ../sass/teachable/_overide.scss */
 .lecture-content-body-container .progress-bar {
   background: #444;
 }

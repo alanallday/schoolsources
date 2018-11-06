@@ -32,9 +32,10 @@
 		}
 
 		.next-lecture-wrapper {
-		background: white;
-		border: 1px solid $black;
-		border-radius:0;
+			background: white;
+			border: 1px solid $black;
+			border-radius:0;
+
 			.start-next-lecture {
 				border-radius: 0;
 				border-right: solid 1px black !important;
@@ -43,14 +44,33 @@
 
 		.course-section {
 			.section-title {
-				background: white;
 				border: 1px solid black;
-
+				background: black;
+				color: white;
 			}
 
 			.section-list {
 				border-left: 1px solid black;
 				border-right: 1px solid black;				
+			}
+
+			.section-item {
+				&:hover {
+					background: #333 !important;
+				}
+
+				&.next-lecture {
+					color: $white;
+
+					.btn-primary {
+						border: 1px solid white !important;
+					}
+					
+					.status-icon {
+						box-shadow: inset 0px 0px 0px 2px $white;
+						background: url(hxttps://d2oz8i5n9se8ej.cloudfront.net/icons/course-incomplete.png) 1px 0px $darkred;
+					}
+				}
 			}
 		}
 	}
