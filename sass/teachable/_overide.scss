@@ -112,6 +112,32 @@
     font-size: 1.2em;
 }
 
+.switch-toggle input:checked + label {
+	color: $white;
+}
+
+input.custom-toggle-round:checked + label:after {
+	border: darken($darkred,10%);
+	background: $darkred;
+}
+
+input.custom-toggle-round:checked + label:before {
+	background: lighten($darkred,20%);
+}
+
+header.half-height .lecture-left .settings-dropdown ul.dropdown-menu li .playback-speed:hover { 
+	color: darken($darkred,10%);
+}
+
+.playback-speed {
+	.glyphicon {
+		font-size: 1.5em;
+    	font-family: 'Alte Haas Grotesk', sans-serif;
+		&:before {
+			display: none;
+		}
+	}
+}
 .course-sidebar {
 	background: $black;
     color: $white;
