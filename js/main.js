@@ -168,7 +168,7 @@ function checkoutBlock() {
 }
 
 function addBodyClass() {
-	if($('.page-header h1').text() == 'All Courses') {
+	if($('.page-header h1').text() == 'All Courses' || $('.page-header h1').text() == 'My Courses' ) {
 		$('body').addClass('all-courses');
 	}
 
