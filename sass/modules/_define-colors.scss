@@ -158,3 +158,13 @@
 	@include globalHeader(black,$lightblue);
 	@include pageHeader(black,$lightblue);
 }
+
+&.mission.standard-page {
+	@include globalHeader($orange,$darkblue);
+	@include pageHeader($orange,$darkblue);	
+}
+
+&.about-school.standard-page {
+	@include globalHeader($pink,$darkred);
+	@include pageHeader($pink,$darkred);	
+}

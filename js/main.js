@@ -31,7 +31,9 @@ $(document).ready(function() {
 		sizeStretchedText();
 		featuredCoursesBlock();
 		courseHeader();
+		globalNav();
 	});
+
 	addBodyClass();
 	addPageHeader();
 	pageHeader();
@@ -211,12 +213,10 @@ function globalNav() {
 	$('nav.global .menu').click(function(){
 		$('nav.global').toggleClass('open');
 	});
-
 	var height = $('.navbar-fedora').height();
-	console.log(height);
 	if ($('.navbar-fedora').length) {
 		$('.navbar-fedora').parent().parent().css({
-			'height' : height
+			'height' : height - 2;
 		});
 	}
 }

@@ -9356,6 +9356,136 @@ img {
 .marketing-external-page-container.blog-page .page-header .directory .circle, .marketing-external-page-container.blog-page .page-header .directory .picture {
   border-color: black !important;
 }
+/* line 39, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page nav.global {
+  background: #00118E !important;
+  color: #FF6701 !important;
+  border-color: #FF6701 !important;
+}
+/* line 44, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+  border-color: #FF6701 !important;
+}
+/* line 47, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page nav.global .right {
+  border-color: #FF6701 !important;
+}
+/* line 50, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page nav.global .dropdown-menu {
+  background: #00118E !important;
+  border-color: #FF6701 !important;
+  color: #FF6701 !important;
+}
+/* line 56, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page nav.global svg polygon, .marketing-external-page-container.mission.standard-page nav.global svg path {
+  fill: #FF6701 !important;
+}
+/* line 60, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page nav.global .btn-primary {
+  background: #FF6701 !important;
+  color: #00118E !important;
+  border-color: #FF6701 !important;
+}
+/* line 66, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page nav.global .btn-secondary {
+  color: #FF6701 !important;
+  border-color: #FF6701 !important;
+}
+/* line 9, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page .page-header {
+  color: #FF6701;
+  background: #00118E;
+}
+/* line 13, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page .page-header .btn-primary {
+  background: #FF6701;
+  border: 1px solid #FF6701;
+}
+/* line 17, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page .page-header svg polygon {
+  fill: #FF6701;
+}
+/* line 21, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page .page-header .directory {
+  border: 1px solid #FF6701;
+}
+/* line 23, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page .page-header .directory label {
+  border: 1px solid #FF6701;
+}
+/* line 27, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page .page-header .directory .row .thumb .profile-pic {
+  border-color: transparent !important;
+}
+/* line 31, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.mission.standard-page .page-header .directory .circle, .marketing-external-page-container.mission.standard-page .page-header .directory .picture {
+  border-color: #FF6701 !important;
+}
+/* line 39, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page nav.global {
+  background: #AD2602 !important;
+  color: #FFD9D4 !important;
+  border-color: #FFD9D4 !important;
+}
+/* line 44, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
+  border-color: #FFD9D4 !important;
+}
+/* line 47, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page nav.global .right {
+  border-color: #FFD9D4 !important;
+}
+/* line 50, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page nav.global .dropdown-menu {
+  background: #AD2602 !important;
+  border-color: #FFD9D4 !important;
+  color: #FFD9D4 !important;
+}
+/* line 56, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page nav.global svg polygon, .marketing-external-page-container.about-school.standard-page nav.global svg path {
+  fill: #FFD9D4 !important;
+}
+/* line 60, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page nav.global .btn-primary {
+  background: #FFD9D4 !important;
+  color: #AD2602 !important;
+  border-color: #FFD9D4 !important;
+}
+/* line 66, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page nav.global .btn-secondary {
+  color: #FFD9D4 !important;
+  border-color: #FFD9D4 !important;
+}
+/* line 9, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page .page-header {
+  color: #FFD9D4;
+  background: #AD2602;
+}
+/* line 13, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page .page-header .btn-primary {
+  background: #FFD9D4;
+  border: 1px solid #FFD9D4;
+}
+/* line 17, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page .page-header svg polygon {
+  fill: #FFD9D4;
+}
+/* line 21, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page .page-header .directory {
+  border: 1px solid #FFD9D4;
+}
+/* line 23, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page .page-header .directory label {
+  border: 1px solid #FFD9D4;
+}
+/* line 27, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page .page-header .directory .row .thumb .profile-pic {
+  border-color: transparent !important;
+}
+/* line 31, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.about-school.standard-page .page-header .directory .circle, .marketing-external-page-container.about-school.standard-page .page-header .directory .picture {
+  border-color: #FFD9D4 !important;
+}
 
 /* line 1, ../sass/modules/_page-load.scss */
 body {
