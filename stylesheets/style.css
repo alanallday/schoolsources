@@ -5299,9 +5299,8 @@ img {
 /* line 203, ../sass/modules/_rich-text.scss */
 .marketing-external-page-container .rich-text-styling .image-module img, .marketing-external-page-container .liquid_html .image-module img, .marketing-external-page-container .rich_text .image-module img {
   width: 100% !important;
-  margin: 0;
 }
-/* line 208, ../sass/modules/_rich-text.scss */
+/* line 207, ../sass/modules/_rich-text.scss */
 .marketing-external-page-container .rich-text-styling .image-module .image-container, .marketing-external-page-container .liquid_html .image-module .image-container, .marketing-external-page-container .rich_text .image-module .image-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5314,7 +5313,7 @@ img {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 208, ../sass/modules/_rich-text.scss */
+  /* line 207, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module .image-container, .marketing-external-page-container .liquid_html .image-module .image-container, .marketing-external-page-container .rich_text .image-module .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5327,7 +5326,7 @@ img {
     max-width: 58.33333%;
   }
 }
-/* line 213, ../sass/modules/_rich-text.scss */
+/* line 212, ../sass/modules/_rich-text.scss */
 .marketing-external-page-container .rich-text-styling .image-module .text, .marketing-external-page-container .liquid_html .image-module .text, .marketing-external-page-container .rich_text .image-module .text {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5340,7 +5339,7 @@ img {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 213, ../sass/modules/_rich-text.scss */
+  /* line 212, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module .text, .marketing-external-page-container .liquid_html .image-module .text, .marketing-external-page-container .rich_text .image-module .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5354,7 +5353,7 @@ img {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 219, ../sass/modules/_rich-text.scss */
+  /* line 218, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module.vertical .image-container, .marketing-external-page-container .liquid_html .image-module.vertical .image-container, .marketing-external-page-container .rich_text .image-module.vertical .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5368,7 +5367,7 @@ img {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 222, ../sass/modules/_rich-text.scss */
+  /* line 221, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module.vertical .text, .marketing-external-page-container .liquid_html .image-module.vertical .text, .marketing-external-page-container .rich_text .image-module.vertical .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -6880,11 +6879,11 @@ img {
 }
 /* line 101, ../sass/modules/_featured-courses.scss */
 .marketing-external-page-container .featured-courses.block .course-card-container .scrolling-wrapper .course-card2:nth-child(1) {
-  color: #D8E2EA;
+  color: #DFA648;
 }
 /* line 20, ../sass/modules/_featured-courses.scss */
 .marketing-external-page-container .featured-courses.block .course-card-container .scrolling-wrapper .course-card2:nth-child(1) .inner-container {
-  border: 3px solid #D8E2EA;
+  border: 3px solid #DFA648;
 }
 /* line 23, ../sass/modules/_featured-courses.scss */
 .marketing-external-page-container .featured-courses.block .course-card-container .scrolling-wrapper .course-card2:nth-child(1) span.overlay {
@@ -6892,11 +6891,11 @@ img {
 }
 /* line 105, ../sass/modules/_featured-courses.scss */
 .marketing-external-page-container .featured-courses.block .course-card-container .scrolling-wrapper .course-card2:nth-child(2) {
-  color: black;
+  color: #00118E;
 }
 /* line 20, ../sass/modules/_featured-courses.scss */
 .marketing-external-page-container .featured-courses.block .course-card-container .scrolling-wrapper .course-card2:nth-child(2) .inner-container {
-  border: 3px solid black;
+  border: 3px solid #00118E;
 }
 /* line 23, ../sass/modules/_featured-courses.scss */
 .marketing-external-page-container .featured-courses.block .course-card-container .scrolling-wrapper .course-card2:nth-child(2) span.overlay {

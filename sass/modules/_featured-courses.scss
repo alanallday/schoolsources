@@ -99,11 +99,11 @@ footer#global {
 		  padding: 2em;
 
 			.course-card2:nth-child(1) {
-				@include defineFeaturedCourseColorMobile($lightblue,$darkblue);
+				@include defineFeaturedCourseColorMobile($camel,$darkblue);
 			}
 
 			.course-card2:nth-child(2) {
-				@include defineFeaturedCourseColorMobile(black,$orange);
+				@include defineFeaturedCourseColorMobile($darkblue,$orange);
 			}
 
 			.course-card2:nth-child(3) {
