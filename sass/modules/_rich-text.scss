@@ -165,6 +165,15 @@
     .image-module {
     	@include row();
     	@extend .middle-md;
+		.text,img{
+			margin-bottom:1.5em;
+		} 
+
+		@include bp('small') {
+			.text,img {
+				margin-bottom:0;
+			}
+		}
     	@include bp('medium') {
     		width: 150%;
 		    margin-left: -25%;
@@ -193,7 +202,6 @@
 
     	img {
     		width: 100% !important;
-    		margin: 0;
     	}
     	
     	.image-container {

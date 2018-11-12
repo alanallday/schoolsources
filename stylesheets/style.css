@@ -5259,6 +5259,16 @@ img {
   margin-right: -1rem;
   margin-left: -1rem;
 }
+/* line 168, ../sass/modules/_rich-text.scss */
+.marketing-external-page-container .rich-text-styling .image-module .text, .marketing-external-page-container .rich-text-styling .image-module img, .marketing-external-page-container .liquid_html .image-module .text, .marketing-external-page-container .liquid_html .image-module img, .marketing-external-page-container .rich_text .image-module .text, .marketing-external-page-container .rich_text .image-module img {
+  margin-bottom: 1.5em;
+}
+@media screen and (min-width: 768px) {
+  /* line 173, ../sass/modules/_rich-text.scss */
+  .marketing-external-page-container .rich-text-styling .image-module .text, .marketing-external-page-container .rich-text-styling .image-module img, .marketing-external-page-container .liquid_html .image-module .text, .marketing-external-page-container .liquid_html .image-module img, .marketing-external-page-container .rich_text .image-module .text, .marketing-external-page-container .rich_text .image-module img {
+    margin-bottom: 0;
+  }
+}
 @media screen and (min-width: 960px) {
   /* line 165, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module, .marketing-external-page-container .liquid_html .image-module, .marketing-external-page-container .rich_text .image-module {
@@ -5268,30 +5278,30 @@ img {
     margin-top: 4em;
     margin-bottom: 4em;
   }
-  /* line 174, ../sass/modules/_rich-text.scss */
+  /* line 183, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module.right, .marketing-external-page-container .liquid_html .image-module.right, .marketing-external-page-container .rich_text .image-module.right {
     -ms-flex-direction: row-reverse;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     flex-direction: row-reverse;
   }
-  /* line 180, ../sass/modules/_rich-text.scss */
+  /* line 189, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module h2, .marketing-external-page-container .rich-text-styling .image-module .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .rich-text-styling .image-module .title, .marketing-external-page-container .rich-text-styling .image-module form .product-list .product-name, .marketing-external-page-container form .product-list .rich-text-styling .image-module .product-name, .marketing-external-page-container .rich-text-styling .image-module .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .rich-text-styling .image-module .coupon-code-applied, .marketing-external-page-container .liquid_html .image-module h2, .marketing-external-page-container .liquid_html .image-module .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .liquid_html .image-module .title, .marketing-external-page-container .liquid_html .image-module form .product-list .product-name, .marketing-external-page-container form .product-list .liquid_html .image-module .product-name, .marketing-external-page-container .liquid_html .image-module .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .liquid_html .image-module .coupon-code-applied, .marketing-external-page-container .rich_text .image-module h2, .marketing-external-page-container .rich_text .image-module .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .rich_text .image-module .title, .marketing-external-page-container .rich_text .image-module form .product-list .product-name, .marketing-external-page-container form .product-list .rich_text .image-module .product-name, .marketing-external-page-container .rich_text .image-module .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .rich_text .image-module .coupon-code-applied {
     text-align: left;
     width: 100%;
     margin-bottom: 4rem;
   }
-  /* line 185, ../sass/modules/_rich-text.scss */
+  /* line 194, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module p, .marketing-external-page-container .rich-text-styling .image-module ul, .marketing-external-page-container .rich-text-styling .image-module ol, .marketing-external-page-container .rich-text-styling .image-module .box-with-border .description, .marketing-external-page-container .box-with-border .rich-text-styling .image-module .description, .marketing-external-page-container .rich-text-styling .image-module .block.faq .faq-answer, .marketing-external-page-container .block.faq .rich-text-styling .image-module .faq-answer, .marketing-external-page-container .rich-text-styling .image-module .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .rich-text-styling .image-module .coupon-invalid-text, .marketing-external-page-container.standard-page .rich-text-styling .image-module .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .rich-text-styling .image-module a, .marketing-external-page-container.all-courses .rich-text-styling .image-module .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .rich-text-styling .image-module a, .marketing-external-page-container .rich-text-styling .image-module .dropdown-toggle, .marketing-external-page-container .liquid_html .image-module p, .marketing-external-page-container .liquid_html .image-module ul, .marketing-external-page-container .liquid_html .image-module ol, .marketing-external-page-container .liquid_html .image-module .box-with-border .description, .marketing-external-page-container .box-with-border .liquid_html .image-module .description, .marketing-external-page-container .liquid_html .image-module .block.faq .faq-answer, .marketing-external-page-container .block.faq .liquid_html .image-module .faq-answer, .marketing-external-page-container .liquid_html .image-module .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .liquid_html .image-module .coupon-invalid-text, .marketing-external-page-container.standard-page .liquid_html .image-module .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .liquid_html .image-module a, .marketing-external-page-container.all-courses .liquid_html .image-module .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .liquid_html .image-module a, .marketing-external-page-container .liquid_html .image-module .dropdown-toggle, .marketing-external-page-container .rich_text .image-module p, .marketing-external-page-container .rich_text .image-module ul, .marketing-external-page-container .rich_text .image-module ol, .marketing-external-page-container .rich_text .image-module .box-with-border .description, .marketing-external-page-container .box-with-border .rich_text .image-module .description, .marketing-external-page-container .rich_text .image-module .block.faq .faq-answer, .marketing-external-page-container .block.faq .rich_text .image-module .faq-answer, .marketing-external-page-container .rich_text .image-module .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .rich_text .image-module .coupon-invalid-text, .marketing-external-page-container.standard-page .rich_text .image-module .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .rich_text .image-module a, .marketing-external-page-container.all-courses .rich_text .image-module .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .rich_text .image-module a, .marketing-external-page-container .rich_text .image-module .dropdown-toggle {
     margin-left: 2rem;
   }
 }
-/* line 194, ../sass/modules/_rich-text.scss */
+/* line 203, ../sass/modules/_rich-text.scss */
 .marketing-external-page-container .rich-text-styling .image-module img, .marketing-external-page-container .liquid_html .image-module img, .marketing-external-page-container .rich_text .image-module img {
   width: 100% !important;
   margin: 0;
 }
-/* line 199, ../sass/modules/_rich-text.scss */
+/* line 208, ../sass/modules/_rich-text.scss */
 .marketing-external-page-container .rich-text-styling .image-module .image-container, .marketing-external-page-container .liquid_html .image-module .image-container, .marketing-external-page-container .rich_text .image-module .image-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5304,7 +5314,7 @@ img {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 199, ../sass/modules/_rich-text.scss */
+  /* line 208, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module .image-container, .marketing-external-page-container .liquid_html .image-module .image-container, .marketing-external-page-container .rich_text .image-module .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5317,7 +5327,7 @@ img {
     max-width: 58.33333%;
   }
 }
-/* line 204, ../sass/modules/_rich-text.scss */
+/* line 213, ../sass/modules/_rich-text.scss */
 .marketing-external-page-container .rich-text-styling .image-module .text, .marketing-external-page-container .liquid_html .image-module .text, .marketing-external-page-container .rich_text .image-module .text {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5330,7 +5340,7 @@ img {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 204, ../sass/modules/_rich-text.scss */
+  /* line 213, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module .text, .marketing-external-page-container .liquid_html .image-module .text, .marketing-external-page-container .rich_text .image-module .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5344,7 +5354,7 @@ img {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 210, ../sass/modules/_rich-text.scss */
+  /* line 219, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module.vertical .image-container, .marketing-external-page-container .liquid_html .image-module.vertical .image-container, .marketing-external-page-container .rich_text .image-module.vertical .image-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5358,7 +5368,7 @@ img {
   }
 }
 @media only screen and (min-width: 960px) {
-  /* line 213, ../sass/modules/_rich-text.scss */
+  /* line 222, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .image-module.vertical .text, .marketing-external-page-container .liquid_html .image-module.vertical .text, .marketing-external-page-container .rich_text .image-module.vertical .text {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -9359,59 +9369,59 @@ img {
 /* line 39, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page nav.global {
   background: #00118E !important;
-  color: #FF6701 !important;
-  border-color: #FF6701 !important;
+  color: #DFA648 !important;
+  border-color: #DFA648 !important;
 }
 /* line 44, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page nav.global .open-my-profile-dropdown.dropdown-toggle .circle {
-  border-color: #FF6701 !important;
+  border-color: #DFA648 !important;
 }
 /* line 47, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page nav.global .right {
-  border-color: #FF6701 !important;
+  border-color: #DFA648 !important;
 }
 /* line 50, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page nav.global .dropdown-menu {
   background: #00118E !important;
-  border-color: #FF6701 !important;
-  color: #FF6701 !important;
+  border-color: #DFA648 !important;
+  color: #DFA648 !important;
 }
 /* line 56, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page nav.global svg polygon, .marketing-external-page-container.mission.standard-page nav.global svg path {
-  fill: #FF6701 !important;
+  fill: #DFA648 !important;
 }
 /* line 60, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page nav.global .btn-primary {
-  background: #FF6701 !important;
+  background: #DFA648 !important;
   color: #00118E !important;
-  border-color: #FF6701 !important;
+  border-color: #DFA648 !important;
 }
 /* line 66, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page nav.global .btn-secondary {
-  color: #FF6701 !important;
-  border-color: #FF6701 !important;
+  color: #DFA648 !important;
+  border-color: #DFA648 !important;
 }
 /* line 9, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page .page-header {
-  color: #FF6701;
+  color: #DFA648;
   background: #00118E;
 }
 /* line 13, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page .page-header .btn-primary {
-  background: #FF6701;
-  border: 1px solid #FF6701;
+  background: #DFA648;
+  border: 1px solid #DFA648;
 }
 /* line 17, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page .page-header svg polygon {
-  fill: #FF6701;
+  fill: #DFA648;
 }
 /* line 21, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page .page-header .directory {
-  border: 1px solid #FF6701;
+  border: 1px solid #DFA648;
 }
 /* line 23, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page .page-header .directory label {
-  border: 1px solid #FF6701;
+  border: 1px solid #DFA648;
 }
 /* line 27, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page .page-header .directory .row .thumb .profile-pic {
@@ -9419,7 +9429,7 @@ img {
 }
 /* line 31, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.mission.standard-page .page-header .directory .circle, .marketing-external-page-container.mission.standard-page .page-header .directory .picture {
-  border-color: #FF6701 !important;
+  border-color: #DFA648 !important;
 }
 /* line 39, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.about-school.standard-page nav.global {

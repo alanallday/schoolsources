@@ -160,8 +160,8 @@
 }
 
 &.mission.standard-page {
-	@include globalHeader($orange,$darkblue);
-	@include pageHeader($orange,$darkblue);	
+	@include globalHeader($camel,$darkblue);
+	@include pageHeader($camel,$darkblue);	
 }
 
 &.about-school.standard-page {
