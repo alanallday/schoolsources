@@ -1,3 +1,6 @@
+.course-listings .filter-title {
+	text-align:center;
+}
 .course-card {
 	@include colXS(12);
 	@include colM(6);

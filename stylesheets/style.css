@@ -6198,7 +6198,7 @@ img {
 }
 /* line 98, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial p[data-section="bio"]:after, .marketing-external-page-container .block.testimonial ul[data-section="bio"]:after, .marketing-external-page-container .block.testimonial ol[data-section="bio"]:after, .marketing-external-page-container .block.testimonial .box-with-border [data-section="bio"].description:after, .marketing-external-page-container .box-with-border .block.testimonial [data-section="bio"].description:after, .marketing-external-page-container .block.testimonial .block.faq [data-section="bio"].faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial [data-section="bio"].faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block [data-section="bio"].coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial [data-section="bio"].coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a[data-section="bio"]:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a[data-section="bio"]:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a[data-section="bio"]:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a[data-section="bio"]:after, .marketing-external-page-container .block.testimonial [data-section="bio"].dropdown-toggle:after {
-  content: 'Name, Age, Location';
+  content: 'Name, Location';
 }
 /* line 102, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial p[data-section="title"]:after, .marketing-external-page-container .block.testimonial ul[data-section="title"]:after, .marketing-external-page-container .block.testimonial ol[data-section="title"]:after, .marketing-external-page-container .block.testimonial .box-with-border [data-section="title"].description:after, .marketing-external-page-container .box-with-border .block.testimonial [data-section="title"].description:after, .marketing-external-page-container .block.testimonial .block.faq [data-section="title"].faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial [data-section="title"].faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block [data-section="title"].coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial [data-section="title"].coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a[data-section="title"]:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a[data-section="title"]:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a[data-section="title"]:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a[data-section="title"]:after, .marketing-external-page-container .block.testimonial [data-section="title"].dropdown-toggle:after {
@@ -7249,6 +7249,10 @@ img {
   height: 100%;
 }
 /* line 1, ../sass/modules/_course-card.scss */
+.marketing-external-page-container .course-listings .filter-title {
+  text-align: center;
+}
+/* line 4, ../sass/modules/_course-card.scss */
 .marketing-external-page-container .course-card {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -7263,7 +7267,7 @@ img {
   margin-bottom: 2em;
 }
 @media only screen and (min-width: 960px) {
-  /* line 1, ../sass/modules/_course-card.scss */
+  /* line 4, ../sass/modules/_course-card.scss */
   .marketing-external-page-container .course-card {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -7277,7 +7281,7 @@ img {
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 1, ../sass/modules/_course-card.scss */
+  /* line 4, ../sass/modules/_course-card.scss */
   .marketing-external-page-container .course-card {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -7291,23 +7295,23 @@ img {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 1, ../sass/modules/_course-card.scss */
+  /* line 4, ../sass/modules/_course-card.scss */
   .marketing-external-page-container .course-card {
     margin-bottom: 3em;
   }
 }
-/* line 31, ../sass/modules/_course-card.scss */
+/* line 34, ../sass/modules/_course-card.scss */
 .marketing-external-page-container .course-card a {
   text-decoration: none;
   color: inherit;
 }
-/* line 36, ../sass/modules/_course-card.scss */
+/* line 39, ../sass/modules/_course-card.scss */
 .marketing-external-page-container .course-card h2, .marketing-external-page-container .course-card .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .course-card .title, .marketing-external-page-container .course-card form .product-list .product-name, .marketing-external-page-container form .product-list .course-card .product-name, .marketing-external-page-container .course-card .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .course-card .coupon-code-applied {
   font-size: 1.8em;
   font-family: 'Times New Roman', serif;
   text-transform: none;
 }
-/* line 41, ../sass/modules/_course-card.scss */
+/* line 44, ../sass/modules/_course-card.scss */
 .marketing-external-page-container .course-card .author {
   display: inline-block;
   background: white;
@@ -7319,11 +7323,11 @@ img {
   top: -1.5em;
   text-transform: uppercase;
 }
-/* line 53, ../sass/modules/_course-card.scss */
+/* line 56, ../sass/modules/_course-card.scss */
 .marketing-external-page-container .course-card .image-container {
   border: 1px solid black;
 }
-/* line 58, ../sass/modules/_course-card.scss */
+/* line 61, ../sass/modules/_course-card.scss */
 .marketing-external-page-container .course-card-container {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -7346,13 +7350,13 @@ img {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 58, ../sass/modules/_course-card.scss */
+  /* line 61, ../sass/modules/_course-card.scss */
   .marketing-external-page-container .course-card-container {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 58, ../sass/modules/_course-card.scss */
+  /* line 61, ../sass/modules/_course-card.scss */
   .marketing-external-page-container .course-card-container {
     width: 85%;
   }
