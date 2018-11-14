@@ -454,13 +454,13 @@ function featuredCoursesBlock() {
 
 		$this.find('.category-container').each(function(){
 			$(this).css({
-				'bottom' : $(this).width() + 20 + 'px'
+				'bottom' : $(this).width()/2 + 20 + 'px'
 			});
 		});
 
 		$this.find('.name-container').each(function(){
 			$(this).css({
-				'bottom' : $(this).width() + 20 + 'px'
+				'top' : $(this).width()/2 + 20 + 'px'
 			});
 		});
 
