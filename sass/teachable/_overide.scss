@@ -245,6 +245,10 @@ header.half-height .lecture-left .settings-dropdown ul.dropdown-menu li .playbac
     padding-right: 16px;
 }
 
-.progress-bar {
-	background: #444;
+&.lecture-content-body-container .course-section.course-section-locked .item {
+	opacity: 1;
+}
+
+.progressbar {
+	background: #444 !important;
 }

@@ -1211,7 +1211,7 @@ body {
 
 /* line 15, ../sass/base/_general.scss */
 .page-borders {
-  z-index: 999;
+  z-index: 10010;
   position: relative;
 }
 @media screen and (min-width: 768px) {
@@ -26286,6 +26286,10 @@ body.loaded .block.hero .btn {
   padding-right: 16px;
 }
 /* line 248, ../sass/teachable/_overide.scss */
-.lecture-content-body-container .progress-bar {
-  background: #444;
+.lecture-content-body-container.lecture-content-body-container .course-section.course-section-locked .item {
+  opacity: 1;
+}
+/* line 252, ../sass/teachable/_overide.scss */
+.lecture-content-body-container .progressbar {
+  background: #444 !important;
 }
