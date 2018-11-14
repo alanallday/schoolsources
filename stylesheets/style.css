@@ -5226,7 +5226,7 @@ img {
   }
   /* line 144, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .rich-text-container img.vertical, .marketing-external-page-container .liquid_html .rich-text-container img.vertical, .marketing-external-page-container .rich_text .rich-text-container img.vertical {
-    width: 80% !important;
+    width: 100% !important;
     margin-left: auto;
     margin-right: auto;
   }
