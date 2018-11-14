@@ -107,3 +107,16 @@
 		margin-bottom:2em;
 	}
 }
+
+&.all-courses,&.my-courses {
+	.page-header {
+		padding: 0.5em 0 0 !important;
+		@include bp('medium') {
+			padding: 0.5em 0 0 !important;
+		}
+	}
+
+	.course-listings {
+		margin-top: 0em !important;
+	}
+}

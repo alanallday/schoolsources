@@ -1253,14 +1253,14 @@ body {
 
 /* line 42, ../sass/base/_general.scss */
 ::-moz-selection {
-  background: #AD2602;
-  color: #D8E2EA;
+  background: black;
+  color: white;
 }
 
 /* line 43, ../sass/base/_general.scss */
 ::selection {
-  background: #AD2602;
-  color: #D8E2EA;
+  background: black;
+  color: white;
 }
 
 /* line 45, ../sass/base/_general.scss */
@@ -4750,7 +4750,7 @@ img {
 @media screen and (min-width: 768px) {
   /* line 170, ../sass/modules/_typography.scss */
   .marketing-external-page-container h2.stretched, .marketing-external-page-container .box-with-border .description .stretched.title, .marketing-external-page-container form .product-list .stretched.product-name, .marketing-external-page-container .coupon_banner.block .stretched.coupon-code-applied {
-    font-size: 4em;
+    font-size: 3.3em;
   }
 }
 /* line 187, ../sass/modules/_typography.scss */
@@ -8142,6 +8142,20 @@ img {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 2em;
+}
+/* line 112, ../sass/modules/_page-template.scss */
+.marketing-external-page-container.all-courses .page-header, .marketing-external-page-container.my-courses .page-header {
+  padding: 0.5em 0 0 !important;
+}
+@media screen and (min-width: 960px) {
+  /* line 112, ../sass/modules/_page-template.scss */
+  .marketing-external-page-container.all-courses .page-header, .marketing-external-page-container.my-courses .page-header {
+    padding: 0.5em 0 0 !important;
+  }
+}
+/* line 119, ../sass/modules/_page-template.scss */
+.marketing-external-page-container.all-courses .course-listings, .marketing-external-page-container.my-courses .course-listings {
+  margin-top: 0em !important;
 }
 /* line 4, ../sass/modules/_all-courses.scss */
 .marketing-external-page-container .all-courses footer#global {
