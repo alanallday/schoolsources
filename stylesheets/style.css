@@ -5232,7 +5232,7 @@ img {
   }
   /* line 150, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .rich-text-container img.horizontal, .marketing-external-page-container .liquid_html .rich-text-container img.horizontal, .marketing-external-page-container .rich_text .rich-text-container img.horizontal {
-    width: 140% !important;
+    width: 100% !important;
     margin-left: -20%;
   }
 }

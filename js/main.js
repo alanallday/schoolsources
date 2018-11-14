@@ -222,7 +222,7 @@ function globalNav() {
 }
 function sizeStretchedText() {
 	$('.stretched').each(function() {
-		var padding = $(this).height()/4;
+		var padding = $(this).height()/2 + 10;
 		$(this).css({
 		'margin-top' : padding,
 		'margin-bottom' : padding
