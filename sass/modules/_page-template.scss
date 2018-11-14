@@ -130,6 +130,14 @@
 	}
 }
 
+&.thank-you-page {
+	background: $lightblue;
+	color: $darkred;
+
+	.block {
+		background: $lightblue;
+	}
+}
 &.all-courses,&.my-courses {
 	.page-header {
 		padding: 0.5em 0 0 !important;

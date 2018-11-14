@@ -4593,7 +4593,7 @@ img {
 @media screen and (min-width: 1024px) {
   /* line 34, ../sass/modules/_typography.scss */
   .marketing-external-page-container h1 {
-    font-size: 6.5em;
+    font-size: 5.5em;
   }
 }
 /* line 48, ../sass/modules/_typography.scss */
@@ -8165,17 +8165,26 @@ img {
   margin: 0 auto;
   margin-bottom: 2em;
 }
-/* line 134, ../sass/modules/_page-template.scss */
+/* line 133, ../sass/modules/_page-template.scss */
+.marketing-external-page-container.thank-you-page {
+  background: #D8E2EA;
+  color: #AD2602;
+}
+/* line 137, ../sass/modules/_page-template.scss */
+.marketing-external-page-container.thank-you-page .block {
+  background: #D8E2EA;
+}
+/* line 142, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.all-courses .page-header, .marketing-external-page-container.my-courses .page-header {
   padding: 0.5em 0 0 !important;
 }
 @media screen and (min-width: 960px) {
-  /* line 134, ../sass/modules/_page-template.scss */
+  /* line 142, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.all-courses .page-header, .marketing-external-page-container.my-courses .page-header {
     padding: 0.5em 0 0 !important;
   }
 }
-/* line 141, ../sass/modules/_page-template.scss */
+/* line 149, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.all-courses .course-listings, .marketing-external-page-container.my-courses .course-listings {
   margin-top: 0em !important;
 }
