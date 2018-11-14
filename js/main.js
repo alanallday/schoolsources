@@ -315,11 +315,11 @@ function initSkrollr() {
 	$('.course-block.hero .value-props .learning-text-container').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
 	$('.course-block.hero .value-props .learning-text-container').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
 
-	$('.image-module.horizontal .text').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
-	$('.image-module.horizontal .text').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+	$('.image-module .text').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
+	$('.image-module .text').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
 
-	$('.image-module.horizontal .image-container').attr('data-0-top-bottom', 'transform: translate3d(0,-10%,0);');
-	$('.image-module.horizontal .image-container').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+	$('.image-module .image-container').attr('data-0-top-bottom', 'transform: translate3d(0,-10%,0);');
+	$('.image-module .image-container').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
 
 	$('.instructor.block .pic').attr('data-0-top-bottom', 'transform: translate3d(0,-10%,0);');
 	$('.instructor.block .pic').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
