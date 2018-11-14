@@ -451,6 +451,19 @@ function featuredCoursesBlock() {
 	$('.block.featured-courses').each(function() {
 		var $this = $(this);
 		var $counter = 0;
+
+		$this.find('category-container').each(function(){
+			$(this).css({
+				'bottom' : $(this).width() + 20 + 'px';
+			});
+		});
+
+		$this.find('name-container').each(function(){
+			$(this).css({
+				'bottom' : $(this).width() + 20 + 'px';
+			});
+		});
+		
 	    $this.find('.page').each(function(){
 			var $transformValue = $width * $counter;
 			var $newTransformVal = $(this).width() - $transformValue - $width;

@@ -57,7 +57,7 @@
 
 			@include bp('medium') {
 				h2 {
-					font-size: 4.5em;
+					font-size: 3.2em !important;
 					font-family: 'Times New Roman', serif;
 					font-weight: bold;
 					text-transform: none;
@@ -80,7 +80,7 @@
 			background: $darkred;
 			@include bp('medium') {
 				h2 {
-					font-size: 4em;
+					font-size: 3.2em !important;
 				}
 			}
 
