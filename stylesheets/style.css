@@ -5118,7 +5118,7 @@ img {
 @media screen and (min-width: 960px) {
   /* line 59, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .two-up:nth-child(1) h2, .marketing-external-page-container .rich-text-styling .two-up:nth-child(1) .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .rich-text-styling .two-up:nth-child(1) .title, .marketing-external-page-container .rich-text-styling .two-up:nth-child(1) form .product-list .product-name, .marketing-external-page-container form .product-list .rich-text-styling .two-up:nth-child(1) .product-name, .marketing-external-page-container .rich-text-styling .two-up:nth-child(1) .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .rich-text-styling .two-up:nth-child(1) .coupon-code-applied, .marketing-external-page-container .liquid_html .two-up:nth-child(1) h2, .marketing-external-page-container .liquid_html .two-up:nth-child(1) .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .liquid_html .two-up:nth-child(1) .title, .marketing-external-page-container .liquid_html .two-up:nth-child(1) form .product-list .product-name, .marketing-external-page-container form .product-list .liquid_html .two-up:nth-child(1) .product-name, .marketing-external-page-container .liquid_html .two-up:nth-child(1) .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .liquid_html .two-up:nth-child(1) .coupon-code-applied, .marketing-external-page-container .rich_text .two-up:nth-child(1) h2, .marketing-external-page-container .rich_text .two-up:nth-child(1) .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .rich_text .two-up:nth-child(1) .title, .marketing-external-page-container .rich_text .two-up:nth-child(1) form .product-list .product-name, .marketing-external-page-container form .product-list .rich_text .two-up:nth-child(1) .product-name, .marketing-external-page-container .rich_text .two-up:nth-child(1) .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .rich_text .two-up:nth-child(1) .coupon-code-applied {
-    font-size: 3.4em !important;
+    font-size: 3.2em !important;
     font-family: 'Times New Roman', serif;
     font-weight: bold;
     text-transform: none;
@@ -5143,7 +5143,7 @@ img {
 @media screen and (min-width: 960px) {
   /* line 82, ../sass/modules/_rich-text.scss */
   .marketing-external-page-container .rich-text-styling .two-up:nth-child(2) h2, .marketing-external-page-container .rich-text-styling .two-up:nth-child(2) .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .rich-text-styling .two-up:nth-child(2) .title, .marketing-external-page-container .rich-text-styling .two-up:nth-child(2) form .product-list .product-name, .marketing-external-page-container form .product-list .rich-text-styling .two-up:nth-child(2) .product-name, .marketing-external-page-container .rich-text-styling .two-up:nth-child(2) .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .rich-text-styling .two-up:nth-child(2) .coupon-code-applied, .marketing-external-page-container .liquid_html .two-up:nth-child(2) h2, .marketing-external-page-container .liquid_html .two-up:nth-child(2) .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .liquid_html .two-up:nth-child(2) .title, .marketing-external-page-container .liquid_html .two-up:nth-child(2) form .product-list .product-name, .marketing-external-page-container form .product-list .liquid_html .two-up:nth-child(2) .product-name, .marketing-external-page-container .liquid_html .two-up:nth-child(2) .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .liquid_html .two-up:nth-child(2) .coupon-code-applied, .marketing-external-page-container .rich_text .two-up:nth-child(2) h2, .marketing-external-page-container .rich_text .two-up:nth-child(2) .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .rich_text .two-up:nth-child(2) .title, .marketing-external-page-container .rich_text .two-up:nth-child(2) form .product-list .product-name, .marketing-external-page-container form .product-list .rich_text .two-up:nth-child(2) .product-name, .marketing-external-page-container .rich_text .two-up:nth-child(2) .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .rich_text .two-up:nth-child(2) .coupon-code-applied {
-    font-size: 3em !important;
+    font-size: 3.2em !important;
   }
 }
 /* line 87, ../sass/modules/_rich-text.scss */
@@ -5483,7 +5483,7 @@ img {
   padding-top: 2em;
   padding-bottom: 2em;
   position: relative;
-  z-index: 999;
+  z-index: 1000;
   -moz-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
   -o-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
   -webkit-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
@@ -7975,52 +7975,74 @@ img {
   padding-top: 5rem !important;
   margin: 0;
 }
-/* line 11, ../sass/modules/_page-template.scss */
+/* line 9, ../sass/modules/_page-template.scss */
+.marketing-external-page-container .enrolled-in-course-alert {
+  background: #EDF3E8;
+  z-index: 999;
+  position: relative;
+  font-size: 0.7em;
+}
+/* line 15, ../sass/modules/_page-template.scss */
+.marketing-external-page-container .enrolled-in-course-alert button.close {
+  display: none;
+}
+/* line 19, ../sass/modules/_page-template.scss */
+.marketing-external-page-container .enrolled-in-course-alert .alert {
+  text-align: center;
+}
+/* line 23, ../sass/modules/_page-template.scss */
+.marketing-external-page-container .enrolled-in-course-alert a {
+  border: 1px solid black;
+  padding: 0.5em 1em;
+  top: -1em;
+  position: relative;
+}
+/* line 33, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .headline, .marketing-external-page-container.all-courses .headline {
   margin-bottom: 2rem;
 }
 @media screen and (min-width: 960px) {
-  /* line 11, ../sass/modules/_page-template.scss */
+  /* line 33, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .headline, .marketing-external-page-container.all-courses .headline {
     margin-bottom: 0;
   }
 }
-/* line 18, ../sass/modules/_page-template.scss */
+/* line 40, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header, .marketing-external-page-container.all-courses .page-header {
   text-align: center;
   padding: 2em 0 3em;
   position: relative;
 }
 @media screen and (min-width: 960px) {
-  /* line 18, ../sass/modules/_page-template.scss */
+  /* line 40, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .page-header, .marketing-external-page-container.all-courses .page-header {
     padding: 2em 0 4em;
   }
 }
-/* line 25, ../sass/modules/_page-template.scss */
+/* line 47, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .star, .marketing-external-page-container.all-courses .page-header .star {
   display: none;
 }
 @media screen and (min-width: 960px) {
-  /* line 25, ../sass/modules/_page-template.scss */
+  /* line 47, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .page-header .star, .marketing-external-page-container.all-courses .page-header .star {
     display: block;
   }
 }
-/* line 32, ../sass/modules/_page-template.scss */
+/* line 54, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .star:first-child, .marketing-external-page-container.all-courses .page-header .star:first-child {
   margin-bottom: 2em;
 }
-/* line 36, ../sass/modules/_page-template.scss */
+/* line 58, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .star:last-child, .marketing-external-page-container.all-courses .page-header .star:last-child {
   margin-top: 2em;
   padding-bottom: 2rem;
 }
-/* line 42, ../sass/modules/_page-template.scss */
+/* line 64, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header h1, .marketing-external-page-container.all-courses .page-header h1 {
   padding-bottom: 0;
 }
-/* line 46, ../sass/modules/_page-template.scss */
+/* line 68, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory, .marketing-external-page-container.all-courses .page-header .directory {
   padding: 2em;
   padding-top: 0;
@@ -8030,24 +8052,24 @@ img {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 46, ../sass/modules/_page-template.scss */
+  /* line 68, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .page-header .directory, .marketing-external-page-container.all-courses .page-header .directory {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 46, ../sass/modules/_page-template.scss */
+  /* line 68, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .page-header .directory, .marketing-external-page-container.all-courses .page-header .directory {
     width: 85%;
   }
 }
-/* line 51, ../sass/modules/_page-template.scss */
+/* line 73, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory a {
   text-decoration: none;
   color: inherit;
   margin-bottom: 0;
 }
-/* line 58, ../sass/modules/_page-template.scss */
+/* line 80, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory label, .marketing-external-page-container.all-courses .page-header .directory label {
   -webkit-transform: none;
   -moz-transform: none;
@@ -8056,7 +8078,7 @@ img {
   left: 0;
   border-top: none !important;
 }
-/* line 65, ../sass/modules/_page-template.scss */
+/* line 87, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory .row .thumb, .marketing-external-page-container.all-courses .page-header .directory .row .thumb {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -8070,7 +8092,7 @@ img {
   margin-bottom: 1em;
 }
 @media only screen and (min-width: 960px) {
-  /* line 65, ../sass/modules/_page-template.scss */
+  /* line 87, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .page-header .directory .row .thumb, .marketing-external-page-container.all-courses .page-header .directory .row .thumb {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -8084,7 +8106,7 @@ img {
   }
 }
 @media only screen and (min-width: 1024px) {
-  /* line 65, ../sass/modules/_page-template.scss */
+  /* line 87, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .page-header .directory .row .thumb, .marketing-external-page-container.all-courses .page-header .directory .row .thumb {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -8098,16 +8120,16 @@ img {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 65, ../sass/modules/_page-template.scss */
+  /* line 87, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.standard-page .page-header .directory .row .thumb, .marketing-external-page-container.all-courses .page-header .directory .row .thumb {
     margin-bottom: 0;
   }
 }
-/* line 75, ../sass/modules/_page-template.scss */
+/* line 97, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory .row .thumb .circle, .marketing-external-page-container.all-courses .page-header .directory .row .thumb .circle {
   opacity: 0;
 }
-/* line 80, ../sass/modules/_page-template.scss */
+/* line 102, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory .row .thumb:hover .circle-container:nth-child(1) .circle, .marketing-external-page-container.all-courses .page-header .directory .row .thumb:hover .circle-container:nth-child(1) .circle {
   opacity: 1;
   -moz-transition: opacity 0s ease-in-out 0.6s;
@@ -8115,7 +8137,7 @@ img {
   -webkit-transition: opacity 0s ease-in-out 0.6s;
   transition: opacity 0s ease-in-out 0.6s;
 }
-/* line 84, ../sass/modules/_page-template.scss */
+/* line 106, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory .row .thumb:hover .circle-container:nth-child(2) .circle, .marketing-external-page-container.all-courses .page-header .directory .row .thumb:hover .circle-container:nth-child(2) .circle {
   opacity: 1;
   -moz-transition: opacity 0s ease-in-out 0.4s;
@@ -8123,7 +8145,7 @@ img {
   -webkit-transition: opacity 0s ease-in-out 0.4s;
   transition: opacity 0s ease-in-out 0.4s;
 }
-/* line 89, ../sass/modules/_page-template.scss */
+/* line 111, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory .row .thumb:hover .circle-container:nth-child(3) .circle, .marketing-external-page-container.all-courses .page-header .directory .row .thumb:hover .circle-container:nth-child(3) .circle {
   opacity: 1;
   -moz-transition: opacity 0s ease-in-out 0.2s;
@@ -8131,11 +8153,11 @@ img {
   -webkit-transition: opacity 0s ease-in-out 0.2s;
   transition: opacity 0s ease-in-out 0.2s;
 }
-/* line 95, ../sass/modules/_page-template.scss */
+/* line 117, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-header .directory .row .thumb .description, .marketing-external-page-container.all-courses .page-header .directory .row .thumb .description {
   margin-top: 0em;
 }
-/* line 102, ../sass/modules/_page-template.scss */
+/* line 124, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.standard-page .page-description, .marketing-external-page-container.all-courses .page-description {
   text-align: center;
   max-width: 600px;
@@ -8143,17 +8165,17 @@ img {
   margin: 0 auto;
   margin-bottom: 2em;
 }
-/* line 112, ../sass/modules/_page-template.scss */
+/* line 134, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.all-courses .page-header, .marketing-external-page-container.my-courses .page-header {
   padding: 0.5em 0 0 !important;
 }
 @media screen and (min-width: 960px) {
-  /* line 112, ../sass/modules/_page-template.scss */
+  /* line 134, ../sass/modules/_page-template.scss */
   .marketing-external-page-container.all-courses .page-header, .marketing-external-page-container.my-courses .page-header {
     padding: 0.5em 0 0 !important;
   }
 }
-/* line 119, ../sass/modules/_page-template.scss */
+/* line 141, ../sass/modules/_page-template.scss */
 .marketing-external-page-container.all-courses .course-listings, .marketing-external-page-container.my-courses .course-listings {
   margin-top: 0em !important;
 }
@@ -8793,7 +8815,7 @@ img {
   text-align: center;
 }
 /* line 124, ../sass/modules/_elements.scss */
-.marketing-external-page-container .course-filters:nth-child(1) {
+.marketing-external-page-container .course-filters .course-filter:first-child {
   margin-bottom: 0;
 }
 /* line 129, ../sass/modules/_elements.scss */

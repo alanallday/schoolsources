@@ -121,7 +121,7 @@ button:focus {
 .course-filters {
 	text-align: center;
 
-	&:nth-child(1) {
+	.course-filter:first-child {
 		margin-bottom: 0;
 	}
 }
