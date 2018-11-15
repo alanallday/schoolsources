@@ -5494,7 +5494,7 @@ img {
   padding-top: 2em;
   padding-bottom: 2em;
   position: relative;
-  z-index: 1000;
+  z-index: 9998;
   -moz-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
   -o-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
   -webkit-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
@@ -5599,12 +5599,13 @@ img {
 .marketing-external-page-container nav.global.open {
   color: white !important;
   background: black !important;
+  z-index: 100000;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 154, ../sass/modules/_header.scss */
+/* line 155, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open svg polygon, .marketing-external-page-container nav.global.open svg path {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -5612,18 +5613,18 @@ img {
   transition: all 0.2s ease-in-out;
   fill: white !important;
 }
-/* line 160, ../sass/modules/_header.scss */
+/* line 161, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open .btn-primary {
   background: white !important;
   color: black !important;
   border-color: white !important;
 }
-/* line 166, ../sass/modules/_header.scss */
+/* line 167, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open .btn-secondary {
   color: white !important;
   border-color: white !important;
 }
-/* line 171, ../sass/modules/_header.scss */
+/* line 172, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open .navigation-container {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -5634,7 +5635,7 @@ img {
   -webkit-transition: transform 0.4s ease-in-out 0.2s;
   transition: transform 0.4s ease-in-out 0.2s;
 }
-/* line 178, ../sass/modules/_header.scss */
+/* line 179, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5660,13 +5661,13 @@ img {
   -webkit-transition: transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
 }
-/* line 191, ../sass/modules/_header.scss */
+/* line 192, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container .row {
   background: black !important;
   color: white !important;
 }
 @media screen and (min-width: 768px) {
-  /* line 178, ../sass/modules/_header.scss */
+  /* line 179, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .navigation-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5688,13 +5689,13 @@ img {
     -webkit-transition: none;
     transition: none;
   }
-  /* line 211, ../sass/modules/_header.scss */
+  /* line 212, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .navigation-container .row {
     background: none !important;
     color: inherit !important;
   }
 }
-/* line 221, ../sass/modules/_header.scss */
+/* line 222, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container .navigation {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5704,34 +5705,34 @@ img {
   padding-left: 2.5rem;
 }
 @media screen and (min-width: 768px) {
-  /* line 221, ../sass/modules/_header.scss */
+  /* line 222, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .navigation-container .navigation {
     padding-left: 1rem;
     padding-top: 0;
     padding-bottom: 0;
   }
 }
-/* line 234, ../sass/modules/_header.scss */
+/* line 235, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container .navigation .dropdown li {
   margin-bottom: 0.5em;
 }
-/* line 240, ../sass/modules/_header.scss */
+/* line 241, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .dropdown {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 240, ../sass/modules/_header.scss */
+  /* line 241, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .dropdown {
     display: inline-block;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 247, ../sass/modules/_header.scss */
+  /* line 248, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .dropdown-items-for-mobile {
     display: none;
   }
 }
-/* line 252, ../sass/modules/_header.scss */
+/* line 253, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5749,22 +5750,22 @@ img {
   font-weight: bold;
   margin-left: auto;
 }
-/* line 262, ../sass/modules/_header.scss */
+/* line 263, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right .dropdown li {
   width: 100%;
 }
-/* line 267, ../sass/modules/_header.scss */
+/* line 268, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li {
   width: 48%;
   display: inline-block;
 }
-/* line 271, ../sass/modules/_header.scss */
+/* line 272, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li .btn-primary, .marketing-external-page-container nav.global .right li .btn-secondary {
   text-align: center;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 252, ../sass/modules/_header.scss */
+  /* line 253, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .right {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5780,22 +5781,22 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  /* line 285, ../sass/modules/_header.scss */
+  /* line 286, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .right li {
     width: auto;
   }
-  /* line 288, ../sass/modules/_header.scss */
+  /* line 289, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .right li .btn-primary, .marketing-external-page-container nav.global .right li .btn-secondary {
     text-align: auto;
     width: auto;
   }
 }
-/* line 298, ../sass/modules/_header.scss */
+/* line 299, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li {
   list-style: none;
   margin-right: 0.5em;
 }
-/* line 301, ../sass/modules/_header.scss */
+/* line 302, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li:last-child {
   margin-right: 0 !important;
 }
@@ -6223,7 +6224,11 @@ img {
 .marketing-external-page-container .block.testimonial p[data-section="testimonial"]:after, .marketing-external-page-container .block.testimonial ul[data-section="testimonial"]:after, .marketing-external-page-container .block.testimonial ol[data-section="testimonial"]:after, .marketing-external-page-container .block.testimonial .box-with-border [data-section="testimonial"].description:after, .marketing-external-page-container .box-with-border .block.testimonial [data-section="testimonial"].description:after, .marketing-external-page-container .block.testimonial .block.faq [data-section="testimonial"].faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial [data-section="testimonial"].faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block [data-section="testimonial"].coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial [data-section="testimonial"].coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a[data-section="testimonial"]:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a[data-section="testimonial"]:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a[data-section="testimonial"]:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a[data-section="testimonial"]:after, .marketing-external-page-container .block.testimonial [data-section="testimonial"].dropdown-toggle:after {
   content: 'Testimonial';
 }
-/* line 113, ../sass/modules/_testimonial.scss */
+/* line 114, ../sass/modules/_testimonial.scss */
+.marketing-external-page-container .block.testimonial p[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial ul[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial ol[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial .box-with-border [data-section="elsewhere"].description:after, .marketing-external-page-container .box-with-border .block.testimonial [data-section="elsewhere"].description:after, .marketing-external-page-container .block.testimonial .block.faq [data-section="elsewhere"].faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial [data-section="elsewhere"].faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block [data-section="elsewhere"].coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial [data-section="elsewhere"].coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a[data-section="elsewhere"]:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a[data-section="elsewhere"]:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a[data-section="elsewhere"]:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial [data-section="elsewhere"].dropdown-toggle:after {
+  content: 'Name, Location';
+}
+/* line 117, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial p:after, .marketing-external-page-container .block.testimonial ul:after, .marketing-external-page-container .block.testimonial ol:after, .marketing-external-page-container .block.testimonial .box-with-border .description:after, .marketing-external-page-container .box-with-border .block.testimonial .description:after, .marketing-external-page-container .block.testimonial .block.faq .faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial .faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block .coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial .coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a:after, .marketing-external-page-container .block.testimonial .dropdown-toggle:after {
   display: block;
   position: absolute;
@@ -6233,7 +6238,7 @@ img {
   font-weight: bold;
   margin-top: 0.3rem;
 }
-/* line 125, ../sass/modules/_testimonial.scss */
+/* line 129, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial-container {
   box-sizing: border-box;
   display: -ms-flexbox;
@@ -6251,7 +6256,7 @@ img {
   margin-right: -1rem;
   margin-left: -1rem;
 }
-/* line 128, ../sass/modules/_testimonial.scss */
+/* line 132, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial-container .block {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -6264,7 +6269,7 @@ img {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 128, ../sass/modules/_testimonial.scss */
+  /* line 132, ../sass/modules/_testimonial.scss */
   .marketing-external-page-container .block.testimonial-container .block {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -6277,7 +6282,7 @@ img {
     max-width: 50%;
   }
 }
-/* line 132, ../sass/modules/_testimonial.scss */
+/* line 136, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) {
   background: #FFD9D4;
   color: #AD2602;
@@ -6302,7 +6307,7 @@ img {
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) p, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) ul, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) ol, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) .box-with-border .description, .marketing-external-page-container .box-with-border .block.testimonial-container .block:nth-child(4n+1) .description, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.testimonial-container .block:nth-child(4n+1) .faq-answer, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.testimonial-container .block:nth-child(4n+1) .coupon-invalid-text, .marketing-external-page-container.standard-page .block.testimonial-container .block:nth-child(4n+1) .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial-container .block:nth-child(4n+1) a, .marketing-external-page-container.all-courses .block.testimonial-container .block:nth-child(4n+1) .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial-container .block:nth-child(4n+1) a, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+1) .dropdown-toggle {
   border-bottom: 1px solid rgba(173, 38, 2, 0.2);
 }
-/* line 136, ../sass/modules/_testimonial.scss */
+/* line 140, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) {
   background: #AD2602;
   color: #FFD9D4;
@@ -6327,7 +6332,7 @@ img {
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) p, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) ul, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) ol, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) .box-with-border .description, .marketing-external-page-container .box-with-border .block.testimonial-container .block:nth-child(4n+2) .description, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.testimonial-container .block:nth-child(4n+2) .faq-answer, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.testimonial-container .block:nth-child(4n+2) .coupon-invalid-text, .marketing-external-page-container.standard-page .block.testimonial-container .block:nth-child(4n+2) .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial-container .block:nth-child(4n+2) a, .marketing-external-page-container.all-courses .block.testimonial-container .block:nth-child(4n+2) .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial-container .block:nth-child(4n+2) a, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+2) .dropdown-toggle {
   border-bottom: 1px solid rgba(255, 217, 212, 0.2);
 }
-/* line 139, ../sass/modules/_testimonial.scss */
+/* line 143, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) {
   background: #00118E;
   color: #DFA648;
@@ -6352,7 +6357,7 @@ img {
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) p, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) ul, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) ol, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) .box-with-border .description, .marketing-external-page-container .box-with-border .block.testimonial-container .block:nth-child(4n+3) .description, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.testimonial-container .block:nth-child(4n+3) .faq-answer, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.testimonial-container .block:nth-child(4n+3) .coupon-invalid-text, .marketing-external-page-container.standard-page .block.testimonial-container .block:nth-child(4n+3) .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial-container .block:nth-child(4n+3) a, .marketing-external-page-container.all-courses .block.testimonial-container .block:nth-child(4n+3) .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial-container .block:nth-child(4n+3) a, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+3) .dropdown-toggle {
   border-bottom: 1px solid rgba(223, 166, 72, 0.2);
 }
-/* line 143, ../sass/modules/_testimonial.scss */
+/* line 147, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) {
   background: #DFA648;
   color: #00118E;
@@ -6377,26 +6382,28 @@ img {
 .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) p, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) ul, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) ol, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) .box-with-border .description, .marketing-external-page-container .box-with-border .block.testimonial-container .block:nth-child(4n+4) .description, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.testimonial-container .block:nth-child(4n+4) .faq-answer, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.testimonial-container .block:nth-child(4n+4) .coupon-invalid-text, .marketing-external-page-container.standard-page .block.testimonial-container .block:nth-child(4n+4) .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial-container .block:nth-child(4n+4) a, .marketing-external-page-container.all-courses .block.testimonial-container .block:nth-child(4n+4) .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial-container .block:nth-child(4n+4) a, .marketing-external-page-container .block.testimonial-container .block:nth-child(4n+4) .dropdown-toggle {
   border-bottom: 1px solid rgba(0, 17, 142, 0.2);
 }
-/* line 3, ../sass/modules/_faq.scss */
+/* line 2, ../sass/modules/_faq.scss */
 .marketing-external-page-container .block.faq label {
   margin-bottom: 1em;
 }
 @media screen and (min-width: 960px) {
-  /* line 3, ../sass/modules/_faq.scss */
+  /* line 2, ../sass/modules/_faq.scss */
   .marketing-external-page-container .block.faq label {
     margin-bottom: 2em;
   }
 }
-/* line 10, ../sass/modules/_faq.scss */
+/* line 9, ../sass/modules/_faq.scss */
 .marketing-external-page-container .block.faq .faq-question {
   font-weight: bold;
   margin-bottom: 0.2em;
+  font-size: 0.8em;
 }
 /* line 16, ../sass/modules/_faq.scss */
 .marketing-external-page-container .block.faq .faq-answer {
   margin-bottom: 1.5em;
+  font-size: 0.8em;
 }
-/* line 21, ../sass/modules/_faq.scss */
+/* line 22, ../sass/modules/_faq.scss */
 .marketing-external-page-container .block.faq .faq-container {
   max-width: 960px;
   width: 95%;
@@ -6404,7 +6411,7 @@ img {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 21, ../sass/modules/_faq.scss */
+  /* line 22, ../sass/modules/_faq.scss */
   .marketing-external-page-container .block.faq .faq-container {
     width: 55%;
   }
@@ -6505,57 +6512,57 @@ img {
   }
 }
 /* line 90, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout {
+.marketing-external-page-container .block.checkout, .marketing-external-page-container .block.checkout_button {
   text-align: center;
 }
 /* line 93, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout .container#pricing-options {
+.marketing-external-page-container .block.checkout .container#pricing-options, .marketing-external-page-container .block.checkout_button .container#pricing-options {
   padding-left: 2em;
   padding-right: 2em;
 }
 @media screen and (min-width: 768px) {
   /* line 93, ../sass/modules/_primary-enroll-button.scss */
-  .marketing-external-page-container .block.checkout .container#pricing-options {
+  .marketing-external-page-container .block.checkout .container#pricing-options, .marketing-external-page-container .block.checkout_button .container#pricing-options {
     padding-left: 0;
     padding-right: 0;
   }
 }
 /* line 101, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout .checkout-cta {
+.marketing-external-page-container .block.checkout .checkout-cta, .marketing-external-page-container .block.checkout_button .checkout-cta {
   padding-top: 2em;
 }
 /* line 103, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout .checkout-cta p, .marketing-external-page-container .block.checkout .checkout-cta ul, .marketing-external-page-container .block.checkout .checkout-cta ol, .marketing-external-page-container .block.checkout .checkout-cta .box-with-border .description, .marketing-external-page-container .box-with-border .block.checkout .checkout-cta .description, .marketing-external-page-container .block.checkout .checkout-cta .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.checkout .checkout-cta .faq-answer, .marketing-external-page-container .block.checkout .checkout-cta .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.checkout .checkout-cta .coupon-invalid-text, .marketing-external-page-container.standard-page .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container.all-courses .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container .block.checkout .checkout-cta .dropdown-toggle {
+.marketing-external-page-container .block.checkout .checkout-cta p, .marketing-external-page-container .block.checkout .checkout-cta ul, .marketing-external-page-container .block.checkout .checkout-cta ol, .marketing-external-page-container .block.checkout .checkout-cta .box-with-border .description, .marketing-external-page-container .box-with-border .block.checkout .checkout-cta .description, .marketing-external-page-container .block.checkout .checkout-cta .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.checkout .checkout-cta .faq-answer, .marketing-external-page-container .block.checkout .checkout-cta .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.checkout .checkout-cta .coupon-invalid-text, .marketing-external-page-container.standard-page .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container.all-courses .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container .block.checkout .checkout-cta .dropdown-toggle, .marketing-external-page-container .block.checkout_button .checkout-cta p, .marketing-external-page-container .block.checkout_button .checkout-cta ul, .marketing-external-page-container .block.checkout_button .checkout-cta ol, .marketing-external-page-container .block.checkout_button .checkout-cta .box-with-border .description, .marketing-external-page-container .box-with-border .block.checkout_button .checkout-cta .description, .marketing-external-page-container .block.checkout_button .checkout-cta .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.checkout_button .checkout-cta .faq-answer, .marketing-external-page-container .block.checkout_button .checkout-cta .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.checkout_button .checkout-cta .coupon-invalid-text, .marketing-external-page-container.standard-page .block.checkout_button .checkout-cta .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.checkout_button .checkout-cta a, .marketing-external-page-container.all-courses .block.checkout_button .checkout-cta .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.checkout_button .checkout-cta a, .marketing-external-page-container .block.checkout_button .checkout-cta .dropdown-toggle {
   margin-top: 1rem;
 }
 @media screen and (min-width: 768px) {
   /* line 101, ../sass/modules/_primary-enroll-button.scss */
-  .marketing-external-page-container .block.checkout .checkout-cta {
+  .marketing-external-page-container .block.checkout .checkout-cta, .marketing-external-page-container .block.checkout_button .checkout-cta {
     padding-top: 0;
   }
 }
 @media screen and (min-width: 960px) {
   /* line 111, ../sass/modules/_primary-enroll-button.scss */
-  .marketing-external-page-container .block.checkout .checkout-cta p, .marketing-external-page-container .block.checkout .checkout-cta ul, .marketing-external-page-container .block.checkout .checkout-cta ol, .marketing-external-page-container .block.checkout .checkout-cta .box-with-border .description, .marketing-external-page-container .box-with-border .block.checkout .checkout-cta .description, .marketing-external-page-container .block.checkout .checkout-cta .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.checkout .checkout-cta .faq-answer, .marketing-external-page-container .block.checkout .checkout-cta .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.checkout .checkout-cta .coupon-invalid-text, .marketing-external-page-container.standard-page .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container.all-courses .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container .block.checkout .checkout-cta .dropdown-toggle {
+  .marketing-external-page-container .block.checkout .checkout-cta p, .marketing-external-page-container .block.checkout .checkout-cta ul, .marketing-external-page-container .block.checkout .checkout-cta ol, .marketing-external-page-container .block.checkout .checkout-cta .box-with-border .description, .marketing-external-page-container .box-with-border .block.checkout .checkout-cta .description, .marketing-external-page-container .block.checkout .checkout-cta .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.checkout .checkout-cta .faq-answer, .marketing-external-page-container .block.checkout .checkout-cta .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.checkout .checkout-cta .coupon-invalid-text, .marketing-external-page-container.standard-page .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container.all-courses .block.checkout .checkout-cta .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.checkout .checkout-cta a, .marketing-external-page-container .block.checkout .checkout-cta .dropdown-toggle, .marketing-external-page-container .block.checkout_button .checkout-cta p, .marketing-external-page-container .block.checkout_button .checkout-cta ul, .marketing-external-page-container .block.checkout_button .checkout-cta ol, .marketing-external-page-container .block.checkout_button .checkout-cta .box-with-border .description, .marketing-external-page-container .box-with-border .block.checkout_button .checkout-cta .description, .marketing-external-page-container .block.checkout_button .checkout-cta .block.faq .faq-answer, .marketing-external-page-container .block.faq .block.checkout_button .checkout-cta .faq-answer, .marketing-external-page-container .block.checkout_button .checkout-cta .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .block.checkout_button .checkout-cta .coupon-invalid-text, .marketing-external-page-container.standard-page .block.checkout_button .checkout-cta .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .block.checkout_button .checkout-cta a, .marketing-external-page-container.all-courses .block.checkout_button .checkout-cta .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .block.checkout_button .checkout-cta a, .marketing-external-page-container .block.checkout_button .checkout-cta .dropdown-toggle {
     margin-top: 1.5em;
   }
 }
 /* line 118, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout .button-container center {
+.marketing-external-page-container .block.checkout .button-container center, .marketing-external-page-container .block.checkout_button .button-container center {
   margin: 0 auto;
   display: block;
 }
 /* line 124, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout .cta-container {
+.marketing-external-page-container .block.checkout .cta-container, .marketing-external-page-container .block.checkout_button .cta-container {
   text-align: center;
 }
 /* line 128, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout h2, .marketing-external-page-container .block.checkout .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .block.checkout .title, .marketing-external-page-container .block.checkout form .product-list .product-name, .marketing-external-page-container form .product-list .block.checkout .product-name, .marketing-external-page-container .block.checkout .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .block.checkout .coupon-code-applied {
+.marketing-external-page-container .block.checkout h2, .marketing-external-page-container .block.checkout .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .block.checkout .title, .marketing-external-page-container .block.checkout form .product-list .product-name, .marketing-external-page-container form .product-list .block.checkout .product-name, .marketing-external-page-container .block.checkout .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .block.checkout .coupon-code-applied, .marketing-external-page-container .block.checkout_button h2, .marketing-external-page-container .block.checkout_button .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .block.checkout_button .title, .marketing-external-page-container .block.checkout_button form .product-list .product-name, .marketing-external-page-container form .product-list .block.checkout_button .product-name, .marketing-external-page-container .block.checkout_button .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .block.checkout_button .coupon-code-applied {
   vertical-align: middle;
   padding-bottom: 0;
 }
 /* line 133, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout .star {
+.marketing-external-page-container .block.checkout .star, .marketing-external-page-container .block.checkout_button .star {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   display: inline-block;
@@ -6563,23 +6570,23 @@ img {
 }
 @media screen and (min-width: 960px) {
   /* line 141, ../sass/modules/_primary-enroll-button.scss */
-  .marketing-external-page-container .block.checkout .star.left {
+  .marketing-external-page-container .block.checkout .star.left, .marketing-external-page-container .block.checkout_button .star.left {
     margin-right: 2em;
   }
   /* line 144, ../sass/modules/_primary-enroll-button.scss */
-  .marketing-external-page-container .block.checkout .star.right {
+  .marketing-external-page-container .block.checkout .star.right, .marketing-external-page-container .block.checkout_button .star.right {
     margin-left: 2em;
   }
 }
 /* line 149, ../sass/modules/_primary-enroll-button.scss */
-.marketing-external-page-container .block.checkout .star {
+.marketing-external-page-container .block.checkout .star, .marketing-external-page-container .block.checkout_button .star {
   vertical-align: middle;
   width: 24px;
   height: auto;
 }
 @media screen and (min-width: 960px) {
   /* line 149, ../sass/modules/_primary-enroll-button.scss */
-  .marketing-external-page-container .block.checkout .star {
+  .marketing-external-page-container .block.checkout .star, .marketing-external-page-container .block.checkout_button .star {
     width: 32px;
     height: auto;
   }
@@ -7476,7 +7483,7 @@ img {
   /* line 55, ../sass/modules/_course-hero.scss */
   .marketing-external-page-container .course-block.hero .value-props {
     padding-top: 10em;
-    padding-bottom: 15em;
+    padding-bottom: 20em;
   }
 }
 /* line 80, ../sass/modules/_course-hero.scss */

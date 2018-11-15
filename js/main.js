@@ -315,7 +315,9 @@ function testimonialBlock() {
 			$(this).find('.text p:nth-child(1)').attr('data-section','bio');
 			$(this).find('.text p:nth-child(2)').attr('data-section','title');
 			// $(this).find('.text p:nth-child(3)').attr('data-section','class');				
-			$(this).find('.text p:nth-child(3)').attr('data-section','testimonial');								
+			$(this).find('.text p:nth-child(3)').attr('data-section','testimonial');
+			$(this).find('.text p:nth-child(4)').attr('data-section','links');								
+								
 		}
 		var $name = $(this).find('p:nth-child(1)').html();
 		$name = $name.toString().split(',')[0];

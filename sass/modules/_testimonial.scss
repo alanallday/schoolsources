@@ -110,6 +110,10 @@
 	p[data-section="testimonial"]:after {
 		content: 'Testimonial';
 	}
+
+	p[data-section="elsewhere"]:after {
+		content: 'Elsewhere';
+	}
 	p:after {
 	    display: block;
 	    position: absolute;

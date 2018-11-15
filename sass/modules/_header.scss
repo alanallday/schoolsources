@@ -81,7 +81,7 @@ nav.global {
 	padding-top: 2em;
 	padding-bottom: 2em;
 	position:relative;
-	z-index: 1000;
+	z-index: 9998;
 	@include transition(color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s);
 
 	svg {
@@ -148,6 +148,7 @@ nav.global {
 	&.open {
 		color: white !important;
 		background: black !important;
+		z-index:100000;
 		@include transition(all 0.2s ease-in-out);
 		
 		svg {
