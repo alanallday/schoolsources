@@ -232,7 +232,8 @@ function addPageHeader() {
 	}
 }
 function globalNav() {
-	$('nav.global .menu').click(function(){
+
+	$('nav.global .menu').on('click touchstart', function(){
 		$('nav.global').toggleClass('open');
 	});
 	var height = $('.navbar-fedora').height();
