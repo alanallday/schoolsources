@@ -51,7 +51,16 @@ $(document).ready(function() {
 	alumniPage();
 	globalNav();
 	animateLines();
-	// initSkrollr();
+	//detect mobile device
+	if( navigator.userAgent.match(/Android/i)
+	 || navigator.userAgent.match(/webOS/i)
+	 || navigator.userAgent.match(/iPhone/i)
+	 || navigator.userAgent.match(/iPad/i)
+	 || navigator.userAgent.match(/iPod/i)
+	 || navigator.userAgent.match(/BlackBerry/i)
+	 || navigator.userAgent.match(/Windows Phone/i)) {
+		initSkrollr();
+	 }
 	loginPage();
 	addCoursePageLinkID();
 	curriculumBlock();
@@ -81,7 +90,15 @@ function clickedLink() {
 		alumniPage();
 		globalNav();
 		animateLines();
-		// initSkrollr();
+		if(navigator.userAgent.match(/Android/i)
+		 || navigator.userAgent.match(/webOS/i)
+		 || navigator.userAgent.match(/iPhone/i)
+		 || navigator.userAgent.match(/iPad/i)
+		 || navigator.userAgent.match(/iPod/i)
+		 || navigator.userAgent.match(/BlackBerry/i)
+		 || navigator.userAgent.match(/Windows Phone/i)) {
+			initSkrollr();
+		 }
 		loginPage();
 		addCoursePageLinkID();
 		curriculumBlock();
@@ -341,10 +358,6 @@ function initSkrollr() {
 
 	// $('.block').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
 	// $('.block').attr('data-0-bottom-top', 'transform: translate3d(0,5%,0);');
-
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        skrollr.init().destroy();
-    }
 
 	// initialize skrollr if the window width is large enough
 	if ($(window).width() > 767) {
