@@ -19,7 +19,7 @@
 	    text-transform: uppercase;
 	    text-decoration: none;
 	}
-	
+
 	img {
 		width:100% !important;
 		height: auto !important;
@@ -156,8 +156,9 @@
 
 		    	&.horizontal {
 				    width: 100% !important;
-				    margin-left: -20%;
-				}
+		    		margin-left: auto;
+		    		margin-right: auto;				
+		    	}
 
 			}
 	    }
