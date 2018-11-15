@@ -5489,7 +5489,7 @@ img {
     padding-top: 0;
   }
 }
-/* line 80, ../sass/modules/_header.scss */
+/* line 81, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -5500,25 +5500,25 @@ img {
   -webkit-transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
   transition: color 0.2s ease-in-out 0.4s, background 0.2s ease-in-out 0.4s;
 }
-/* line 88, ../sass/modules/_header.scss */
+/* line 89, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global svg polygon, .marketing-external-page-container nav.global svg path {
   -moz-transition: all 0.2s ease-in-out 0.4s;
   -o-transition: all 0.2s ease-in-out 0.4s;
   -webkit-transition: all 0.2s ease-in-out 0.4s;
   transition: all 0.2s ease-in-out 0.4s;
 }
-/* line 93, ../sass/modules/_header.scss */
+/* line 94, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global a {
   cursor: pointer;
   line-height: 2em;
 }
 @media screen and (min-width: 768px) {
-  /* line 93, ../sass/modules/_header.scss */
+  /* line 94, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global a {
     line-height: 1.4em;
   }
 }
-/* line 102, ../sass/modules/_header.scss */
+/* line 103, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global > .row {
   max-width: 1200px;
   width: 95%;
@@ -5528,24 +5528,24 @@ img {
   margin-bottom: 4px;
 }
 @media screen and (min-width: 960px) {
-  /* line 102, ../sass/modules/_header.scss */
+  /* line 103, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global > .row {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 102, ../sass/modules/_header.scss */
+  /* line 103, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global > .row {
     width: 85%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 102, ../sass/modules/_header.scss */
+  /* line 103, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global > .row {
     width: 95%;
   }
 }
-/* line 113, ../sass/modules/_header.scss */
+/* line 114, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .logo {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5559,12 +5559,12 @@ img {
   position: relative;
   width: 100%;
 }
-/* line 117, ../sass/modules/_header.scss */
+/* line 118, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .logo svg {
   width: 96px;
 }
 @media screen and (min-width: 768px) {
-  /* line 113, ../sass/modules/_header.scss */
+  /* line 114, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .logo {
     width: 124px;
     box-sizing: border-box;
@@ -5576,7 +5576,7 @@ img {
     max-width: 100%;
   }
 }
-/* line 134, ../sass/modules/_header.scss */
+/* line 135, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .logo .menu {
   right: 1em;
   position: absolute;
@@ -5590,12 +5590,12 @@ img {
   cursor: pointer;
 }
 @media screen and (min-width: 768px) {
-  /* line 134, ../sass/modules/_header.scss */
+  /* line 135, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .logo .menu {
     display: none;
   }
 }
-/* line 148, ../sass/modules/_header.scss */
+/* line 149, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open {
   color: white !important;
   background: black !important;
@@ -5605,7 +5605,7 @@ img {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 155, ../sass/modules/_header.scss */
+/* line 156, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open svg polygon, .marketing-external-page-container nav.global.open svg path {
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -5613,18 +5613,18 @@ img {
   transition: all 0.2s ease-in-out;
   fill: white !important;
 }
-/* line 161, ../sass/modules/_header.scss */
+/* line 162, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open .btn-primary {
   background: white !important;
   color: black !important;
   border-color: white !important;
 }
-/* line 167, ../sass/modules/_header.scss */
+/* line 168, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open .btn-secondary {
   color: white !important;
   border-color: white !important;
 }
-/* line 172, ../sass/modules/_header.scss */
+/* line 173, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global.open .navigation-container {
   -webkit-transform: scale(1, 1);
   -moz-transform: scale(1, 1);
@@ -5635,7 +5635,7 @@ img {
   -webkit-transition: transform 0.4s ease-in-out 0.2s;
   transition: transform 0.4s ease-in-out 0.2s;
 }
-/* line 179, ../sass/modules/_header.scss */
+/* line 180, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5661,13 +5661,13 @@ img {
   -webkit-transition: transform 0.4s ease-in-out;
   transition: transform 0.4s ease-in-out;
 }
-/* line 192, ../sass/modules/_header.scss */
+/* line 193, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container .row {
   background: black !important;
   color: white !important;
 }
 @media screen and (min-width: 768px) {
-  /* line 179, ../sass/modules/_header.scss */
+  /* line 180, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .navigation-container {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5689,13 +5689,13 @@ img {
     -webkit-transition: none;
     transition: none;
   }
-  /* line 212, ../sass/modules/_header.scss */
+  /* line 213, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .navigation-container .row {
     background: none !important;
     color: inherit !important;
   }
 }
-/* line 222, ../sass/modules/_header.scss */
+/* line 223, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container .navigation {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5705,34 +5705,34 @@ img {
   padding-left: 2.5rem;
 }
 @media screen and (min-width: 768px) {
-  /* line 222, ../sass/modules/_header.scss */
+  /* line 223, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .navigation-container .navigation {
     padding-left: 1rem;
     padding-top: 0;
     padding-bottom: 0;
   }
 }
-/* line 235, ../sass/modules/_header.scss */
+/* line 236, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .navigation-container .navigation .dropdown li {
   margin-bottom: 0.5em;
 }
-/* line 241, ../sass/modules/_header.scss */
+/* line 242, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .dropdown {
   display: none;
 }
 @media screen and (min-width: 768px) {
-  /* line 241, ../sass/modules/_header.scss */
+  /* line 242, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .dropdown {
     display: inline-block;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 248, ../sass/modules/_header.scss */
+  /* line 249, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .dropdown-items-for-mobile {
     display: none;
   }
 }
-/* line 253, ../sass/modules/_header.scss */
+/* line 254, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -5750,22 +5750,22 @@ img {
   font-weight: bold;
   margin-left: auto;
 }
-/* line 263, ../sass/modules/_header.scss */
+/* line 264, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right .dropdown li {
   width: 100%;
 }
-/* line 268, ../sass/modules/_header.scss */
+/* line 269, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li {
   width: 48%;
   display: inline-block;
 }
-/* line 272, ../sass/modules/_header.scss */
+/* line 273, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li .btn-primary, .marketing-external-page-container nav.global .right li .btn-secondary {
   text-align: center;
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  /* line 253, ../sass/modules/_header.scss */
+  /* line 254, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .right {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -5781,27 +5781,27 @@ img {
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  /* line 286, ../sass/modules/_header.scss */
+  /* line 287, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .right li {
     width: auto;
   }
-  /* line 289, ../sass/modules/_header.scss */
+  /* line 290, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global .right li .btn-primary, .marketing-external-page-container nav.global .right li .btn-secondary {
     text-align: auto;
     width: auto;
   }
 }
-/* line 299, ../sass/modules/_header.scss */
+/* line 300, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li {
   list-style: none;
   margin-right: 0.5em;
 }
-/* line 302, ../sass/modules/_header.scss */
+/* line 303, ../sass/modules/_header.scss */
 .marketing-external-page-container nav.global .right li:last-child {
   margin-right: 0 !important;
 }
 @media screen and (min-width: 960px) {
-  /* line 80, ../sass/modules/_header.scss */
+  /* line 81, ../sass/modules/_header.scss */
   .marketing-external-page-container nav.global {
     padding-top: 2em;
     padding-bottom: 2em;
@@ -6225,8 +6225,8 @@ img {
   content: 'Testimonial';
 }
 /* line 114, ../sass/modules/_testimonial.scss */
-.marketing-external-page-container .block.testimonial p[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial ul[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial ol[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial .box-with-border [data-section="elsewhere"].description:after, .marketing-external-page-container .box-with-border .block.testimonial [data-section="elsewhere"].description:after, .marketing-external-page-container .block.testimonial .block.faq [data-section="elsewhere"].faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial [data-section="elsewhere"].faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block [data-section="elsewhere"].coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial [data-section="elsewhere"].coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a[data-section="elsewhere"]:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a[data-section="elsewhere"]:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a[data-section="elsewhere"]:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a[data-section="elsewhere"]:after, .marketing-external-page-container .block.testimonial [data-section="elsewhere"].dropdown-toggle:after {
-  content: 'Name, Location';
+.marketing-external-page-container .block.testimonial p[data-section="links"]:after, .marketing-external-page-container .block.testimonial ul[data-section="links"]:after, .marketing-external-page-container .block.testimonial ol[data-section="links"]:after, .marketing-external-page-container .block.testimonial .box-with-border [data-section="links"].description:after, .marketing-external-page-container .box-with-border .block.testimonial [data-section="links"].description:after, .marketing-external-page-container .block.testimonial .block.faq [data-section="links"].faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial [data-section="links"].faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block [data-section="links"].coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial [data-section="links"].coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a[data-section="links"]:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a[data-section="links"]:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a[data-section="links"]:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a[data-section="links"]:after, .marketing-external-page-container .block.testimonial [data-section="links"].dropdown-toggle:after {
+  content: 'Elsewhere';
 }
 /* line 117, ../sass/modules/_testimonial.scss */
 .marketing-external-page-container .block.testimonial p:after, .marketing-external-page-container .block.testimonial ul:after, .marketing-external-page-container .block.testimonial ol:after, .marketing-external-page-container .block.testimonial .box-with-border .description:after, .marketing-external-page-container .box-with-border .block.testimonial .description:after, .marketing-external-page-container .block.testimonial .block.faq .faq-answer:after, .marketing-external-page-container .block.faq .block.testimonial .faq-answer:after, .marketing-external-page-container .block.testimonial .coupon_banner.block .coupon-invalid-text:after, .marketing-external-page-container .coupon_banner.block .block.testimonial .coupon-invalid-text:after, .marketing-external-page-container.standard-page .block.testimonial .page-header .directory a:after, .marketing-external-page-container.standard-page .page-header .directory .block.testimonial a:after, .marketing-external-page-container.all-courses .block.testimonial .page-header .directory a:after, .marketing-external-page-container.all-courses .page-header .directory .block.testimonial a:after, .marketing-external-page-container .block.testimonial .dropdown-toggle:after {
@@ -9577,6 +9577,46 @@ img {
 /* line 31, ../sass/modules/_define-colors.scss */
 .marketing-external-page-container.about-school.standard-page .page-header .directory .circle, .marketing-external-page-container.about-school.standard-page .page-header .directory .picture {
   border-color: #FFD9D4 !important;
+}
+/* line 175, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.standard-page nav.global.open, .marketing-external-page-container.course-page nav.global.open, .marketing-external-page-container.home nav.global.open, .marketing-external-page-container.thank-you-page nav.global.open, .marketing-external-page-container.blog-page nav.global.open, .marketing-external-page-container.mission.standard-page nav.global.open, .marketing-external-page-container.about-school.standard-page nav.global.open {
+  color: white !important;
+  background: black !important;
+  z-index: 100000;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* line 182, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.standard-page nav.global.open svg polygon, .marketing-external-page-container.standard-page nav.global.open svg path, .marketing-external-page-container.course-page nav.global.open svg polygon, .marketing-external-page-container.course-page nav.global.open svg path, .marketing-external-page-container.home nav.global.open svg polygon, .marketing-external-page-container.home nav.global.open svg path, .marketing-external-page-container.thank-you-page nav.global.open svg polygon, .marketing-external-page-container.thank-you-page nav.global.open svg path, .marketing-external-page-container.blog-page nav.global.open svg polygon, .marketing-external-page-container.blog-page nav.global.open svg path, .marketing-external-page-container.mission.standard-page nav.global.open svg polygon, .marketing-external-page-container.mission.standard-page nav.global.open svg path, .marketing-external-page-container.about-school.standard-page nav.global.open svg polygon, .marketing-external-page-container.about-school.standard-page nav.global.open svg path {
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  fill: white !important;
+}
+/* line 188, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.standard-page nav.global.open .btn-primary, .marketing-external-page-container.course-page nav.global.open .btn-primary, .marketing-external-page-container.home nav.global.open .btn-primary, .marketing-external-page-container.thank-you-page nav.global.open .btn-primary, .marketing-external-page-container.blog-page nav.global.open .btn-primary, .marketing-external-page-container.mission.standard-page nav.global.open .btn-primary, .marketing-external-page-container.about-school.standard-page nav.global.open .btn-primary {
+  background: white !important;
+  color: black !important;
+  border-color: white !important;
+}
+/* line 194, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.standard-page nav.global.open .btn-secondary, .marketing-external-page-container.course-page nav.global.open .btn-secondary, .marketing-external-page-container.home nav.global.open .btn-secondary, .marketing-external-page-container.thank-you-page nav.global.open .btn-secondary, .marketing-external-page-container.blog-page nav.global.open .btn-secondary, .marketing-external-page-container.mission.standard-page nav.global.open .btn-secondary, .marketing-external-page-container.about-school.standard-page nav.global.open .btn-secondary {
+  color: white !important;
+  border-color: white !important;
+}
+/* line 199, ../sass/modules/_define-colors.scss */
+.marketing-external-page-container.standard-page nav.global.open .navigation-container, .marketing-external-page-container.course-page nav.global.open .navigation-container, .marketing-external-page-container.home nav.global.open .navigation-container, .marketing-external-page-container.thank-you-page nav.global.open .navigation-container, .marketing-external-page-container.blog-page nav.global.open .navigation-container, .marketing-external-page-container.mission.standard-page nav.global.open .navigation-container, .marketing-external-page-container.about-school.standard-page nav.global.open .navigation-container {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -moz-transition: transform 0.4s ease-in-out 0.2s;
+  -o-transition: transform 0.4s ease-in-out 0.2s;
+  -webkit-transition: transform 0.4s ease-in-out 0.2s;
+  transition: transform 0.4s ease-in-out 0.2s;
 }
 
 /* line 1, ../sass/modules/_page-load.scss */

@@ -168,3 +168,39 @@
 	@include globalHeader($pink,$darkred);
 	@include pageHeader($pink,$darkred);	
 }
+
+&.standard-page, &.course-page, &.home, &.thank-you-page, &.blog-page, &.mission.standard-page, 
+&.about-school.standard-page {
+	nav.global {
+			&.open {
+			color: white !important;
+			background: black !important;
+			z-index:100000;
+			@include transition(all 0.2s ease-in-out);
+			
+			svg {
+				polygon,path {
+					@include transition(all 0.2s ease-in-out);
+					fill: white !important;
+				}
+			}
+
+		    .btn-primary {
+		    	background: white !important;
+		    	color: black !important;
+		    	border-color: white !important;
+		    }
+
+		    .btn-secondary {
+		    	color: white !important;
+		    	border-color: white !important;
+		    }
+
+			.navigation-container {
+		    	@include transform(scale(1,1));
+		    	@include transition(transform 0.4s ease-in-out 0.2s);
+		    }
+
+		}
+	}
+}
