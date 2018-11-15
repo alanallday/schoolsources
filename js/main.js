@@ -25,6 +25,9 @@ $(window).bind('hashchange', function() {
 });
 	
 $(document).ready(function() {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        skrollr.init().destroy();
+    }
 	convertRichText();
 	$('.rich_text blockquote').addClass('stretched');
 	$(window).resize(function(){
@@ -339,6 +342,10 @@ function initSkrollr() {
 	// $('.block').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
 	// $('.block').attr('data-0-bottom-top', 'transform: translate3d(0,5%,0);');
 
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        skrollr.init().destroy();
+    }
+
 	// initialize skrollr if the window width is large enough
 	if ($(window).width() > 767) {
 		skrollr.init({forceHeight: false});
@@ -349,10 +356,6 @@ function initSkrollr() {
 		  skrollr.init().destroy(); // skrollr.init() returns the singleton created above
 		}
 	});
-
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        skrollr.init().destroy();
-    }
 }
 
 function courseHeader() {
