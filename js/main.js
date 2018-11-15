@@ -333,11 +333,11 @@ function initSkrollr() {
 	$('.course-block.hero .videos').attr('data-0-top-bottom', 'transform: translate3d(0,50%,0);');
 	$('.course-block.hero .videos').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
 
-	$('.course-block.hero .value-props').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
-	$('.course-block.hero .value-props').attr('data-0-bottom-top', 'transform: translate3d(0,30%,0);');
+	// $('.course-block.hero .value-props').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
+	// $('.course-block.hero .value-props').attr('data-0-bottom-top', 'transform: translate3d(0,30%,0);');
 
-	$('.course-block.hero .value-props .learning-text-container').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
-	$('.course-block.hero .value-props .learning-text-container').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+	// $('.course-block.hero .value-props .learning-text-container').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
+	// $('.course-block.hero .value-props .learning-text-container').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
 
 	$('.image-module .text').attr('data-0-top-bottom', 'transform: translate3d(0,10%,0);');
 	$('.image-module .text').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
@@ -380,7 +380,7 @@ function courseHeader() {
 		var $navHeight = $('nav.global').outerHeight();
 		var $headerHeight = $('.course-block.hero .header').outerHeight();
 		var $headerHeightInner = $('.course-block.hero .header').height();
-		var $numberofCourses = $('.block.curriculum .fa-youtube-play').length;
+		var $numberofCourses = $('.block.curriculum .course-section').length;
 
 		$('.course-block.hero .value-props h2 .number-of-videos').html($numberofCourses);
 

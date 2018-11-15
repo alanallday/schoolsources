@@ -126,11 +126,11 @@
     	}
 	    blockquote {
 		    padding-top: 0.5em;
-		    padding-bottom: 0.5em;
+		    padding-bottom: 1.5rem;
 		    display: block;
 			@include bp('medium') {
 				padding-top: 0.5rem;
-				padding-bottom: 0.5rem;
+				padding-bottom: 1.5rem;
 			    width: 120%;
 			    margin-left: -10%;
 			}	    	
