@@ -25,9 +25,9 @@ $(window).bind('hashchange', function() {
 });
 	
 $(document).ready(function() {
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        skrollr.init().destroy();
-    }
+    // if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    //     skrollr.init().destroy();
+    // }
 	convertRichText();
 	$('.rich_text blockquote').addClass('stretched');
 	$(window).resize(function(){
@@ -51,7 +51,7 @@ $(document).ready(function() {
 	alumniPage();
 	globalNav();
 	animateLines();
-	initSkrollr();
+	// initSkrollr();
 	loginPage();
 	addCoursePageLinkID();
 	curriculumBlock();
@@ -81,7 +81,7 @@ function clickedLink() {
 		alumniPage();
 		globalNav();
 		animateLines();
-		initSkrollr();
+		// initSkrollr();
 		loginPage();
 		addCoursePageLinkID();
 		curriculumBlock();
