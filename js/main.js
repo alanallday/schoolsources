@@ -59,7 +59,8 @@ $(document).ready(function() {
 	 || navigator.userAgent.match(/iPod/i)
 	 || navigator.userAgent.match(/BlackBerry/i)
 	 || navigator.userAgent.match(/Windows Phone/i)) {
-		initSkrollr();
+	 } else {
+	 	initSkrollr();
 	 }
 	loginPage();
 	addCoursePageLinkID();
@@ -97,8 +98,9 @@ function clickedLink() {
 		 || navigator.userAgent.match(/iPod/i)
 		 || navigator.userAgent.match(/BlackBerry/i)
 		 || navigator.userAgent.match(/Windows Phone/i)) {
-			initSkrollr();
-		 }
+		} else {
+	 		initSkrollr();
+	 	}
 		loginPage();
 		addCoursePageLinkID();
 		curriculumBlock();
