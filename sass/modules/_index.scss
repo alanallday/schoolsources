@@ -4,6 +4,10 @@
 
 .course-block.block.homepage_hero {
 	margin: 0 !important;
+
+	h2 {
+		padding-bottom: 0 !important;
+	}
 }
 
 @keyframes punchout {

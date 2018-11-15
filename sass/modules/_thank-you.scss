@@ -1,18 +1,18 @@
-	.thank-you-page {
-	 	background: $lightblue;
-		color: $darkred;
-	}
+.thank-you-page {
+ 	background: $lightblue;
+	color: $darkred;
+}
 
-	.purchase_confirmation {
-		margin-bottom: 1em;
-	}
+.purchase_confirmation {
+	margin-bottom: 1em;
+}
 
-	.blocks-page.blocks-page-post_purchase_page {
-		.block.purchase_confirmation {
-			padding-top:0;
-		}
+.blocks-page.blocks-page-post_purchase_page {
+	.block.purchase_confirmation {
+		padding-top:0;
 	}
+}
 
-	.block.purchase_confirmation + .block.proceed_to_course_button {
-		margin-top:1em;
-	}
+.block.purchase_confirmation + .block.proceed_to_course_button {
+	margin-top:1em;
+}

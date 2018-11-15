@@ -4767,43 +4767,47 @@ img {
 .marketing-external-page-container .course-block.block.homepage_hero {
   margin: 0 !important;
 }
+/* line 8, ../sass/modules/_index.scss */
+.marketing-external-page-container .course-block.block.homepage_hero h2, .marketing-external-page-container .course-block.block.homepage_hero .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .course-block.block.homepage_hero .title, .marketing-external-page-container .course-block.block.homepage_hero form .product-list .product-name, .marketing-external-page-container form .product-list .course-block.block.homepage_hero .product-name, .marketing-external-page-container .course-block.block.homepage_hero .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .course-block.block.homepage_hero .coupon-code-applied {
+  padding-bottom: 0 !important;
+}
 @keyframes punchout {
   100% {
     text-shadow: -1px 0 #AD2602, 0 1px #AD2602, 1px 0 #AD2602, 0 -1px #AD2602;
     color: #D8E2EA;
   }
 }
-/* line 14, ../sass/modules/_index.scss */
+/* line 18, ../sass/modules/_index.scss */
 .marketing-external-page-container .box-with-border {
   text-align: center;
   padding: 2em 2em;
   padding-top: 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 14, ../sass/modules/_index.scss */
+  /* line 18, ../sass/modules/_index.scss */
   .marketing-external-page-container .box-with-border {
     margin-top: 2em;
   }
 }
-/* line 22, ../sass/modules/_index.scss */
+/* line 26, ../sass/modules/_index.scss */
 .marketing-external-page-container .box-with-border .description {
   text-align: left;
 }
-/* line 26, ../sass/modules/_index.scss */
+/* line 30, ../sass/modules/_index.scss */
 .marketing-external-page-container .box-with-border .description .title {
   font-size: unset;
 }
-/* line 33, ../sass/modules/_index.scss */
+/* line 37, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container {
   padding: 2em 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 33, ../sass/modules/_index.scss */
+  /* line 37, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container {
     padding: 4em 0;
   }
 }
-/* line 39, ../sass/modules/_index.scss */
+/* line 43, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container label {
   border-top: none;
   -webkit-transform: none;
@@ -4812,16 +4816,16 @@ img {
   transform: none;
   left: 0;
 }
-/* line 45, ../sass/modules/_index.scss */
+/* line 49, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container h2, .marketing-external-page-container .home-top-container .box-with-border .description .title, .marketing-external-page-container .box-with-border .description .home-top-container .title, .marketing-external-page-container .home-top-container form .product-list .product-name, .marketing-external-page-container form .product-list .home-top-container .product-name, .marketing-external-page-container .home-top-container .coupon_banner.block .coupon-code-applied, .marketing-external-page-container .coupon_banner.block .home-top-container .coupon-code-applied {
   padding: 0;
   padding-bottom: 1rem;
 }
-/* line 50, ../sass/modules/_index.scss */
+/* line 54, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container img {
   margin-bottom: 1em;
 }
-/* line 53, ../sass/modules/_index.scss */
+/* line 57, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container .row {
   max-width: 1200px;
   width: 95%;
@@ -4829,18 +4833,18 @@ img {
   margin-right: auto;
 }
 @media screen and (min-width: 960px) {
-  /* line 53, ../sass/modules/_index.scss */
+  /* line 57, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container .row {
     width: 90%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 53, ../sass/modules/_index.scss */
+  /* line 57, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container .row {
     width: 85%;
   }
 }
-/* line 57, ../sass/modules/_index.scss */
+/* line 61, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container .left {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -4853,7 +4857,7 @@ img {
   max-width: 100%;
 }
 @media only screen and (min-width: 960px) {
-  /* line 57, ../sass/modules/_index.scss */
+  /* line 61, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container .left {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -4866,11 +4870,11 @@ img {
     max-width: 54.16667%;
   }
 }
-/* line 61, ../sass/modules/_index.scss */
+/* line 65, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container .left p, .marketing-external-page-container .home-top-container .left ul, .marketing-external-page-container .home-top-container .left ol, .marketing-external-page-container .home-top-container .left .box-with-border .description, .marketing-external-page-container .box-with-border .home-top-container .left .description, .marketing-external-page-container .home-top-container .left .block.faq .faq-answer, .marketing-external-page-container .block.faq .home-top-container .left .faq-answer, .marketing-external-page-container .home-top-container .left .coupon_banner.block .coupon-invalid-text, .marketing-external-page-container .coupon_banner.block .home-top-container .left .coupon-invalid-text, .marketing-external-page-container.standard-page .home-top-container .left .page-header .directory a, .marketing-external-page-container.standard-page .page-header .directory .home-top-container .left a, .marketing-external-page-container.all-courses .home-top-container .left .page-header .directory a, .marketing-external-page-container.all-courses .page-header .directory .home-top-container .left a, .marketing-external-page-container .home-top-container .left .dropdown-toggle {
   margin-top: 1em;
 }
-/* line 68, ../sass/modules/_index.scss */
+/* line 72, ../sass/modules/_index.scss */
 .marketing-external-page-container .home-top-container .right {
   box-sizing: border-box;
   -ms-flex: 0 0 auto;
@@ -4884,7 +4888,7 @@ img {
   margin-top: 2em;
 }
 @media only screen and (min-width: 960px) {
-  /* line 68, ../sass/modules/_index.scss */
+  /* line 72, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container .right {
     box-sizing: border-box;
     -ms-flex: 0 0 auto;
@@ -4898,28 +4902,28 @@ img {
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 68, ../sass/modules/_index.scss */
+  /* line 72, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container .right {
     display: block;
     margin-top: 0;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 33, ../sass/modules/_index.scss */
+  /* line 37, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container {
     padding: 0 0 4em;
   }
-  /* line 81, ../sass/modules/_index.scss */
+  /* line 85, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container .box-with-border {
     margin-left: 3em;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 33, ../sass/modules/_index.scss */
+  /* line 37, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container {
     padding: 1em 0 5em;
   }
-  /* line 88, ../sass/modules/_index.scss */
+  /* line 92, ../sass/modules/_index.scss */
   .marketing-external-page-container .home-top-container .box-with-border {
     margin-left: 4em;
   }

@@ -349,6 +349,10 @@ function initSkrollr() {
 		  skrollr.init().destroy(); // skrollr.init() returns the singleton created above
 		}
 	});
+
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        skrollr.init().destroy();
+    }
 }
 
 function courseHeader() {
