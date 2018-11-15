@@ -330,8 +330,8 @@ function initSkrollr() {
 	// $('.course-block.hero .video-container').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
 	// $('.course-block.hero .video-container').attr('data-0-bottom-top', 'transform: translate3d(0,-100%,0);');
 
-	$('.course-block.hero .videos').attr('data-0-top-bottom', 'transform: translate3d(0,50%,0);');
-	$('.course-block.hero .videos').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
+	// $('.course-block.hero .videos').attr('data-0-top-bottom', 'transform: translate3d(0,50%,0);');
+	// $('.course-block.hero .videos').attr('data-0-bottom-top', 'transform: translate3d(0,0%,0);');
 
 	// $('.course-block.hero .value-props').attr('data-0-top-bottom', 'transform: translate3d(0,0%,0);');
 	// $('.course-block.hero .value-props').attr('data-0-bottom-top', 'transform: translate3d(0,30%,0);');
