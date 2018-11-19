@@ -412,7 +412,7 @@ function courseHeader() {
 			'padding-top':  $headerHeightInner
 		});
 
-		$('.course-block.hero a').click(function(e) {
+		$('.course-block.hero value-props a').click(function(e) {
 			e.preventDefault();
 			var $link = $(this).attr('href');
 			$("html, body").stop(true).animate({
